@@ -14,9 +14,9 @@
   "devDependencies": {
     "@prefresh/babel-plugin": "0.5.2",
     "@prefresh/webpack": "4.0.6",
-    "@rspack/cli": "2.0.0-beta.5",
-    "@rspack/core": "2.0.0-beta.5",
-    "@rspack/dev-server": "2.0.0-beta.4"
+    "@rspack/cli": "2.0.0-beta.7",
+    "@rspack/core": "2.0.0-beta.7",
+    "@rspack/dev-server": "2.0.0-beta.7"
   },
   "resolve": {
     "alias": {

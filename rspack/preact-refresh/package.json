@@ -14,9 +14,9 @@
   "devDependencies": {
     "@prefresh/core": "1.5.9",
     "@prefresh/utils": "1.2.1",
-    "@rspack/cli": "2.0.0-beta.5",
-    "@rspack/core": "2.0.0-beta.5",
-    "@rspack/dev-server": "2.0.0-beta.4",
+    "@rspack/cli": "2.0.0-beta.7",
+    "@rspack/core": "2.0.0-beta.7",
+    "@rspack/dev-server": "2.0.0-beta.7",
     "@rspack/plugin-preact-refresh": "^1.1.5",
     "@swc/plugin-prefresh": "^12.6.0"
   },
