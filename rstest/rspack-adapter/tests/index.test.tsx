@@ -5,5 +5,5 @@ import App from '../src/App';
 test('renders the main page', () => {
   const testMessage = 'Rspack + React + TypeScript';
   render(<App />);
-  expect(screen.getByText(testMessage)).toBeInTheDocument();
+  expect(screen.getByRole('heading', { name: testMessage })).toBeInTheDocument();
 });
