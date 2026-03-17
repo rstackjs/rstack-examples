@@ -19,6 +19,7 @@
     "@rspack/core": "2.0.0-beta.5",
     "@rspack/dev-server": "2.0.0-beta.5",
     "@rspack/plugin-react-refresh": "^1.6.1",
+    "@rstest/adapter-rspack": "^0.2.0",
     "@rstest/core": "^0.9.1",
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
@@ -27,7 +28,6 @@
     "@types/react-dom": "^19.2.3",
     "happy-dom": "^20.8.3",
     "react-refresh": "^0.18.0",
-    "typescript": "^5.9.3",
-    "@rstest/adapter-rspack": "^0.2.0"
+    "typescript": "^5.9.3"
   }
 }
