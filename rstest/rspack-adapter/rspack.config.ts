@@ -51,6 +51,6 @@ export default defineConfig({
     new rspack.HtmlRspackPlugin({
       template: './index.html',
     }),
-    isDev ? new ReactRefreshRspackPlugin() : null,
+    ...(isDev ? [new ReactRefreshRspackPlugin()] : []),
   ],
 });
