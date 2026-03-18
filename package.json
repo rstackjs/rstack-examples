@@ -9,7 +9,6 @@
     "build:rsdoctor": "pnpm --filter \"@rsdoctor-example.*\" --stream build",
     "build:rslib": "pnpm --filter \"@rslib-example/-*\" --stream build",
     "build:rspack": "pnpm --filter \"@rspack-example/*\" --stream build",
-    "build:test:rspack": "pnpm --filter \"@rstest-example/rspack-adapter\" --stream build",
     "build:rspress": "pnpm --filter \"@rspress-example/*\" --stream build",
     "bump": "taze -l",
     "prepare": "husky",
