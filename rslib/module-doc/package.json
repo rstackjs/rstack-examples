@@ -20,11 +20,11 @@
     "doc:preview": "rspress preview"
   },
   "devDependencies": {
-    "@rsbuild/plugin-react": "^1.4.5",
-    "@rslib/core": "^0.19.6",
-    "@rspress/core": "^2.0.3",
-    "@rspress/plugin-api-docgen": "^2.0.3",
-    "@rspress/plugin-preview": "^2.0.3",
+    "@rsbuild/plugin-react": "^1.4.6",
+    "@rslib/core": "^0.20.2",
+    "@rspress/core": "^2.0.8",
+    "@rspress/plugin-api-docgen": "^2.0.8",
+    "@rspress/plugin-preview": "^2.0.8",
     "@types/node": "^24.10.9",
     "@types/react": "^19.2.10",
     "react": "^19.2.4",

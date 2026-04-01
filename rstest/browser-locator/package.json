@@ -10,9 +10,9 @@
     "test:watch": "rstest --watch"
   },
   "devDependencies": {
-    "@rsbuild/core": "2.0.0-beta.5",
-    "@rsbuild/plugin-react": "^1.4.5",
-    "@rstest/adapter-rsbuild": "^0.2.2",
+    "@rsbuild/core": "2.0.0-rc.0",
+    "@rsbuild/plugin-react": "^1.4.6",
+    "@rstest/adapter-rsbuild": "^0.2.4",
     "@rstest/browser": "^0.9.1",
     "@rstest/browser-react": "^0.9.1",
     "@rstest/core": "^0.9.1",
