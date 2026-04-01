@@ -32,7 +32,7 @@ jobs:
         run: pnpm install
 
       - name: Install Playwright browsers
-        run: pnpm exec playwright install --with-deps chromium
+        run: pnpm --filter @rstest-example/browser-locator exec playwright install --with-deps chromium
 
       - name: Build Rspack
         run: |
