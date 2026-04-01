@@ -32,7 +32,7 @@ jobs:
         run: pnpm install
 
       - name: Install Playwright browsers
-        run: pnpm dlx playwright install chromium
+        run: pnpm exec playwright install --with-deps chromium
 
       - name: Build Rspack
         run: |
