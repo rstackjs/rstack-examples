@@ -4,9 +4,7 @@
   "license": "MIT",
   "scripts": {
     "build": "pnpm compile && pnpm bundle",
-    "build:webpack": "pnpm compile && pnpm bundle:webpack",
     "bundle": "rspack",
-    "bundle:webpack": "webpack",
     "compile": "tsc -b"
   },
   "dependencies": {
@@ -16,10 +14,5 @@
     "lib1": "workspace:*",
     "lib2": "workspace:*",
     "typescript": "^5.9.3"
-  },
-  "devDependencies": {
-    "tsconfig-paths-webpack-plugin": "^4.2.0",
-    "webpack": "^5.104.1",
-    "webpack-cli": "^6.0.1"
   }
 }
