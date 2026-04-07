@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@rslib/core": "^0.20.2",
-    "@rstest/core": "^0.9.1",
+    "@rstest/core": "^0.9.6",
     "@types/node": "^24.10.9",
     "typescript": "^5.9.3"
   }
