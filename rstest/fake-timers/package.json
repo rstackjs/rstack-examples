@@ -2,11 +2,12 @@
   "name": "@rstest-example/fake-timers",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "test": "rstest run"
   },
   "devDependencies": {
-    "@rstest/core": "^0.9.1",
+    "@rstest/core": "^0.9.6",
     "typescript": "^5.9.3"
   }
 }

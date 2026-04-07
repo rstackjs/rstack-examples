@@ -11,8 +11,8 @@
   },
   "devDependencies": {
     "@rsbuild/core": "2.0.0-rc.0",
-    "@rstest/browser": "^0.9.1",
-    "@rstest/core": "^0.9.1",
+    "@rstest/browser": "^0.9.6",
+    "@rstest/core": "^0.9.6",
     "playwright": "^1.58.1",
     "typescript": "^5.9.3"
   }

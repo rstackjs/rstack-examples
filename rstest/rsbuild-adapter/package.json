@@ -2,6 +2,7 @@
   "name": "@rstest-example/rsbuild-adapter",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "rsbuild build",
     "dev": "rsbuild dev",
@@ -10,7 +11,7 @@
   "devDependencies": {
     "@rsbuild/core": "2.0.0-rc.0",
     "@rstest/adapter-rsbuild": "^0.2.4",
-    "@rstest/core": "^0.9.1",
+    "@rstest/core": "^0.9.6",
     "happy-dom": "^20.4.0",
     "typescript": "^5.9.3"
   }
