@@ -1,5 +1,5 @@
 const { rspack } = require('@rspack/core');
-const ReactRefreshPlugin = require('@rspack/plugin-react-refresh');
+const { ReactRefreshRspackPlugin } = require('@rspack/plugin-react-refresh');
 
 const isProduction = process.env.NODE_ENV === 'production';
 
@@ -47,8 +47,8 @@ const config = {
   },
   plugins: [
     new rspack.HtmlRspackPlugin({ template: './index.html', scriptLoading: 'module' }),
-    !isProduction && new ReactRefreshPlugin(),
-  ].filter(Boolean),
+    !isProduction && new ReactRefreshRspackPlugin(),
+  ],
 };
 
 module.exports = config;

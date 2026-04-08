@@ -1,5 +1,5 @@
 const path = require('path');
-const ReactRefreshPlugin = require('@rspack/plugin-react-refresh');
+const { ReactRefreshRspackPlugin } = require('@rspack/plugin-react-refresh');
 const { rspack } = require('@rspack/core');
 
 const isProduction = process.env.NODE_ENV === 'production';
@@ -63,7 +63,7 @@ module.exports = {
         },
       ],
     }),
-    !isProduction && new ReactRefreshPlugin(),
+    !isProduction && new ReactRefreshRspackPlugin(),
   ],
   devServer: {
     port: 8082,

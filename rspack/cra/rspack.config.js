@@ -1,5 +1,6 @@
 const { rspack } = require('@rspack/core');
-const ReactRefreshPlugin = require('@rspack/plugin-react-refresh');
+const { ReactRefreshRspackPlugin } = require('@rspack/plugin-react-refresh');
+
 /** @type {import('@rspack/cli').Configuration} */
 const config = {
   entry: {
@@ -45,7 +46,7 @@ const config = {
     ],
   },
   plugins: [
-    new ReactRefreshPlugin(),
+    new ReactRefreshRspackPlugin(),
     new rspack.HtmlRspackPlugin({
       template: './index.html',
     }),

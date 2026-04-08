@@ -1,6 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const ReactRefreshPlugin = require('@rspack/plugin-react-refresh');
+const { ReactRefreshRspackPlugin } = require('@rspack/plugin-react-refresh');
 const { rspack } = require('@rspack/core');
 
 const isProduction = process.env.NODE_ENV === 'production';
@@ -63,7 +63,7 @@ module.exports = {
       // list of runtime plugin modules (feature of MF1.5)
       runtimePlugins: ['./src/runtimePlugins/logger.js'],
     }),
-    !isProduction && new ReactRefreshPlugin(),
+    !isProduction && new ReactRefreshRspackPlugin(),
   ],
   devServer: {
     port: 8080,

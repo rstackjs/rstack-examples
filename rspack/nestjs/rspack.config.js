@@ -59,7 +59,7 @@ const config = {
         name: 'main.js',
         autoRestart: false,
       }),
-  ].filter(Boolean),
+  ],
   devServer: {
     devMiddleware: {
       writeToDisk: true,

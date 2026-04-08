@@ -18,7 +18,7 @@
     "test": "rstest"
   },
   "devDependencies": {
-    "@rslib/core": "^0.20.2",
+    "@rslib/core": "^0.20.3",
     "@rstest/core": "^0.9.6",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/vue": "^8.1.0",
