@@ -1,5 +1,5 @@
 const { rspack } = require('@rspack/core');
-const { ReactRspackRefreshPlugin } = require('@rspack/plugin-react-refresh');
+const { ReactRefreshRspackPlugin } = require('@rspack/plugin-react-refresh');
 const { RsdoctorRspackPlugin } = require('@rsdoctor/rspack-plugin');
 
 /** @type {import('@rspack/cli').Configuration} */
@@ -42,7 +42,7 @@ module.exports = {
     extensions: ['...', '.tsx', '.ts', '.jsx'],
   },
   plugins: [
-    new ReactRspackRefreshPlugin(),
+    new ReactRefreshRspackPlugin(),
     new rspack.HtmlRspackPlugin({
       template: './index.html',
     }),
