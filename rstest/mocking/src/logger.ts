@@ -36,21 +36,37 @@ export class Logger {
 
   debug(message: string, metadata?: Record<string, unknown>): void {
     const entry = this.createEntry('debug', message, metadata);
+    if (metadata === undefined) {
+      console.debug(entry.message);
+      return;
+    }
     console.debug(entry.message, metadata);
   }
 
   info(message: string, metadata?: Record<string, unknown>): void {
     const entry = this.createEntry('info', message, metadata);
+    if (metadata === undefined) {
+      console.info(entry.message);
+      return;
+    }
     console.info(entry.message, metadata);
   }
 
   warn(message: string, metadata?: Record<string, unknown>): void {
     const entry = this.createEntry('warn', message, metadata);
+    if (metadata === undefined) {
+      console.warn(entry.message);
+      return;
+    }
     console.warn(entry.message, metadata);
   }
 
   error(message: string, metadata?: Record<string, unknown>): void {
     const entry = this.createEntry('error', message, metadata);
+    if (metadata === undefined) {
+      console.error(entry.message);
+      return;
+    }
     console.error(entry.message, metadata);
   }
 
