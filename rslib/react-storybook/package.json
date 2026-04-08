@@ -21,7 +21,7 @@
   "devDependencies": {
     "@rsbuild/core": "~1.7.5",
     "@rsbuild/plugin-react": "^1.4.6",
-    "@rslib/core": "^0.20.3",
+    "@rslib/core": "^0.21.0",
     "@storybook/addon-docs": "^10.2.3",
     "@storybook/addon-onboarding": "^10.2.3",
     "@storybook/react": "^10.2.3",
