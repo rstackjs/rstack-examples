@@ -70,6 +70,6 @@ const config = {
     }),
     dev && new rspack.HotModuleReplacementPlugin(),
     dev && new PreactRefreshPlugin(),
-  ].filter(Boolean),
+  ],
 };
 module.exports = config;

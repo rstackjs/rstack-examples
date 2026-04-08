@@ -57,6 +57,6 @@ const config = {
       template: './index.html',
     }),
     dev && new rspack.HotModuleReplacementPlugin(),
-  ].filter(Boolean),
+  ],
 };
 module.exports = config;
