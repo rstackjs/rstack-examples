@@ -19,7 +19,7 @@
   "devDependencies": {
     "@rsbuild/plugin-less": "^1.6.2",
     "@rsbuild/plugin-react": "^1.4.6",
-    "@rslib/core": "^0.20.3",
+    "@rslib/core": "^0.21.0",
     "@types/react": "^19.2.10",
     "react": "^19.2.4",
     "typescript": "^5.9.3"
