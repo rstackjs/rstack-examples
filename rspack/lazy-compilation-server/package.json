@@ -5,7 +5,7 @@
     "dev": "node ./dev.js"
   },
   "devDependencies": {
-    "@rspack/core": "2.0.0-rc.0",
-    "@rspack/dev-server": "2.0.0-rc.0"
+    "@rspack/core": "2.0.0-rc.1",
+    "@rspack/dev-server": "2.0.0-rc.2"
   }
 }

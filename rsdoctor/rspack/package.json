@@ -8,7 +8,7 @@
     "dev": "NODE_ENV=development rspack serve"
   },
   "dependencies": {
-    "@swc/helpers": "^0.5.20",
+    "@swc/helpers": "^0.5.21",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "semver6": "npm:semver@6.3.1",
@@ -16,10 +16,10 @@
   },
   "devDependencies": {
     "@rsdoctor/rspack-plugin": "^1.5.7",
-    "@rspack/cli": "2.0.0-rc.0",
-    "@rspack/core": "2.0.0-rc.0",
-    "@rspack/dev-server": "2.0.0-rc.0",
-    "@rspack/plugin-react-refresh": "^1.6.1",
+    "@rspack/cli": "2.0.0-rc.1",
+    "@rspack/core": "2.0.0-rc.1",
+    "@rspack/dev-server": "2.0.0-rc.2",
+    "@rspack/plugin-react-refresh": "^2.0.0",
     "@types/react": "^19.2.10",
     "@types/react-dom": "^19.2.3",
     "react-refresh": "^0.18.0"

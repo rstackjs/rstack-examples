@@ -15,10 +15,10 @@
     "@babel/core": "^7.29.0",
     "@babel/preset-react": "^7.28.5",
     "@babel/preset-typescript": "^7.28.5",
-    "@rspack/cli": "2.0.0-rc.0",
-    "@rspack/core": "2.0.0-rc.0",
-    "@rspack/dev-server": "2.0.0-rc.0",
-    "@rspack/plugin-react-refresh": "^1.6.1",
+    "@rspack/cli": "2.0.0-rc.1",
+    "@rspack/core": "2.0.0-rc.1",
+    "@rspack/dev-server": "2.0.0-rc.2",
+    "@rspack/plugin-react-refresh": "^2.0.0",
     "babel-loader": "^10.0.0",
     "react-refresh": "0.18.0"
   }

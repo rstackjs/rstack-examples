@@ -14,9 +14,9 @@
     "styled-jsx": "^5.1.7"
   },
   "devDependencies": {
-    "@rsbuild/core": "2.0.0-rc.0",
+    "@rsbuild/core": "2.0.0-rc.1",
     "@rsbuild/plugin-react": "^1.4.6",
-    "@swc/plugin-styled-jsx": "^13.7.0",
+    "@swc/plugin-styled-jsx": "^13.8.0",
     "@types/react": "^19.2.10",
     "@types/react-dom": "^19.2.3",
     "typescript": "^5.9.3"
