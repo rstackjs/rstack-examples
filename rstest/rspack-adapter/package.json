@@ -14,7 +14,7 @@
     "react-dom": "^19.2.4"
   },
   "devDependencies": {
-    "@rsbuild/plugin-react": "^1.4.6",
+    "@rsbuild/plugin-react": "^2.0.0-rc.2",
     "@rspack/cli": "2.0.0-rc.1",
     "@rspack/core": "2.0.0-rc.1",
     "@rspack/dev-server": "2.0.0-rc.2",

@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@rsbuild/core": "2.0.0-rc.1",
-    "@rsbuild/plugin-react": "^1.4.6",
+    "@rsbuild/plugin-react": "^2.0.0-rc.2",
     "@rstest/adapter-rsbuild": "^0.2.5",
     "@rstest/browser": "^0.9.6",
     "@rstest/browser-react": "^0.9.6",
