@@ -24,8 +24,12 @@ export default {
   module: {
     rules: [
       {
-        test: /\.tsx?$/,
+        test: /\.(?:js|mjs|jsx|ts|tsx)$/,
+        exclude: /node_modules/,
         loader: 'builtin:swc-loader',
+        options: {
+          detectSyntax: 'auto',
+        },
       },
     ],
   },

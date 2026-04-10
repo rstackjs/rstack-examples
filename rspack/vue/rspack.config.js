@@ -30,14 +30,10 @@ const config = {
         },
       },
       {
-        test: /\.ts$/,
+        test: /\.(?:js|mjs|cjs|ts|mts|cts)$/,
         loader: 'builtin:swc-loader',
         options: {
-          jsc: {
-            parser: {
-              syntax: 'typescript',
-            },
-          },
+          detectSyntax: 'auto',
         },
         type: 'javascript/auto',
       },

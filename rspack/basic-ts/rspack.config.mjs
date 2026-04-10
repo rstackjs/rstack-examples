@@ -22,7 +22,7 @@ export default defineConfig({
   module: {
     rules: [
       {
-        test: /\.(?:js|ts)$/,
+        test: /\.(?:js|mjs|cjs|ts|mts|cts)$/,
         use: [
           {
             loader: 'builtin:swc-loader',
@@ -30,11 +30,7 @@ export default defineConfig({
              * @type {import('@rspack/core').SwcLoaderOptions}
              */
             options: {
-              jsc: {
-                parser: {
-                  syntax: 'typescript',
-                },
-              },
+              detectSyntax: 'auto',
             },
           },
         ],

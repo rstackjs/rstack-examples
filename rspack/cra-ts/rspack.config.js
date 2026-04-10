@@ -15,15 +15,13 @@ const config = {
         type: 'css',
       },
       {
-        test: /\.tsx$/,
+        test: /\.(?:js|mjs|jsx|ts|tsx)$/,
+        exclude: /node_modules/,
         use: {
           loader: 'builtin:swc-loader',
           options: {
+            detectSyntax: 'auto',
             jsc: {
-              parser: {
-                syntax: 'typescript',
-                jsx: true,
-              },
               externalHelpers: true,
               preserveAllComments: false,
               transform: {
@@ -33,22 +31,6 @@ const config = {
                   useBuiltins: false,
                 },
               },
-            },
-          },
-        },
-        type: 'javascript/auto',
-      },
-      {
-        test: /\.ts$/,
-        use: {
-          loader: 'builtin:swc-loader',
-          options: {
-            jsc: {
-              parser: {
-                syntax: 'typescript',
-              },
-              externalHelpers: true,
-              preserveAllComments: false,
             },
           },
         },

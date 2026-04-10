@@ -17,15 +17,13 @@ const config = {
         type: 'css',
       },
       {
-        test: /\.tsx$/,
+        test: /\.(?:js|mjs|jsx|ts|tsx)$/,
+        exclude: /node_modules/,
         use: {
           loader: 'builtin:swc-loader',
           options: {
+            detectSyntax: 'auto',
             jsc: {
-              parser: {
-                syntax: 'typescript',
-                tsx: true,
-              },
               transform: {
                 react: {
                   runtime: 'automatic',
