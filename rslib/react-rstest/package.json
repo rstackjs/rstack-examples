@@ -18,7 +18,7 @@
     "test": "rstest"
   },
   "devDependencies": {
-    "@rsbuild/plugin-react": "^1.4.6",
+    "@rsbuild/plugin-react": "^2.0.0-rc.2",
     "@rslib/core": "^0.21.0",
     "@rstest/adapter-rslib": "^0.2.2",
     "@rstest/core": "^0.9.7",

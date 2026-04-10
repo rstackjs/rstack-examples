@@ -23,11 +23,7 @@ export default {
           loader: 'builtin:swc-loader',
           /** @type {import("@rspack/core").SwcLoaderOptions} */
           options: {
-            jsc: {
-              parser: {
-                syntax: 'typescript',
-              },
-            },
+            detectSyntax: 'auto',
             collectTypeScriptInfo: {
               exportedEnum: true,
             },

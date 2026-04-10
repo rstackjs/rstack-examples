@@ -12,15 +12,13 @@ const config = {
   module: {
     rules: [
       {
-        test: /\.jsx$/,
+        test: /\.(?:js|mjs|cjs|jsx)$/,
+        exclude: /node_modules/,
         use: {
           loader: 'builtin:swc-loader',
           options: {
+            detectSyntax: 'auto',
             jsc: {
-              parser: {
-                syntax: 'ecmascript',
-                jsx: true,
-              },
               externalHelpers: true,
               preserveAllComments: false,
               transform: {

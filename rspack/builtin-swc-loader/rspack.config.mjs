@@ -27,18 +27,15 @@ export default defineConfig({
         type: 'css',
       },
       {
-        test: /\.(jsx|js)$/,
+        test: /\.(?:js|mjs|jsx|ts|tsx)$/,
         use: {
           loader: 'builtin:swc-loader',
           /**
            * @type {import('@rspack/core').SwcLoaderOptions}
            */
           options: {
+            detectSyntax: 'auto',
             jsc: {
-              parser: {
-                syntax: 'ecmascript',
-                jsx: true,
-              },
               transform: {
                 react: {
                   runtime: 'automatic',

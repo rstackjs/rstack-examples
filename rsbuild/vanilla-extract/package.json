@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@rsbuild/core": "2.0.0-rc.1",
-    "@rsbuild/plugin-react": "^1.4.6",
+    "@rsbuild/plugin-react": "^2.0.0-rc.2",
     "@types/react": "^19.2.10",
     "@types/react-dom": "^19.2.3",
     "@vanilla-extract/webpack-plugin": "^2.3.25",
