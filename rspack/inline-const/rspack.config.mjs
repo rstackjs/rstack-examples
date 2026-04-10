@@ -29,10 +29,8 @@ export default {
           loader: 'builtin:swc-loader',
           /** @type {import("@rspack/core").SwcLoaderOptions} */
           options: {
+            detectSyntax: 'auto',
             jsc: {
-              parser: {
-                syntax: 'typescript',
-              },
               target: 'es2015', // use target es2015 or greater so swc won't transform const to var
             },
           },

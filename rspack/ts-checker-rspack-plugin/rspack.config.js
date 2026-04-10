@@ -2,7 +2,7 @@ const { defineConfig } = require('@rspack/cli');
 const { TsCheckerRspackPlugin } = require('ts-checker-rspack-plugin');
 
 module.exports = defineConfig({
-  entry: "./src/index.ts",
+  entry: './src/index.ts',
   plugins: [new TsCheckerRspackPlugin()],
   module: {
     rules: [
@@ -12,11 +12,7 @@ module.exports = defineConfig({
           {
             loader: 'builtin:swc-loader',
             options: {
-              jsc: {
-                parser: {
-                  syntax: 'typescript',
-                },
-              },
+              detectSyntax: 'auto',
             },
           },
         ],

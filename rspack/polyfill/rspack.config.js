@@ -14,10 +14,11 @@ const config = {
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.(?:js|mjs|cjs)$/,
         exclude: /node_modules/,
         loader: 'builtin:swc-loader',
         options: {
+          detectSyntax: 'auto',
           env: {
             targets: ['> 0.01%', 'not dead', 'not op_mini all'],
             mode: 'usage',

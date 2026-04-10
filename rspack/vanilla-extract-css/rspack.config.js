@@ -12,15 +12,12 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(js|jsx|ts|tsx)$/,
+        test: /\.(?:js|mjs|jsx|ts|tsx)$/,
         exclude: [/node_modules/],
         loader: 'builtin:swc-loader',
         options: {
+          detectSyntax: 'auto',
           jsc: {
-            parser: {
-              syntax: 'typescript',
-              jsx: true,
-            },
             externalHelpers: true,
             preserveAllComments: false,
             transform: {

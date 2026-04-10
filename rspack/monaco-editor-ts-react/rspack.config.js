@@ -28,15 +28,13 @@ module.exports = {
         type: 'asset/resource',
       },
       {
-        test: /\.tsx$/,
+        test: /\.(?:js|mjs|jsx|ts|tsx)$/,
+        exclude: /node_modules/,
         use: {
           loader: 'builtin:swc-loader',
           options: {
+            detectSyntax: 'auto',
             jsc: {
-              parser: {
-                syntax: 'typescript',
-                jsx: true,
-              },
               externalHelpers: true,
               preserveAllComments: false,
               transform: {
@@ -46,22 +44,6 @@ module.exports = {
                   useBuiltins: false,
                 },
               },
-            },
-          },
-        },
-        type: 'javascript/auto',
-      },
-      {
-        test: /\.ts$/,
-        use: {
-          loader: 'builtin:swc-loader',
-          options: {
-            jsc: {
-              parser: {
-                syntax: 'typescript',
-              },
-              externalHelpers: true,
-              preserveAllComments: false,
             },
           },
         },

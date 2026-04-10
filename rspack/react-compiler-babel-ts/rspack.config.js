@@ -14,16 +14,14 @@ const config = {
         type: 'css',
       },
       {
-        test: /\.(js|ts)$/,
+        test: /\.(?:js|mjs|cjs|ts|mts|cts)$/,
         exclude: [/[\\/]node_modules[\\/]/],
         use: [
           {
             loader: 'builtin:swc-loader',
             options: {
+              detectSyntax: 'auto',
               jsc: {
-                parser: {
-                  syntax: 'typescript',
-                },
                 externalHelpers: true,
               },
             },
@@ -31,16 +29,13 @@ const config = {
         ],
       },
       {
-        test: /\.(jsx|tsx)$/,
+        test: /\.(?:jsx|tsx)$/,
         use: [
           {
             loader: 'builtin:swc-loader',
             options: {
+              detectSyntax: 'auto',
               jsc: {
-                parser: {
-                  syntax: 'typescript',
-                  tsx: true,
-                },
                 externalHelpers: true,
                 transform: {
                   react: {

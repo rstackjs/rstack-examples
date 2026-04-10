@@ -15,14 +15,12 @@ const config = {
   module: {
     rules: [
       {
-        test: /\.jsx$/,
+        test: /\.(?:js|mjs|cjs|jsx)$/,
+        exclude: /node_modules/,
         loader: 'builtin:swc-loader',
         options: {
+          detectSyntax: 'auto',
           jsc: {
-            parser: {
-              syntax: 'ecmascript',
-              jsx: true,
-            },
             transform: {
               react: {
                 importSource: '@emotion/react',

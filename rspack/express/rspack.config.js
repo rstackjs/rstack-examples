@@ -17,9 +17,9 @@ const config = {
         use: {
           loader: 'builtin:swc-loader',
           options: {
+            detectSyntax: 'auto',
             jsc: {
               parser: {
-                syntax: 'typescript',
                 decorators: true,
               },
             },

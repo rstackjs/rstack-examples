@@ -14,16 +14,14 @@ const config = {
         type: 'css',
       },
       {
-        test: /\.js$/,
+        test: /\.(?:js|mjs|cjs)$/,
         exclude: [/[\\/]node_modules[\\/]/],
         use: [
           {
             loader: 'builtin:swc-loader',
             options: {
+              detectSyntax: 'auto',
               jsc: {
-                parser: {
-                  syntax: 'ecmascript',
-                },
                 externalHelpers: true,
               },
             },
@@ -36,11 +34,8 @@ const config = {
           {
             loader: 'builtin:swc-loader',
             options: {
+              detectSyntax: 'auto',
               jsc: {
-                parser: {
-                  syntax: 'ecmascript',
-                  jsx: true,
-                },
                 externalHelpers: true,
                 transform: {
                   react: {
