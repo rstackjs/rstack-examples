@@ -1,13 +1,10 @@
 // @ts-check
 
-import { createRequire } from 'node:module';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { defineConfig } from '@rspack/cli';
 import { rspack } from '@rspack/core';
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const require = createRequire(import.meta.url);
 const isProduction = process.env.NODE_ENV === 'production';
 
 export default defineConfig({
@@ -17,7 +14,7 @@ export default defineConfig({
   resolve: {
     extensions: ['...', '.jsx'],
     alias: {
-      '@swc/helpers': path.dirname(require.resolve('@swc/helpers/package.json')),
+      '@swc/helpers': path.dirname(fileURLToPath(import.meta.resolve('@swc/helpers/package.json'))),
     },
   },
   module: {
@@ -56,7 +53,7 @@ export default defineConfig({
                   [
                     '@swc/plugin-relay',
                     {
-                      rootDir: __dirname,
+                      rootDir: import.meta.dirname,
                       artifactDirectory: 'src/__generated__',
                       language: 'typescript',
                     },

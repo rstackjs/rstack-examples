@@ -1,7 +1,8 @@
 // @ts-check
 
+import { defineConfig } from '@rspack/cli';
 /** @type {import("@rspack/core").Configuration} */
-export default {
+export default defineConfig({
   entry: {
     main: './src/index.ts',
   },
@@ -36,4 +37,4 @@ export default {
       },
     ],
   },
-};
+});

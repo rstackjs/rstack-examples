@@ -1,12 +1,9 @@
-import { createRequire } from 'node:module';
 import path from 'node:path';
 import { defineConfig } from '@rspack/cli';
 import rspack from '@rspack/core';
 import { sveltePreprocess } from 'svelte-preprocess';
 
 const isProd = process.env.NODE_ENV === 'production';
-const require = createRequire(import.meta.url);
-
 const swcLoaderConfig = {
   loader: 'builtin:swc-loader',
   /**

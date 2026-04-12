@@ -1,14 +1,16 @@
-import { defineConfig } from "@rspack/cli";
+// @ts-check
+
+import { defineConfig } from '@rspack/cli';
 
 export default defineConfig({
-  mode: "production",
+  mode: 'production',
   entry: {
-    index: "./src/index.js",
+    index: './src/index.js',
   },
   output: {
     library: {
-      type: "umd",
-      name: 'rspack_library'
+      type: 'umd',
+      name: 'rspack_library',
     },
   },
   optimization: {
