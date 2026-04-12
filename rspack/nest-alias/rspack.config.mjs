@@ -1,5 +1,4 @@
 // @ts-check
-
 import path from 'node:path';
 import { defineConfig } from '@rspack/cli';
 export default defineConfig({

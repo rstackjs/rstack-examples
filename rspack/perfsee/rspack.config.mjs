@@ -1,5 +1,4 @@
 // @ts-check
-
 import { PerfseePlugin } from '@perfsee/webpack';
 import { defineConfig } from '@rspack/cli';
 import { rspack } from '@rspack/core';

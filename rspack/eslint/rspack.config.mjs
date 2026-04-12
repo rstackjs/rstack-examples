@@ -1,5 +1,4 @@
 // @ts-check
-
 import { defineConfig } from '@rspack/cli';
 import EslintPlugin from 'eslint-rspack-plugin';
 export default defineConfig({

@@ -1,5 +1,4 @@
 // @ts-check
-
 import { defineConfig } from '@rspack/cli';
 import { rspack } from '@rspack/core';
 

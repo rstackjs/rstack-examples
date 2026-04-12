@@ -1,5 +1,4 @@
 // @ts-check
-
 import { defineConfig } from '@rspack/cli';
 import GeneratePackageJsonPlugin from 'generate-package-json-webpack-plugin';
 

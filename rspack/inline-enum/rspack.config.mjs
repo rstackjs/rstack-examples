@@ -1,5 +1,4 @@
 // @ts-check
-
 import { defineConfig } from '@rspack/cli';
 /** @type {import("@rspack/core").Configuration} */
 export default defineConfig({

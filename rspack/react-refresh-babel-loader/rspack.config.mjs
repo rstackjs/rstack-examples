@@ -1,5 +1,4 @@
 // @ts-check
-
 import { fileURLToPath } from 'node:url';
 import { defineConfig } from '@rspack/cli';
 import { rspack } from '@rspack/core';
