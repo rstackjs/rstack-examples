@@ -4,7 +4,6 @@ import { defineConfig } from '@rspack/cli';
 import { rspack } from '@rspack/core';
 import { VueLoaderPlugin } from 'rspack-vue-loader';
 
-/** @type {import('@rspack/cli').Configuration} */
 export default defineConfig({
   context: import.meta.dirname,
   entry: {

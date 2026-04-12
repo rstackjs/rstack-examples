@@ -4,7 +4,6 @@ import path from 'node:path';
 import { defineConfig } from '@rspack/cli';
 import { rspack } from '@rspack/core';
 
-/** @type {import('@rspack/cli').Configuration} */
 export default defineConfig({
   resolve: {
     extensions: ['...', '.ts', '.tsx', '.js', '.jsx'],

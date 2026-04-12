@@ -3,7 +3,6 @@
 import { defineConfig } from '@rspack/cli';
 import { rspack } from '@rspack/core';
 
-/** @type {import('@rspack/cli').Configuration} */
 export default defineConfig({
   entry: './src/index.js',
   module: {

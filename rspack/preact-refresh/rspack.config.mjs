@@ -5,7 +5,6 @@ import { rspack } from '@rspack/core';
 import PreactRefreshPlugin from '@rspack/plugin-preact-refresh';
 
 const dev = process.env.NODE_ENV === 'development';
-/** @type {import('@rspack/cli').Configuration} */
 export default defineConfig({
   entry: {
     main: './src/index.jsx',

@@ -3,7 +3,6 @@
 import { defineConfig } from '@rspack/cli';
 import { RunScriptWebpackPlugin } from 'run-script-webpack-plugin';
 
-/** @type {import('@rspack/cli').Configuration} */
 export default defineConfig({
   context: import.meta.dirname,
   target: 'node',
