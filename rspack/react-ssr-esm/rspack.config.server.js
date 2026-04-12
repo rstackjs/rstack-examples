@@ -1,19 +1,16 @@
+import path from 'node:path';
+import { defineConfig } from '@rspack/cli';
 import rspack from '@rspack/core';
-import path, { dirname } from 'path';
-import { fileURLToPath } from 'url';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
-
-export default {
+export default defineConfig({
   name: 'server',
   entry: {
-    server: path.resolve(__dirname, 'server', 'server.ts'),
+    server: path.resolve(import.meta.dirname, 'server', 'server.ts'),
   },
   mode: 'production',
   output: {
     module: true,
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(import.meta.dirname, 'dist'),
     filename: '[name].js',
   },
   externalsType: 'node-commonjs',
@@ -52,4 +49,4 @@ const __dirname = __rspack_dirname(__filename);
       patterns: [{ context: 'server', from: 'views', to: 'views' }],
     }),
   ],
-};
+});

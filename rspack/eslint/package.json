@@ -6,7 +6,7 @@
   "scripts": {
     "build": "rspack build",
     "dev": "rspack serve -c",
-    "dev:loader": "rspack serve -c rspack.config.loader.js"
+    "dev:loader": "rspack serve -c rspack.config.loader.mjs"
   },
   "devDependencies": {
     "@rspack/cli": "2.0.0-rc.1",
