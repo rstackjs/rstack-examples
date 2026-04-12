@@ -5,6 +5,7 @@ import { VanillaExtractPlugin } from '@vanilla-extract/webpack-plugin';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 
 /** @type {import('@rspack/core').Configuration} */
+
 export default defineConfig({
   entry: path.join(import.meta.dirname, './src/index.tsx'),
   resolve: {

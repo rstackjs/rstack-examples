@@ -3,6 +3,7 @@ import { defineConfig } from '@rspack/cli';
 import { rspack } from '@rspack/core';
 
 const dev = process.env.NODE_ENV === 'development';
+
 export default defineConfig({
   entry: {
     main: './src/index.jsx',

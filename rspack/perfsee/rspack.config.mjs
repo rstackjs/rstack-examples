@@ -2,6 +2,7 @@
 import { PerfseePlugin } from '@perfsee/webpack';
 import { defineConfig } from '@rspack/cli';
 import { rspack } from '@rspack/core';
+
 export default defineConfig({
   context: import.meta.dirname,
   entry: {

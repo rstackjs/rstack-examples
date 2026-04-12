@@ -2,6 +2,7 @@
 import path from 'node:path';
 import { defineConfig } from '@rspack/cli';
 import { rspack } from '@rspack/core';
+
 export default defineConfig((env, argv) => {
   console.log('env:', env, argv);
   return {

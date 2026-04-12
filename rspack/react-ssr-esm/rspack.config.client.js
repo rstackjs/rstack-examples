@@ -1,6 +1,7 @@
 import path from 'node:path';
 import { defineConfig } from '@rspack/cli';
 import { RspackManifestPlugin } from 'rspack-manifest-plugin';
+
 export default defineConfig({
   name: 'client',
   entry: {

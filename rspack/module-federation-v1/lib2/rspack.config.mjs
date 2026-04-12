@@ -7,6 +7,7 @@ import { ReactRefreshRspackPlugin } from '@rspack/plugin-react-refresh';
 const isProduction = process.env.NODE_ENV === 'production';
 
 /** @type {import('@rspack/core').Configuration} */
+
 export default defineConfig({
   entry: {},
   context: import.meta.dirname,

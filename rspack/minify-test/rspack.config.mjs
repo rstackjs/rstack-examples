@@ -5,6 +5,7 @@ import { rspack } from '../../packages/rspack';
 /**
  * @type {import("@rspack/core").Configuration}
  */
+
 export default defineConfig({
   target: 'node',
   devtool: false,
