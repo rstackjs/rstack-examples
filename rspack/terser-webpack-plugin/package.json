@@ -8,6 +8,7 @@
     "@rspack/cli": "2.0.0-rc.1",
     "@rspack/core": "2.0.0-rc.1",
     "@rspack/dev-server": "2.0.0-rc.2",
-    "terser-webpack-plugin": "5.3.16"
+    "terser-webpack-plugin": "5.3.16",
+    "webpack-stats-plugin": "^1.1.3"
   }
 }
