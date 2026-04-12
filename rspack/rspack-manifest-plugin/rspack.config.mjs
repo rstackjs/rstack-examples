@@ -1,6 +1,6 @@
 // @ts-check
 import { defineConfig } from '@rspack/cli';
-import { WebpackManifestPlugin as RspackManifestPlugin } from 'rspack-manifest-plugin';
+import { RspackManifestPlugin } from 'rspack-manifest-plugin';
 
 export default defineConfig({
   plugins: [
