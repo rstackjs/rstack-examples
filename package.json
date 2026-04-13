@@ -11,21 +11,30 @@
     "build:rspack": "pnpm --filter \"@rspack-example/*\" --stream build",
     "build:rspress": "pnpm --filter \"@rspress-example/*\" --stream build",
     "bump": "taze -l",
-    "prepare": "husky",
+    "lint": "rslint && prettier -c .prettierrc .vscode/extensions.json .vscode/settings.json AGENTS.md package.json pnpm-lock.yaml rslint.config.ts",
+    "lint:write": "prettier -w .prettierrc .vscode/extensions.json .vscode/settings.json AGENTS.md package.json pnpm-lock.yaml rslint.config.ts",
+    "prepare": "simple-git-hooks",
     "sort-package-json": "npx sort-package-json \"rspack/*/package.json\" \"rsbuild/*/package.json\" \"rspress/*/package.json\" \"rsdoctor/*/package.json\" \"rslib/*/package.json\" \"rstest/*/package.json\"",
     "test:rspack": "pnpm --filter \"@rspack-example/*\" --stream test",
     "test:rstest": "pnpm --filter \"@rstest-example/*\" --stream test"
   },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm exec lint-staged && pnpm exec rslint"
+  },
   "lint-staged": {
-    "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}": [
-      "npx @biomejs/biome check --write --no-errors-on-unmatched"
+    "*.{js,cjs,mjs,jsx,ts,cts,mts,tsx}": [
+      "prettier -w"
+    ],
+    "*.{css,scss,less,md,mdx,html,json,jsonc,yaml,yml,vue}": [
+      "prettier -w"
     ]
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.3.13",
+    "@rslint/core": "^0.3.4",
     "cross-env": "10.1.0",
-    "husky": "9.1.7",
     "lint-staged": "16.2.7",
+    "prettier": "^3.8.1",
+    "simple-git-hooks": "^2.13.1",
     "taze": "^19.9.2"
   },
   "packageManager": "pnpm@10.33.0"

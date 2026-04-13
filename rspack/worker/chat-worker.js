@@ -7,7 +7,6 @@ onconnect = function (e) {
       console.log(event);
       const msg = event.data;
       switch (msg.type) {
-        // biome-ignore lint/suspicious/noFallthroughSwitchClause: expected
         case 'message':
           add(msg.content, msg.from);
         // fallthrough

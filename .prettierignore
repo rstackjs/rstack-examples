@@ -1,0 +1,17 @@
+coverage
+compiled
+dist
+dist-*
+doc_build
+node_modules
+.swc
+**/coverage
+**/compiled
+**/dist
+**/dist-*
+**/doc_build
+**/auto-imports.d.ts
+**/components.d.ts
+**/@mf-types/**
+**/http-import.lock.data/**
+**/__snapshots__/**

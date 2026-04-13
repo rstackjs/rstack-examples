@@ -13,6 +13,7 @@ This file provides guidance for AI coding agents working in this repository.
 **The primary goal of each example is to demonstrate "how a specific API achieves a specific effect through specific configuration".**
 
 When creating or modifying examples:
+
 - **Keep it minimal**: Only include code necessary to demonstrate the target feature/API
 - **Avoid over-engineering**: Don't add complex business logic that distracts from the core demonstration
 - **Focus on the tool, not the ecosystem**: For example, in a test runner example, focus on the test runner's APIs (mocking, assertions, configuration), not on complex DOM manipulation or third-party library integrations
@@ -20,6 +21,7 @@ When creating or modifying examples:
 - **Clarity over completeness**: A simple, clear example is better than a comprehensive but confusing one
 
 Example of good vs bad:
+
 ```
 # Good: Demonstrates rstest's mocking API
 - Simple mock function usage
@@ -35,10 +37,12 @@ Example of good vs bad:
 ## Quick Start (Local)
 
 Prerequisites:
+
 - Node.js per `.nvmrc`
 - `corepack` enabled
 
 Common commands:
+
 - Install deps: `corepack enable && pnpm i`
 - Build everything: `pnpm run build`
 - Build a group:
@@ -50,6 +54,7 @@ Common commands:
 - Test Rspack examples: `pnpm run test:rspack`
 
 Working in a single example:
+
 - `cd rspack/basic` (or any other example dir)
 - `pnpm i` (workspace install is preferred at repo root)
 - `pnpm run dev` / `pnpm run build` / `pnpm run test` (depends on the example)
@@ -57,6 +62,7 @@ Working in a single example:
 ## Where Things Live
 
 Top-level directories:
+
 - `rspack/`: Rspack examples (often package name prefix `example-*`).
 - `rsbuild/`: Rsbuild examples (often package name prefix `rsbuild-*`).
 - `rspress/`: Rspress examples (often package name prefix `rspress-*`).
@@ -65,7 +71,7 @@ Top-level directories:
 
 ## Coding Conventions
 
-- Formatting and linting: `Biome` is used (see `biome.json`).
+- Formatting and linting: `Prettier` and `Rslint` are used (see `.prettierrc` and `rslint.config.ts`).
   - Default JS/TS quote style is single quotes.
   - Line width is 100.
 - Prefer minimal, example-focused changes. This repo is a collection of runnable examples; avoid refactors that reduce clarity.
@@ -87,6 +93,7 @@ Top-level directories:
 ## Agent Workflow Expectations
 
 When making changes:
+
 - Identify the single example/package impacted.
 - Keep changes scoped to that example unless explicitly requested.
 - Update configuration consistently with the conventions in that subtree.
