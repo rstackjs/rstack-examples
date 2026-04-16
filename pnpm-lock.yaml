@@ -6071,6 +6071,7 @@ packages:
         optional: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   '@module-federation/enhanced@2.3.3':
     resolution: {integrity: sha512-BJSs56lqO9NI9aC+hVhg2CU/UwG1TphVl1b7WBx6Jv6DYUyVQbgXeQpgqYVsxYVRKYOl7eDZmjXl2eA/n1IP/Q==}
     hasBin: true
@@ -6091,6 +6092,8 @@ packages:
 
 =======
 >>>>>>> 5e835bec (chore: update pnpm lockfile for rspress v2)
+=======
+>>>>>>> cf24277b (chore: update pnpm lockfile for rspress v2)
   '@module-federation/error-codes@0.21.6':
     resolution: {integrity: sha512-MLJUCQ05KnoVl8xd6xs9a5g2/8U+eWmVxg7xiBMeR0+7OjdWUbHwcwgVFatRIwSZvFgKHfWEiI7wsU1q1XbTRQ==}
 
@@ -6181,6 +6184,7 @@ packages:
         optional: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   '@module-federation/rspack@2.3.3':
     resolution: {integrity: sha512-4s3G+wXZ6J3rKe0EeZnGLQUM7y+qpiI5NM3U6ylZuxD8q7mAwQVHThbH6ruDYUNDVEOc6N0j/+/LdfGRw+e5xw==}
     peerDependencies:
@@ -6198,6 +6202,8 @@ packages:
 
 =======
 >>>>>>> 5e835bec (chore: update pnpm lockfile for rspress v2)
+=======
+>>>>>>> cf24277b (chore: update pnpm lockfile for rspress v2)
   '@module-federation/runtime-core@0.21.6':
     resolution: {integrity: sha512-5Hd1Y5qp5lU/aTiK66lidMlM/4ji2gr3EXAtJdreJzkY+bKcI5+21GRcliZ4RAkICmvdxQU5PHPL71XmNc7Lsw==}
 
@@ -6211,6 +6217,7 @@ packages:
     resolution: {integrity: sha512-E0WgaCn32AWzD0n6SCH7VQ+kxk46XyX432PQWARgyQzCX/wyLkaT+We3A18RVNUevRT85YHLrrVIhMKJJVHgjA==}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   '@module-federation/runtime-core@2.3.3':
     resolution: {integrity: sha512-B07LDH9KxhBO3GbULGW64mQFVQBtrEd3PoaCBm7XR1IbU8rMQUJQjDNVZgXYcyhRPBVP+3KWZuiaKFRiNb6PQw==}
 
@@ -6219,6 +6226,8 @@ packages:
 
 =======
 >>>>>>> 5e835bec (chore: update pnpm lockfile for rspress v2)
+=======
+>>>>>>> cf24277b (chore: update pnpm lockfile for rspress v2)
   '@module-federation/runtime-tools@0.21.6':
     resolution: {integrity: sha512-fnP+ZOZTFeBGiTAnxve+axGmiYn2D60h86nUISXjXClK3LUY1krUfPgf6MaD4YDJ4i51OGXZWPekeMe16pkd8Q==}
 
@@ -6232,6 +6241,7 @@ packages:
     resolution: {integrity: sha512-JrTKnNxIglnwrycPHUz9vARHLWqdecgFJxhmu8991z5CjktHc5JIelCbQS5Ur2lABjuwBdlyw8pH2xI3EJpbOg==}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   '@module-federation/runtime-tools@2.3.3':
     resolution: {integrity: sha512-XODzyLbBYcy4wnYBXKIBqaHPVfBx1HshGdjZmSctDDnx9/VYgdx9DShb6UI+WuQBKJgPzTcx4xbvbCM4SdMilQ==}
 
@@ -6240,6 +6250,8 @@ packages:
 
 =======
 >>>>>>> 5e835bec (chore: update pnpm lockfile for rspress v2)
+=======
+>>>>>>> cf24277b (chore: update pnpm lockfile for rspress v2)
   '@module-federation/runtime@0.21.6':
     resolution: {integrity: sha512-+caXwaQqwTNh+CQqyb4mZmXq7iEemRDrTZQGD+zyeH454JAYnJ3s/3oDFizdH6245pk+NiqDyOOkHzzFQorKhQ==}
 
@@ -6253,6 +6265,7 @@ packages:
     resolution: {integrity: sha512-NiKelHKzOf1Vz8oqcxC/XRUAW224O6lKj9xD0cfp5Bp343iu6s58RlLvX1ypF+UpCl3jA4JM8npGax/3jjyifw==}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   '@module-federation/runtime@2.3.3':
     resolution: {integrity: sha512-JYJ3qv9V85DtBtT/ppDuJNwBTUrYqqZDYcyiTzwY5+44dC5QPvgJ//F+BOhAhZ02WkZV0b4jsKTyLOC3vXKGqQ==}
 
@@ -6261,6 +6274,8 @@ packages:
 
 =======
 >>>>>>> 5e835bec (chore: update pnpm lockfile for rspress v2)
+=======
+>>>>>>> cf24277b (chore: update pnpm lockfile for rspress v2)
   '@module-federation/sdk@0.21.6':
     resolution: {integrity: sha512-x6hARETb8iqHVhEsQBysuWpznNZViUh84qV2yE7AD+g7uIzHKiYdoWqj10posbo5XKf/147qgWDzKZoKoEP2dw==}
 
@@ -6322,6 +6337,7 @@ packages:
     resolution: {integrity: sha512-YpTLzM7H9damh31JX7eFBiCCR1mbibzS4i4JEa4fZ5ICT4hfNIuaAx1OeICGDOzSdl35TYegegCjk91oX6xCJQ==}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   '@module-federation/third-party-dts-extractor@2.3.3':
     resolution: {integrity: sha512-rR94TjC1QVQLQPTazI0waLc76hI8dnv6aHTl+PUEIY9s5hXp8TA85XS0QJQqIf2KTjlPgZbWAwyFjOAJluTjaw==}
 
@@ -6330,6 +6346,8 @@ packages:
 
 =======
 >>>>>>> 5e835bec (chore: update pnpm lockfile for rspress v2)
+=======
+>>>>>>> cf24277b (chore: update pnpm lockfile for rspress v2)
   '@module-federation/webpack-bundler-runtime@0.21.6':
     resolution: {integrity: sha512-7zIp3LrcWbhGuFDTUMLJ2FJvcwjlddqhWGxi/MW3ur1a+HaO8v5tF2nl+vElKmbG1DFLU/52l3PElVcWf/YcsQ==}
 
@@ -17536,6 +17554,7 @@ snapshots:
       - utf-8-validate
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   '@module-federation/enhanced@2.3.1(@rspack/core@2.0.0-rc.1)(react-dom@19.2.4)(react@19.2.4)(typescript@5.9.3)(vue-tsc@3.2.4)(webpack@5.104.1)':
     dependencies:
       '@module-federation/bridge-react-webpack-plugin': 2.3.1(node-fetch@2.7.0)
@@ -17628,6 +17647,8 @@ snapshots:
 
 =======
 >>>>>>> 5e835bec (chore: update pnpm lockfile for rspress v2)
+=======
+>>>>>>> cf24277b (chore: update pnpm lockfile for rspress v2)
   '@module-federation/error-codes@0.21.6': {}
 
   '@module-federation/error-codes@0.22.0': {}
@@ -17834,6 +17855,7 @@ snapshots:
       - utf-8-validate
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   '@module-federation/rspack@2.3.1(@rspack/core@2.0.0-rc.1)(typescript@5.9.3)(vue-tsc@3.2.4)':
     dependencies:
       '@module-federation/bridge-react-webpack-plugin': 2.3.1(node-fetch@2.7.0)
@@ -17896,6 +17918,8 @@ snapshots:
 
 =======
 >>>>>>> 5e835bec (chore: update pnpm lockfile for rspress v2)
+=======
+>>>>>>> cf24277b (chore: update pnpm lockfile for rspress v2)
   '@module-federation/runtime-core@0.21.6':
     dependencies:
       '@module-federation/error-codes': 0.21.6
@@ -17919,6 +17943,7 @@ snapshots:
       - node-fetch
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   '@module-federation/runtime-core@2.3.3(node-fetch@2.7.0)':
     dependencies:
       '@module-federation/error-codes': 2.3.3
@@ -17933,6 +17958,8 @@ snapshots:
 
 =======
 >>>>>>> 5e835bec (chore: update pnpm lockfile for rspress v2)
+=======
+>>>>>>> cf24277b (chore: update pnpm lockfile for rspress v2)
   '@module-federation/runtime-tools@0.21.6':
     dependencies:
       '@module-federation/runtime': 0.21.6
@@ -17956,6 +17983,7 @@ snapshots:
       - node-fetch
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   '@module-federation/runtime-tools@2.3.3(node-fetch@2.7.0)':
     dependencies:
       '@module-federation/runtime': 2.3.3(node-fetch@2.7.0)
@@ -17971,6 +17999,8 @@ snapshots:
 
 =======
 >>>>>>> 5e835bec (chore: update pnpm lockfile for rspress v2)
+=======
+>>>>>>> cf24277b (chore: update pnpm lockfile for rspress v2)
   '@module-federation/runtime@0.21.6':
     dependencies:
       '@module-federation/error-codes': 0.21.6
@@ -17998,6 +18028,7 @@ snapshots:
       - node-fetch
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   '@module-federation/runtime@2.3.3(node-fetch@2.7.0)':
     dependencies:
       '@module-federation/error-codes': 2.3.3
@@ -18010,6 +18041,8 @@ snapshots:
 
 =======
 >>>>>>> 5e835bec (chore: update pnpm lockfile for rspress v2)
+=======
+>>>>>>> cf24277b (chore: update pnpm lockfile for rspress v2)
   '@module-federation/sdk@0.21.6': {}
 
   '@module-federation/sdk@0.22.0': {}
@@ -18056,6 +18089,7 @@ snapshots:
       resolve: 1.22.8
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   '@module-federation/third-party-dts-extractor@2.3.3':
     dependencies:
       find-pkg: 2.0.0
@@ -18068,6 +18102,8 @@ snapshots:
 
 =======
 >>>>>>> 5e835bec (chore: update pnpm lockfile for rspress v2)
+=======
+>>>>>>> cf24277b (chore: update pnpm lockfile for rspress v2)
   '@module-federation/webpack-bundler-runtime@0.21.6':
     dependencies:
       '@module-federation/runtime': 0.21.6
@@ -18658,7 +18694,11 @@ snapshots:
       eslint: 9.39.2(jiti@2.6.1)
       eslint-rspack-plugin: 4.4.1(eslint@9.39.2)
     optionalDependencies:
+<<<<<<< HEAD
       '@rsbuild/core': 2.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.3)(core-js@3.48.0)
+=======
+      '@rsbuild/core': 2.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
+>>>>>>> cf24277b (chore: update pnpm lockfile for rspress v2)
 
   '@rsbuild/plugin-less@1.6.2(@rsbuild/core@2.0.0-rc.1)(@rspack/core@2.0.0-rc.1)(webpack@5.104.1)':
     dependencies:
@@ -19291,6 +19331,7 @@ snapshots:
       - '@emnapi/runtime'
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   '@rspress/core@1.47.1(tslib@2.8.1)(webpack-hot-middleware@2.26.1)(webpack@5.104.1)':
     dependencies:
       '@mdx-js/loader': 2.3.0(webpack@5.104.1)
@@ -19339,6 +19380,8 @@ snapshots:
 
   '@rspress/core@2.0.8(@module-federation/runtime-tools@2.3.3)(@types/mdast@4.0.3)(@types/react@19.2.14)(core-js@3.48.0)(micromark-util-types@2.0.0)(micromark@4.0.0)':
 =======
+=======
+>>>>>>> cf24277b (chore: update pnpm lockfile for rspress v2)
   '@rspress/core@2.0.8(@module-federation/runtime-tools@2.3.1)(@types/mdast@4.0.3)(@types/react@19.2.14)(core-js@3.48.0)(micromark-util-types@2.0.0)(micromark@4.0.0)':
 >>>>>>> 5e835bec (chore: update pnpm lockfile for rspress v2)
     dependencies:
@@ -19401,7 +19444,11 @@ snapshots:
     dependencies:
       '@mdx-js/mdx': 3.1.1
       '@mdx-js/react': 3.1.1(@types/react@19.2.14)(react@19.2.4)
+<<<<<<< HEAD
       '@rsbuild/core': 2.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
+=======
+      '@rsbuild/core': 2.0.0-rc.1(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
+>>>>>>> cf24277b (chore: update pnpm lockfile for rspress v2)
       '@rsbuild/plugin-react': 1.4.6(@rsbuild/core@2.0.0-rc.1)(webpack-hot-middleware@2.26.1)
       '@rspress/shared': 2.0.9(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
       '@shikijs/rehype': 4.0.2
@@ -19467,6 +19514,7 @@ snapshots:
       - supports-color
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   '@rspress/plugin-auto-nav-sidebar@1.47.1':
     dependencies:
       '@rspress/shared': 1.47.1
@@ -19486,6 +19534,8 @@ snapshots:
 
   '@rspress/plugin-preview@2.0.8(@module-federation/runtime-tools@2.3.3)(@rspress/core@2.0.8)(core-js@3.48.0)(react-router-dom@7.13.2)(react@19.2.4)':
 =======
+=======
+>>>>>>> cf24277b (chore: update pnpm lockfile for rspress v2)
   '@rspress/plugin-preview@2.0.8(@module-federation/runtime-tools@2.3.1)(@rspress/core@2.0.8)(core-js@3.48.0)(react-router-dom@7.13.2)(react@19.2.4)':
 >>>>>>> 5e835bec (chore: update pnpm lockfile for rspress v2)
     dependencies:
@@ -19504,6 +19554,7 @@ snapshots:
       - webpack-hot-middleware
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   '@rspress/runtime@1.47.1':
     dependencies:
       '@rspress/shared': 1.47.1
@@ -19521,6 +19572,8 @@ snapshots:
 
   '@rspress/shared@2.0.8(@module-federation/runtime-tools@2.3.3)(core-js@3.48.0)':
 =======
+=======
+>>>>>>> cf24277b (chore: update pnpm lockfile for rspress v2)
   '@rspress/shared@2.0.8(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)':
 >>>>>>> 5e835bec (chore: update pnpm lockfile for rspress v2)
     dependencies:
@@ -19535,7 +19588,11 @@ snapshots:
 
   '@rspress/shared@2.0.9(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)':
     dependencies:
+<<<<<<< HEAD
       '@rsbuild/core': 2.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
+=======
+      '@rsbuild/core': 2.0.0-rc.1(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
+>>>>>>> cf24277b (chore: update pnpm lockfile for rspress v2)
       '@shikijs/rehype': 4.0.2
       unified: 11.0.5
     transitivePeerDependencies:
@@ -27062,7 +27119,11 @@ snapshots:
     dependencies:
       '@rspack/lite-tapable': 1.1.0
     optionalDependencies:
+<<<<<<< HEAD
       '@rspack/core': 2.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.3)(@swc/helpers@0.5.21)
+=======
+      '@rspack/core': 2.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(@swc/helpers@0.5.21)
+>>>>>>> cf24277b (chore: update pnpm lockfile for rspress v2)
 
   rspack-vue-loader@17.5.0(@rspack/core@2.0.0-rc.1)(@vue/compiler-sfc@3.5.24)(vue@3.5.21):
     dependencies:
@@ -28547,8 +28608,11 @@ snapshots:
 
   undici-types@7.19.2:
     optional: true
+<<<<<<< HEAD
 
   undici@7.24.7: {}
+=======
+>>>>>>> cf24277b (chore: update pnpm lockfile for rspress v2)
 
   unhead@2.1.12:
     dependencies:
