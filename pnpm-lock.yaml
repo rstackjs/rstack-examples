@@ -60,7 +60,7 @@ importers:
     devDependencies:
       '@rsbuild/core':
         specifier: 2.0.0-rc.1
-        version: 2.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
+        version: 2.0.0-rc.1(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
       '@types/express':
         specifier: ^5.0.6
         version: 5.0.6
@@ -78,7 +78,7 @@ importers:
         version: 9.1.0
       '@rsbuild/core':
         specifier: 2.0.0-rc.1
-        version: 2.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
+        version: 2.0.0-rc.1(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
       fastify:
         specifier: ^5.7.2
         version: 5.7.4
@@ -90,7 +90,7 @@ importers:
     devDependencies:
       '@rsbuild/core':
         specifier: 2.0.0-rc.1
-        version: 2.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
+        version: 2.0.0-rc.1(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
       lit:
         specifier: ^3.3.2
         version: 3.3.2
@@ -206,7 +206,7 @@ importers:
     devDependencies:
       '@rsbuild/core':
         specifier: 2.0.0-rc.1
-        version: 2.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
+        version: 2.0.0-rc.1(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
       '@rsbuild/plugin-preact':
         specifier: ^1.7.2
         version: 1.7.2(@rsbuild/core@2.0.0-rc.1)(preact@10.28.3)
@@ -568,7 +568,7 @@ importers:
     devDependencies:
       '@rsbuild/core':
         specifier: 2.0.0-rc.1
-        version: 2.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
+        version: 2.0.0-rc.1(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
       '@rsbuild/plugin-babel':
         specifier: ^1.1.2
         version: 1.1.2(@rsbuild/core@2.0.0-rc.1)
@@ -590,7 +590,7 @@ importers:
     devDependencies:
       '@rsbuild/core':
         specifier: 2.0.0-rc.1
-        version: 2.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
+        version: 2.0.0-rc.1(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
       '@rsbuild/plugin-react':
         specifier: 1.4.6
         version: 1.4.6(@rsbuild/core@2.0.0-rc.1)(webpack-hot-middleware@2.26.1)
@@ -618,7 +618,7 @@ importers:
     devDependencies:
       '@rsbuild/core':
         specifier: 2.0.0-rc.1
-        version: 2.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
+        version: 2.0.0-rc.1(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
       '@rsbuild/plugin-react':
         specifier: 1.4.6
         version: 1.4.6(@rsbuild/core@2.0.0-rc.1)(webpack-hot-middleware@2.26.1)
@@ -652,7 +652,7 @@ importers:
     devDependencies:
       '@rsbuild/core':
         specifier: 2.0.0-rc.1
-        version: 2.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
+        version: 2.0.0-rc.1(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
       '@rsbuild/plugin-react':
         specifier: 1.4.6
         version: 1.4.6(@rsbuild/core@2.0.0-rc.1)(webpack-hot-middleware@2.26.1)
@@ -772,14 +772,14 @@ importers:
     dependencies:
       svelte:
         specifier: ^5.46.1
-        version: 5.53.3
+        version: 5.53.5(@typescript-eslint/types@8.54.0)
     devDependencies:
       '@rsbuild/core':
         specifier: 2.0.0-rc.1
-        version: 2.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
+        version: 2.0.0-rc.1(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
       '@rsbuild/plugin-svelte':
         specifier: ^1.1.1
-        version: 1.1.1(@babel/core@7.29.0)(@rsbuild/core@2.0.0-rc.1)(less@4.6.4)(postcss-load-config@6.0.1)(postcss@8.5.8)(pug@3.0.2)(sass@1.97.3)(stylus@0.64.0)(svelte@5.53.3)(typescript@5.9.3)
+        version: 1.1.1(@babel/core@7.29.0)(@rsbuild/core@2.0.0-rc.1)(less@4.6.4)(postcss-load-config@6.0.1)(postcss@8.5.10)(pug@3.0.2)(sass@1.97.3)(stylus@0.64.0)(svelte@5.53.5)(typescript@5.9.3)
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
@@ -788,7 +788,7 @@ importers:
     devDependencies:
       '@rsbuild/core':
         specifier: 2.0.0-rc.1
-        version: 2.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
+        version: 2.0.0-rc.1(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
       '@rsbuild/plugin-umd':
         specifier: ^1.0.6
         version: 1.0.6(@rsbuild/core@2.0.0-rc.1)
@@ -1033,7 +1033,7 @@ importers:
     devDependencies:
       '@rslib/core':
         specifier: ^0.21.0
-        version: 0.21.0(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(typescript@5.9.3)
+        version: 0.21.0(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(typescript@5.9.3)
       '@types/node':
         specifier: ^24.10.9
         version: 24.10.9
@@ -1176,7 +1176,7 @@ importers:
     devDependencies:
       '@rslib/core':
         specifier: ^0.21.0
-        version: 0.21.0(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(typescript@5.9.3)
+        version: 0.21.0(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(typescript@5.9.3)
       '@types/node':
         specifier: ^24.10.9
         version: 24.10.9
@@ -1188,13 +1188,13 @@ importers:
     devDependencies:
       '@rslib/core':
         specifier: ^0.21.0
-        version: 0.21.0(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(typescript@5.9.3)
+        version: 0.21.0(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(typescript@5.9.3)
       '@rstest/adapter-rslib':
         specifier: ^0.2.2
         version: 0.2.2(@rslib/core@0.21.0)(@rstest/core@0.9.7)(typescript@5.9.3)
       '@rstest/core':
         specifier: ^0.9.7
-        version: 0.9.7(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(happy-dom@20.8.8)(jsdom@27.4.0)
+        version: 0.9.7(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(happy-dom@20.8.8)(jsdom@27.4.0)
       '@types/node':
         specifier: ^24.10.9
         version: 24.10.9
@@ -1209,7 +1209,7 @@ importers:
         version: 1.7.2(@rsbuild/core@2.0.0-rc.1)(preact@10.28.3)
       '@rslib/core':
         specifier: ^0.21.0
-        version: 0.21.0(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(typescript@5.9.3)
+        version: 0.21.0(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(typescript@5.9.3)
       preact:
         specifier: ^10.28.3
         version: 10.28.3
@@ -1315,7 +1315,7 @@ importers:
         version: 19.2.14
       jsdom:
         specifier: ^27.4.0
-        version: 27.4.0(postcss@8.5.8)
+        version: 27.4.0(postcss@8.5.10)
       react:
         specifier: ^19.2.4
         version: 19.2.4
@@ -1453,7 +1453,7 @@ importers:
         version: 1.1.1(@babel/core@7.29.0)(@rsbuild/core@2.0.0-rc.1)(solid-js@1.9.11)
       '@rslib/core':
         specifier: ^0.21.0
-        version: 0.21.0(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(typescript@5.9.3)
+        version: 0.21.0(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(typescript@5.9.3)
       preact:
         specifier: ^10.28.3
         version: 10.28.3
@@ -1528,7 +1528,7 @@ importers:
         version: 2.4.6
       jsdom:
         specifier: ^27.4.0
-        version: 27.4.0(postcss@8.5.8)
+        version: 27.4.0(postcss@8.5.10)
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
@@ -1582,7 +1582,7 @@ importers:
     devDependencies:
       '@rslib/core':
         specifier: ^0.21.0
-        version: 0.21.0(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(typescript@5.9.3)
+        version: 0.21.0(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(typescript@5.9.3)
       '@types/node':
         specifier: ^24.10.9
         version: 24.10.9
@@ -2158,7 +2158,7 @@ importers:
         version: 8.1.0(typescript@5.9.3)
       autoprefixer:
         specifier: 10.4.24
-        version: 10.4.24(postcss@8.5.8)
+        version: 10.4.24(postcss@8.5.10)
       babel-loader:
         specifier: 10.0.0
         version: 10.0.0(@babel/core@7.29.0)(webpack@5.104.1)
@@ -2179,7 +2179,7 @@ importers:
         version: 2.1.0(webpack@5.104.1)
       postcss-loader:
         specifier: 8.2.0
-        version: 8.2.0(@rspack/core@2.0.0-rc.1)(postcss@8.5.8)(typescript@5.9.3)(webpack@5.104.1)
+        version: 8.2.0(@rspack/core@2.0.0-rc.1)(postcss@8.5.10)(typescript@5.9.3)(webpack@5.104.1)
       raw-loader:
         specifier: 4.0.2
         version: 4.0.2(webpack@5.104.1)
@@ -2681,10 +2681,10 @@ importers:
         version: 2.0.0-rc.2(@rspack/core@2.0.0-rc.1)
       autoprefixer:
         specifier: 10.4.24
-        version: 10.4.24(postcss@8.5.8)
+        version: 10.4.24(postcss@8.5.10)
       postcss-loader:
         specifier: 8.2.0
-        version: 8.2.0(@rspack/core@2.0.0-rc.1)(postcss@8.5.8)(typescript@5.9.3)(webpack@5.104.1)
+        version: 8.2.0(@rspack/core@2.0.0-rc.1)(postcss@8.5.10)(typescript@5.9.3)(webpack@5.104.1)
       postcss-plugin-px2rem:
         specifier: 0.8.1
         version: 0.8.1
@@ -3236,19 +3236,19 @@ importers:
         version: 10.1.0
       postcss-load-config:
         specifier: 6.0.1
-        version: 6.0.1(jiti@2.6.1)(postcss@8.5.8)(tsx@4.19.2)(yaml@2.8.1)
+        version: 6.0.1(jiti@2.6.1)(postcss@8.5.10)(tsx@4.19.2)(yaml@2.8.1)
       svelte:
         specifier: ^5.53.3
-        version: 5.53.3
+        version: 5.53.5(@typescript-eslint/types@8.54.0)
       svelte-check:
         specifier: ^4.3.6
-        version: 4.3.6(picomatch@4.0.4)(svelte@5.53.3)(typescript@5.9.3)
+        version: 4.3.6(picomatch@4.0.4)(svelte@5.53.5)(typescript@5.9.3)
       svelte-loader:
         specifier: ^3.2.4
-        version: 3.2.4(svelte@5.53.3)
+        version: 3.2.4(svelte@5.53.5)
       svelte-preprocess:
         specifier: ^6.0.3
-        version: 6.0.3(@babel/core@7.29.0)(less@4.6.4)(postcss-load-config@6.0.1)(postcss@8.5.8)(pug@3.0.2)(sass@1.97.3)(stylus@0.64.0)(svelte@5.53.3)(typescript@5.9.3)
+        version: 6.0.3(@babel/core@7.29.0)(less@4.6.4)(postcss-load-config@6.0.1)(postcss@8.5.10)(pug@3.0.2)(sass@1.97.3)(stylus@0.64.0)(svelte@5.53.5)(typescript@5.9.3)
       tslib:
         specifier: ^2.8.1
         version: 2.8.1
@@ -3819,13 +3819,13 @@ importers:
     devDependencies:
       '@rsbuild/core':
         specifier: 2.0.0-rc.1
-        version: 2.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
+        version: 2.0.0-rc.1(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
       '@rstest/browser':
         specifier: ^0.9.7
         version: 0.9.7(@rstest/core@0.9.7)(playwright@1.58.1)
       '@rstest/core':
         specifier: ^0.9.7
-        version: 0.9.7(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(happy-dom@20.8.8)(jsdom@27.4.0)
+        version: 0.9.7(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(happy-dom@20.8.8)(jsdom@27.4.0)
       playwright:
         specifier: ^1.58.1
         version: 1.58.1
@@ -3849,7 +3849,7 @@ importers:
     devDependencies:
       '@rstest/core':
         specifier: ^0.9.7
-        version: 0.9.7(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(happy-dom@20.8.8)(jsdom@27.4.0)
+        version: 0.9.7(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(happy-dom@20.8.8)(jsdom@27.4.0)
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
@@ -3858,7 +3858,7 @@ importers:
     devDependencies:
       '@rstest/core':
         specifier: ^0.9.7
-        version: 0.9.7(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(happy-dom@20.8.8)(jsdom@27.4.0)
+        version: 0.9.7(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(happy-dom@20.8.8)(jsdom@27.4.0)
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
@@ -3867,13 +3867,13 @@ importers:
     devDependencies:
       '@rsbuild/core':
         specifier: 2.0.0-rc.1
-        version: 2.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
+        version: 2.0.0-rc.1(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
       '@rstest/adapter-rsbuild':
         specifier: ^0.2.5
         version: 0.2.5(@rsbuild/core@2.0.0-rc.1)(@rstest/core@0.9.7)
       '@rstest/core':
         specifier: ^0.9.7
-        version: 0.9.7(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(happy-dom@20.8.8)(jsdom@27.4.0)
+        version: 0.9.7(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(happy-dom@20.8.8)(jsdom@27.4.0)
       happy-dom:
         specifier: ^20.4.0
         version: 20.8.8
@@ -3885,7 +3885,7 @@ importers:
     devDependencies:
       '@rsbuild/core':
         specifier: 2.0.0-rc.1
-        version: 2.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
+        version: 2.0.0-rc.1(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
       '@rsbuild/plugin-preact':
         specifier: ^1.7.2
         version: 1.7.2(@rsbuild/core@2.0.0-rc.1)(preact@10.29.1)
@@ -3894,7 +3894,7 @@ importers:
         version: 0.2.5(@rsbuild/core@2.0.0-rc.1)(@rstest/core@0.9.7)
       '@rstest/core':
         specifier: ^0.9.7
-        version: 0.9.7(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(happy-dom@20.8.8)(jsdom@27.4.0)
+        version: 0.9.7(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(happy-dom@20.8.8)(jsdom@27.4.0)
       happy-dom:
         specifier: ^20.8.3
         version: 20.8.8
@@ -3909,7 +3909,7 @@ importers:
     devDependencies:
       '@rsbuild/core':
         specifier: 2.0.0-rc.1
-        version: 2.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
+        version: 2.0.0-rc.1(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
       '@rsbuild/plugin-babel':
         specifier: ^1.1.2
         version: 1.1.2(@rsbuild/core@2.0.0-rc.1)
@@ -3921,7 +3921,7 @@ importers:
         version: 0.2.5(@rsbuild/core@2.0.0-rc.1)(@rstest/core@0.9.7)
       '@rstest/core':
         specifier: ^0.9.7
-        version: 0.9.7(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(happy-dom@20.8.8)(jsdom@27.4.0)
+        version: 0.9.7(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(happy-dom@20.8.8)(jsdom@27.4.0)
       happy-dom:
         specifier: ^20.8.3
         version: 20.8.8
@@ -3936,22 +3936,22 @@ importers:
     devDependencies:
       '@rsbuild/core':
         specifier: 2.0.0-rc.1
-        version: 2.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
+        version: 2.0.0-rc.1(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
       '@rsbuild/plugin-svelte':
         specifier: ^1.1.1
-        version: 1.1.1(@babel/core@7.29.0)(@rsbuild/core@2.0.0-rc.1)(less@4.6.4)(postcss-load-config@6.0.1)(postcss@8.5.8)(pug@3.0.2)(sass@1.97.3)(stylus@0.64.0)(svelte@5.55.2)(typescript@5.9.3)
+        version: 1.1.1(@babel/core@7.29.0)(@rsbuild/core@2.0.0-rc.1)(less@4.6.4)(postcss-load-config@6.0.1)(postcss@8.5.10)(pug@3.0.2)(sass@1.97.3)(stylus@0.64.0)(svelte@5.53.5)(typescript@5.9.3)
       '@rstest/adapter-rsbuild':
         specifier: ^0.2.5
         version: 0.2.5(@rsbuild/core@2.0.0-rc.1)(@rstest/core@0.9.7)
       '@rstest/core':
         specifier: ^0.9.7
-        version: 0.9.7(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(happy-dom@20.8.8)(jsdom@27.4.0)
+        version: 0.9.7(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(happy-dom@20.8.8)(jsdom@27.4.0)
       happy-dom:
         specifier: ^20.8.3
         version: 20.8.8
       svelte:
         specifier: ^5.55.2
-        version: 5.55.2
+        version: 5.53.5(@typescript-eslint/types@8.54.0)
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
@@ -3960,13 +3960,13 @@ importers:
     devDependencies:
       '@rslib/core':
         specifier: ^0.21.0
-        version: 0.21.0(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(typescript@5.9.3)
+        version: 0.21.0(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(typescript@5.9.3)
       '@rstest/adapter-rslib':
         specifier: ^0.2.2
         version: 0.2.2(@rslib/core@0.21.0)(@rstest/core@0.9.7)(typescript@5.9.3)
       '@rstest/core':
         specifier: ^0.9.7
-        version: 0.9.7(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(happy-dom@20.8.8)(jsdom@27.4.0)
+        version: 0.9.7(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(happy-dom@20.8.8)(jsdom@27.4.0)
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
@@ -4030,7 +4030,7 @@ importers:
     devDependencies:
       '@rstest/core':
         specifier: ^0.9.7
-        version: 0.9.7(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(happy-dom@20.8.8)(jsdom@27.4.0)
+        version: 0.9.7(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(happy-dom@20.8.8)(jsdom@27.4.0)
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
@@ -7981,8 +7981,8 @@ packages:
   '@surma/rollup-plugin-off-main-thread@2.2.3':
     resolution: {integrity: sha512-lR8q/9W7hZpMWweNiAKU7NQerBnzQQLvi8qnTDU/fxItPhtZVMbPV3lbCwjhIlNBe9Bbr5V+KHshvWmVSG9cxQ==}
 
-  '@sveltejs/acorn-typescript@1.0.6':
-    resolution: {integrity: sha512-4awhxtMh4cx9blePWl10HRHj8Iivtqj+2QdDCSMDzxG+XKa9+VCNupQuCuvzEhYPzZSrX+0gC+0lHA/0fFKKQQ==}
+  '@sveltejs/acorn-typescript@1.0.9':
+    resolution: {integrity: sha512-lVJX6qEgs/4DOcRTpo56tmKzVPtoWAaVbL4hfO7t7NVwl9AAXzQR6cihesW1BmNMPl+bK6dreu2sOKBP2Q9CIA==}
     peerDependencies:
       acorn: ^8.9.0
 
@@ -10299,9 +10299,6 @@ packages:
     resolution: {integrity: sha512-TLz+x/vEXm/Y7P7wn1EJFNLxYpUD4TgMosxY6fAVJUnJMbupHBOncxyWUG9OpTaH9EBD7uFI5LfEgmMOc54DsA==}
     engines: {node: '>=8'}
 
-  devalue@5.6.3:
-    resolution: {integrity: sha512-nc7XjUU/2Lb+SvEFVGcWLiKkzfw8+qHI7zn8WYXKkLMgfGSHbgCEaR6bJpev8Cm6Rmrb19Gfd/tZvGqx9is3wg==}
-
   devalue@5.7.1:
     resolution: {integrity: sha512-MUbZ586EgQqdRnC4yDrlod3BEdyvE4TapGYHMW2CiaW+KkkFmWEFqBUaLltEZCGi0iFXCEjRF0OjF0DV2QHjOA==}
 
@@ -10682,11 +10679,13 @@ packages:
     resolution: {integrity: sha512-YQLXUplAwJgCydQ78IMJywZCceoqk1oH01OERdSAJc/7U2AylwjhSCLDEtqwg811idIS/9fIU5GjG73IgjKMVg==}
     engines: {node: '>=0.10'}
 
-  esrap@2.2.3:
-    resolution: {integrity: sha512-8fOS+GIGCQZl/ZIlhl59htOlms6U8NvX6ZYgYHpRU/b6tVSh3uHkOHZikl3D4cMbYM0JlpBe+p/BkZEi8J9XIQ==}
-
-  esrap@2.2.4:
-    resolution: {integrity: sha512-suICpxAmZ9A8bzJjEl/+rLJiDKC0X4gYWUxT6URAWBLvlXmtbZd5ySMu/N2ZGEtMCAmflUDPSehrP9BQcsGcSg==}
+  esrap@2.2.5:
+    resolution: {integrity: sha512-/yLB1538mag+dn0wsePTe8C0rDIjUOaJpMs2McodSzmM2msWcZsBSdRtg6HOBt0A/r82BN+Md3pgwSc/uWt2Ig==}
+    peerDependencies:
+      '@typescript-eslint/types': ^8.2.0
+    peerDependenciesMeta:
+      '@typescript-eslint/types':
+        optional: true
 
   esrecurse@4.3.0:
     resolution: {integrity: sha512-KmfKL3b6G+RXvP8N1vr3Tq1kL/oCFgn2NYXEtqP8/L3pKapUA4G8cFVaoF3SU323CD4XypR/ffioHmkti6/Tag==}
@@ -15344,12 +15343,8 @@ packages:
       typescript:
         optional: true
 
-  svelte@5.53.3:
-    resolution: {integrity: sha512-pRUBr6j6uQDgBi208gHnGRMykw0Rf2Yr1HmLyRucsvcaYgIUxswJkT93WZJflsmezu5s8Lq+q78EoyLv2yaFCg==}
-    engines: {node: '>=18'}
-
-  svelte@5.55.2:
-    resolution: {integrity: sha512-z41M/hi0ZPTzrwVKLvB/R1/Oo08gL1uIib8HZ+FncqxxtY9MLb01emg2fqk+WLZ/lNrrtNDFh7BZLDxAHvMgLw==}
+  svelte@5.53.5:
+    resolution: {integrity: sha512-YkqERnF05g8KLdDZwZrF8/i1eSbj6Eoat8Jjr2IfruZz9StLuBqo8sfCSzjosNKd+ZrQ8DkKZDjpO5y3ht1Pow==}
     engines: {node: '>=18'}
 
   svg-parser@2.0.4:
@@ -16694,7 +16689,7 @@ snapshots:
     dependencies:
       '@babel/parser': 7.29.0
       '@babel/types': 7.29.0
-      '@jridgewell/gen-mapping': 0.3.12
+      '@jridgewell/gen-mapping': 0.3.13
       '@jridgewell/trace-mapping': 0.3.31
       jsesc: 3.1.0
 
@@ -17578,11 +17573,6 @@ snapshots:
   '@csstools/css-syntax-patches-for-csstree@1.0.14(postcss@8.5.10)':
     dependencies:
       postcss: 8.5.10
-    optional: true
-
-  '@csstools/css-syntax-patches-for-csstree@1.0.14(postcss@8.5.8)':
-    dependencies:
-      postcss: 8.5.8
 
   '@csstools/css-tokenizer@3.0.4': {}
 
@@ -18390,7 +18380,7 @@ snapshots:
 
   '@jridgewell/remapping@2.3.5':
     dependencies:
-      '@jridgewell/gen-mapping': 0.3.12
+      '@jridgewell/gen-mapping': 0.3.13
       '@jridgewell/trace-mapping': 0.3.31
 
   '@jridgewell/resolve-uri@3.1.2': {}
@@ -18402,7 +18392,7 @@ snapshots:
 
   '@jridgewell/source-map@0.3.5':
     dependencies:
-      '@jridgewell/gen-mapping': 0.3.12
+      '@jridgewell/gen-mapping': 0.3.13
       '@jridgewell/trace-mapping': 0.3.31
 
   '@jridgewell/sourcemap-codec@1.5.5': {}
@@ -18623,7 +18613,7 @@ snapshots:
       '@types/estree-jsx': 1.0.4
       '@types/hast': 3.0.4
       '@types/mdx': 2.0.11
-      acorn: 8.15.0
+      acorn: 8.16.0
       collapse-white-space: 2.1.0
       devlop: 1.1.0
       estree-util-is-identifier-name: 3.0.0
@@ -18632,7 +18622,7 @@ snapshots:
       hast-util-to-jsx-runtime: 2.3.6
       markdown-extensions: 2.0.0
       recma-build-jsx: 1.0.0
-      recma-jsx: 1.0.1(acorn@8.15.0)
+      recma-jsx: 1.0.1(acorn@8.16.0)
       recma-stringify: 1.0.0
       rehype-recma: 1.0.0
       remark-mdx: 3.1.1
@@ -19386,7 +19376,7 @@ snapshots:
       '@eyhn/msgpack-stream': 2.8.4
       '@perfsee/jsonr': 1.14.2
       '@perfsee/utils': 1.14.2
-      acorn: 8.15.0
+      acorn: 8.16.0
       acorn-walk: 8.3.4
       htmlparser2: 8.0.2
       lodash: 4.17.23
@@ -19667,6 +19657,17 @@ snapshots:
       - '@emnapi/runtime'
       - '@module-federation/runtime-tools'
 
+  '@rsbuild/core@2.0.0-rc.1(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)':
+    dependencies:
+      '@rspack/core': 2.0.0-rc.1(@module-federation/runtime-tools@2.3.1)(@swc/helpers@0.5.21)
+      '@swc/helpers': 0.5.21
+    optionalDependencies:
+      core-js: 3.48.0
+    transitivePeerDependencies:
+      - '@emnapi/core'
+      - '@emnapi/runtime'
+      - '@module-federation/runtime-tools'
+
   '@rsbuild/plugin-babel@1.1.2(@rsbuild/core@2.0.0-beta.11)':
     dependencies:
       '@babel/core': 7.29.0
@@ -19695,7 +19696,7 @@ snapshots:
 
   '@rsbuild/plugin-check-syntax@1.6.1(@rsbuild/core@2.0.0-rc.1)':
     dependencies:
-      acorn: 8.15.0
+      acorn: 8.16.0
       browserslist-to-es-version: 1.2.0
       htmlparser2: 10.0.0
       picocolors: 1.1.1
@@ -19744,7 +19745,7 @@ snapshots:
       '@rspack/plugin-preact-refresh': 1.1.5(@prefresh/core@1.5.9)(@prefresh/utils@1.2.1)
       '@swc/plugin-prefresh': 12.7.0
     optionalDependencies:
-      '@rsbuild/core': 2.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
+      '@rsbuild/core': 2.0.0-rc.1(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
     transitivePeerDependencies:
       - preact
 
@@ -19755,7 +19756,7 @@ snapshots:
       '@rspack/plugin-preact-refresh': 1.1.5(@prefresh/core@1.5.9)(@prefresh/utils@1.2.1)
       '@swc/plugin-prefresh': 12.7.0
     optionalDependencies:
-      '@rsbuild/core': 2.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
+      '@rsbuild/core': 2.0.0-rc.1(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
     transitivePeerDependencies:
       - preact
 
@@ -19781,7 +19782,7 @@ snapshots:
       '@rspack/plugin-react-refresh': 1.6.1(react-refresh@0.18.0)(webpack-hot-middleware@2.26.1)
       react-refresh: 0.18.0
     optionalDependencies:
-      '@rsbuild/core': 2.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
+      '@rsbuild/core': 2.0.0-rc.1(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
     transitivePeerDependencies:
       - webpack-hot-middleware
 
@@ -19837,7 +19838,7 @@ snapshots:
       babel-preset-solid: 1.9.10(@babel/core@7.29.0)(solid-js@1.9.11)
       solid-refresh: 0.7.8(solid-js@1.9.11)
     optionalDependencies:
-      '@rsbuild/core': 2.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
+      '@rsbuild/core': 2.0.0-rc.1(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
     transitivePeerDependencies:
       - '@babel/core'
       - solid-js
@@ -19849,7 +19850,7 @@ snapshots:
       babel-preset-solid: 1.9.10(@babel/core@7.29.0)(solid-js@1.9.12)
       solid-refresh: 0.7.8(solid-js@1.9.12)
     optionalDependencies:
-      '@rsbuild/core': 2.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
+      '@rsbuild/core': 2.0.0-rc.1(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
     transitivePeerDependencies:
       - '@babel/core'
       - solid-js
@@ -19862,31 +19863,12 @@ snapshots:
     optionalDependencies:
       '@rsbuild/core': 2.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
 
-  '@rsbuild/plugin-svelte@1.1.1(@babel/core@7.29.0)(@rsbuild/core@2.0.0-rc.1)(less@4.6.4)(postcss-load-config@6.0.1)(postcss@8.5.8)(pug@3.0.2)(sass@1.97.3)(stylus@0.64.0)(svelte@5.53.3)(typescript@5.9.3)':
+  '@rsbuild/plugin-svelte@1.1.1(@babel/core@7.29.0)(@rsbuild/core@2.0.0-rc.1)(less@4.6.4)(postcss-load-config@6.0.1)(postcss@8.5.10)(pug@3.0.2)(sass@1.97.3)(stylus@0.64.0)(svelte@5.53.5)(typescript@5.9.3)':
     dependencies:
-      svelte-loader: 3.2.4(svelte@5.53.3)
-      svelte-preprocess: 6.0.3(@babel/core@7.29.0)(less@4.6.4)(postcss-load-config@6.0.1)(postcss@8.5.8)(pug@3.0.2)(sass@1.97.3)(stylus@0.64.0)(svelte@5.53.3)(typescript@5.9.3)
+      svelte-loader: 3.2.4(svelte@5.53.5)
+      svelte-preprocess: 6.0.3(@babel/core@7.29.0)(less@4.6.4)(postcss-load-config@6.0.1)(postcss@8.5.10)(pug@3.0.2)(sass@1.97.3)(stylus@0.64.0)(svelte@5.53.5)(typescript@5.9.3)
     optionalDependencies:
-      '@rsbuild/core': 2.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
-    transitivePeerDependencies:
-      - '@babel/core'
-      - coffeescript
-      - less
-      - postcss
-      - postcss-load-config
-      - pug
-      - sass
-      - stylus
-      - sugarss
-      - svelte
-      - typescript
-
-  '@rsbuild/plugin-svelte@1.1.1(@babel/core@7.29.0)(@rsbuild/core@2.0.0-rc.1)(less@4.6.4)(postcss-load-config@6.0.1)(postcss@8.5.8)(pug@3.0.2)(sass@1.97.3)(stylus@0.64.0)(svelte@5.55.2)(typescript@5.9.3)':
-    dependencies:
-      svelte-loader: 3.2.4(svelte@5.55.2)
-      svelte-preprocess: 6.0.3(@babel/core@7.29.0)(less@4.6.4)(postcss-load-config@6.0.1)(postcss@8.5.8)(pug@3.0.2)(sass@1.97.3)(stylus@0.64.0)(svelte@5.55.2)(typescript@5.9.3)
-    optionalDependencies:
-      '@rsbuild/core': 2.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
+      '@rsbuild/core': 2.0.0-rc.1(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
     transitivePeerDependencies:
       - '@babel/core'
       - coffeescript
@@ -19928,7 +19910,7 @@ snapshots:
 
   '@rsbuild/plugin-umd@1.0.6(@rsbuild/core@2.0.0-rc.1)':
     optionalDependencies:
-      '@rsbuild/core': 2.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
+      '@rsbuild/core': 2.0.0-rc.1(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
 
   '@rsbuild/plugin-vue@1.2.7(@rsbuild/core@1.7.5)(@rspack/core@2.0.0-rc.1)(vue@3.5.21)':
     dependencies:
@@ -20077,8 +20059,8 @@ snapshots:
       '@babel/code-frame': 7.26.2
       '@rsdoctor/types': 1.5.7(@rspack/core@2.0.0-rc.1)(webpack@5.104.1)
       '@types/estree': 1.0.5
-      acorn: 8.15.0
-      acorn-import-attributes: 1.9.5(acorn@8.15.0)
+      acorn: 8.16.0
+      acorn-import-attributes: 1.9.5(acorn@8.16.0)
       acorn-walk: 8.3.5
       deep-eql: 4.1.4
       envinfo: 7.21.0
@@ -20096,6 +20078,19 @@ snapshots:
   '@rslib/core@0.21.0(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(typescript@5.9.3)':
     dependencies:
       '@rsbuild/core': 2.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
+      rsbuild-plugin-dts: 0.21.0(@rsbuild/core@2.0.0-rc.1)(typescript@5.9.3)
+    optionalDependencies:
+      typescript: 5.9.3
+    transitivePeerDependencies:
+      - '@emnapi/core'
+      - '@emnapi/runtime'
+      - '@module-federation/runtime-tools'
+      - '@typescript/native-preview'
+      - core-js
+
+  '@rslib/core@0.21.0(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(typescript@5.9.3)':
+    dependencies:
+      '@rsbuild/core': 2.0.0-rc.1(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
       rsbuild-plugin-dts: 0.21.0(@rsbuild/core@2.0.0-rc.1)(typescript@5.9.3)
     optionalDependencies:
       typescript: 5.9.3
@@ -20370,6 +20365,16 @@ snapshots:
       '@swc/helpers': 0.5.21
 
   '@rspack/core@2.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(@swc/helpers@0.5.21)':
+    dependencies:
+      '@rspack/binding': 2.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)
+    optionalDependencies:
+      '@module-federation/runtime-tools': 2.3.1(node-fetch@2.7.0)
+      '@swc/helpers': 0.5.21
+    transitivePeerDependencies:
+      - '@emnapi/core'
+      - '@emnapi/runtime'
+
+  '@rspack/core@2.0.0-rc.1(@module-federation/runtime-tools@2.3.1)(@swc/helpers@0.5.21)':
     dependencies:
       '@rspack/binding': 2.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)
     optionalDependencies:
@@ -20708,8 +20713,8 @@ snapshots:
 
   '@rstest/adapter-rslib@0.2.2(@rslib/core@0.21.0)(@rstest/core@0.9.7)(typescript@5.9.3)':
     dependencies:
-      '@rslib/core': 0.21.0(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(typescript@5.9.3)
-      '@rstest/core': 0.9.7(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(happy-dom@20.8.8)(jsdom@27.4.0)
+      '@rslib/core': 0.21.0(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(typescript@5.9.3)
+      '@rstest/core': 0.9.7(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(happy-dom@20.8.8)(jsdom@27.4.0)
     optionalDependencies:
       typescript: 5.9.3
 
@@ -20742,7 +20747,7 @@ snapshots:
 
   '@rstest/core@0.9.1(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(happy-dom@20.8.8)(jsdom@27.4.0)':
     dependencies:
-      '@rsbuild/core': 2.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
+      '@rsbuild/core': 2.0.0-rc.1(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
       '@types/chai': 5.2.3
       tinypool: 2.1.0
     optionalDependencies:
@@ -20757,6 +20762,20 @@ snapshots:
   '@rstest/core@0.9.7(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(happy-dom@20.8.8)(jsdom@27.4.0)':
     dependencies:
       '@rsbuild/core': 2.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
+      '@types/chai': 5.2.3
+      tinypool: 2.1.0
+    optionalDependencies:
+      happy-dom: 20.8.8
+      jsdom: 27.4.0(postcss@8.5.10)
+    transitivePeerDependencies:
+      - '@emnapi/core'
+      - '@emnapi/runtime'
+      - '@module-federation/runtime-tools'
+      - core-js
+
+  '@rstest/core@0.9.7(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)(happy-dom@20.8.8)(jsdom@27.4.0)':
+    dependencies:
+      '@rsbuild/core': 2.0.0-rc.1(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
       '@types/chai': 5.2.3
       tinypool: 2.1.0
     optionalDependencies:
@@ -21062,9 +21081,9 @@ snapshots:
       magic-string: 0.25.9
       string.prototype.matchall: 4.0.11
 
-  '@sveltejs/acorn-typescript@1.0.6(acorn@8.15.0)':
+  '@sveltejs/acorn-typescript@1.0.9(acorn@8.16.0)':
     dependencies:
-      acorn: 8.15.0
+      acorn: 8.16.0
 
   '@svgr/babel-plugin-add-jsx-attribute@8.0.0(@babel/core@7.29.0)':
     dependencies:
@@ -22417,17 +22436,17 @@ snapshots:
       mime-types: 3.0.2
       negotiator: 1.0.0
 
-  acorn-import-attributes@1.9.5(acorn@8.15.0):
+  acorn-import-attributes@1.9.5(acorn@8.16.0):
     dependencies:
-      acorn: 8.15.0
+      acorn: 8.16.0
 
   acorn-import-phases@1.0.4(acorn@8.16.0):
     dependencies:
       acorn: 8.16.0
 
-  acorn-jsx@5.3.2(acorn@8.15.0):
+  acorn-jsx@5.3.2(acorn@8.16.0):
     dependencies:
-      acorn: 8.15.0
+      acorn: 8.16.0
 
   acorn-walk@8.3.4:
     dependencies:
@@ -22435,7 +22454,7 @@ snapshots:
 
   acorn-walk@8.3.5:
     dependencies:
-      acorn: 8.15.0
+      acorn: 8.16.0
 
   acorn@7.4.1: {}
 
@@ -22620,13 +22639,13 @@ snapshots:
       postcss: 8.5.6
       postcss-value-parser: 4.2.0
 
-  autoprefixer@10.4.24(postcss@8.5.8):
+  autoprefixer@10.4.24(postcss@8.5.10):
     dependencies:
       browserslist: 4.28.1
       caniuse-lite: 1.0.30001767
       fraction.js: 5.3.4
       picocolors: 1.1.1
-      postcss: 8.5.8
+      postcss: 8.5.10
       postcss-value-parser: 4.2.0
 
   available-typed-arrays@1.0.7:
@@ -23467,15 +23486,6 @@ snapshots:
       css-tree: 3.1.0
     transitivePeerDependencies:
       - postcss
-    optional: true
-
-  cssstyle@5.3.4(postcss@8.5.8):
-    dependencies:
-      '@asamuzakjp/css-color': 4.1.0
-      '@csstools/css-syntax-patches-for-csstree': 1.0.14(postcss@8.5.8)
-      css-tree: 3.1.0
-    transitivePeerDependencies:
-      - postcss
 
   csstype@2.6.21: {}
 
@@ -23642,8 +23652,6 @@ snapshots:
   detect-libc@2.1.2: {}
 
   detect-newline@3.1.0: {}
-
-  devalue@5.6.3: {}
 
   devalue@5.7.1: {}
 
@@ -24031,7 +24039,7 @@ snapshots:
   esast-util-from-js@2.0.1:
     dependencies:
       '@types/estree-jsx': 1.0.4
-      acorn: 8.15.0
+      acorn: 8.16.0
       esast-util-from-estree: 2.0.0
       vfile-message: 4.0.2
 
@@ -24242,14 +24250,14 @@ snapshots:
 
   espree@10.4.0:
     dependencies:
-      acorn: 8.15.0
-      acorn-jsx: 5.3.2(acorn@8.15.0)
+      acorn: 8.16.0
+      acorn-jsx: 5.3.2(acorn@8.16.0)
       eslint-visitor-keys: 4.2.1
 
   espree@9.6.1:
     dependencies:
-      acorn: 8.15.0
-      acorn-jsx: 5.3.2(acorn@8.15.0)
+      acorn: 8.16.0
+      acorn-jsx: 5.3.2(acorn@8.16.0)
       eslint-visitor-keys: 3.4.3
 
   esprima@4.0.1: {}
@@ -24258,13 +24266,10 @@ snapshots:
     dependencies:
       estraverse: 5.3.0
 
-  esrap@2.2.3:
+  esrap@2.2.5(@typescript-eslint/types@8.54.0):
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.5
-
-  esrap@2.2.4:
-    dependencies:
-      '@jridgewell/sourcemap-codec': 1.5.5
+    optionalDependencies:
       '@typescript-eslint/types': 8.54.0
 
   esrecurse@4.3.0:
@@ -26223,36 +26228,6 @@ snapshots:
       - postcss
       - supports-color
       - utf-8-validate
-    optional: true
-
-  jsdom@27.4.0(postcss@8.5.8):
-    dependencies:
-      '@acemir/cssom': 0.9.29
-      '@asamuzakjp/dom-selector': 6.7.6
-      '@exodus/bytes': 1.7.0
-      cssstyle: 5.3.4(postcss@8.5.8)
-      data-urls: 6.0.0
-      decimal.js: 10.6.0
-      html-encoding-sniffer: 6.0.0
-      http-proxy-agent: 7.0.2
-      https-proxy-agent: 7.0.6
-      is-potential-custom-element-name: 1.0.1
-      parse5: 8.0.0
-      saxes: 6.0.0
-      symbol-tree: 3.2.4
-      tough-cookie: 6.0.0
-      w3c-xmlserializer: 5.0.0
-      webidl-conversions: 8.0.0
-      whatwg-mimetype: 4.0.0
-      whatwg-url: 15.1.0
-      ws: 8.19.0
-      xml-name-validator: 5.0.0
-    transitivePeerDependencies:
-      - '@exodus/crypto'
-      - bufferutil
-      - postcss
-      - supports-color
-      - utf-8-validate
 
   jsesc@3.1.0: {}
 
@@ -27379,8 +27354,8 @@ snapshots:
 
   micromark-extension-mdxjs@1.0.1:
     dependencies:
-      acorn: 8.15.0
-      acorn-jsx: 5.3.2(acorn@8.15.0)
+      acorn: 8.16.0
+      acorn-jsx: 5.3.2(acorn@8.16.0)
       micromark-extension-mdx-expression: 1.0.8
       micromark-extension-mdx-jsx: 1.0.5
       micromark-extension-mdx-md: 1.0.1
@@ -27390,8 +27365,8 @@ snapshots:
 
   micromark-extension-mdxjs@3.0.0:
     dependencies:
-      acorn: 8.15.0
-      acorn-jsx: 5.3.2(acorn@8.15.0)
+      acorn: 8.16.0
+      acorn-jsx: 5.3.2(acorn@8.16.0)
       micromark-extension-mdx-expression: 3.0.0
       micromark-extension-mdx-jsx: 3.0.0
       micromark-extension-mdx-md: 2.0.0
@@ -27779,7 +27754,7 @@ snapshots:
 
   mlly@1.8.0:
     dependencies:
-      acorn: 8.15.0
+      acorn: 8.16.0
       pathe: 2.0.3
       pkg-types: 1.3.1
       ufo: 1.6.1
@@ -28386,20 +28361,20 @@ snapshots:
       tsx: 4.19.2
       yaml: 2.8.1
 
-  postcss-load-config@6.0.1(jiti@2.6.1)(postcss@8.5.8)(tsx@4.19.2)(yaml@2.8.1):
+  postcss-load-config@6.0.1(jiti@2.6.1)(postcss@8.5.10)(tsx@4.19.2)(yaml@2.8.1):
     dependencies:
       lilconfig: 3.1.3
     optionalDependencies:
       jiti: 2.6.1
-      postcss: 8.5.8
+      postcss: 8.5.10
       tsx: 4.19.2
       yaml: 2.8.1
 
-  postcss-loader@8.2.0(@rspack/core@2.0.0-rc.1)(postcss@8.5.6)(typescript@5.9.3)(webpack@5.104.1):
+  postcss-loader@8.2.0(@rspack/core@2.0.0-rc.1)(postcss@8.5.10)(typescript@5.9.3)(webpack@5.104.1):
     dependencies:
       cosmiconfig: 9.0.0(typescript@5.9.3)
       jiti: 2.6.1
-      postcss: 8.5.6
+      postcss: 8.5.10
       semver: 7.7.3
     optionalDependencies:
       '@rspack/core': 2.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(@swc/helpers@0.5.21)
@@ -28407,11 +28382,11 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  postcss-loader@8.2.0(@rspack/core@2.0.0-rc.1)(postcss@8.5.8)(typescript@5.9.3)(webpack@5.104.1):
+  postcss-loader@8.2.0(@rspack/core@2.0.0-rc.1)(postcss@8.5.6)(typescript@5.9.3)(webpack@5.104.1):
     dependencies:
       cosmiconfig: 9.0.0(typescript@5.9.3)
       jiti: 2.6.1
-      postcss: 8.5.8
+      postcss: 8.5.6
       semver: 7.7.3
     optionalDependencies:
       '@rspack/core': 2.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(@swc/helpers@0.5.21)
@@ -28480,7 +28455,6 @@ snapshots:
       nanoid: 3.3.11
       picocolors: 1.1.1
       source-map-js: 1.2.1
-    optional: true
 
   postcss@8.5.6:
     dependencies:
@@ -28921,10 +28895,10 @@ snapshots:
       estree-util-build-jsx: 3.0.1
       vfile: 6.0.1
 
-  recma-jsx@1.0.1(acorn@8.15.0):
+  recma-jsx@1.0.1(acorn@8.16.0):
     dependencies:
-      acorn: 8.15.0
-      acorn-jsx: 5.3.2(acorn@8.15.0)
+      acorn: 8.16.0
+      acorn-jsx: 5.3.2(acorn@8.16.0)
       estree-util-to-js: 2.0.0
       recma-parse: 1.0.0
       recma-stringify: 1.0.0
@@ -29276,7 +29250,7 @@ snapshots:
   rsbuild-plugin-dts@0.21.0(@rsbuild/core@2.0.0-rc.1)(typescript@5.9.3):
     dependencies:
       '@ast-grep/napi': 0.37.0
-      '@rsbuild/core': 2.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
+      '@rsbuild/core': 2.0.0-rc.1(@module-federation/runtime-tools@2.3.1)(core-js@3.48.0)
     optionalDependencies:
       typescript: 5.9.3
 
@@ -30341,105 +30315,64 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  svelte-check@4.3.6(picomatch@4.0.4)(svelte@5.53.3)(typescript@5.9.3):
+  svelte-check@4.3.6(picomatch@4.0.4)(svelte@5.53.5)(typescript@5.9.3):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
       chokidar: 4.0.3
       fdir: 6.5.0(picomatch@4.0.4)
       picocolors: 1.1.1
       sade: 1.8.1
-      svelte: 5.53.3
+      svelte: 5.53.5(@typescript-eslint/types@8.54.0)
       typescript: 5.9.3
     transitivePeerDependencies:
       - picomatch
 
   svelte-dev-helper@1.1.9: {}
 
-  svelte-hmr@0.14.12(svelte@5.53.3):
+  svelte-hmr@0.14.12(svelte@5.53.5):
     dependencies:
-      svelte: 5.53.3
+      svelte: 5.53.5(@typescript-eslint/types@8.54.0)
 
-  svelte-hmr@0.14.12(svelte@5.55.2):
-    dependencies:
-      svelte: 5.55.2
-
-  svelte-loader@3.2.4(svelte@5.53.3):
+  svelte-loader@3.2.4(svelte@5.53.5):
     dependencies:
       loader-utils: 2.0.4
-      svelte: 5.53.3
+      svelte: 5.53.5(@typescript-eslint/types@8.54.0)
       svelte-dev-helper: 1.1.9
-      svelte-hmr: 0.14.12(svelte@5.53.3)
+      svelte-hmr: 0.14.12(svelte@5.53.5)
 
-  svelte-loader@3.2.4(svelte@5.55.2):
+  svelte-preprocess@6.0.3(@babel/core@7.29.0)(less@4.6.4)(postcss-load-config@6.0.1)(postcss@8.5.10)(pug@3.0.2)(sass@1.97.3)(stylus@0.64.0)(svelte@5.53.5)(typescript@5.9.3):
     dependencies:
-      loader-utils: 2.0.4
-      svelte: 5.55.2
-      svelte-dev-helper: 1.1.9
-      svelte-hmr: 0.14.12(svelte@5.55.2)
-
-  svelte-preprocess@6.0.3(@babel/core@7.29.0)(less@4.6.4)(postcss-load-config@6.0.1)(postcss@8.5.8)(pug@3.0.2)(sass@1.97.3)(stylus@0.64.0)(svelte@5.53.3)(typescript@5.9.3):
-    dependencies:
-      svelte: 5.53.3
+      svelte: 5.53.5(@typescript-eslint/types@8.54.0)
     optionalDependencies:
       '@babel/core': 7.29.0
       less: 4.6.4
-      postcss: 8.5.8
-      postcss-load-config: 6.0.1(jiti@2.6.1)(postcss@8.5.8)(tsx@4.19.2)(yaml@2.8.1)
+      postcss: 8.5.10
+      postcss-load-config: 6.0.1(jiti@2.6.1)(postcss@8.5.10)(tsx@4.19.2)(yaml@2.8.1)
       pug: 3.0.2
       sass: 1.97.3
       stylus: 0.64.0
       typescript: 5.9.3
 
-  svelte-preprocess@6.0.3(@babel/core@7.29.0)(less@4.6.4)(postcss-load-config@6.0.1)(postcss@8.5.8)(pug@3.0.2)(sass@1.97.3)(stylus@0.64.0)(svelte@5.55.2)(typescript@5.9.3):
-    dependencies:
-      svelte: 5.55.2
-    optionalDependencies:
-      '@babel/core': 7.29.0
-      less: 4.6.4
-      postcss: 8.5.8
-      postcss-load-config: 6.0.1(jiti@2.6.1)(postcss@8.5.8)(tsx@4.19.2)(yaml@2.8.1)
-      pug: 3.0.2
-      sass: 1.97.3
-      stylus: 0.64.0
-      typescript: 5.9.3
-
-  svelte@5.53.3:
+  svelte@5.53.5(@typescript-eslint/types@8.54.0):
     dependencies:
       '@jridgewell/remapping': 2.3.5
       '@jridgewell/sourcemap-codec': 1.5.5
-      '@sveltejs/acorn-typescript': 1.0.6(acorn@8.15.0)
+      '@sveltejs/acorn-typescript': 1.0.9(acorn@8.16.0)
       '@types/estree': 1.0.8
       '@types/trusted-types': 2.0.7
-      acorn: 8.15.0
-      aria-query: 5.3.1
-      axobject-query: 4.1.0
-      clsx: 2.1.1
-      devalue: 5.6.3
-      esm-env: 1.2.2
-      esrap: 2.2.3
-      is-reference: 3.0.3
-      locate-character: 3.0.0
-      magic-string: 0.30.21
-      zimmerframe: 1.1.4
-
-  svelte@5.55.2:
-    dependencies:
-      '@jridgewell/remapping': 2.3.5
-      '@jridgewell/sourcemap-codec': 1.5.5
-      '@sveltejs/acorn-typescript': 1.0.6(acorn@8.15.0)
-      '@types/estree': 1.0.8
-      '@types/trusted-types': 2.0.7
-      acorn: 8.15.0
+      acorn: 8.16.0
       aria-query: 5.3.1
       axobject-query: 4.1.0
       clsx: 2.1.1
       devalue: 5.7.1
       esm-env: 1.2.2
-      esrap: 2.2.4
+      esrap: 2.2.5(@typescript-eslint/types@8.54.0)
       is-reference: 3.0.3
       locate-character: 3.0.0
       magic-string: 0.30.21
       zimmerframe: 1.1.4
+    transitivePeerDependencies:
+      - '@typescript-eslint/types'
 
   svg-parser@2.0.4: {}
 
@@ -30610,7 +30543,7 @@ snapshots:
   terser@5.37.0:
     dependencies:
       '@jridgewell/source-map': 0.3.5
-      acorn: 8.15.0
+      acorn: 8.16.0
       commander: 2.20.3
       source-map-support: 0.5.21
 
@@ -30962,7 +30895,7 @@ snapshots:
 
   unimport@5.6.0:
     dependencies:
-      acorn: 8.15.0
+      acorn: 8.16.0
       escape-string-regexp: 5.0.0
       estree-walker: 3.0.3
       local-pkg: 1.1.2
@@ -31127,7 +31060,7 @@ snapshots:
 
   unplugin@1.0.1:
     dependencies:
-      acorn: 8.15.0
+      acorn: 8.16.0
       chokidar: 3.6.0
       webpack-sources: 3.3.3
       webpack-virtual-modules: 0.5.0
@@ -31135,7 +31068,7 @@ snapshots:
   unplugin@2.3.11:
     dependencies:
       '@jridgewell/remapping': 2.3.5
-      acorn: 8.15.0
+      acorn: 8.16.0
       picomatch: 4.0.3
       webpack-virtual-modules: 0.6.2
 
