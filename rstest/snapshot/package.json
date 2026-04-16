@@ -4,8 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "rstest run",
-    "test:update": "rstest run --update"
+    "test": "rstest",
+    "test:update": "rstest --update"
   },
   "devDependencies": {
     "@rstest/core": "^0.9.7",

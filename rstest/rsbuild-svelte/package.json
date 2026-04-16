@@ -6,7 +6,7 @@
   "scripts": {
     "build": "rsbuild build",
     "dev": "rsbuild dev",
-    "test": "rstest run",
+    "test": "rstest",
     "test:watch": "rstest --watch"
   },
   "devDependencies": {

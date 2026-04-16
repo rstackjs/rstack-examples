@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "rslib build",
-    "test": "rstest run"
+    "test": "rstest"
   },
   "devDependencies": {
     "@rslib/core": "^0.21.0",
