@@ -13,8 +13,8 @@
     "dist"
   ],
   "scripts": {
-    "build": "rslib build",
-    "dev": "rslib build --watch"
+    "build": "rslib",
+    "dev": "rslib -w"
   },
   "devDependencies": {
     "@rsbuild/plugin-less": "^1.6.2",

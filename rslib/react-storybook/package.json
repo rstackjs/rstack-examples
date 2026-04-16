@@ -13,9 +13,9 @@
     "dist"
   ],
   "scripts": {
-    "build": "rslib build",
+    "build": "rslib",
     "build:storybook": "storybook build",
-    "dev": "rslib build --watch",
+    "dev": "rslib -w",
     "storybook": "storybook dev"
   },
   "devDependencies": {

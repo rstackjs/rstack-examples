@@ -5,7 +5,7 @@
   "scripts": {
     "build": "rsbuild build",
     "build:analysis": "RSDOCTOR=true rsbuild build",
-    "dev": "rsbuild dev"
+    "dev": "rsbuild"
   },
   "dependencies": {
     "react": "^19.2.4",

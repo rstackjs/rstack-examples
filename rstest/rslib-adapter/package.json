@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "rslib build",
+    "build": "rslib",
     "test": "rstest"
   },
   "devDependencies": {

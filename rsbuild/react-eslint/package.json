@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "rsbuild build",
-    "dev": "rsbuild dev --open",
+    "dev": "rsbuild --open",
     "lint": "eslint . --ext js,jsx,ts,tsx,mjs,cjs,mts,cts",
     "preview": "rsbuild preview"
   },
