@@ -1,5 +1,5 @@
 {
-  "name": "@rsbuild-example/react-rstest",
+  "name": "@rstest-example/rsbuild-react",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -7,7 +7,7 @@
     "build": "rsbuild build",
     "dev": "rsbuild dev --open",
     "preview": "rsbuild preview",
-    "test": "rstest run"
+    "test": "rstest"
   },
   "dependencies": {
     "react": "^19.2.4",
