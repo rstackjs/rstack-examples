@@ -75,7 +75,7 @@ importers:
     devDependencies:
       '@fastify/middie':
         specifier: ^9.1.0
-        version: 9.2.0
+        version: 9.3.2
       '@rsbuild/core':
         specifier: 2.0.0-rc.1
         version: 2.0.0-rc.1(@emnapi/core@1.9.1)(@emnapi/runtime@1.7.1)(@module-federation/runtime-tools@2.3.3)(core-js@3.48.0)
@@ -5546,8 +5546,8 @@ packages:
   '@fastify/merge-json-schemas@0.2.1':
     resolution: {integrity: sha512-OA3KGBCy6KtIvLf8DINC5880o5iBlDX4SxzLQS8HorJAbqluzLRn80UXU0bxZn7UOFhFgpRJDasfwn9nG4FG4A==}
 
-  '@fastify/middie@9.2.0':
-    resolution: {integrity: sha512-ZPH8sM83f+bBmIHNT0KixdVQ/02Ijgs3TSpDIC5I7XMQLJ4eVTGRRTigT1Bchfgtea+yZ/O2xDdGhkDBRouUuQ==}
+  '@fastify/middie@9.3.2':
+    resolution: {integrity: sha512-5C3xMHJxpfqoHd+xZSHPBI71fpzkoF6wMsYtgzXRyQUNvsIAxJm2yY4r2fUjF0h3rS9MXlo/aXLaXv3s4TL+JQ==}
 
   '@fastify/proxy-addr@5.1.0':
     resolution: {integrity: sha512-INS+6gh91cLUjB+PVHfu1UqcB76Sqtpyp7bnL+FYojhjygvOPA9ctiD/JDKsyD9Xgu4hUhCSJBPig/w7duNajw==}
@@ -14881,6 +14881,22 @@ packages:
       uglify-js:
         optional: true
 
+  terser-webpack-plugin@5.4.0:
+    resolution: {integrity: sha512-Bn5vxm48flOIfkdl5CaD2+1CiUVbonWQ3KQPyP7/EuIl9Gbzq/gQFOzaMFUEgVjB1396tcK0SG8XcNJ/2kDH8g==}
+    engines: {node: '>= 10.13.0'}
+    peerDependencies:
+      '@swc/core': '*'
+      esbuild: '*'
+      uglify-js: '*'
+      webpack: ^5.1.0
+    peerDependenciesMeta:
+      '@swc/core':
+        optional: true
+      esbuild:
+        optional: true
+      uglify-js:
+        optional: true
+
   terser@5.46.1:
     resolution: {integrity: sha512-vzCjQO/rgUuK9sf8VJZvjqiqiHFaZLnOiimmUuOKODxWL8mm/xua7viT7aqX7dgPY60otQjUotzFMmCB4VdmqQ==}
     engines: {node: '>=10'}
@@ -17278,7 +17294,7 @@ snapshots:
     dependencies:
       dequal: 2.0.3
 
-  '@fastify/middie@9.2.0':
+  '@fastify/middie@9.3.2':
     dependencies:
       '@fastify/error': 4.2.0
       fastify-plugin: 5.1.0
@@ -29108,23 +29124,30 @@ snapshots:
       type-fest: 0.16.0
       unique-string: 2.0.0
 
-  terser-webpack-plugin@5.3.16(esbuild@0.27.7)(webpack@5.104.1):
-    dependencies:
-      '@jridgewell/trace-mapping': 0.3.31
-      jest-worker: 27.5.1
-      schema-utils: 4.3.3
-      serialize-javascript: 6.0.2
-      terser: 5.46.1
-      webpack: 5.104.1(esbuild@0.27.7)
-    optionalDependencies:
-      esbuild: 0.27.7
-
   terser-webpack-plugin@5.3.16(webpack@5.104.1):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
       jest-worker: 27.5.1
       schema-utils: 4.3.3
       serialize-javascript: 6.0.2
+      terser: 5.46.1
+      webpack: 5.104.1
+
+  terser-webpack-plugin@5.4.0(esbuild@0.27.7)(webpack@5.104.1):
+    dependencies:
+      '@jridgewell/trace-mapping': 0.3.31
+      jest-worker: 27.5.1
+      schema-utils: 4.3.3
+      terser: 5.46.1
+      webpack: 5.104.1(esbuild@0.27.7)
+    optionalDependencies:
+      esbuild: 0.27.7
+
+  terser-webpack-plugin@5.4.0(webpack@5.104.1):
+    dependencies:
+      '@jridgewell/trace-mapping': 0.3.31
+      jest-worker: 27.5.1
+      schema-utils: 4.3.3
       terser: 5.46.1
       webpack: 5.104.1
 
@@ -29749,7 +29772,7 @@ snapshots:
       esbuild: 0.25.12
       fdir: 6.5.0(picomatch@4.0.4)
       picomatch: 4.0.4
-      postcss: 8.5.6
+      postcss: 8.5.10
       rollup: 4.53.3
       tinyglobby: 0.2.16
     optionalDependencies:
@@ -29952,7 +29975,7 @@ snapshots:
       neo-async: 2.6.2
       schema-utils: 4.3.3
       tapable: 2.3.2
-      terser-webpack-plugin: 5.3.16(webpack@5.104.1)
+      terser-webpack-plugin: 5.4.0(webpack@5.104.1)
       watchpack: 2.5.1
       webpack-sources: 3.3.4
     transitivePeerDependencies:
@@ -29984,7 +30007,7 @@ snapshots:
       neo-async: 2.6.2
       schema-utils: 4.3.3
       tapable: 2.3.2
-      terser-webpack-plugin: 5.3.16(esbuild@0.27.7)(webpack@5.104.1)
+      terser-webpack-plugin: 5.4.0(esbuild@0.27.7)(webpack@5.104.1)
       watchpack: 2.5.1
       webpack-sources: 3.3.4
     transitivePeerDependencies:
