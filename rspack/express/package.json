@@ -14,6 +14,6 @@
     "@rspack/cli": "2.0.0-rc.1",
     "@rspack/core": "2.0.0-rc.1",
     "@rspack/dev-server": "2.0.0-rc.2",
-    "run-script-webpack-plugin": ""
+    "run-script-webpack-plugin": "0.2.3"
   }
 }

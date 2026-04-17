@@ -1850,7 +1850,7 @@ importers:
         specifier: 2.0.0-rc.2
         version: 2.0.0-rc.2(@rspack/core@2.0.0-rc.1)
       run-script-webpack-plugin:
-        specifier: ''
+        specifier: 0.2.3
         version: 0.2.3
 
   rspack/extract-license:
