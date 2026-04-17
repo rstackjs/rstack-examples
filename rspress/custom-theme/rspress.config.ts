@@ -1,11 +1,21 @@
-import * as path from 'path';
-import { defineConfig } from 'rspress/config';
+import path from 'node:path';
+import { defineConfig } from '@rspress/core';
 
 export default defineConfig({
   root: path.join(__dirname, 'docs'),
+  title: 'My Site',
+  icon: '/rspress-icon.png',
+  logo: {
+    light: '/rspress-light-logo.png',
+    dark: '/rspress-dark-logo.png',
+  },
   themeConfig: {
-    footer: {
-      createdBy: 'Rspress',
-    } as any,
+    socialLinks: [
+      {
+        icon: 'github',
+        mode: 'link',
+        content: 'https://github.com/web-infra-dev/rspress',
+      },
+    ],
   },
 });
