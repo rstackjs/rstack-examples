@@ -9,14 +9,14 @@
   },
   "dependencies": {
     "@swc/helpers": "^0.5.21",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4",
-    "sass-loader": "^16.0.6"
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "sass-loader": "^16.0.7"
   },
   "devDependencies": {
-    "@rspack/cli": "2.0.0-rc.1",
-    "@rspack/core": "2.0.0-rc.1",
-    "@rspack/dev-server": "2.0.0-rc.2",
+    "@rspack/cli": "2.0.0-rc.3",
+    "@rspack/core": "2.0.0-rc.3",
+    "@rspack/dev-server": "2.0.0",
     "react-refresh": "^0.18.0"
   }
 }

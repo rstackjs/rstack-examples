@@ -9,14 +9,14 @@
   },
   "dependencies": {
     "@swc/helpers": "^0.5.21",
-    "preact": "10.28.3"
+    "preact": "10.29.1"
   },
   "devDependencies": {
-    "@prefresh/babel-plugin": "0.5.2",
+    "@prefresh/babel-plugin": "0.5.3",
     "@prefresh/webpack": "4.0.6",
-    "@rspack/cli": "2.0.0-rc.1",
-    "@rspack/core": "2.0.0-rc.1",
-    "@rspack/dev-server": "2.0.0-rc.2"
+    "@rspack/cli": "2.0.0-rc.3",
+    "@rspack/core": "2.0.0-rc.3",
+    "@rspack/dev-server": "2.0.0"
   },
   "resolve": {
     "alias": {

@@ -9,16 +9,16 @@
   },
   "dependencies": {
     "@swc/helpers": "^0.5.21",
-    "css-loader": "^7.1.3",
-    "less-loader": "12.3.0",
+    "css-loader": "^7.1.4",
+    "less-loader": "12.3.2",
     "normalize.css": "8.0.1",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4"
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
   },
   "devDependencies": {
-    "@rspack/cli": "2.0.0-rc.1",
-    "@rspack/core": "2.0.0-rc.1",
-    "@rspack/dev-server": "2.0.0-rc.2",
+    "@rspack/cli": "2.0.0-rc.3",
+    "@rspack/core": "2.0.0-rc.3",
+    "@rspack/dev-server": "2.0.0",
     "react-refresh": "^0.18.0"
   }
 }

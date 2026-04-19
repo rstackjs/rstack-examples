@@ -20,15 +20,15 @@
   },
   "dependencies": {
     "@swc/helpers": "^0.5.21",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4"
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
   },
   "devDependencies": {
-    "@rspack/cli": "2.0.0-rc.1",
-    "@rspack/core": "2.0.0-rc.1",
-    "@rspack/dev-server": "2.0.0-rc.2",
+    "@rspack/cli": "2.0.0-rc.3",
+    "@rspack/core": "2.0.0-rc.3",
+    "@rspack/dev-server": "2.0.0",
     "@rspack/plugin-react-refresh": "^2.0.0",
     "react-refresh": "^0.18.0",
-    "web-vitals": "^5.1.0"
+    "web-vitals": "^5.2.0"
   }
 }

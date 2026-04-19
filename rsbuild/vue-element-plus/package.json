@@ -9,14 +9,14 @@
     "preview": "rsbuild preview"
   },
   "dependencies": {
-    "element-plus": "^2.13.2",
-    "vue": "^3.4.19"
+    "element-plus": "^2.13.7",
+    "vue": "^3.5.32"
   },
   "devDependencies": {
-    "@rsbuild/core": "2.0.0-rc.1",
+    "@rsbuild/core": "2.0.0-rc.4",
     "@rsbuild/plugin-vue": "^1.2.7",
     "typescript": "^5.9.3",
     "unplugin-auto-import": "^21.0.0",
-    "unplugin-vue-components": "^31.0.0"
+    "unplugin-vue-components": "^31.1.0"
   }
 }

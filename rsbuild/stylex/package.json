@@ -9,16 +9,16 @@
     "preview": "rsbuild preview"
   },
   "dependencies": {
-    "@stylexjs/stylex": "^0.17.5",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4"
+    "@stylexjs/stylex": "^0.18.2",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
   },
   "devDependencies": {
-    "@rsbuild/core": "2.0.0-rc.1",
-    "@rsbuild/plugin-react": "^2.0.0-rc.2",
-    "@types/react": "^19.2.10",
+    "@rsbuild/core": "2.0.0-rc.4",
+    "@rsbuild/plugin-react": "^2.0.0-rc.4",
+    "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "typescript": "^5.9.3",
-    "unplugin-stylex": "^0.6.0"
+    "unplugin-stylex": "^0.6.3"
   }
 }

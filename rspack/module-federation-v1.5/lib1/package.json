@@ -10,16 +10,16 @@
   "license": "MIT",
   "dependencies": {
     "date-fns": "^4.1.0",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4"
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
   },
   "devDependencies": {
-    "@rspack/cli": "2.0.0-rc.1",
-    "@rspack/core": "2.0.0-rc.1",
-    "@rspack/dev-server": "2.0.0-rc.2",
+    "@rspack/cli": "2.0.0-rc.3",
+    "@rspack/core": "2.0.0-rc.3",
+    "@rspack/dev-server": "2.0.0",
     "@rspack/plugin-react-refresh": "^2.0.0",
-    "html-webpack-plugin": "^5.6.6",
+    "html-webpack-plugin": "^5.6.7",
     "react-refresh": "^0.18.0",
-    "serve": "14.2.5"
+    "serve": "14.2.6"
   }
 }

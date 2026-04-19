@@ -19,8 +19,8 @@
     "dev": "rslib -w"
   },
   "devDependencies": {
-    "@rslib/core": "^0.21.0",
-    "@types/node": "^24.10.9",
+    "@rslib/core": "^0.21.2",
+    "@types/node": "^24.12.2",
     "typescript": "^5.9.3"
   }
 }
