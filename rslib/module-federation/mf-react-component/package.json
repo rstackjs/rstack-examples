@@ -20,17 +20,17 @@
   },
   "devDependencies": {
     "@module-federation/enhanced": "^2.3.3",
-    "@module-federation/rsbuild-plugin": "^2.3.1",
+    "@module-federation/rsbuild-plugin": "^2.3.3",
     "@module-federation/storybook-addon": "^6.0.10",
-    "@rsbuild/plugin-react": "^2.0.0-rc.2",
-    "@rslib/core": "^0.21.0",
-    "@types/react": "^19.2.10",
+    "@rsbuild/plugin-react": "^2.0.0-rc.4",
+    "@rslib/core": "^0.21.2",
+    "@types/react": "^19.2.14",
     "http-server": "^14.1.1",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4",
-    "storybook": "^10.2.3",
-    "storybook-addon-rslib": "^3.3.2",
-    "storybook-react-rsbuild": "^3.3.2"
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "storybook": "^10.3.5",
+    "storybook-addon-rslib": "^3.3.3",
+    "storybook-react-rsbuild": "^3.3.3"
   },
   "peerDependencies": {
     "react": "*"

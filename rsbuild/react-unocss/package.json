@@ -9,17 +9,17 @@
     "preview": "rsbuild preview"
   },
   "dependencies": {
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4"
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
   },
   "devDependencies": {
-    "@rsbuild/core": "2.0.0-rc.1",
-    "@rsbuild/plugin-react": "^2.0.0-rc.2",
-    "@types/react": "^19.2.10",
+    "@rsbuild/core": "2.0.0-rc.4",
+    "@rsbuild/plugin-react": "^2.0.0-rc.4",
+    "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "@unocss/preset-attributify": "^66.6.0",
-    "@unocss/preset-uno": "^66.6.0",
-    "@unocss/webpack": "^66.6.0",
+    "@unocss/preset-attributify": "^66.6.8",
+    "@unocss/preset-uno": "^66.6.8",
+    "@unocss/webpack": "^66.6.8",
     "typescript": "^5.9.3"
   }
 }

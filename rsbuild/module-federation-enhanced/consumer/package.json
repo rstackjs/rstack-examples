@@ -8,15 +8,15 @@
     "preview": "rsbuild preview"
   },
   "dependencies": {
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4"
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
   },
   "devDependencies": {
     "@module-federation/enhanced": "^2.3.3",
-    "@module-federation/rsbuild-plugin": "^2.3.1",
-    "@rsbuild/core": "2.0.0-rc.1",
-    "@rsbuild/plugin-react": "^2.0.0-rc.2",
-    "@types/react": "^19.2.10",
+    "@module-federation/rsbuild-plugin": "^2.3.3",
+    "@rsbuild/core": "2.0.0-rc.4",
+    "@rsbuild/plugin-react": "^2.0.0-rc.4",
+    "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "typescript": "^5.9.3"
   }

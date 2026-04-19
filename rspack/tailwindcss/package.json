@@ -9,11 +9,11 @@
     "dev": "rspack dev"
   },
   "devDependencies": {
-    "@rspack/cli": "2.0.0-rc.1",
-    "@rspack/core": "2.0.0-rc.1",
-    "@rspack/dev-server": "2.0.0-rc.2",
-    "@tailwindcss/webpack": "^4.2.1",
+    "@rspack/cli": "2.0.0-rc.3",
+    "@rspack/core": "2.0.0-rc.3",
+    "@rspack/dev-server": "2.0.0",
+    "@tailwindcss/webpack": "^4.2.2",
     "css-loader": "^7.1.4",
-    "tailwindcss": "^4.2.1"
+    "tailwindcss": "^4.2.2"
   }
 }

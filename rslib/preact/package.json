@@ -18,8 +18,8 @@
   },
   "devDependencies": {
     "@rsbuild/plugin-preact": "^1.7.2",
-    "@rslib/core": "^0.21.0",
-    "preact": "^10.28.3",
+    "@rslib/core": "^0.21.2",
+    "preact": "^10.29.1",
     "typescript": "^5.9.3"
   },
   "peerDependencies": {

@@ -6,9 +6,9 @@
     "dev": "rspack dev"
   },
   "devDependencies": {
-    "@rspack/cli": "2.0.0-rc.1",
-    "@rspack/core": "2.0.0-rc.1",
-    "@rspack/dev-server": "2.0.0-rc.2",
-    "webpack-bundle-analyzer": "^5.2.0"
+    "@rspack/cli": "2.0.0-rc.3",
+    "@rspack/core": "2.0.0-rc.3",
+    "@rspack/dev-server": "2.0.0",
+    "webpack-bundle-analyzer": "^5.3.0"
   }
 }

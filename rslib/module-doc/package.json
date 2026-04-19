@@ -20,14 +20,14 @@
     "doc:preview": "rspress preview"
   },
   "devDependencies": {
-    "@rsbuild/plugin-react": "^2.0.0-rc.2",
-    "@rslib/core": "^0.21.0",
-    "@rspress/core": "^2.0.8",
-    "@rspress/plugin-api-docgen": "^2.0.8",
-    "@rspress/plugin-preview": "^2.0.8",
-    "@types/node": "^24.10.9",
-    "@types/react": "^19.2.10",
-    "react": "^19.2.4",
+    "@rsbuild/plugin-react": "^2.0.0-rc.4",
+    "@rslib/core": "^0.21.2",
+    "@rspress/core": "^2.0.9",
+    "@rspress/plugin-api-docgen": "^2.0.9",
+    "@rspress/plugin-preview": "^2.0.9",
+    "@types/node": "^24.12.2",
+    "@types/react": "^19.2.14",
+    "react": "^19.2.5",
     "typescript": "^5.9.3"
   },
   "peerDependencies": {
