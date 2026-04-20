@@ -1,5 +1,5 @@
 {
-  "name": "rslib-react-tailwindcss",
+  "name": "@rslib-example/react-tailwindcss",
   "version": "0.0.0",
   "type": "module",
   "exports": {
@@ -13,16 +13,16 @@
     "dist"
   ],
   "scripts": {
-    "build": "rslib build",
-    "dev": "rslib build --watch"
+    "build": "rslib",
+    "dev": "rslib -w"
   },
   "devDependencies": {
-    "@rsbuild/plugin-react": "^1.4.2",
-    "@rslib/core": "^0.17.1",
-    "@tailwindcss/postcss": "^4.1.13",
-    "@types/react": "^19.2.2",
-    "react": "^19.2.0",
-    "tailwindcss": "^4.1.17",
+    "@rsbuild/plugin-react": "^2.0.0-rc.4",
+    "@rslib/core": "^0.21.2",
+    "@tailwindcss/postcss": "^4.2.2",
+    "@types/react": "^19.2.14",
+    "react": "^19.2.5",
+    "tailwindcss": "^4.2.2",
     "typescript": "^5.9.3"
   },
   "peerDependencies": {

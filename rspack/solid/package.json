@@ -1,22 +1,22 @@
 {
-  "name": "example-solid",
+  "name": "@rspack-example/solid",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
-  "main": "index.js",
   "scripts": {
     "build": "rspack build",
-    "dev": "rspack serve"
+    "dev": "rspack dev"
   },
   "dependencies": {
-    "@babel/core": "7.28.5",
-    "@rspack/cli": "1.6.1",
-    "babel-loader": "10.0.0",
-    "babel-preset-solid": "1.9.10",
-    "solid-js": "1.9.10",
-    "solid-refresh": "0.7.5"
+    "@babel/core": "7.29.0",
+    "babel-loader": "10.1.1",
+    "babel-preset-solid": "1.9.12",
+    "solid-js": "1.9.12",
+    "solid-refresh": "0.7.8"
   },
   "devDependencies": {
-    "@rspack/core": "1.6.1"
+    "@rspack/cli": "2.0.0-rc.3",
+    "@rspack/core": "2.0.0-rc.3",
+    "@rspack/dev-server": "2.0.0"
   }
 }

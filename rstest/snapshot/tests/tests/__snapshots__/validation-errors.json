@@ -1,0 +1,7 @@
+{
+  "valid": false,
+  "errors": [
+    "database.port must be between 1 and 65535",
+    "database.pool.min must be <= database.pool.max"
+  ]
+}

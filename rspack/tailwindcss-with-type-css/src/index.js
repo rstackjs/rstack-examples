@@ -1,0 +1,9 @@
+import './main.css';
+import { answer } from './answer.js';
+
+function render() {
+  document.getElementById('root').innerHTML =
+    `<h1 class="text-3xl font-bold underline">the answer to the universe is ${answer}</h1>`;
+}
+
+render();

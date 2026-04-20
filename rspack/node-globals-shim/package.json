@@ -1,20 +1,15 @@
 {
-  "name": "example-basic",
+  "name": "@rspack-example/basic",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
-  "sideEffects": [
-    "**/*.css",
-    "**/*.less",
-    "**/*.scss"
-  ],
-  "main": "index.js",
   "scripts": {
     "build": "rspack build",
-    "dev": "rspack serve"
+    "dev": "rspack dev"
   },
   "devDependencies": {
-    "@rspack/cli": "1.6.1",
-    "@rspack/core": "1.6.1"
+    "@rspack/cli": "2.0.0-rc.3",
+    "@rspack/core": "2.0.0-rc.3",
+    "@rspack/dev-server": "2.0.0"
   }
 }

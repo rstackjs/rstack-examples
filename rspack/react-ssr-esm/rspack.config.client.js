@@ -1,39 +1,35 @@
-import path from "path";
-import { RspackManifestPlugin } from "rspack-manifest-plugin";
-import { fileURLToPath } from "url";
+import path from 'node:path';
+import { defineConfig } from '@rspack/cli';
+import { RspackManifestPlugin } from 'rspack-manifest-plugin';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
-export default {
-  name: "client",
+export default defineConfig({
+  name: 'client',
   entry: {
-    client: path.resolve(__dirname, "client/client.tsx"),
+    client: path.resolve(import.meta.dirname, 'client/client.tsx'),
   },
-  mode: "production",
+  mode: 'production',
   output: {
     clean: true,
-    path: path.resolve(__dirname + "/dist/static"),
-    filename: "[name].[contenthash].js",
-    publicPath: "",
+    module: true,
+    path: path.resolve(import.meta.dirname, 'dist/static'),
+    filename: '[name].[contenthash].js',
+    publicPath: '',
   },
   resolve: {
-    extensions: [".ts", ".tsx", ".js"],
+    extensions: ['.ts', '.tsx', '.js'],
   },
   module: {
     rules: [
       {
-        test: /\.tsx?$/,
-        loader: "builtin:swc-loader",
+        test: /\.(?:js|mjs|jsx|ts|tsx)$/,
+        exclude: /node_modules/,
+        loader: 'builtin:swc-loader',
+        options: {
+          detectSyntax: 'auto',
+        },
       },
     ],
   },
-  target: "web",
+  target: 'web',
   plugins: [new RspackManifestPlugin()],
-  output: {
-    module: true,
-  },
-  experiments: {
-    outputModule: true,
-  },
-};
+});

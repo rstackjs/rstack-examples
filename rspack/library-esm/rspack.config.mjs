@@ -1,16 +1,17 @@
-import { defineConfig } from "@rspack/cli";
+// @ts-check
+import { defineConfig } from '@rspack/cli';
 
 export default defineConfig({
-  mode: "production",
+  mode: 'production',
   entry: {
-    index: "./src/index.js",
+    index: './src/index.js',
   },
-  externalsType: "module-import",
+  externalsType: 'module-import',
   output: {
     module: true,
-    chunkFormat: "module",
+    chunkFormat: 'module',
     library: {
-      type: "modern-module",
+      type: 'modern-module',
     },
     chunkLoading: 'import',
     workerChunkLoading: 'import',
@@ -26,8 +27,5 @@ export default defineConfig({
     concatenateModules: true,
     avoidEntryIife: true,
     minimize: false, // no need to minify for library
-  },
-  experiments: {
-    outputModule: true
   },
 });

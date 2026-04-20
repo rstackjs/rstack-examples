@@ -1,19 +1,19 @@
 {
-  "name": "rsbuild-module-federation-host",
+  "name": "@rsbuild-example/module-federation-host",
   "private": true,
   "type": "module",
   "scripts": {
     "build": "rsbuild build",
-    "dev": "rsbuild dev --open",
+    "dev": "rsbuild --open",
     "preview": "rsbuild preview"
   },
   "dependencies": {
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
   },
   "devDependencies": {
-    "@rsbuild/core": "^1.6.3",
-    "@rsbuild/plugin-react": "^1.4.2",
+    "@rsbuild/core": "2.0.0-rc.4",
+    "@rsbuild/plugin-react": "^2.0.0-rc.4",
     "typescript": "^5.9.3"
   }
 }

@@ -1,11 +1,11 @@
 {
-  "name": "rsbuild-shadcn-ui",
+  "name": "@rsbuild-example/shadcn-ui",
   "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
     "build": "rsbuild build",
-    "dev": "rsbuild dev --open",
+    "dev": "rsbuild --open",
     "preview": "rsbuild preview"
   },
   "dependencies": {
@@ -13,19 +13,19 @@
     "@radix-ui/react-slot": "^1.2.4",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "lucide-react": "^0.553.0",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
-    "tailwind-merge": "^3.4.0",
+    "lucide-react": "^0.577.0",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "tailwind-merge": "^3.5.0",
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@rsbuild/core": "^1.6.3",
-    "@rsbuild/plugin-react": "^1.4.2",
-    "@types/node": "^24.10.0",
-    "@types/react": "^19.2.2",
-    "@types/react-dom": "^19.2.2",
-    "tailwindcss": "^3.4.18",
+    "@rsbuild/core": "2.0.0-rc.4",
+    "@rsbuild/plugin-react": "^2.0.0-rc.4",
+    "@types/node": "^24.12.2",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "tailwindcss": "^3.4.19",
     "typescript": "^5.9.3"
   }
 }

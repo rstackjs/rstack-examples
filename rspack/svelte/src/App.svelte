@@ -1,32 +1,21 @@
-<script lang="ts">
-	import Nested from './Nested.svelte';
-	export let name: string;
-</script>
-
 <main>
-	<h1>Hello {name}!</h1>
-	<Nested/>
-	<p>Visit <a href="https://svelte.dev/tutorial">Svelte Tutorial</a> to learn how to build Svelte apps.</p>
+  <div class="content">
+    <h1>Rspack with Svelte</h1>
+  </div>
 </main>
 
 <style>
-	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
-	}
+.content {
+  display: flex;
+  min-height: 100vh;
+  line-height: 1.1;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
 
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
-	}
+.content h1 {
+  font-size: 3.6rem;
+  font-weight: 700;
+}
 </style>

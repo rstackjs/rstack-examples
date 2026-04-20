@@ -4,4 +4,7 @@ packages:
   - "rslib/**"
   - "rspress/**"
   - "rsdoctor/**"
+  - "rstest/**"
   - "!**/dist"
+
+dedupePeers: true

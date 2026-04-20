@@ -1,25 +1,25 @@
 {
-  "name": "example-module-federation-v1-app",
+  "name": "@rspack-example/module-federation-v1-app",
   "version": "1.0.0",
-  "main": "index.js",
   "private": true,
   "scripts": {
-    "dev": "rspack serve",
+    "dev": "rspack dev",
     "build": "cross-env NODE_ENV=production rspack build",
     "start": "serve ./dist -p 8080"
   },
   "license": "MIT",
   "dependencies": {
     "date-fns": "^4.1.0",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
   },
   "devDependencies": {
-    "@rspack/cli": "1.6.1",
-    "@rspack/core": "1.6.1",
-    "@rspack/plugin-react-refresh": "^1.5.2",
-    "html-webpack-plugin": "^5.6.4",
+    "@rspack/cli": "2.0.0-rc.3",
+    "@rspack/core": "2.0.0-rc.3",
+    "@rspack/dev-server": "2.0.0",
+    "@rspack/plugin-react-refresh": "^2.0.0",
+    "html-webpack-plugin": "^5.6.7",
     "react-refresh": "^0.18.0",
-    "serve": "14.2.5"
+    "serve": "14.2.6"
   }
 }

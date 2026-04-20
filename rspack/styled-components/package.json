@@ -1,28 +1,23 @@
 {
-  "name": "example-styled-components",
+  "name": "@rspack-example/styled-components",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
-  "sideEffects": [
-    "**/*.css",
-    "**/*.less",
-    "**/*.scss"
-  ],
-  "main": "index.js",
   "scripts": {
     "build": "rspack build",
-    "dev": "rspack serve"
+    "dev": "rspack dev"
   },
   "dependencies": {
-    "@swc/helpers": "^0.5.17",
-    "@types/styled-components": "5.1.35",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
-    "styled-components": "6.1.19"
+    "@swc/helpers": "^0.5.21",
+    "@types/styled-components": "5.1.36",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "styled-components": "6.4.0"
   },
   "devDependencies": {
-    "@rspack/cli": "1.6.1",
-    "@rspack/core": "1.6.1",
+    "@rspack/cli": "2.0.0-rc.3",
+    "@rspack/core": "2.0.0-rc.3",
+    "@rspack/dev-server": "2.0.0",
     "react-refresh": "^0.18.0"
   }
 }

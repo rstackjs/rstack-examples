@@ -1,14 +1,15 @@
 {
-  "name": "example-license-webpack-plugin_4",
+  "name": "@rspack-example/license-webpack-plugin_4",
   "private": true,
   "scripts": {
     "build": "rspack build"
   },
   "devDependencies": {
-    "@rspack/cli": "1.6.1",
-    "@rspack/core": "1.6.1",
+    "@rspack/cli": "2.0.0-rc.3",
+    "@rspack/core": "2.0.0-rc.3",
+    "@rspack/dev-server": "2.0.0",
     "license-webpack-plugin": "^4.0.2",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
   }
 }

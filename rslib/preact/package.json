@@ -1,5 +1,5 @@
 {
-  "name": "rslib-preact",
+  "name": "@rslib-example/preact",
   "version": "0.0.0",
   "type": "module",
   "exports": {
@@ -13,13 +13,13 @@
     "dist"
   ],
   "scripts": {
-    "build": "rslib build",
-    "dev": "rslib build --watch"
+    "build": "rslib",
+    "dev": "rslib -w"
   },
   "devDependencies": {
-    "@rsbuild/plugin-preact": "^1.6.0",
-    "@rslib/core": "^0.17.1",
-    "preact": "^10.27.2",
+    "@rsbuild/plugin-preact": "^1.7.2",
+    "@rslib/core": "^0.21.2",
+    "preact": "^10.29.1",
     "typescript": "^5.9.3"
   },
   "peerDependencies": {

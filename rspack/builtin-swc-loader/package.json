@@ -1,34 +1,34 @@
 {
-  "name": "example-builtin-swc-loader",
+  "name": "@rspack-example/builtin-swc-loader",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
-  "main": "index.js",
   "scripts": {
     "build": "rspack build",
-    "dev": "rspack serve"
+    "dev": "rspack dev"
   },
   "dependencies": {
     "lib3": "workspace:*",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
     "react-refresh": "0.18.0",
-    "vue": "3.5.8"
+    "vue": "3.5.32"
   },
   "devDependencies": {
-    "@lingui/swc-plugin": "^5.6.1",
-    "@rspack/cli": "1.6.1",
-    "@rspack/core": "1.6.1",
-    "@swc/helpers": "^0.5.17",
-    "@swc/plugin-emotion": "^12.0.0",
-    "@swc/plugin-loadable-components": "^9.0.0",
-    "@swc/plugin-prefresh": "^10.0.0",
-    "@swc/plugin-relay": "^10.0.0",
-    "@swc/plugin-remove-console": "^10.0.0",
-    "@swc/plugin-styled-components": "^10.0.0",
-    "@swc/plugin-styled-jsx": "^11.0.0",
-    "@swc/plugin-transform-imports": "^10.0.0",
-    "swc-plugin-css-modules": "^6.0.0",
+    "@lingui/swc-plugin": "^5.11.0",
+    "@rspack/cli": "2.0.0-rc.3",
+    "@rspack/core": "2.0.0-rc.3",
+    "@rspack/dev-server": "2.0.0",
+    "@swc/helpers": "^0.5.21",
+    "@swc/plugin-emotion": "^14.8.0",
+    "@swc/plugin-loadable-components": "^11.8.0",
+    "@swc/plugin-prefresh": "^12.8.0",
+    "@swc/plugin-relay": "^12.8.0",
+    "@swc/plugin-remove-console": "^12.8.0",
+    "@swc/plugin-styled-components": "^12.8.0",
+    "@swc/plugin-styled-jsx": "^13.8.0",
+    "@swc/plugin-transform-imports": "^12.8.0",
+    "swc-plugin-css-modules": "^8.0.0",
     "swc-plugin-vue-jsx": "^0.4.0"
   }
 }

@@ -1,0 +1,18 @@
+app:
+  name: MyApp
+  version: 1.0.0
+  debug: false
+database:
+  host: localhost
+  port: 5432
+  name: myapp_db
+  pool:
+    min: 2
+    max: 10
+features:
+  - auth
+  - api
+  - websocket
+logging:
+  level: info
+  format: json

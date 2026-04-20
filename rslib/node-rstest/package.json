@@ -1,5 +1,5 @@
 {
-  "name": "rslib-node-rstest",
+  "name": "@rslib-example/node-rstest",
   "version": "0.0.0",
   "type": "module",
   "exports": {
@@ -15,14 +15,15 @@
     "dist"
   ],
   "scripts": {
-    "build": "rslib build",
-    "dev": "rslib build --watch",
+    "build": "rslib",
+    "dev": "rslib -w",
     "test": "rstest"
   },
   "devDependencies": {
-    "@rslib/core": "^0.17.1",
-    "@rstest/core": "^0.6.3",
-    "@types/node": "^24.10.0",
+    "@rslib/core": "^0.21.2",
+    "@rstest/adapter-rslib": "^0.2.2",
+    "@rstest/core": "^0.9.8",
+    "@types/node": "^24.12.2",
     "typescript": "^5.9.3"
   }
 }

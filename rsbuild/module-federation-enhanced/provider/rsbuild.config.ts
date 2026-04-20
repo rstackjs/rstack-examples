@@ -1,6 +1,6 @@
+import { pluginModuleFederation } from '@module-federation/rsbuild-plugin';
 import { defineConfig } from '@rsbuild/core';
 import { pluginReact } from '@rsbuild/plugin-react';
-import { pluginModuleFederation } from '@module-federation/rsbuild-plugin';
 
 export default defineConfig({
   plugins: [
@@ -15,5 +15,9 @@ export default defineConfig({
   ],
   server: {
     port: 3000,
+    cors: { origin: '*' },
+  },
+  output: {
+    assetPrefix: 'http://localhost:3000',
   },
 });

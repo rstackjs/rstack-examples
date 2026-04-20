@@ -44,7 +44,7 @@ function App() {
           {' | '}
           <a
             className="color-#61dafb"
-            href="https://rsbuild.dev"
+            href="https://rsbuild.rs"
             target="_blank"
             rel="noopener noreferrer"
           >

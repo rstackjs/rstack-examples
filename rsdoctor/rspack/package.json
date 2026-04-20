@@ -1,26 +1,27 @@
 {
-  "name": "rsdoctor-rspack",
+  "name": "@rsdoctor-example/rspack",
   "version": "0.1.1",
   "private": true,
   "scripts": {
-    "dev": "NODE_ENV=development rspack serve",
     "build": "NODE_ENV=production rspack build",
-    "build:analysis": "RSDOCTOR=true NODE_ENV=production rspack build"
+    "build:analysis": "RSDOCTOR=true NODE_ENV=production rspack build",
+    "dev": "NODE_ENV=development rspack serve"
   },
   "dependencies": {
-    "@swc/helpers": "^0.5.17",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
+    "@swc/helpers": "^0.5.21",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
     "semver6": "npm:semver@6.3.1",
-    "semver7": "npm:semver@7.7.3"
+    "semver7": "npm:semver@7.7.4"
   },
   "devDependencies": {
-    "@rsdoctor/rspack-plugin": "^1.3.8",
-    "@rspack/cli": "1.6.1",
-    "@rspack/core": "1.6.1",
-    "@rspack/plugin-react-refresh": "^1.5.2",
-    "@types/react": "^19.2.2",
-    "@types/react-dom": "^19.2.2",
+    "@rsdoctor/rspack-plugin": "^1.5.9",
+    "@rspack/cli": "2.0.0-rc.3",
+    "@rspack/core": "2.0.0-rc.3",
+    "@rspack/dev-server": "2.0.0",
+    "@rspack/plugin-react-refresh": "^2.0.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
     "react-refresh": "^0.18.0"
   }
 }

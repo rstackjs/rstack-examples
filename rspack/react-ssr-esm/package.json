@@ -1,29 +1,30 @@
 {
-  "name": "example-react-ssr-esm",
+  "name": "@rspack-example/react-ssr-esm",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "build:server": "rspack --config rspack.config.server.js",
     "build:client": "rspack --config rspack.config.client.js",
+    "build:server": "rspack --config rspack.config.server.js",
     "start": "node ./dist/server.js",
     "start:dev": "node dev.js"
   },
-  "devDependencies": {
-    "@rspack/cli": "1.6.1",
-    "@rspack/core": "1.6.1",
-    "@types/cross-spawn": "^6.0.6",
-    "@types/express": "^5.0.5",
-    "@types/node": "^24.10.0",
-    "@types/react": "^19.2.2",
-    "@types/react-dom": "^19.2.2",
-    "cross-spawn": "^7.0.6",
-    "rspack-manifest-plugin": "^5.1.0",
-    "typescript": "^5.9.3"
-  },
   "dependencies": {
-    "ejs": "^3.1.10",
-    "express": "^5.1.0",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "ejs": "^4.0.1",
+    "express": "^5.2.1",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  },
+  "devDependencies": {
+    "@rspack/cli": "2.0.0-rc.3",
+    "@rspack/core": "2.0.0-rc.3",
+    "@rspack/dev-server": "2.0.0",
+    "@types/cross-spawn": "^6.0.6",
+    "@types/express": "^5.0.6",
+    "@types/node": "^24.12.2",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "cross-spawn": "^7.0.6",
+    "rspack-manifest-plugin": "^5.2.1",
+    "typescript": "^5.9.3"
   }
 }

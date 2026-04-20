@@ -1,0 +1,17 @@
+{
+  "name": "@rstest-example/coverage",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "rstest run",
+    "test:coverage": "rstest run --coverage",
+    "test:coverage:html": "rstest run --coverage --coverage.reporter=html",
+    "test:coverage:lcov": "rstest run --coverage --coverage.reporter=lcov"
+  },
+  "devDependencies": {
+    "@rstest/core": "^0.9.8",
+    "@rstest/coverage-istanbul": "^0.3.2",
+    "typescript": "^5.9.3"
+  }
+}

@@ -5,12 +5,10 @@ const compiler = rspack({
   entry: './src/index.js',
   context: __dirname,
   plugins: [new rspack.HtmlRspackPlugin()],
-  experiments: {
-    lazyCompilation: {
-      backend: {
-        server() {
-          return devServer.server;
-        },
+  lazyCompilation: {
+    backend: {
+      server() {
+        return devServer.server;
       },
     },
   },

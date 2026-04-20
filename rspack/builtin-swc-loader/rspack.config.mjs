@@ -1,72 +1,65 @@
 // @ts-check
-import { defineConfig } from "@rspack/cli";
-import { rspack } from "@rspack/core";
-import path from "path";
-import { fileURLToPath } from "node:url";
-import { createRequire } from "node:module";
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { defineConfig } from '@rspack/cli';
+import { rspack } from '@rspack/core';
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const require = createRequire(import.meta.url);
-const isProduction = process.env.NODE_ENV === "production";
+const isProduction = process.env.NODE_ENV === 'production';
 
 export default defineConfig({
   entry: {
-    main: "./src/index.jsx",
-  },
-  experiments: {
-    css: true,
+    main: './src/index.jsx',
   },
   resolve: {
-    extensions: ["...", ".jsx"],
+    extensions: ['...', '.jsx'],
     alias: {
-      "@swc/helpers": path.dirname(
-        require.resolve("@swc/helpers/package.json")
-      ),
+      '@swc/helpers': path.dirname(fileURLToPath(import.meta.resolve('@swc/helpers/package.json'))),
     },
   },
   module: {
     rules: [
       {
-        test: /\.(jsx|js)$/,
+        test: /\.css$/,
+        type: 'css',
+      },
+      {
+        test: /\.(?:js|mjs|jsx|ts|tsx)$/,
         use: {
-          loader: "builtin:swc-loader",
+          loader: 'builtin:swc-loader',
           /**
            * @type {import('@rspack/core').SwcLoaderOptions}
            */
           options: {
+            detectSyntax: 'auto',
             jsc: {
-              parser: {
-                syntax: "ecmascript",
-                jsx: true,
-              },
               transform: {
                 react: {
-                  runtime: "automatic",
+                  runtime: 'automatic',
                   development: !isProduction,
                 },
               },
               experimental: {
                 plugins: [
                   [
-                    "@swc/plugin-remove-console", // need to use specific version to be compatible with rspack's internal swc version
+                    '@swc/plugin-remove-console', // need to use specific version to be compatible with rspack's internal swc version
                     {
-                      exclude: ["error"],
+                      exclude: ['error'],
                     },
                   ],
-                  ["@swc/plugin-prefresh", {}],
-                  ["@swc/plugin-emotion", {}],
-                  ["@swc/plugin-loadable-components", {}],
+                  ['@swc/plugin-prefresh', {}],
+                  ['@swc/plugin-emotion', {}],
+                  ['@swc/plugin-loadable-components', {}],
                   [
-                    "@swc/plugin-relay",
+                    '@swc/plugin-relay',
                     {
-                      rootDir: __dirname,
-                      artifactDirectory: "src/__generated__",
-                      language: "typescript",
+                      rootDir: import.meta.dirname,
+                      artifactDirectory: 'src/__generated__',
+                      language: 'typescript',
                     },
                   ],
-                  ["@swc/plugin-styled-components", {}],
-                  ["@swc/plugin-styled-jsx", {}],
-                  ["@swc/plugin-transform-imports", {}],
+                  ['@swc/plugin-styled-components', {}],
+                  ['@swc/plugin-styled-jsx', {}],
+                  ['@swc/plugin-transform-imports', {}],
                   // TODO: these plugins are not yet updated to `swc_core` v9
                   // ['@lingui/swc-plugin', {}],
                   // ['swc-plugin-css-modules', {}],
@@ -76,17 +69,17 @@ export default defineConfig({
             },
           },
         },
-        type: "javascript/auto",
+        type: 'javascript/auto',
       },
       {
         test: /\.(png|svg|jpg)$/,
-        type: "asset/resource",
+        type: 'asset/resource',
       },
     ],
   },
   plugins: [
     new rspack.HtmlRspackPlugin({
-      template: "./index.html",
+      template: './index.html',
     }),
   ],
 });

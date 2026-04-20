@@ -10,18 +10,14 @@ export default defineConfig({
       },
     }),
   ],
-  performance: {
-    chunkSplit: {
-      override: {
-        cacheGroups: {
-          vanillaCss: {
-            minSize: 0,
-            chunks: 'all',
-            test: /@vanilla-extract\/webpack-plugin/,
-            priority: 1000,
-            name: process.env.NODE_ENV === 'development' && 'vanilla-extract',
-          },
-        },
+  splitChunks: {
+    cacheGroups: {
+      vanillaCss: {
+        minSize: 0,
+        chunks: 'all',
+        test: /@vanilla-extract\/webpack-plugin/,
+        priority: 1000,
+        name: process.env.NODE_ENV === 'development' && 'vanilla-extract',
       },
     },
   },

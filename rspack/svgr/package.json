@@ -1,21 +1,21 @@
 {
-  "name": "example-svgr",
+  "name": "@rspack-example/svgr",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
-  "main": "index.js",
   "scripts": {
     "build": "rspack build",
-    "dev": "rspack serve"
+    "dev": "rspack dev"
   },
   "dependencies": {
-    "@swc/helpers": "^0.5.17",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "@swc/helpers": "^0.5.21",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
   },
   "devDependencies": {
-    "@rspack/cli": "1.6.1",
-    "@rspack/core": "1.6.1",
+    "@rspack/cli": "2.0.0-rc.3",
+    "@rspack/core": "2.0.0-rc.3",
+    "@rspack/dev-server": "2.0.0",
     "@svgr/webpack": "8.1.0",
     "url-loader": "4.1.1"
   }

@@ -1,0 +1,21 @@
+{
+  "name": "@rspack-example/tailwindcss-postcss",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "rspack build",
+    "dev": "rspack dev"
+  },
+  "devDependencies": {
+    "@rspack/cli": "2.0.0-rc.3",
+    "@rspack/core": "2.0.0-rc.3",
+    "@rspack/dev-server": "2.0.0",
+    "@tailwindcss/postcss": "^4.2.2",
+    "autoprefixer": "10.5.0",
+    "postcss": "8.5.10",
+    "postcss-loader": "8.2.1",
+    "tailwindcss": "^4.2.2"
+  }
+}

@@ -1,16 +1,16 @@
 {
-  "name": "rsbuild-umd",
+  "name": "@rsbuild-example/umd",
   "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
     "build": "rsbuild build",
-    "dev": "rsbuild dev --open",
+    "dev": "rsbuild --open",
     "preview": "rsbuild preview"
   },
   "devDependencies": {
-    "@rsbuild/core": "^1.6.3",
-    "@rsbuild/plugin-umd": "^1.0.5",
+    "@rsbuild/core": "2.0.0-rc.4",
+    "@rsbuild/plugin-umd": "^1.0.6",
     "typescript": "^5.9.3"
   }
 }

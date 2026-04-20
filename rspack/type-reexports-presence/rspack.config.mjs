@@ -1,48 +1,40 @@
 // @ts-check
-
+import { defineConfig } from '@rspack/cli';
 /** @type {import("@rspack/core").Configuration} */
-export default {
+
+export default defineConfig({
   entry: {
-    main: "./src/index.ts",
+    main: './src/index.ts',
   },
-  experiments: {
-    typeReexportsPresence: true,
-  },
-  mode: "production",
+  mode: 'production',
   optimization: {
     // disable minimize so you can understand the output
     minimize: false,
   },
   resolve: {
-    extensions: [".ts", "..."],
+    extensions: ['.ts', '...'],
   },
   module: {
     parser: {
       javascript: {
-        typeReexportsPresence: "tolerant",
-      }
+        typeReexportsPresence: 'tolerant',
+      },
     },
     rules: [
       {
         test: /\.ts$/,
         use: {
-          loader: "builtin:swc-loader",
+          loader: 'builtin:swc-loader',
           /** @type {import("@rspack/core").SwcLoaderOptions} */
           options: {
-            jsc: {
-              parser: {
-                syntax: "typescript",
-              }
+            detectSyntax: 'auto',
+            collectTypeScriptInfo: {
+              typeExports: true,
             },
-            rspackExperiments: {
-              collectTypeScriptInfo: {
-                typeExports: true,
-              }
-            }
           },
         },
-        type: "javascript/auto",
+        type: 'javascript/auto',
       },
     ],
   },
-};
+});

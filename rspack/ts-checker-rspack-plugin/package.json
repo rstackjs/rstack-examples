@@ -1,14 +1,15 @@
 {
-  "name": "example-ts-checker-rspack-plugin",
+  "name": "@rspack-example/ts-checker-rspack-plugin",
   "private": true,
   "scripts": {
-    "dev": "rspack serve",
-    "build": "rspack build || echo 'make-ci-happy'"
+    "build": "rspack build || echo 'make-ci-happy'",
+    "dev": "rspack dev"
   },
   "devDependencies": {
-    "@rspack/cli": "1.6.1",
-    "@rspack/core": "1.6.1",
-    "ts-checker-rspack-plugin": "^1.2.0",
+    "@rspack/cli": "2.0.0-rc.3",
+    "@rspack/core": "2.0.0-rc.3",
+    "@rspack/dev-server": "2.0.0",
+    "ts-checker-rspack-plugin": "^1.3.0",
     "typescript": "^5.9.3"
   }
 }

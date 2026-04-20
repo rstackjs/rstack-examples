@@ -1,15 +1,14 @@
 {
-  "name": "example-javascript-api",
+  "name": "@rspack-example/javascript-api",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
-  "main": "index.js",
   "scripts": {
     "build": "tsc"
   },
   "devDependencies": {
-    "@rspack/core": "1.6.1",
-    "@types/node": "^24.10.0",
+    "@rspack/core": "2.0.0-rc.3",
+    "@types/node": "^24.12.2",
     "typescript": "^5.9.3"
   }
 }

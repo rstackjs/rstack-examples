@@ -1,24 +1,24 @@
 {
-  "name": "rsbuild-react-compiler-babel",
+  "name": "@rsbuild-example/react-compiler-babel",
   "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
     "build": "rsbuild build",
-    "dev": "rsbuild dev --open",
+    "dev": "rsbuild --open",
     "preview": "rsbuild preview"
   },
   "dependencies": {
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
   },
   "devDependencies": {
-    "@rsbuild/core": "^1.6.3",
-    "@rsbuild/plugin-babel": "^1.0.6",
-    "@rsbuild/plugin-react": "^1.4.2",
-    "@types/react": "^19.2.2",
-    "@types/react-dom": "^19.2.2",
-    "babel-plugin-react-compiler": "0.0.0-experimental-cd3852a-20241229",
+    "@rsbuild/core": "2.0.0-rc.4",
+    "@rsbuild/plugin-babel": "^1.1.2",
+    "@rsbuild/plugin-react": "^2.0.0-rc.4",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "babel-plugin-react-compiler": "^1.0.0",
     "typescript": "^5.9.3"
   }
 }

@@ -1,40 +1,33 @@
 // @ts-check
-import path from "path";
-import { rspack } from "@rspack/core";
-import { defineConfig } from "@rspack/cli";
-import { fileURLToPath } from "node:url";
-
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
+import path from 'node:path';
+import { defineConfig } from '@rspack/cli';
+import { rspack } from '@rspack/core';
 
 export default defineConfig({
-  entry: "./src/index.ts",
+  entry: './src/index.ts',
   resolve: {
     tsConfig: {
-      configFile: path.resolve(__dirname, "tsconfig.json"),
+      configFile: path.resolve(import.meta.dirname, 'tsconfig.json'),
     },
-    extensions: ["...", ".ts"],
+    extensions: ['...', '.ts'],
   },
   plugins: [
     new rspack.HtmlRspackPlugin({
-      template: "./index.html",
+      template: './index.html',
     }),
   ],
   module: {
     rules: [
       {
-        test: /\.ts$/,
+        test: /\.(?:js|mjs|cjs|ts|mts|cts)$/,
         use: [
           {
-            loader: "builtin:swc-loader",
+            loader: 'builtin:swc-loader',
             /**
              * @type {import('@rspack/core').SwcLoaderOptions}
              */
             options: {
-              jsc: {
-                parser: {
-                  syntax: "typescript",
-                },
-              },
+              detectSyntax: 'auto',
             },
           },
         ],

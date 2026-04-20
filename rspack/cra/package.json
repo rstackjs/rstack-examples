@@ -1,10 +1,10 @@
 {
-  "name": "example-cra-app",
+  "name": "@rspack-example/cra-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "build": "rspack build",
-    "dev": "rspack serve"
+    "dev": "rspack dev"
   },
   "browserslist": {
     "production": [
@@ -19,15 +19,16 @@
     ]
   },
   "dependencies": {
-    "@swc/helpers": "^0.5.17",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "@swc/helpers": "^0.5.21",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
   },
   "devDependencies": {
-    "@rspack/cli": "1.6.1",
-    "@rspack/core": "1.6.1",
-    "@rspack/plugin-react-refresh": "^1.5.2",
+    "@rspack/cli": "2.0.0-rc.3",
+    "@rspack/core": "2.0.0-rc.3",
+    "@rspack/dev-server": "2.0.0",
+    "@rspack/plugin-react-refresh": "^2.0.0",
     "react-refresh": "^0.18.0",
-    "web-vitals": "^5.1.0"
+    "web-vitals": "^5.2.0"
   }
 }

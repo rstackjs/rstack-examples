@@ -1,0 +1,119 @@
+// Rstest Snapshot v1
+
+exports[`toMatchSnapshot - Basic Usage > should match array snapshot 1`] = `
+[
+  {
+    "createdAt": 2024-01-01T00:00:00.000Z,
+    "email": "user1@example.com",
+    "id": 1,
+    "name": "User 1",
+    "role": "user",
+  },
+  {
+    "createdAt": 2024-01-01T00:00:00.000Z,
+    "email": "user2@example.com",
+    "id": 2,
+    "name": "User 2",
+    "role": "user",
+  },
+  {
+    "createdAt": 2024-01-01T00:00:00.000Z,
+    "email": "user3@example.com",
+    "id": 3,
+    "name": "User 3",
+    "role": "user",
+  },
+]
+`;
+
+exports[`toMatchSnapshot - Basic Usage > should match formatted user snapshot 1`] = `"Jane Doe <jane@example.com> (user)"`;
+
+exports[`toMatchSnapshot - Basic Usage > should match user object snapshot 1`] = `
+{
+  "createdAt": 2024-01-01T00:00:00.000Z,
+  "email": "john@example.com",
+  "id": 1,
+  "name": "John Doe",
+  "role": "user",
+}
+`;
+
+exports[`toMatchSnapshot - Basic Usage > should match with custom snapshot name > admin user 1`] = `
+{
+  "createdAt": 2024-01-01T00:00:00.000Z,
+  "email": "john@example.com",
+  "id": 1,
+  "name": "John Doe",
+  "role": "admin",
+}
+`;
+
+exports[`toMatchSnapshot - Complex Objects > should match nested object snapshot 1`] = `
+{
+  "meta": {
+    "generatedAt": "2024-01-01T00:00:00.000Z",
+    "version": "1.0.0",
+  },
+  "pagination": {
+    "page": 1,
+    "perPage": 10,
+    "total": 100,
+  },
+  "users": [
+    {
+      "createdAt": 2024-01-01T00:00:00.000Z,
+      "email": "user1@example.com",
+      "id": 1,
+      "name": "User 1",
+      "role": "user",
+    },
+    {
+      "createdAt": 2024-01-01T00:00:00.000Z,
+      "email": "user2@example.com",
+      "id": 2,
+      "name": "User 2",
+      "role": "user",
+    },
+  ],
+}
+`;
+
+exports[`toMatchSnapshot - Complex Objects > should match user with metadata snapshot 1`] = `
+{
+  "createdAt": 2024-01-01T00:00:00.000Z,
+  "email": "john@example.com",
+  "id": 1,
+  "metadata": {
+    "lastLogin": "2024-01-15T10:30:00.000Z",
+    "preferences": {
+      "language": "en",
+      "theme": "dark",
+    },
+  },
+  "name": "John Doe",
+  "role": "user",
+}
+`;
+
+exports[`toMatchSnapshot - Property Matchers > should match array with property matchers 1`] = `
+[
+  {
+    "id": Any<Number>,
+    "name": "User 1",
+  },
+  {
+    "id": Any<Number>,
+    "name": "User 2",
+  },
+]
+`;
+
+exports[`toMatchSnapshot - Property Matchers > should match with property matchers for dynamic values 1`] = `
+{
+  "createdAt": Any<Date>,
+  "email": "test@example.com",
+  "id": Any<Number>,
+  "name": "Test User",
+  "role": "user",
+}
+`;

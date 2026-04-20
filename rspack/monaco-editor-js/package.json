@@ -1,18 +1,18 @@
 {
-  "name": "example-monaco-editor-js",
+  "name": "@rspack-example/monaco-editor-js",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
-  "main": "index.js",
   "scripts": {
     "build": "rspack build",
-    "dev": "rspack serve"
+    "dev": "rspack dev"
   },
   "dependencies": {
-    "@rspack/cli": "1.6.1",
-    "monaco-editor": "^0.54.0"
+    "monaco-editor": "^0.55.1"
   },
   "devDependencies": {
-    "@rspack/core": "1.6.1"
+    "@rspack/cli": "2.0.0-rc.3",
+    "@rspack/core": "2.0.0-rc.3",
+    "@rspack/dev-server": "2.0.0"
   }
 }

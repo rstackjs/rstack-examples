@@ -1,18 +1,19 @@
-import { defineConfig } from "@rspack/cli";
+// @ts-check
+import { defineConfig } from '@rspack/cli';
 
 export default defineConfig({
-  mode: "production",
+  mode: 'production',
   entry: {
-    index: "./src/index.js",
+    index: './src/index.js',
   },
-  externalsType: "commonjs",
+  externalsType: 'commonjs',
   output: {
-    chunkFormat: "commonjs",
+    chunkFormat: 'commonjs',
     library: {
-      type: "commonjs",
+      type: 'commonjs',
     },
   },
   optimization: {
     minimize: false, // no need to minify for library
-  }
+  },
 });

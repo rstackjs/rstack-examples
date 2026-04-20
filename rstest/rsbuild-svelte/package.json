@@ -1,0 +1,21 @@
+{
+  "name": "@rstest-example/rsbuild-svelte",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "rsbuild build",
+    "dev": "rsbuild",
+    "test": "rstest",
+    "test:watch": "rstest --watch"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "2.0.0-rc.4",
+    "@rsbuild/plugin-svelte": "^1.1.1",
+    "@rstest/adapter-rsbuild": "^0.2.6",
+    "@rstest/core": "^0.9.8",
+    "happy-dom": "^20.9.0",
+    "svelte": "^5.55.4",
+    "typescript": "^5.9.3"
+  }
+}

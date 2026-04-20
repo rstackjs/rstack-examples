@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@utils": ["./src/utils.ts"],
+      "@test-utils": ["./tests/test-utils.ts"]
+    },
+    "types": ["@rstest/core"]
+  },
+  "include": ["src", "tests", "rstest.config.ts", "rslib.config.ts"]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "@rstest-example/rsbuild-preact",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "rsbuild build",
+    "dev": "rsbuild",
+    "test": "rstest",
+    "test:watch": "rstest --watch"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "2.0.0-rc.4",
+    "@rsbuild/plugin-preact": "^1.7.2",
+    "@rstest/adapter-rsbuild": "^0.2.6",
+    "@rstest/core": "^0.9.8",
+    "happy-dom": "^20.9.0",
+    "preact": "^10.29.1",
+    "typescript": "^5.9.3"
+  }
+}

@@ -1,23 +1,23 @@
 {
-  "name": "rslib-mf-host",
+  "name": "@rslib-example/mf-host",
   "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
     "build": "rsbuild build",
-    "dev": "rsbuild dev",
+    "dev": "rsbuild",
     "preview": "rsbuild preview"
   },
   "dependencies": {
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
   },
   "devDependencies": {
-    "@module-federation/rsbuild-plugin": "^0.21.3",
-    "@rsbuild/core": "~1.6.3",
-    "@rsbuild/plugin-react": "^1.4.2",
-    "@types/react": "^19.2.2",
-    "@types/react-dom": "^19.2.2",
+    "@module-federation/rsbuild-plugin": "^2.3.3",
+    "@rsbuild/core": "~1.7.5",
+    "@rsbuild/plugin-react": "^2.0.0-rc.4",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
     "typescript": "^5.9.3"
   }
 }

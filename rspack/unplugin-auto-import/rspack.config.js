@@ -1,7 +1,7 @@
 import { defineConfig } from '@rspack/cli';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
+import { VueLoaderPlugin } from 'rspack-vue-loader';
 import AutoImport from 'unplugin-auto-import/rspack';
-import { VueLoaderPlugin } from 'vue-loader';
 
 export default defineConfig({
   plugins: [
@@ -15,14 +15,15 @@ export default defineConfig({
       template: './index.html',
     }),
   ],
-  experiments: {
-    css: true,
-  },
   module: {
     rules: [
       {
+        test: /\.css$/,
+        type: 'css',
+      },
+      {
         test: /\.vue$/,
-        loader: 'vue-loader',
+        loader: 'rspack-vue-loader',
         options: {
           experimentalInlineMatchResource: true,
         },

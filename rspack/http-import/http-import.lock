@@ -1,18 +1,18 @@
 {
   "version": 1,
   "entries": {
-    "https://www.unpkg.com/the-answer@1.0.0/dist/the-answer.js": {
-      "resolved": "https://www.unpkg.com/the-answer@1.0.0/dist/the-answer.js",
-      "integrity": "sha512-qy9ndp7bPncf/DMQ94Gl5JsOGkabSNUdloOFyy5J70PaB3kWjpylAUWtK3wuxNlvbgP9z4tF0tHxlrhuXRKZAQ==",
-      "content_type": "text/javascript; charset=utf-8",
-      "valid_until": 1782224274062,
-      "etag": null
-    },
     "https://www.unpkg.com/the-answer": {
       "resolved": "https://www.unpkg.com/the-answer",
       "integrity": "sha512-qy9ndp7bPncf/DMQ94Gl5JsOGkabSNUdloOFyy5J70PaB3kWjpylAUWtK3wuxNlvbgP9z4tF0tHxlrhuXRKZAQ==",
       "content_type": "text/javascript; charset=utf-8",
       "valid_until": 1777431035228,
+      "etag": null
+    },
+    "https://www.unpkg.com/the-answer@1.0.0/dist/the-answer.js": {
+      "resolved": "https://www.unpkg.com/the-answer@1.0.0/dist/the-answer.js",
+      "integrity": "sha512-qy9ndp7bPncf/DMQ94Gl5JsOGkabSNUdloOFyy5J70PaB3kWjpylAUWtK3wuxNlvbgP9z4tF0tHxlrhuXRKZAQ==",
+      "content_type": "text/javascript; charset=utf-8",
+      "valid_until": 1801660804063,
       "etag": null
     }
   }

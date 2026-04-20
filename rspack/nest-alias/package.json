@@ -1,25 +1,18 @@
 {
-  "name": "cra",
+  "name": "nest-alias",
   "version": "1.0.0",
   "license": "MIT",
-  "main": "index.js",
   "scripts": {
     "build": "pnpm compile && pnpm bundle",
-    "build:webpack": "pnpm compile && pnpm bundle:webpack",
     "bundle": "rspack",
-    "bundle:webpack": "webpack",
     "compile": "tsc -b"
   },
   "dependencies": {
-    "@rspack/cli": "1.6.1",
-    "@rspack/core": "1.6.1",
+    "@rspack/cli": "2.0.0-rc.3",
+    "@rspack/core": "2.0.0-rc.3",
+    "@rspack/dev-server": "2.0.0",
     "lib1": "workspace:*",
     "lib2": "workspace:*",
     "typescript": "^5.9.3"
-  },
-  "devDependencies": {
-    "tsconfig-paths-webpack-plugin": "^4.2.0",
-    "webpack": "^5.102.1",
-    "webpack-cli": "^6.0.1"
   }
 }

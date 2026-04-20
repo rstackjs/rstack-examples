@@ -1,5 +1,5 @@
 {
-  "name": "rslib-react-css-module",
+  "name": "@rslib-example/react-css-module",
   "version": "0.0.0",
   "type": "module",
   "exports": {
@@ -13,14 +13,14 @@
     "dist"
   ],
   "scripts": {
-    "build": "rslib build",
-    "dev": "rslib build --watch"
+    "build": "rslib",
+    "dev": "rslib -w"
   },
   "devDependencies": {
-    "@rsbuild/plugin-react": "^1.4.2",
-    "@rslib/core": "^0.17.1",
-    "@types/react": "^19.2.2",
-    "react": "^19.2.0",
+    "@rsbuild/plugin-react": "^2.0.0-rc.4",
+    "@rslib/core": "^0.21.2",
+    "@types/react": "^19.2.14",
+    "react": "^19.2.5",
     "typescript": "^5.9.3"
   },
   "peerDependencies": {

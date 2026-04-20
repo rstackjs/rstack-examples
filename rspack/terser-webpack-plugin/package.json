@@ -1,12 +1,14 @@
 {
-  "name": "example-terser-webpack-plugin_5",
+  "name": "@rspack-example/terser-webpack-plugin_5",
   "private": true,
   "scripts": {
     "build": "rspack build"
   },
   "devDependencies": {
-    "@rspack/cli": "1.6.1",
-    "@rspack/core": "1.6.1",
-    "terser-webpack-plugin": "5.3.14"
+    "@rspack/cli": "2.0.0-rc.3",
+    "@rspack/core": "2.0.0-rc.3",
+    "@rspack/dev-server": "2.0.0",
+    "terser-webpack-plugin": "5.4.0",
+    "webpack-stats-plugin": "^1.1.3"
   }
 }

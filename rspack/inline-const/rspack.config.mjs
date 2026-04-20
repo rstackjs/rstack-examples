@@ -1,25 +1,26 @@
 // @ts-check
-import { rspack } from "@rspack/core";
+import { defineConfig } from '@rspack/cli';
+import { rspack } from '@rspack/core';
 
 /** @type {import("@rspack/core").Configuration} */
-export default {
+
+export default defineConfig({
   entry: {
-    main: "./src/index.ts",
+    main: './src/index.ts',
   },
-  experiments: {
-    inlineConst: true,
-  },
-  mode: "production",
+  mode: 'production',
   optimization: {
+    // This is the feature that enables inlining, it's enabled by default in production mode
+    inlineExports: true,
     // disable minimize so you can understand the output
     minimize: false,
   },
   resolve: {
-    extensions: [".ts", "..."],
+    extensions: ['.ts', '...'],
   },
   plugins: [
     new rspack.DefinePlugin({
-      ENV: JSON.stringify("mobile"),
+      ENV: JSON.stringify('mobile'),
     }),
   ],
   module: {
@@ -27,19 +28,17 @@ export default {
       {
         test: /\.ts$/,
         use: {
-          loader: "builtin:swc-loader",
+          loader: 'builtin:swc-loader',
           /** @type {import("@rspack/core").SwcLoaderOptions} */
           options: {
+            detectSyntax: 'auto',
             jsc: {
-              parser: {
-                syntax: "typescript",
-              },
-              target: "es2015", // use target es2015 or greater so swc won't transform const to var
+              target: 'es2015', // use target es2015 or greater so swc won't transform const to var
             },
           },
         },
-        type: "javascript/auto",
+        type: 'javascript/auto',
       },
     ],
   },
-};
+});

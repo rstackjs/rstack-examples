@@ -13,11 +13,13 @@
       "**/rspress/**",
       "**/rsdoctor/**",
       "**/rslib/**",
+      "**/rstest/**",
       "!**/dist",
       "!**/dist-*",
       "!**/doc_build",
       "!**/auto-imports.d.ts",
-      "!**/components.d.ts"
+      "!**/components.d.ts",
+      "!**/__snapshots__"
     ],
     "ignoreUnknown": true
   },

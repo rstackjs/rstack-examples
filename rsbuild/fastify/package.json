@@ -1,5 +1,5 @@
 {
-  "name": "rsbuild-fastify",
+  "name": "@rsbuild-example/fastify",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -9,9 +9,9 @@
     "preview": "rsbuild preview"
   },
   "devDependencies": {
-    "@fastify/middie": "^9.0.3",
-    "@rsbuild/core": "^1.6.3",
-    "fastify": "^5.6.2",
+    "@fastify/middie": "^9.3.2",
+    "@rsbuild/core": "2.0.0-rc.4",
+    "fastify": "^5.8.5",
     "typescript": "^5.9.3"
   }
 }

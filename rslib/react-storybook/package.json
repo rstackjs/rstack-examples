@@ -1,5 +1,5 @@
 {
-  "name": "rslib-react-storybook",
+  "name": "@rslib-example/react-storybook",
   "version": "0.0.0",
   "type": "module",
   "exports": {
@@ -13,24 +13,24 @@
     "dist"
   ],
   "scripts": {
-    "build": "rslib build",
+    "build": "rslib",
     "build:storybook": "storybook build",
-    "dev": "rslib build --watch",
+    "dev": "rslib -w",
     "storybook": "storybook dev"
   },
   "devDependencies": {
-    "@rsbuild/core": "~1.6.3",
-    "@rsbuild/plugin-react": "^1.4.2",
-    "@rslib/core": "^0.17.1",
-    "@storybook/addon-docs": "^10.0.6",
-    "@storybook/addon-onboarding": "^10.0.6",
-    "@storybook/react": "^10.0.6",
-    "@types/react": "^19.2.2",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
-    "storybook": "^10.0.6",
-    "storybook-addon-rslib": "^2.1.4",
-    "storybook-react-rsbuild": "^2.1.4",
+    "@rsbuild/core": "~1.7.5",
+    "@rsbuild/plugin-react": "^2.0.0-rc.4",
+    "@rslib/core": "^0.21.2",
+    "@storybook/addon-docs": "^10.3.5",
+    "@storybook/addon-onboarding": "^10.3.5",
+    "@storybook/react": "^10.3.5",
+    "@types/react": "^19.2.14",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "storybook": "^10.3.5",
+    "storybook-addon-rslib": "^3.3.3",
+    "storybook-react-rsbuild": "^3.3.3",
     "typescript": "^5.9.3"
   },
   "peerDependencies": {

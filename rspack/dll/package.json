@@ -1,16 +1,17 @@
 {
-  "name": "example-dll-plugin",
+  "name": "@rspack-example/dll-plugin",
   "private": true,
   "scripts": {
-    "dev": "rspack serve",
-    "build": "rspack build || echo 'make-ci-happy'"
+    "build": "rspack build || echo 'make-ci-happy'",
+    "dev": "rspack dev"
   },
   "dependencies": {
-    "lodash": "4.17.21"
+    "lodash": "4.18.1"
   },
   "devDependencies": {
-    "@rspack/cli": "1.6.1",
-    "@rspack/core": "1.6.1",
+    "@rspack/cli": "2.0.0-rc.3",
+    "@rspack/core": "2.0.0-rc.3",
+    "@rspack/dev-server": "2.0.0",
     "typescript": "^5.9.3"
   }
 }

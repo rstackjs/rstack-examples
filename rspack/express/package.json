@@ -1,24 +1,19 @@
 {
-  "name": "example-express",
+  "name": "@rspack-example/express",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
-  "sideEffects": [
-    "**/*.css",
-    "**/*.less",
-    "**/*.scss"
-  ],
-  "main": "index.js",
   "scripts": {
     "build": "cross-env BUILD=true rspack build",
-    "dev": "rspack serve"
+    "dev": "rspack dev"
   },
   "dependencies": {
-    "express": "5.1.0"
+    "express": "5.2.1"
   },
   "devDependencies": {
-    "@rspack/cli": "1.6.1",
-    "@rspack/core": "1.6.1",
-    "run-script-webpack-plugin": ""
+    "@rspack/cli": "2.0.0-rc.3",
+    "@rspack/core": "2.0.0-rc.3",
+    "@rspack/dev-server": "2.0.0",
+    "run-script-webpack-plugin": "0.2.3"
   }
 }

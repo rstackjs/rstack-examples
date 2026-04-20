@@ -1,0 +1,23 @@
+{
+  "app": {
+    "name": "CustomApp",
+    "version": "2.0.0",
+    "debug": true
+  },
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "name": "myapp_db",
+    "pool": {
+      "min": 2,
+      "max": 10
+    }
+  },
+  "features": [
+    "custom-feature"
+  ],
+  "logging": {
+    "level": "info",
+    "format": "json"
+  }
+}

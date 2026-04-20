@@ -1,12 +1,11 @@
 {
-  "name": "example-module-federation-v1",
+  "name": "@rspack-example/module-federation-v1",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
-  "main": "index.js",
   "scripts": {
-    "build": "pnpm --filter \"example-module-federation-v1-*\" build",
-    "dev": "pnpm --filter \"example-module-federation-v1-*\" dev",
-    "start": "pnpm --filter \"example-module-federation-v1-*\" start"
+    "build": "pnpm --filter \"@rspack-example/module-federation-v1-*\" build",
+    "dev": "pnpm --filter \"@rspack-example/module-federation-v1-*\" dev",
+    "start": "pnpm --filter \"@rspack-example/module-federation-v1-*\" start"
   }
 }

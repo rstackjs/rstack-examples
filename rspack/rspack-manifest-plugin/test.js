@@ -7,6 +7,6 @@ test('should have manifest', async (t) => {
   const manifest = path.resolve(__dirname, 'dist', 'rspack-manifest.json');
   assert(fs.existsSync(manifest));
   const manifestJson = JSON.parse(await fs.promises.readFile(manifest, 'utf-8'));
-  assert(manifestJson.files['main.js'] === 'auto/main.js');
+  assert(manifestJson.files['main.js'] === 'main.js');
   assert(manifestJson.entrypoints.includes('main.js'));
 });

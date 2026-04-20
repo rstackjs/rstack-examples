@@ -1,5 +1,5 @@
 {
-  "name": "rslib-node-basic",
+  "name": "@rslib-example/node-basic",
   "version": "0.0.0",
   "type": "module",
   "exports": {
@@ -15,12 +15,12 @@
     "dist"
   ],
   "scripts": {
-    "build": "rslib build",
-    "dev": "rslib build --watch"
+    "build": "rslib",
+    "dev": "rslib -w"
   },
   "devDependencies": {
-    "@rslib/core": "^0.17.1",
-    "@types/node": "^24.10.0",
+    "@rslib/core": "^0.21.2",
+    "@types/node": "^24.12.2",
     "typescript": "^5.9.3"
   }
 }

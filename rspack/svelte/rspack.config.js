@@ -1,61 +1,67 @@
-const path = require('path');
-const sveltePreprocess = require('svelte-preprocess');
-const HtmlRspackPlugin = require('html-rspack-plugin');
+import path from 'node:path';
+import { defineConfig } from '@rspack/cli';
+import rspack from '@rspack/core';
+import { sveltePreprocess } from 'svelte-preprocess';
 
-const mode = process.env.NODE_ENV || 'development';
-const prod = mode === 'production';
-/** @type {import('@rspack/cli').Configuration} */
-const config = {
+const isProd = process.env.NODE_ENV === 'production';
+const swcLoaderConfig = {
+  loader: 'builtin:swc-loader',
+  /**
+   * @type {import('@rspack/core').SwcLoaderOptions}
+   */
+  options: {
+    detectSyntax: 'auto',
+  },
+};
+
+const svelteLoaderConfig = {
+  loader: 'svelte-loader',
+  options: {
+    compilerOptions: {
+      dev: !isProd,
+    },
+    emitCss: isProd,
+    hotReload: !isProd,
+    preprocess: sveltePreprocess({ sourceMap: !isProd, postcss: true }),
+  },
+};
+
+export default defineConfig({
   entry: {
-    main: ['./src/main.ts'],
+    index: './src/index.ts',
   },
   resolve: {
-    alias: {
-      svelte: path.dirname(require.resolve('svelte/package.json')),
-    },
     extensions: ['.mjs', '.js', '.ts', '.svelte'],
     mainFields: ['svelte', 'browser', 'module', 'main'],
-  },
-  experiments: {
-    css: true,
-  },
-  output: {
-    path: path.join(__dirname, '/dist'),
-    filename: '[name].js',
-    chunkFilename: '[name].[id].js',
   },
   module: {
     rules: [
       {
+        test: /\.css$/,
+        type: 'css',
+      },
+      {
+        test: /\.(?:js|ts)$/,
+        use: [swcLoaderConfig],
+      },
+      {
         test: /\.svelte$/,
-        use: [
-          {
-            loader: 'svelte-loader',
-            options: {
-              compilerOptions: {
-                dev: !prod,
-              },
-              emitCss: prod,
-              hotReload: !prod,
-              preprocess: sveltePreprocess({ sourceMap: !prod, postcss: true }),
-            },
-          },
-        ],
+        use: [svelteLoaderConfig],
+      },
+      {
+        test: /\.(?:svelte\.js|svelte\.ts)$/,
+        use: [svelteLoaderConfig, swcLoaderConfig],
       },
     ],
   },
-  mode,
   plugins: [
-    new HtmlRspackPlugin({
+    new rspack.HtmlRspackPlugin({
       title: 'Svelte App',
-      template: path.join(__dirname, 'index.html'),
-      favicon: path.join(__dirname, 'public', 'favicon.png'),
+      template: path.join(import.meta.dirname, 'index.html'),
     }),
   ],
-  devtool: prod ? 'hidden-source-map' : 'eval-source-map',
+  devtool: isProd ? 'hidden-source-map' : 'eval-source-map',
   devServer: {
-    hot: true,
     historyApiFallback: true,
   },
-};
-module.exports = config;
+});

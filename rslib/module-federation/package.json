@@ -1,5 +1,5 @@
 {
-  "name": "rslib-module-federation",
+  "name": "@rslib-example/module-federation",
   "private": true,
   "scripts": {
     "build:lib": "pnpm --filter rslib-mf-react-component run build",

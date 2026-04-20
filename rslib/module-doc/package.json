@@ -1,5 +1,5 @@
 {
-  "name": "rslib-module-doc",
+  "name": "@rslib-example/module-doc",
   "version": "0.0.0",
   "type": "module",
   "exports": {
@@ -13,21 +13,21 @@
     "dist"
   ],
   "scripts": {
-    "build": "rslib build",
-    "dev": "rslib build --watch",
+    "build": "rslib",
+    "dev": "rslib -w",
     "doc": "rspress dev",
     "doc:build": "rspress build",
     "doc:preview": "rspress preview"
   },
   "devDependencies": {
-    "@rsbuild/plugin-react": "^1.4.2",
-    "@rslib/core": "^0.17.1",
-    "@rspress/core": "^2.0.0-beta.35",
-    "@rspress/plugin-api-docgen": "^2.0.0-beta.35",
-    "@rspress/plugin-preview": "^2.0.0-beta.35",
-    "@types/node": "^24.10.0",
-    "@types/react": "^19.2.2",
-    "react": "^19.2.0",
+    "@rsbuild/plugin-react": "^2.0.0-rc.4",
+    "@rslib/core": "^0.21.2",
+    "@rspress/core": "^2.0.9",
+    "@rspress/plugin-api-docgen": "^2.0.9",
+    "@rspress/plugin-preview": "^2.0.9",
+    "@types/node": "^24.12.2",
+    "@types/react": "^19.2.14",
+    "react": "^19.2.5",
     "typescript": "^5.9.3"
   },
   "peerDependencies": {

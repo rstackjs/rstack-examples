@@ -1,23 +1,16 @@
-import path from 'path'
-import rspack from '@rspack/core'
-import { fileURLToPath } from 'url'
-import { dirname } from 'path'
+import path from 'node:path';
+import { defineConfig } from '@rspack/cli';
+import rspack from '@rspack/core';
 
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = dirname(__filename)
-
-export default {
+export default defineConfig({
   name: 'server',
   entry: {
-    server: path.resolve(__dirname, 'server', 'server.ts'),
+    server: path.resolve(import.meta.dirname, 'server', 'server.ts'),
   },
   mode: 'production',
-  experiments: {
-    outputModule: true,
-  },
   output: {
     module: true,
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(import.meta.dirname, 'dist'),
     filename: '[name].js',
   },
   externalsType: 'node-commonjs',
@@ -28,8 +21,12 @@ export default {
   module: {
     rules: [
       {
-        test: /\.tsx?$/,
-        loader: "builtin:swc-loader",
+        test: /\.(?:js|mjs|jsx|ts|tsx)$/,
+        exclude: /node_modules/,
+        loader: 'builtin:swc-loader',
+        options: {
+          detectSyntax: 'auto',
+        },
       },
     ],
   },
@@ -38,7 +35,6 @@ export default {
     __dirname: false,
     __filename: false,
   },
-
   plugins: [
     new rspack.BannerPlugin({
       banner: `
@@ -53,4 +49,4 @@ const __dirname = __rspack_dirname(__filename);
       patterns: [{ context: 'server', from: 'views', to: 'views' }],
     }),
   ],
-}
+});

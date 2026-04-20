@@ -1,5 +1,5 @@
 {
-  "name": "rsbuild-ssr-express-with-manifest",
+  "name": "@rsbuild-example/ssr-express-with-manifest",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -9,17 +9,17 @@
     "preview": "node ./prod-server.mjs"
   },
   "dependencies": {
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
   },
   "devDependencies": {
-    "@rsbuild/core": "^1.6.3",
-    "@rsbuild/plugin-react": "1.4.2",
-    "@types/express": "^5.0.5",
-    "@types/react": "^19.2.2",
-    "@types/react-dom": "^19.2.2",
+    "@rsbuild/core": "2.0.0-rc.4",
+    "@rsbuild/plugin-react": "1.4.6",
+    "@types/express": "^5.0.6",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
     "cross-env": "^10.1.0",
-    "express": "^5.1.0",
+    "express": "^5.2.1",
     "typescript": "^5.9.3"
   }
 }

@@ -1,23 +1,18 @@
 {
-  "name": "example-eslint",
+  "name": "@rspack-example/eslint",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
-  "sideEffects": [
-    "**/*.css",
-    "**/*.less",
-    "**/*.scss"
-  ],
-  "main": "index.js",
   "scripts": {
     "build": "rspack build",
     "dev": "rspack serve -c",
-    "dev:loader": "rspack serve -c rspack.config.loader.js"
+    "dev:loader": "rspack serve -c rspack.config.loader.mjs"
   },
   "devDependencies": {
-    "@rspack/cli": "1.6.1",
-    "@rspack/core": "1.6.1",
-    "eslint": "^9.39.1",
-    "eslint-rspack-plugin": "^4.2.1"
+    "@rspack/cli": "2.0.0-rc.3",
+    "@rspack/core": "2.0.0-rc.3",
+    "@rspack/dev-server": "2.0.0",
+    "eslint": "^9.39.4",
+    "eslint-rspack-plugin": "^4.4.1"
   }
 }
