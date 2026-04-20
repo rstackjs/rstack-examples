@@ -1,15 +1,16 @@
 {
-  "name": "rspack-rsc-project",
+  "name": "rspack-rsc",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "NO_CSP=true node server.js"
+    "build": "NODE_ENV=production rspack build",
+    "dev": "NODE_ENV=development NO_CSP=true node server.js"
   },
   "devDependencies": {
-    "@rspack/cli": "2.0.0-beta.0",
-    "@rspack/core": "2.0.0-beta.0",
-    "@rspack/dev-server": "^1.2.1",
+    "@rspack/cli": "2.0.0-rc.3",
+    "@rspack/core": "2.0.0-rc.3",
+    "@rspack/dev-server": "2.0.0-rc.3",
     "@rspack/plugin-react-refresh": "^1.5.3",
     "@types/express": "^5.0.6",
     "@types/ws": "^8.18.1",
