@@ -167,33 +167,41 @@ async function nodeHandler(
   res: ServerResponse<IncomingMessage>,
   next: () => void,
 ) {
+  const pathname = new URL(req.url ?? '/', 'http://localhost').pathname;
+
   // Handle GET requests to root path
-  if (req.method === 'GET' && req.url === '/') {
+  if (req.method === 'GET' && pathname === '/') {
     await fetch(req, res);
     return;
   }
 
   // Handle POST requests to root path
-  if (req.method === 'POST' && req.url === '/') {
+  if (req.method === 'POST' && pathname === '/') {
     await fetch(req, res);
     return;
   }
 
   // Handle GET requests to /todos/:id
-  if (req.method === 'GET' && req.url?.startsWith('/todos/')) {
-    const id = req.url.split('/')[2];
+  if (req.method === 'GET' && pathname.startsWith('/todos/')) {
+    const id = pathname.split('/')[2];
     if (id) {
-      await fetch(req, res, Number(id));
-      return;
+      const num = Number(id);
+      if (!Number.isNaN(num)) {
+        await fetch(req, res, num);
+        return;
+      }
     }
   }
 
   // Handle POST requests to /todos/:id
-  if (req.method === 'POST' && req.url?.startsWith('/todos/')) {
-    const id = req.url.split('/')[2];
+  if (req.method === 'POST' && pathname.startsWith('/todos/')) {
+    const id = pathname.split('/')[2];
     if (id) {
-      await fetch(req, res, Number(id));
-      return;
+      const num = Number(id);
+      if (!Number.isNaN(num)) {
+        await fetch(req, res, num);
+        return;
+      }
     }
   }
 
