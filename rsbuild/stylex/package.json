@@ -9,13 +9,13 @@
     "preview": "rsbuild preview"
   },
   "dependencies": {
-    "@stylexjs/stylex": "^0.18.2",
+    "@stylexjs/stylex": "^0.18.3",
     "react": "^19.2.5",
     "react-dom": "^19.2.5"
   },
   "devDependencies": {
-    "@rsbuild/core": "2.0.0-rc.4",
-    "@rsbuild/plugin-react": "^2.0.0-rc.4",
+    "@rsbuild/core": "2.0.0",
+    "@rsbuild/plugin-react": "^2.0.0",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "typescript": "^5.9.3",

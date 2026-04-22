@@ -17,8 +17,8 @@
     "rxjs": "^7.8.2"
   },
   "devDependencies": {
-    "@rspack/cli": "2.0.0-rc.3",
-    "@rspack/core": "2.0.0-rc.3",
+    "@rspack/cli": "2.0.0",
+    "@rspack/core": "2.0.0",
     "@rspack/dev-server": "2.0.0",
     "cross-env": "10.1.0"
   }
