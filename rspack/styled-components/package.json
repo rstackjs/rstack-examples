@@ -12,11 +12,11 @@
     "@types/styled-components": "5.1.36",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
-    "styled-components": "6.4.0"
+    "styled-components": "6.4.1"
   },
   "devDependencies": {
-    "@rspack/cli": "2.0.0-rc.3",
-    "@rspack/core": "2.0.0-rc.3",
+    "@rspack/cli": "2.0.0",
+    "@rspack/core": "2.0.0",
     "@rspack/dev-server": "2.0.0",
     "react-refresh": "^0.18.0"
   }

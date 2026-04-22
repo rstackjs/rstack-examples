@@ -16,8 +16,8 @@
   },
   "devDependencies": {
     "@lingui/swc-plugin": "^5.11.0",
-    "@rspack/cli": "2.0.0-rc.3",
-    "@rspack/core": "2.0.0-rc.3",
+    "@rspack/cli": "2.0.0",
+    "@rspack/core": "2.0.0",
     "@rspack/dev-server": "2.0.0",
     "@swc/helpers": "^0.5.21",
     "@swc/plugin-emotion": "^14.8.0",

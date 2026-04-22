@@ -20,7 +20,7 @@
     "doc:preview": "rspress preview"
   },
   "devDependencies": {
-    "@rsbuild/plugin-react": "^2.0.0-rc.4",
+    "@rsbuild/plugin-react": "^2.0.0",
     "@rslib/core": "^0.21.2",
     "@rspress/core": "^2.0.9",
     "@rspress/plugin-api-docgen": "^2.0.9",
