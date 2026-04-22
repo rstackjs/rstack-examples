@@ -3063,8 +3063,8 @@ importers:
         specifier: 2.0.0
         version: 2.0.0(@rspack/core@2.0.0)
       '@rspack/plugin-react-refresh':
-        specifier: ^1.6.2
-        version: 1.6.2(react-refresh@0.18.0)(webpack-hot-middleware@2.26.1)
+        specifier: ^2.0.0
+        version: 2.0.0(@rspack/core@2.0.0)(react-refresh@0.18.0)
       '@types/express':
         specifier: ^5.0.6
         version: 5.0.6
