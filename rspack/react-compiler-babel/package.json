@@ -17,7 +17,7 @@
     "@babel/plugin-syntax-jsx": "^7.28.6",
     "@rspack/cli": "2.0.0",
     "@rspack/core": "2.0.0",
-    "@rspack/dev-server": "2.0.0",
+    "@rspack/dev-server": "2.0.1",
     "babel-loader": "^10.1.1",
     "babel-plugin-react-compiler": "^1.0.0"
   }

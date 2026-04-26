@@ -6,6 +6,6 @@
   },
   "devDependencies": {
     "@rspack/core": "2.0.0",
-    "@rspack/dev-server": "2.0.0"
+    "@rspack/dev-server": "2.0.1"
   }
 }

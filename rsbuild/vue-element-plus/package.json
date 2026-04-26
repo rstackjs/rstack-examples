@@ -10,10 +10,10 @@
   },
   "dependencies": {
     "element-plus": "^2.13.7",
-    "vue": "^3.5.32"
+    "vue": "^3.5.33"
   },
   "devDependencies": {
-    "@rsbuild/core": "2.0.0",
+    "@rsbuild/core": "2.0.1",
     "@rsbuild/plugin-vue": "^1.2.7",
     "typescript": "^5.9.3",
     "unplugin-auto-import": "^21.0.0",
