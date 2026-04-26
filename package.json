@@ -22,11 +22,11 @@
     ]
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.4.12",
+    "@biomejs/biome": "^2.4.13",
     "cross-env": "10.1.0",
     "husky": "9.1.7",
     "lint-staged": "16.4.0",
     "taze": "^19.11.0"
   },
-  "packageManager": "pnpm@10.33.0"
+  "packageManager": "pnpm@10.33.2"
 }

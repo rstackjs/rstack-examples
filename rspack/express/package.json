@@ -13,7 +13,7 @@
   "devDependencies": {
     "@rspack/cli": "2.0.0",
     "@rspack/core": "2.0.0",
-    "@rspack/dev-server": "2.0.0",
+    "@rspack/dev-server": "2.0.1",
     "run-script-webpack-plugin": "0.2.3"
   }
 }

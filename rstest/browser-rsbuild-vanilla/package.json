@@ -10,9 +10,9 @@
     "test:watch": "rstest --watch"
   },
   "devDependencies": {
-    "@rsbuild/core": "2.0.0",
-    "@rstest/browser": "^0.9.8",
-    "@rstest/core": "^0.9.8",
+    "@rsbuild/core": "2.0.1",
+    "@rstest/browser": "^0.9.9",
+    "@rstest/core": "^0.9.9",
     "playwright": "^1.59.1",
     "typescript": "^5.9.3"
   }

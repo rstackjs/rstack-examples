@@ -21,7 +21,7 @@
   "devDependencies": {
     "@rsbuild/core": "~1.7.5",
     "@rsbuild/plugin-vue": "^1.2.7",
-    "@rslib/core": "^0.21.2",
+    "@rslib/core": "^0.21.3",
     "@storybook/addon-docs": "^10.3.5",
     "@storybook/addon-onboarding": "^10.3.5",
     "@storybook/vue3": "^10.3.5",
@@ -29,7 +29,7 @@
     "storybook-addon-rslib": "^3.3.3",
     "storybook-vue3-rsbuild": "^3.3.3",
     "typescript": "^5.9.3",
-    "vue": "^3.5.32",
+    "vue": "^3.5.33",
     "vue-tsc": "^3.2.7"
   },
   "peerDependencies": {

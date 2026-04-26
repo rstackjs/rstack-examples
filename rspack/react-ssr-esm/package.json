@@ -17,7 +17,7 @@
   "devDependencies": {
     "@rspack/cli": "2.0.0",
     "@rspack/core": "2.0.0",
-    "@rspack/dev-server": "2.0.0",
+    "@rspack/dev-server": "2.0.1",
     "@types/cross-spawn": "^6.0.6",
     "@types/express": "^5.0.6",
     "@types/node": "^24.12.2",

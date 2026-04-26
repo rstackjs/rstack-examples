@@ -10,7 +10,7 @@
   "devDependencies": {
     "@rspack/cli": "2.0.0",
     "@rspack/core": "2.0.0",
-    "@rspack/dev-server": "2.0.0",
+    "@rspack/dev-server": "2.0.1",
     "sass-loader": "^16.0.7"
   }
 }

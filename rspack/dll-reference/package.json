@@ -8,7 +8,7 @@
   "devDependencies": {
     "@rspack/cli": "2.0.0",
     "@rspack/core": "2.0.0",
-    "@rspack/dev-server": "2.0.0",
+    "@rspack/dev-server": "2.0.1",
     "lodash": "4.18.1",
     "typescript": "^5.9.3"
   }
