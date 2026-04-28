@@ -1,1 +1,1 @@
-export default "alpha";
+export default 'alpha';

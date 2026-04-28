@@ -1,5 +1,5 @@
-import express from "express";
-import { createRsbuild, loadConfig } from "@rsbuild/core";
+import express from 'express';
+import { createRsbuild, loadConfig } from '@rsbuild/core';
 
 export async function startDevServer() {
   const { content } = await loadConfig({});

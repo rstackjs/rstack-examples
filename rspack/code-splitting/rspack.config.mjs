@@ -1,14 +1,14 @@
 // @ts-check
-import { rspack } from "@rspack/core";
-import { defineConfig } from "@rspack/cli";
+import { rspack } from '@rspack/core';
+import { defineConfig } from '@rspack/cli';
 
 export default defineConfig({
   entry: {
-    main: "./index.js",
+    main: './index.js',
   },
   plugins: [
     new rspack.HtmlRspackPlugin({
-      template: "index.html",
+      template: 'index.html',
     }),
   ],
 });

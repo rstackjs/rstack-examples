@@ -1,1 +1,1 @@
-export default "c.tsx";
+export default 'c.tsx';

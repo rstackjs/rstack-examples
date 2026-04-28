@@ -1,9 +1,6 @@
 {
   "compilerOptions": {
-    "lib": [
-      "DOM",
-      "ES2022"
-    ],
+    "lib": ["DOM", "ES2022"],
     "module": "ESNext",
     "jsx": "preserve",
     "jsxImportSource": "solid-js",
@@ -14,7 +11,5 @@
     "moduleResolution": "bundler",
     "useDefineForClassFields": true
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src"]
 }

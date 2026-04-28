@@ -1,6 +1,6 @@
-import type React from "react";
-import { useCounter } from "./useCounter";
-import "./index.less";
+import type React from 'react';
+import { useCounter } from './useCounter';
+import './index.less';
 
 export const Counter: React.FC = () => {
   const { count } = useCounter();

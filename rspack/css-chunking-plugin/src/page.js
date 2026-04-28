@@ -1,8 +1,8 @@
-import "./styles/global.css";
-import "./styles/theme.css";
-import "./styles/component.css";
+import './styles/global.css';
+import './styles/theme.css';
+import './styles/component.css';
 
-document.addEventListener
+document.addEventListener;
 const button = document.createElement('button');
 button.className = 'btn';
 button.style.width = '200px';

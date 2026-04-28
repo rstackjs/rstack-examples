@@ -11,21 +11,28 @@
     "build:rspack": "pnpm --filter \"@rspack-example/*\" --stream build",
     "build:rspress": "pnpm --filter \"@rspress-example/*\" --stream build",
     "bump": "taze -l",
+    "lint": "rslint && prettier -c \"*.{json,jsonc,md,yml,yaml,ts}\" \".vscode/*.json\" \"{rspack,rsbuild,rspress,rsdoctor,rslib,rstest}/**/*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}\"",
+    "lint:write": "rslint --fix && prettier -w \"*.{json,jsonc,md,yml,yaml,ts}\" \".vscode/*.json\" \"{rspack,rsbuild,rspress,rsdoctor,rslib,rstest}/**/*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}\"",
     "prepare": "husky",
     "sort-package-json": "npx sort-package-json \"rspack/*/package.json\" \"rsbuild/*/package.json\" \"rspress/*/package.json\" \"rsdoctor/*/package.json\" \"rslib/*/package.json\" \"rstest/*/package.json\"",
     "test:rspack": "pnpm --filter \"@rspack-example/*\" --stream test",
     "test:rstest": "pnpm --filter \"@rstest-example/*\" --stream test"
   },
   "lint-staged": {
-    "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}": [
-      "npx @biomejs/biome check --write --no-errors-on-unmatched"
+    "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx}": [
+      "rslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,jsonc,md,mdx,yml,yaml,css,scss,less,html,vue}": [
+      "prettier --write"
     ]
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.4.13",
+    "@rslint/core": "^0.5.0",
     "cross-env": "10.1.0",
     "husky": "9.1.7",
     "lint-staged": "16.4.0",
+    "prettier": "^3.8.3",
     "taze": "^19.11.0"
   },
   "packageManager": "pnpm@10.33.2"

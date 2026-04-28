@@ -1,7 +1,7 @@
-import express from "express";
-import { createRequire } from "node:module";
-import fs from "node:fs";
-import path from "node:path";
+import express from 'express';
+import { createRequire } from 'node:module';
+import fs from 'node:fs';
+import path from 'node:path';
 
 const require = createRequire(import.meta.url);
 
@@ -12,11 +12,11 @@ const serverRender = (_req, res) => {
 
   const markup = importedApp.render();
 
-  const template = fs.readFileSync(`${process.cwd()}/dist/index.html`, "utf-8");
+  const template = fs.readFileSync(`${process.cwd()}/dist/index.html`, 'utf-8');
 
   const html = template.replace(`<!--app-content-->`, markup);
 
-  res.status(200).set({ "Content-Type": "text/html" }).send(html);
+  res.status(200).set({ 'Content-Type': 'text/html' }).send(html);
 };
 
 const port = process.env.PORT || 3000;
@@ -24,16 +24,16 @@ const port = process.env.PORT || 3000;
 export async function preview() {
   const app = express();
 
-  app.get("/", (req, res, next) => {
+  app.get('/', (req, res, next) => {
     try {
       serverRender(req, res, next);
     } catch (err) {
-      console.error("SSR render error, downgrade to CSR...\n", err);
+      console.error('SSR render error, downgrade to CSR...\n', err);
       next();
     }
   });
 
-  app.use(express.static("dist"));
+  app.use(express.static('dist'));
 
   app.listen(port, () => {
     console.log(`Server started at http://localhost:${port}`);

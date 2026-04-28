@@ -1,21 +1,21 @@
 // @ts-check
-import { rspack } from "@rspack/core";
-import { defineConfig } from "@rspack/cli";
+import { rspack } from '@rspack/core';
+import { defineConfig } from '@rspack/cli';
 
 export default defineConfig({
-  entry: "./src/index.js",
+  entry: './src/index.js',
   plugins: [
     new rspack.HtmlRspackPlugin({
-      template: "./index.html",
+      template: './index.html',
     }),
   ],
   module: {
     rules: [
       {
         test: /worker\.js$/,
-        loader: "worker-rspack-loader",
+        loader: 'worker-rspack-loader',
         options: {
-          inline: "no-fallback",
+          inline: 'no-fallback',
         },
       },
     ],

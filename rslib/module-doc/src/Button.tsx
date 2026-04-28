@@ -1,4 +1,4 @@
-import "./button.css";
+import './button.css';
 
 export interface ButtonProps {
   /**
@@ -14,7 +14,7 @@ export interface ButtonProps {
    * Size of Button
    * @default 'large'
    */
-  size?: "small" | "medium" | "large";
+  size?: 'small' | 'medium' | 'large';
   /**
    * Label of the button
    */
@@ -23,16 +23,16 @@ export interface ButtonProps {
 
 export const Button = ({
   primary = true,
-  size = "large",
+  size = 'large',
   backgroundColor,
   label,
   ...props
 }: ButtonProps) => {
-  const mode = primary ? "demo-button--primary" : "demo-button--secondary";
+  const mode = primary ? 'demo-button--primary' : 'demo-button--secondary';
   return (
     <button
       type="button"
-      className={["demo-button", `demo-button--${size}`, mode].join(" ")}
+      className={['demo-button', `demo-button--${size}`, mode].join(' ')}
       style={{ backgroundColor }}
       {...props}
     >

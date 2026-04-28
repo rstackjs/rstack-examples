@@ -1,0 +1,10 @@
+# Ignore artifacts:
+dist-*
+pnpm-lock.yaml
+
+# Ignore generated files:
+auto-imports.d.ts
+components.d.ts
+**/@mf-types
+**/http-import.lock.data
+**/__snapshots__
