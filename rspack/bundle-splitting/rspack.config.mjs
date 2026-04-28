@@ -1,10 +1,10 @@
 // @ts-check
-import { rspack } from "@rspack/core";
-import { defineConfig } from "@rspack/cli";
+import { rspack } from '@rspack/core';
+import { defineConfig } from '@rspack/cli';
 
 export default defineConfig({
   entry: {
-    main: "./index.js",
+    main: './index.js',
   },
   module: {
     parser: {
@@ -19,8 +19,8 @@ export default defineConfig({
     splitChunks: {
       cacheGroups: {
         vendor: {
-          chunks: "all",
-          name: "vendor",
+          chunks: 'all',
+          name: 'vendor',
           test: /common/,
         },
       },

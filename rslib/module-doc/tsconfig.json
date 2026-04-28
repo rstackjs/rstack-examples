@@ -15,7 +15,7 @@
     "resolveJsonModule": true,
     "allowImportingTsExtensions": true,
     "isolatedModules": true,
-    
+
     /* type checking */
     "strict": true,
     "noUnusedLocals": true,

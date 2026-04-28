@@ -1,5 +1,5 @@
-import Fastify from "fastify";
-import { createRsbuild, loadConfig } from "@rsbuild/core";
+import Fastify from 'fastify';
+import { createRsbuild, loadConfig } from '@rsbuild/core';
 
 export async function startDevServer() {
   const { content } = await loadConfig({});
@@ -11,7 +11,7 @@ export async function startDevServer() {
 
   const fastify = Fastify();
 
-  const middie = await import("@fastify/middie");
+  const middie = await import('@fastify/middie');
 
   await fastify.register(middie);
 

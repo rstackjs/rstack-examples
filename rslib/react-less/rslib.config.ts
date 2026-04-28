@@ -1,17 +1,17 @@
-import { pluginReact } from "@rsbuild/plugin-react";
-import { pluginLess } from "@rsbuild/plugin-less";
-import { defineConfig } from "@rslib/core";
+import { pluginReact } from '@rsbuild/plugin-react';
+import { pluginLess } from '@rsbuild/plugin-less';
+import { defineConfig } from '@rslib/core';
 
 export default defineConfig({
   lib: [
     {
       bundle: false,
       dts: true,
-      format: "esm",
+      format: 'esm',
     },
   ],
   output: {
-    target: "web",
+    target: 'web',
   },
   plugins: [
     pluginReact(),

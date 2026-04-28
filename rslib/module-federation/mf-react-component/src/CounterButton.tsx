@@ -4,11 +4,7 @@ interface CounterButtonProps {
   [key: string]: any;
 }
 
-export const CounterButton: React.FC<CounterButtonProps> = ({
-  onClick,
-  label,
-  ...props
-}) => (
+export const CounterButton: React.FC<CounterButtonProps> = ({ onClick, label, ...props }) => (
   <button type="button" onClick={onClick} {...props}>
     {label}
   </button>

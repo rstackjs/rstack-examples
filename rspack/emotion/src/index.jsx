@@ -7,8 +7,8 @@ const App = () => {
       rspack
       <div
         css={css`
-        color: green;
-      `}
+          color: green;
+        `}
       >
         loves
       </div>
@@ -26,8 +26,8 @@ const App = () => {
             className={cx(
               'some-class',
               css`
-              color: yellow;
-            `,
+                color: yellow;
+              `,
             )}
           >
             emotion

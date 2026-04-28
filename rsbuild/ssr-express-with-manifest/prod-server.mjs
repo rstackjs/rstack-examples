@@ -1,7 +1,7 @@
-import express from "express";
-import { createRequire } from "node:module";
-import fs from "node:fs";
-import path from "node:path";
+import express from 'express';
+import { createRequire } from 'node:module';
+import fs from 'node:fs';
+import path from 'node:path';
 
 const require = createRequire(import.meta.url);
 
@@ -18,12 +18,14 @@ const serverRender = (_req, res) => {
 
   const { js, css } = entries['index'].initial;
 
-  const scriptTags = js.map(file => `<script src="${file}" defer></script>`).join('\n');
-  const styleTags = css.map(file => `<link rel="stylesheet" href="${file}">`).join('\n');  
+  const scriptTags = js.map((file) => `<script src="${file}" defer></script>`).join('\n');
+  const styleTags = css.map((file) => `<link rel="stylesheet" href="${file}">`).join('\n');
 
-  const html = templateHtml.replace("<!--app-content-->", markup).replace('<!--app-head-->', `${scriptTags}\n${styleTags}`);
+  const html = templateHtml
+    .replace('<!--app-content-->', markup)
+    .replace('<!--app-head-->', `${scriptTags}\n${styleTags}`);
 
-  res.status(200).set({ "Content-Type": "text/html" }).send(html);
+  res.status(200).set({ 'Content-Type': 'text/html' }).send(html);
 };
 
 const port = process.env.PORT || 3000;
@@ -31,16 +33,16 @@ const port = process.env.PORT || 3000;
 export async function preview() {
   const app = express();
 
-  app.get("/", (req, res, next) => {
+  app.get('/', (req, res, next) => {
     try {
       serverRender(req, res, next);
     } catch (err) {
-      console.error("SSR render error, downgrade to CSR...\n", err);
+      console.error('SSR render error, downgrade to CSR...\n', err);
       next();
     }
   });
 
-  app.use(express.static("dist"));
+  app.use(express.static('dist'));
 
   app.listen(port, () => {
     console.log(`Server started at http://localhost:${port}`);

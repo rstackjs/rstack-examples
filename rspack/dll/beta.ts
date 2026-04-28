@@ -1,1 +1,1 @@
-export default "beta"
+export default 'beta';

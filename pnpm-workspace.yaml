@@ -1,10 +1,10 @@
 packages:
-  - "rspack/**"
-  - "rsbuild/**"
-  - "rslib/**"
-  - "rspress/**"
-  - "rsdoctor/**"
-  - "rstest/**"
-  - "!**/dist"
+  - 'rspack/**'
+  - 'rsbuild/**'
+  - 'rslib/**'
+  - 'rspress/**'
+  - 'rsdoctor/**'
+  - 'rstest/**'
+  - '!**/dist'
 
 dedupePeers: true
