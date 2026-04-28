@@ -1,11 +1,5 @@
-# Ignore dependencies:
-node_modules
-
 # Ignore artifacts:
-dist
 dist-*
-doc_build
-coverage
 pnpm-lock.yaml
 
 # Ignore generated files:
