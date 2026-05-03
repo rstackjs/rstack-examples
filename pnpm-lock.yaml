@@ -1575,8 +1575,8 @@ importers:
         version: 3.5.33(typescript@5.9.3)
     devDependencies:
       '@lingui/swc-plugin':
-        specifier: ^5.11.0
-        version: 5.11.0(@lingui/core@4.11.4)(@swc/core@1.15.1)
+        specifier: ^6.0.0
+        version: 6.0.0(@lingui/core@4.11.4)(@swc/core@1.15.1)
       '@rspack/cli':
         specifier: 2.0.0
         version: 2.0.0(@rspack/core@2.0.0)(@rspack/dev-server@2.0.1)
@@ -6152,10 +6152,10 @@ packages:
     resolution: {integrity: sha512-ZTCDhGbj5EN+P9Ajcj0Gq9uDP3HZTRW6/kT09WkiFgL4NayYLksPvgBk29sIglsS6M+Y6Iw2BrUK403SZjZKgw==}
     engines: {node: '>=16.0.0'}
 
-  '@lingui/swc-plugin@5.11.0':
-    resolution: {integrity: sha512-0PBYyozQOiA4WtxKPsnCyrbA9da9zOYehyZjvrv56Kzt9w81xbgnNjuAQZyjIX7UYuqFFE48GvzBqnB5SLLOFA==}
+  '@lingui/swc-plugin@6.0.0':
+    resolution: {integrity: sha512-Jq9DKO/lKywWJafVYAvPeydetWV6eEi0nkLUmlsjo+fMkJIZqiOx5uQBxxfK33jtVB2kWzpAO6aoH9zt6H3R/A==}
     peerDependencies:
-      '@lingui/core': '5'
+      '@lingui/core': 5 || 6
       '@swc/core': '*'
       next: '*'
     peerDependenciesMeta:
@@ -14838,6 +14838,7 @@ packages:
 
   uuid@9.0.1:
     resolution: {integrity: sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==}
+    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
   uvu@0.5.6:
@@ -17957,7 +17958,7 @@ snapshots:
       '@messageformat/parser': 5.1.1
       js-sha256: 0.10.1
 
-  '@lingui/swc-plugin@5.11.0(@lingui/core@4.11.4)(@swc/core@1.15.1)':
+  '@lingui/swc-plugin@6.0.0(@lingui/core@4.11.4)(@swc/core@1.15.1)':
     dependencies:
       '@lingui/core': 4.11.4
     optionalDependencies:

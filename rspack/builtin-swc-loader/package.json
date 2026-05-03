@@ -15,7 +15,7 @@
     "vue": "3.5.33"
   },
   "devDependencies": {
-    "@lingui/swc-plugin": "^5.11.0",
+    "@lingui/swc-plugin": "^6.0.0",
     "@rspack/cli": "2.0.0",
     "@rspack/core": "2.0.0",
     "@rspack/dev-server": "2.0.1",
