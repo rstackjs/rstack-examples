@@ -10,7 +10,7 @@
     "test:coverage:lcov": "rstest run --coverage --coverage.reporter=lcov"
   },
   "devDependencies": {
-    "@rstest/core": "^0.9.9",
+    "@rstest/core": "^0.9.10",
     "@rstest/coverage-istanbul": "^0.3.2",
     "typescript": "^5.9.3"
   }

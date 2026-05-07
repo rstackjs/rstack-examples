@@ -21,14 +21,14 @@
     "@rsbuild/plugin-vue": "^1.2.7",
     "@rslib/core": "^0.21.3",
     "@rstest/adapter-rslib": "^0.2.2",
-    "@rstest/core": "^0.9.9",
+    "@rstest/core": "^0.9.10",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/vue": "^8.1.0",
-    "@vue/test-utils": "^2.4.8",
+    "@vue/test-utils": "^2.4.10",
     "jsdom": "^27.4.0",
     "typescript": "^5.9.3",
     "vue": "^3.5.33",
-    "vue-tsc": "^3.2.7"
+    "vue-tsc": "^3.2.8"
   },
   "peerDependencies": {
     "vue": "^3.2.0"

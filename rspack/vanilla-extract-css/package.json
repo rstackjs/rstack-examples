@@ -8,8 +8,8 @@
     "dev": "rspack dev"
   },
   "dependencies": {
-    "@rspack/cli": "2.0.0",
-    "@rspack/core": "2.0.0",
+    "@rspack/cli": "2.0.2",
+    "@rspack/core": "2.0.2",
     "@rspack/dev-server": "2.0.1",
     "@vanilla-extract/css": "1.20.1",
     "@vanilla-extract/sprinkles": "^1.6.5",

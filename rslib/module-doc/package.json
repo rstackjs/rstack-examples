@@ -22,9 +22,9 @@
   "devDependencies": {
     "@rsbuild/plugin-react": "^2.0.0",
     "@rslib/core": "^0.21.3",
-    "@rspress/core": "^2.0.9",
-    "@rspress/plugin-api-docgen": "^2.0.9",
-    "@rspress/plugin-preview": "^2.0.9",
+    "@rspress/core": "^2.0.10",
+    "@rspress/plugin-api-docgen": "^2.0.10",
+    "@rspress/plugin-preview": "^2.0.10",
     "@types/node": "^24.12.2",
     "@types/react": "^19.2.14",
     "react": "^19.2.5",

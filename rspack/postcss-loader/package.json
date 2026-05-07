@@ -9,8 +9,8 @@
   },
   "browserslist": "last 4 version",
   "devDependencies": {
-    "@rspack/cli": "2.0.0",
-    "@rspack/core": "2.0.0",
+    "@rspack/cli": "2.0.2",
+    "@rspack/core": "2.0.2",
     "@rspack/dev-server": "2.0.1",
     "autoprefixer": "10.5.0",
     "postcss-loader": "8.2.1",

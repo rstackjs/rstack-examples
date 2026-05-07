@@ -8,9 +8,9 @@
     "dev": "rspack dev"
   },
   "devDependencies": {
-    "@rspack/cli": "2.0.0",
-    "@rspack/core": "2.0.0",
+    "@rspack/cli": "2.0.2",
+    "@rspack/core": "2.0.2",
     "@rspack/dev-server": "2.0.1",
-    "workbox-webpack-plugin": "7.4.0"
+    "workbox-webpack-plugin": "7.4.1"
   }
 }

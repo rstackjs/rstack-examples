@@ -10,8 +10,8 @@
     "vue": "^3.5.33"
   },
   "devDependencies": {
-    "@rspack/cli": "2.0.0",
-    "@rspack/core": "2.0.0",
+    "@rspack/cli": "2.0.2",
+    "@rspack/core": "2.0.2",
     "@rspack/dev-server": "2.0.1",
     "html-webpack-plugin": "5.6.7",
     "rspack-vue-loader": "^17.5.0",
