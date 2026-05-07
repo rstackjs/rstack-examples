@@ -11,10 +11,10 @@
     "react": "^19.2.5"
   },
   "devDependencies": {
-    "@babel/preset-env": "7.29.2",
+    "@babel/preset-env": "7.29.5",
     "@mdx-js/loader": "3.1.1",
-    "@rspack/cli": "2.0.0",
-    "@rspack/core": "2.0.0",
+    "@rspack/cli": "2.0.2",
+    "@rspack/core": "2.0.2",
     "@rspack/dev-server": "2.0.1",
     "@svgr/webpack": "8.1.0",
     "autoprefixer": "10.5.0",

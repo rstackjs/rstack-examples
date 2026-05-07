@@ -22,7 +22,7 @@
   "devDependencies": {
     "@rslib/core": "^0.21.3",
     "@rstest/adapter-rslib": "^0.2.2",
-    "@rstest/core": "^0.9.9",
+    "@rstest/core": "^0.9.10",
     "@types/node": "^24.12.2",
     "typescript": "^5.9.3"
   }

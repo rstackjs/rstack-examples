@@ -8,8 +8,8 @@
     "dev": "NODE_ENV=development NO_CSP=true node server.js"
   },
   "devDependencies": {
-    "@rspack/cli": "2.0.0",
-    "@rspack/core": "2.0.0",
+    "@rspack/cli": "2.0.2",
+    "@rspack/core": "2.0.2",
     "@rspack/dev-server": "2.0.1",
     "@rspack/plugin-react-refresh": "^2.0.0",
     "@types/express": "^5.0.6",
