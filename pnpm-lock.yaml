@@ -1162,6 +1162,34 @@ importers:
         specifier: ^5.9.3
         version: 5.9.3
 
+  rslib/react-compiler:
+    dependencies:
+      react-dom:
+        specifier: '>=19.0.0'
+        version: 19.2.5(react@19.2.5)
+    devDependencies:
+      '@rsbuild/plugin-babel':
+        specifier: ^1.1.2
+        version: 1.1.2(@rsbuild/core@2.0.5)
+      '@rsbuild/plugin-react':
+        specifier: ^2.0.0
+        version: 2.0.0(@rsbuild/core@2.0.5)(@rspack/core@2.0.2)
+      '@rslib/core':
+        specifier: ^0.21.3
+        version: 0.21.3(@module-federation/runtime-tools@2.4.0)(core-js@3.49.0)(typescript@5.9.3)
+      '@types/react':
+        specifier: ^19.2.14
+        version: 19.2.14
+      babel-plugin-react-compiler:
+        specifier: ^1.0.0
+        version: 1.0.0
+      react:
+        specifier: ^19.2.5
+        version: 19.2.5
+      typescript:
+        specifier: ^5.9.3
+        version: 5.9.3
+
   rslib/react-css-module:
     dependencies:
       react-dom:
