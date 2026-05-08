@@ -1,0 +1,15 @@
+.demo-button {
+  font-family: inherit;
+  font-weight: 700;
+  border: 0;
+  border-radius: 999px;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  padding: 12px 24px;
+}
+
+.demo-button--primary {
+  color: white;
+  background-color: #1ea7fd;
+}
