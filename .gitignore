@@ -35,3 +35,6 @@ node_modules/
 .env.test.local
 .env.production.local
 .env.local
+
+# Jetbrains IDE files
+.idea
