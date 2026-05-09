@@ -2510,6 +2510,9 @@ importers:
       cross-env:
         specifier: 10.1.0
         version: 10.1.0
+      webpack-node-externals:
+        specifier: 3.0.0
+        version: 3.0.0
 
   rspack/next-rspack-app-router:
     dependencies:
@@ -14914,6 +14917,10 @@ packages:
 
   webpack-hot-middleware@2.26.1:
     resolution: {integrity: sha512-khZGfAeJx6I8K9zKohEWWYN6KDlVw2DHownoe+6Vtwj1LP9WFgegXnVMSkZ/dBEBtXFwrkkydsaPFlB7f8wU2A==}
+
+  webpack-node-externals@3.0.0:
+    resolution: {integrity: sha512-LnL6Z3GGDPht/AigwRh2dvL9PQPFQ8skEpVrWZXLWBYmqcaojHNN0onvHzie6rq7EWKrrBfPYqNEzTJgiwEQDQ==}
+    engines: {node: '>=6'}
 
   webpack-sources@1.4.3:
     resolution: {integrity: sha512-lgTS3Xhv1lCOKo7SA5TjKXMjpSM4sBjNV5+q2bqesbSPs5FjGmU6jjtBSkX9b4qW87vDIsCIlUPOEhbZrMdjeQ==}
@@ -28456,6 +28463,8 @@ snapshots:
       ansi-html-community: 0.0.8
       html-entities: 2.6.0
       strip-ansi: 6.0.1
+
+  webpack-node-externals@3.0.0: {}
 
   webpack-sources@1.4.3:
     dependencies:

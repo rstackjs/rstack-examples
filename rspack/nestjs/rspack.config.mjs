@@ -2,12 +2,18 @@
 import { defineConfig } from '@rspack/cli';
 import { rspack } from '@rspack/core';
 import { RunScriptWebpackPlugin } from 'run-script-webpack-plugin';
+import nodeExternals from 'webpack-node-externals';
+
+const isProduction = process.env.BUILD === 'true';
 
 export default defineConfig({
   context: import.meta.dirname,
   target: 'node',
   entry: {
-    main: ['@rspack/core/hot/poll?100', './src/main.ts'],
+    main: isProduction ? './src/main.ts' : ['@rspack/core/hot/poll?100', './src/main.ts'],
+  },
+  output: {
+    clean: true,
   },
   resolve: {
     extensions: ['...', '.ts', '.tsx', '.jsx'],
@@ -67,40 +73,8 @@ export default defineConfig({
     },
   },
   externals: [
-    function (obj, callback) {
-      const resource = obj.request;
-      const lazyImports = [
-        '@nestjs/core',
-        '@nestjs/microservices',
-        '@nestjs/platform-express',
-        'cache-manager',
-        'class-validator',
-        'class-transformer',
-        // ADD THIS
-        '@nestjs/microservices/microservices-module',
-        '@nestjs/websockets',
-        'socket.io-adapter',
-        'utf-8-validate',
-        'bufferutil',
-        'kerberos',
-        '@mongodb-js/zstd',
-        'snappy',
-        '@aws-sdk/credential-providers',
-        'mongodb-client-encryption',
-        '@nestjs/websockets/socket-module',
-        'bson-ext',
-        'snappy/package.json',
-        'aws4',
-      ];
-      if (!lazyImports.includes(resource)) {
-        return callback();
-      }
-      try {
-        import.meta.resolve(resource);
-      } catch (err) {
-        callback(null, resource);
-      }
-      callback();
-    },
+    nodeExternals({
+      allowlist: [/@rspack\/core\/hot\/poll/],
+    }),
   ],
 });
