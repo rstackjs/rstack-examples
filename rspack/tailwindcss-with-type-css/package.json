@@ -12,7 +12,7 @@
     "@rspack/cli": "2.0.2",
     "@rspack/core": "2.0.2",
     "@rspack/dev-server": "2.0.1",
-    "@tailwindcss/webpack": "^4.2.4",
-    "tailwindcss": "^4.2.4"
+    "@tailwindcss/webpack": "^4.3.0",
+    "tailwindcss": "^4.3.0"
   }
 }
