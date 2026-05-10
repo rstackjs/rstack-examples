@@ -10,8 +10,8 @@
   "license": "MIT",
   "dependencies": {
     "date-fns": "^4.1.0",
-    "react": "^19.2.5",
-    "react-dom": "^19.2.5"
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
   },
   "devDependencies": {
     "@rspack/cli": "2.0.2",
