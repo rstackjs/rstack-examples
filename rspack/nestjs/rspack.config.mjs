@@ -4,13 +4,14 @@ import { rspack } from '@rspack/core';
 import { RunScriptWebpackPlugin } from 'run-script-webpack-plugin';
 import nodeExternals from 'webpack-node-externals';
 
-const isProduction = process.env.BUILD === 'true';
-
 export default defineConfig({
   context: import.meta.dirname,
   target: 'node',
   entry: {
-    main: isProduction ? './src/main.ts' : ['@rspack/core/hot/poll?100', './src/main.ts'],
+    main:
+      process.env.BUILD === 'true'
+        ? './src/main.ts'
+        : ['@rspack/core/hot/poll?100', './src/main.ts'],
   },
   output: {
     clean: true,
