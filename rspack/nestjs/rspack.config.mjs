@@ -9,7 +9,7 @@ export default defineConfig({
   target: 'node',
   entry: {
     main:
-      process.env.BUILD === 'true'
+      process.env.NODE_ENV === 'production'
         ? './src/main.ts'
         : ['@rspack/core/hot/poll?100', './src/main.ts'],
   },
