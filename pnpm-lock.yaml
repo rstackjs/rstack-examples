@@ -2507,9 +2507,6 @@ importers:
       '@rspack/dev-server':
         specifier: 2.0.1
         version: 2.0.1(@rspack/core@2.0.2)
-      cross-env:
-        specifier: 10.1.0
-        version: 10.1.0
       webpack-node-externals:
         specifier: 3.0.0
         version: 3.0.0
