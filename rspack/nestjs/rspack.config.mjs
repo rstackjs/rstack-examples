@@ -62,7 +62,7 @@ export default defineConfig({
   },
   externalsType: 'commonjs',
   plugins: [
-    !process.env.BUILD &&
+    process.env.NODE_ENV !== 'production' &&
       new RunScriptWebpackPlugin({
         name: 'main.js',
         autoRestart: false,
