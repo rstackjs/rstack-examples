@@ -7,7 +7,7 @@
     "test": "rstest"
   },
   "devDependencies": {
-    "@rstest/core": "^0.9.10",
+    "@rstest/core": "^0.10.0",
     "typescript": "^5.9.3"
   }
 }

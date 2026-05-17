@@ -19,16 +19,16 @@
     "storybook": "storybook dev"
   },
   "devDependencies": {
-    "@rsbuild/core": "~2.0.5",
+    "@rsbuild/core": "~2.0.6",
     "@rsbuild/plugin-react": "^2.0.0",
-    "@rslib/core": "^0.21.4",
-    "@storybook/addon-docs": "^10.3.6",
-    "@storybook/addon-onboarding": "^10.3.6",
-    "@storybook/react": "^10.3.6",
+    "@rslib/core": "^0.21.5",
+    "@storybook/addon-docs": "^10.4.0",
+    "@storybook/addon-onboarding": "^10.4.0",
+    "@storybook/react": "^10.4.0",
     "@types/react": "^19.2.14",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
-    "storybook": "^10.3.6",
+    "storybook": "^10.4.0",
     "storybook-addon-rslib": "^3.3.3",
     "storybook-react-rsbuild": "^3.3.3",
     "typescript": "^5.9.3"

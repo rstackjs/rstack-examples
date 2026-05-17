@@ -11,12 +11,12 @@
     "@babel/core": "7.29.0",
     "babel-loader": "10.1.1",
     "babel-preset-solid": "1.9.12",
-    "solid-js": "1.9.12",
+    "solid-js": "1.9.13",
     "solid-refresh": "0.7.8"
   },
   "devDependencies": {
-    "@rspack/cli": "2.0.2",
-    "@rspack/core": "2.0.2",
+    "@rspack/cli": "2.0.3",
+    "@rspack/core": "2.0.3",
     "@rspack/dev-server": "2.0.1"
   }
 }
