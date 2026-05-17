@@ -9,9 +9,9 @@
     "test": "rstest"
   },
   "devDependencies": {
-    "@rsbuild/core": "2.0.5",
-    "@rstest/adapter-rsbuild": "^0.2.6",
-    "@rstest/core": "^0.9.10",
+    "@rsbuild/core": "2.0.6",
+    "@rstest/adapter-rsbuild": "^0.10.0",
+    "@rstest/core": "^0.10.0",
     "happy-dom": "^20.9.0",
     "typescript": "^5.9.3"
   }
