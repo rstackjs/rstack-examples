@@ -3,5 +3,12 @@ import { pluginEslint } from '@rsbuild/plugin-eslint';
 import { pluginReact } from '@rsbuild/plugin-react';
 
 export default defineConfig({
-  plugins: [pluginReact(), pluginEslint()],
+  plugins: [
+    pluginReact(),
+    pluginEslint({
+      eslintPluginOptions: {
+        configType: 'eslintrc',
+      },
+    }),
+  ],
 });

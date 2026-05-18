@@ -7,6 +7,7 @@ export default defineConfig({
     pluginVue(),
     pluginEslint({
       eslintPluginOptions: {
+        configType: 'eslintrc',
         extensions: ['.js', '.jsx', '.ts', '.tsx', '.vue'],
         fix: true,
       },
