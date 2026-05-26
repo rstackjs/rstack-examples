@@ -11,13 +11,13 @@
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
     "semver6": "npm:semver@6.3.1",
-    "semver7": "npm:semver@7.8.0"
+    "semver7": "npm:semver@7.8.1"
   },
   "devDependencies": {
-    "@rsbuild/core": "2.0.6",
+    "@rsbuild/core": "2.0.7",
     "@rsbuild/plugin-react": "^2.0.0",
     "@rsdoctor/rspack-plugin": "^1.5.11",
-    "@types/react": "^19.2.14",
+    "@types/react": "^19.2.15",
     "@types/react-dom": "^19.2.3",
     "@types/semver6": "npm:@types/semver@7.7.1",
     "typescript": "^5.9.3"
