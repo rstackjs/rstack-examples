@@ -8,17 +8,17 @@
     "validate": "svelte-check"
   },
   "devDependencies": {
-    "@rspack/cli": "2.0.3",
-    "@rspack/core": "2.0.3",
+    "@rspack/cli": "2.0.4",
+    "@rspack/core": "2.0.4",
     "@rspack/dev-server": "2.0.1",
     "@tsconfig/svelte": "^5.0.8",
     "@types/node": "^24.12.4",
     "cross-env": "^10.1.0",
     "postcss-load-config": "6.0.1",
-    "svelte": "^5.55.7",
+    "svelte": "^5.55.9",
     "svelte-check": "^4.4.8",
     "svelte-loader": "^3.2.4",
-    "svelte-preprocess": "^6.0.3",
+    "svelte-preprocess": "^6.0.4",
     "tslib": "^2.8.1",
     "typescript": "^5.9.3"
   }
