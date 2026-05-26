@@ -384,9 +384,9 @@ importers:
       '@rsbuild/plugin-react':
         specifier: ^2.0.0
         version: 2.0.0(@rsbuild/core@2.0.6)(@rspack/core@2.0.3)
-      '@tailwindcss/postcss':
-        specifier: ^4.3.0
-        version: 4.3.0
+      '@rsbuild/plugin-tailwindcss':
+        specifier: ^2.0.0
+        version: 2.0.0(@rsbuild/core@2.0.6)(webpack@5.102.1)
       '@types/react':
         specifier: ^19.2.14
         version: 19.2.14
@@ -7245,6 +7245,14 @@ packages:
     resolution: {integrity: sha512-maRgnSH/8nAJKl8yhQyf8W07kzz/tOCK8zZLpOIL7dP1j3Pxir7Uiy98ikPq3fWhPIBBtIzpmY8FUaR44t2CJA==}
     peerDependencies:
       '@rsbuild/core': ^1.4.0 || ^2.0.0-0
+    peerDependenciesMeta:
+      '@rsbuild/core':
+        optional: true
+
+  '@rsbuild/plugin-tailwindcss@2.0.0':
+    resolution: {integrity: sha512-d34Cc6PGx9xeYug8cNWaonqPN69d+VqbdlUMrf8JCD7Z/X1/mHtgzOlGCuypGLCqBmWTK94Rdn1N47MBfjH6GA==}
+    peerDependencies:
+      '@rsbuild/core': ^2.0.0
     peerDependenciesMeta:
       '@rsbuild/core':
         optional: true
@@ -15065,8 +15073,8 @@ packages:
   vue-component-type-helpers@3.2.8:
     resolution: {integrity: sha512-9689efAXhN/EV86plgkL/XFiJSXhGtWPG6JDboZ+QnjlUWUUQrQ0ILKQtw4iQsuwIwu5k6Aw+JnehDe7161e7A==}
 
-  vue-component-type-helpers@3.3.1:
-    resolution: {integrity: sha512-pu58kqxmVyEH6VfNYW1UyEfR3XAnJ27ZXT3yzXxxpjLxVzAbyC35Zk/nm/RMs7ijWnJNSd9fWkeex2OhUsx3MA==}
+  vue-component-type-helpers@3.3.2:
+    resolution: {integrity: sha512-l4Z2Y34m7nFMlx8vrslJaVtXxUpzgDMSESC7TakG/c5kwjYT/do+E0NcT2/vWDzaoIhsShg/2OKwX7Q4nbzC0g==}
 
   vue-docgen-api@4.79.2:
     resolution: {integrity: sha512-n9ENAcs+40awPZMsas7STqjkZiVlIjxIKgiJr5rSohDP0/JCrD9VtlzNojafsA1MChm/hz2h3PDtUedx3lbgfA==}
@@ -19065,6 +19073,14 @@ snapshots:
       - svelte
       - typescript
 
+  '@rsbuild/plugin-tailwindcss@2.0.0(@rsbuild/core@2.0.6)(webpack@5.102.1)':
+    dependencies:
+      '@tailwindcss/webpack': 4.3.0(webpack@5.102.1)
+    optionalDependencies:
+      '@rsbuild/core': 2.0.6(@module-federation/runtime-tools@2.4.0)(core-js@3.49.0)
+    transitivePeerDependencies:
+      - webpack
+
   '@rsbuild/plugin-type-check@1.3.4(@rsbuild/core@2.0.6)(@rspack/core@2.0.3)(typescript@5.9.3)':
     dependencies:
       deepmerge: 4.3.1
@@ -19815,7 +19831,7 @@ snapshots:
       storybook: 10.4.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@testing-library/dom@10.4.1)(@types/react@19.2.14)(prettier@3.8.3)(react-dom@19.2.6)(react@19.2.6)
       type-fest: 2.19.0
       vue: 3.5.34(typescript@5.9.3)
-      vue-component-type-helpers: 3.3.1
+      vue-component-type-helpers: 3.3.2
 
   '@stylexjs/babel-plugin@0.18.2':
     dependencies:
@@ -28618,7 +28634,7 @@ snapshots:
 
   vue-component-type-helpers@3.2.8: {}
 
-  vue-component-type-helpers@3.3.1: {}
+  vue-component-type-helpers@3.3.2: {}
 
   vue-docgen-api@4.79.2(vue@3.5.34):
     dependencies:
