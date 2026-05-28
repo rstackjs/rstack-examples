@@ -8,17 +8,17 @@
     "dev": "rspack dev"
   },
   "dependencies": {
-    "@swc/helpers": "^0.5.21",
+    "@swc/helpers": "^0.5.23",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
     "react-refresh": "0.18.0"
   },
   "devDependencies": {
-    "@babel/plugin-syntax-jsx": "^7.28.6",
-    "@babel/plugin-syntax-typescript": "^7.28.6",
-    "@rspack/cli": "2.0.4",
-    "@rspack/core": "2.0.4",
-    "@rspack/dev-server": "2.0.1",
+    "@babel/plugin-syntax-jsx": "^7.29.7",
+    "@babel/plugin-syntax-typescript": "^7.29.7",
+    "@rspack/cli": "2.0.5",
+    "@rspack/core": "2.0.5",
+    "@rspack/dev-server": "2.0.2",
     "@types/react": "^19.2.15",
     "@types/react-dom": "^19.2.3",
     "babel-loader": "^10.1.1",

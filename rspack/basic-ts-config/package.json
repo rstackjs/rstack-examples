@@ -8,9 +8,9 @@
     "dev": "rspack dev"
   },
   "devDependencies": {
-    "@rspack/cli": "2.0.4",
-    "@rspack/core": "2.0.4",
-    "@rspack/dev-server": "2.0.1",
+    "@rspack/cli": "2.0.5",
+    "@rspack/core": "2.0.5",
+    "@rspack/dev-server": "2.0.2",
     "typescript": "^5.9.3"
   }
 }
