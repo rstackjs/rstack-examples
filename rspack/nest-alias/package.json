@@ -8,9 +8,9 @@
     "compile": "tsc -b"
   },
   "dependencies": {
-    "@rspack/cli": "2.0.4",
-    "@rspack/core": "2.0.4",
-    "@rspack/dev-server": "2.0.1",
+    "@rspack/cli": "2.0.5",
+    "@rspack/core": "2.0.5",
+    "@rspack/dev-server": "2.0.2",
     "lib1": "workspace:*",
     "lib2": "workspace:*",
     "typescript": "^5.9.3"

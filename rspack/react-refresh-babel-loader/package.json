@@ -12,13 +12,13 @@
     "react-dom": "^19.2.6"
   },
   "devDependencies": {
-    "@babel/core": "^7.29.0",
-    "@babel/preset-react": "^7.28.5",
-    "@babel/preset-typescript": "^7.28.5",
-    "@rspack/cli": "2.0.4",
-    "@rspack/core": "2.0.4",
-    "@rspack/dev-server": "2.0.1",
-    "@rspack/plugin-react-refresh": "^2.0.0",
+    "@babel/core": "^7.29.7",
+    "@babel/preset-react": "^7.29.7",
+    "@babel/preset-typescript": "^7.29.7",
+    "@rspack/cli": "2.0.5",
+    "@rspack/core": "2.0.5",
+    "@rspack/dev-server": "2.0.2",
+    "@rspack/plugin-react-refresh": "^2.0.1",
     "babel-loader": "^10.1.1",
     "react-refresh": "0.18.0"
   }

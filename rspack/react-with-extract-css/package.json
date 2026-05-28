@@ -8,7 +8,7 @@
     "dev": "rspack dev"
   },
   "dependencies": {
-    "@swc/helpers": "^0.5.21",
+    "@swc/helpers": "^0.5.23",
     "css-loader": "^7.1.4",
     "less-loader": "12.3.3",
     "normalize.css": "8.0.1",
@@ -16,9 +16,9 @@
     "react-dom": "^19.2.6"
   },
   "devDependencies": {
-    "@rspack/cli": "2.0.4",
-    "@rspack/core": "2.0.4",
-    "@rspack/dev-server": "2.0.1",
+    "@rspack/cli": "2.0.5",
+    "@rspack/core": "2.0.5",
+    "@rspack/dev-server": "2.0.2",
     "react-refresh": "^0.18.0"
   }
 }

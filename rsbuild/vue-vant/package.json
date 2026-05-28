@@ -10,10 +10,10 @@
   },
   "dependencies": {
     "vant": "^4.9.24",
-    "vue": "^3.5.34"
+    "vue": "^3.5.35"
   },
   "devDependencies": {
-    "@rsbuild/core": "2.0.7",
+    "@rsbuild/core": "2.0.8",
     "@rsbuild/plugin-less": "^1.6.3",
     "@rsbuild/plugin-vue": "^1.2.8",
     "@vant/auto-import-resolver": "^1.3.0",
