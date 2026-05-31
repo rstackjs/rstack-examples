@@ -7,7 +7,7 @@
   "devDependencies": {
     "@rspack/cli": "2.0.5",
     "@rspack/core": "2.0.5",
-    "@rspack/dev-server": "2.0.2",
+    "@rspack/dev-server": "2.0.3",
     "generate-package-json-webpack-plugin": "^2.7.0"
   }
 }

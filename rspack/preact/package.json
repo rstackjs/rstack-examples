@@ -16,7 +16,7 @@
     "@prefresh/webpack": "4.0.6",
     "@rspack/cli": "2.0.5",
     "@rspack/core": "2.0.5",
-    "@rspack/dev-server": "2.0.2"
+    "@rspack/dev-server": "2.0.3"
   },
   "resolve": {
     "alias": {

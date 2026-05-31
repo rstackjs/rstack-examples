@@ -26,9 +26,9 @@
   "devDependencies": {
     "@rspack/cli": "2.0.5",
     "@rspack/core": "2.0.5",
-    "@rspack/dev-server": "2.0.2",
+    "@rspack/dev-server": "2.0.3",
     "@rspack/plugin-react-refresh": "^2.0.1",
     "react-refresh": "^0.18.0",
-    "web-vitals": "^5.2.0"
+    "web-vitals": "^5.3.0"
   }
 }

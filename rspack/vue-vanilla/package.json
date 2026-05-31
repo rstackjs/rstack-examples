@@ -13,11 +13,11 @@
   "devDependencies": {
     "@rspack/cli": "2.0.5",
     "@rspack/core": "2.0.5",
-    "@rspack/dev-server": "2.0.2",
+    "@rspack/dev-server": "2.0.3",
     "css-loader": "^7.1.4",
     "less": "4.6.4",
     "less-loader": "^12.3.3",
-    "rspack-vue-loader": "^17.5.0",
+    "rspack-vue-loader": "^17.5.1",
     "style-loader": "^4.0.0"
   }
 }
