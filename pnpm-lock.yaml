@@ -1889,8 +1889,8 @@ importers:
         specifier: ^9.39.4
         version: 9.39.4(jiti@2.6.1)
       eslint-rspack-plugin:
-        specifier: ^4.4.1
-        version: 4.4.1(eslint@9.39.4)
+        specifier: ^5.0.1
+        version: 5.0.1(@rspack/core@2.0.5)(eslint@9.39.4)
 
   rspack/express:
     dependencies:
@@ -8417,9 +8417,6 @@ packages:
   '@types/eslint-scope@3.7.7':
     resolution: {integrity: sha512-MzMFlSLBqNF2gcHWO0G1vP/YQyfvrxZ0bF+u7mzUdZ1/xK4A4sru+nraZz5i3iEIk1l1uyicaDVTB4QbbEkAYg==}
 
-  '@types/eslint@8.56.10':
-    resolution: {integrity: sha512-Shavhk87gCtY2fhXDctcfS3e6FdxWkCx1iUZ9eEUbh7rTqlZT0/IzOkCOVt0fCjcFuZ9FPYfuezTBImfHCDBGQ==}
-
   '@types/eslint@9.6.1':
     resolution: {integrity: sha512-FXx2pKgId/WyYo2jXw63kk7/+TY7u7AziEJxJAnSFzHlqTAS3Ync6SvgYAN/k4/PQpnnVuzoMuVnByKK2qp0ag==}
 
@@ -9454,10 +9451,6 @@ packages:
     resolution: {integrity: sha512-rNjApaLzuwaOTjCiT8lSDdGN1APCiqkChLMJxJPWLunPAt5fy8xgU9/jNOchV84wfIxrA0lRQB7oCT8jrn/wrQ==}
     engines: {node: '>=6.0'}
 
-  ci-info@3.9.0:
-    resolution: {integrity: sha512-NIxF55hv4nSqQswkAeiOi1r83xy8JldOFDTWiug55KBu9Jnblncd2U6ViHmYgHf01TPZS77NJBhBMKdWj9HQMQ==}
-    engines: {node: '>=8'}
-
   cipher-base@1.0.4:
     resolution: {integrity: sha512-Kkht5ye6ZGmwv40uUDZztayT2ThLQGfnj/T71N/XzeZeo3nf8foyW7zGTsPYkEya3m5f3cAypH+qe7YOrM1U2Q==}
 
@@ -10242,14 +10235,18 @@ packages:
     peerDependencies:
       eslint: ^6.2.0 || ^7.0.0 || ^8.0.0 || ^9.0.0
 
-  eslint-rspack-plugin@4.4.1:
-    resolution: {integrity: sha512-Z/aVtYhXG4Ln5OGoUdYi4c3CrRibnVBsGvwKjuASNjTPfdOU21KRR2zec5RY6HCBNOUVx5jG5b93RH5sBPEVYQ==}
-    engines: {node: '>= 16.0.0'}
-    peerDependencies:
-      eslint: ^8.0.0 || ^9.0.0 || ^10.0.0
-
   eslint-rspack-plugin@5.0.0:
     resolution: {integrity: sha512-uB5zLeNW24MFVlDegBvwAO6taf1RKNCTfOv/jUusiCG6rsR+AvcQiiicTlYbdBc47UrjzPlh0yEV9Elq03IFxA==}
+    engines: {node: '>= 20.19.0'}
+    peerDependencies:
+      '@rspack/core': ^1.0.8 || ^2.0.0
+      eslint: ^9.0.0 || ^10.0.0
+    peerDependenciesMeta:
+      '@rspack/core':
+        optional: true
+
+  eslint-rspack-plugin@5.0.1:
+    resolution: {integrity: sha512-818dtjkGzO6TfAvi7nH39Evlr8dmodMf9kLmCR+PFdsZ3mK4HR1ogIvQUMTS3q1yUBhFks2Q7C4I8+eIJq2UaQ==}
     engines: {node: '>= 20.19.0'}
     peerDependencies:
       '@rspack/core': ^1.0.8 || ^2.0.0
@@ -11424,10 +11421,6 @@ packages:
     resolution: {integrity: sha512-zrteXnqYxfQh7l5FHyL38jL39di8H8rHoecLH3JNxH3BwOrBsNeabdap5e0I23lD4HHI8W5VFBZqG4Eaq5LNcw==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
 
-  jest-util@29.7.0:
-    resolution: {integrity: sha512-z6EbKajIpqGKU56y5KBUgy1dt1ihhQJgWzUlZHArA/+X2ad7Cb5iF+AK1EWVL/Bo7Rz9uurpqw6SiBCefUbCGA==}
-    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
-
   jest-validate@29.7.0:
     resolution: {integrity: sha512-ZB7wHqaRGVw/9hST/OuFUReG7M8vKeq0/J2egIGLdvjHCmYqGARhzXmtgi+gVeZ5uXFF219aOc3Ls2yLg27tkw==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
@@ -11435,10 +11428,6 @@ packages:
   jest-worker@27.5.1:
     resolution: {integrity: sha512-7vuh85V5cdDofPyxn58nrPjBktZo0u9x1g8WtjQol+jZDaE+fhN+cIvTj11GndBnMnyfrUOG1sZQxCdjKh+DKg==}
     engines: {node: '>= 10.13.0'}
-
-  jest-worker@29.7.0:
-    resolution: {integrity: sha512-eIz2msL/EzL9UFTFFx7jBTkeZfku0yUAyZZZmJ93H2TYEiroIx2PQjEXcwYtYl8zXCxb+PAmA2hLIt/6ZEkPHw==}
-    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
 
   jiti@1.21.7:
     resolution: {integrity: sha512-/imKNG4EbWNrVjoNC/1H5/9GFy+tqjGBHCaSsN+P2RnPqjsLmv6UD3Ej+Kj8nBWaRAwyk7kK5ZUc+OEatnTR3A==}
@@ -20496,11 +20485,6 @@ snapshots:
       '@types/eslint': 9.6.1
       '@types/estree': 1.0.9
 
-  '@types/eslint@8.56.10':
-    dependencies:
-      '@types/estree': 1.0.9
-      '@types/json-schema': 7.0.15
-
   '@types/eslint@9.6.1':
     dependencies:
       '@types/estree': 1.0.9
@@ -21757,8 +21741,6 @@ snapshots:
 
   chrome-trace-event@1.0.4: {}
 
-  ci-info@3.9.0: {}
-
   cipher-base@1.0.4:
     dependencies:
       inherits: 2.0.4
@@ -22776,16 +22758,16 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-rspack-plugin@4.4.1(eslint@9.39.4):
+  eslint-rspack-plugin@5.0.0(@rspack/core@2.0.5)(eslint@9.39.4):
     dependencies:
-      '@types/eslint': 8.56.10
       eslint: 9.39.4(jiti@2.6.1)
-      jest-worker: 29.7.0
       micromatch: 4.0.8
       normalize-path: 3.0.0
-      tinyglobby: 0.2.15
+      tinyglobby: 0.2.16
+    optionalDependencies:
+      '@rspack/core': 2.0.5(@module-federation/runtime-tools@2.5.0)(@swc/helpers@0.5.23)
 
-  eslint-rspack-plugin@5.0.0(@rspack/core@2.0.5)(eslint@9.39.4):
+  eslint-rspack-plugin@5.0.1(@rspack/core@2.0.5)(eslint@9.39.4):
     dependencies:
       eslint: 9.39.4(jiti@2.6.1)
       micromatch: 4.0.8
@@ -24216,15 +24198,6 @@ snapshots:
 
   jest-get-type@29.6.3: {}
 
-  jest-util@29.7.0:
-    dependencies:
-      '@jest/types': 29.6.3
-      '@types/node': 24.12.4
-      chalk: 4.1.2
-      ci-info: 3.9.0
-      graceful-fs: 4.2.11
-      picomatch: 2.3.1
-
   jest-validate@29.7.0:
     dependencies:
       '@jest/types': 29.6.3
@@ -24237,13 +24210,6 @@ snapshots:
   jest-worker@27.5.1:
     dependencies:
       '@types/node': 24.12.4
-      merge-stream: 2.0.0
-      supports-color: 8.1.1
-
-  jest-worker@29.7.0:
-    dependencies:
-      '@types/node': 24.12.4
-      jest-util: 29.7.0
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
