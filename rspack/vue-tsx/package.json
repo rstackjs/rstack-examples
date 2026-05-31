@@ -14,10 +14,10 @@
     "@babel/preset-typescript": "^7.29.7",
     "@rspack/cli": "2.0.5",
     "@rspack/core": "2.0.5",
-    "@rspack/dev-server": "2.0.2",
+    "@rspack/dev-server": "2.0.3",
     "@vue/babel-plugin-jsx": "2.0.1",
     "babel-loader": "10.1.1",
-    "rspack-vue-loader": "^17.5.0",
+    "rspack-vue-loader": "^17.5.1",
     "typescript": "^5.9.3"
   }
 }

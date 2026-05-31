@@ -19,7 +19,7 @@
   "devDependencies": {
     "@rspack/cli": "2.0.5",
     "@rspack/core": "2.0.5",
-    "@rspack/dev-server": "2.0.2",
+    "@rspack/dev-server": "2.0.3",
     "webpack-node-externals": "3.0.0"
   }
 }

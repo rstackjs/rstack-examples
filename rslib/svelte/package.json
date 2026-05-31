@@ -19,11 +19,11 @@
     "dev": "rslib --watch"
   },
   "devDependencies": {
-    "@rsbuild/plugin-svelte": "^1.1.1",
-    "@rslib/core": "^0.21.5",
+    "@rsbuild/plugin-svelte": "^1.1.2",
+    "@rslib/core": "^0.22.0",
     "@tsconfig/svelte": "^5.0.8",
     "@types/node": "^24.12.4",
-    "svelte": "^5.55.9",
+    "svelte": "^5.56.0",
     "svelte-check": "^4.4.8",
     "svelte2tsx": "^0.7.55",
     "typescript": "^5.9.3"

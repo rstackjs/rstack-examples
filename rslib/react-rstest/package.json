@@ -18,10 +18,10 @@
     "test": "rstest"
   },
   "devDependencies": {
-    "@rsbuild/plugin-react": "^2.0.0",
-    "@rslib/core": "^0.21.5",
-    "@rstest/adapter-rslib": "^0.10.2",
-    "@rstest/core": "^0.10.2",
+    "@rsbuild/plugin-react": "^2.0.1",
+    "@rslib/core": "^0.22.0",
+    "@rstest/adapter-rslib": "^0.10.3",
+    "@rstest/core": "^0.10.3",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
     "@types/react": "^19.2.15",

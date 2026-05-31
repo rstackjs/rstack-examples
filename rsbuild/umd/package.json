@@ -9,8 +9,8 @@
     "preview": "rsbuild preview"
   },
   "devDependencies": {
-    "@rsbuild/core": "2.0.8",
-    "@rsbuild/plugin-umd": "^1.0.6",
+    "@rsbuild/core": "2.0.9",
+    "@rsbuild/plugin-umd": "^1.0.7",
     "typescript": "^5.9.3"
   }
 }

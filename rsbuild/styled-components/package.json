@@ -14,9 +14,9 @@
     "styled-components": "^6.4.2"
   },
   "devDependencies": {
-    "@rsbuild/core": "2.0.8",
-    "@rsbuild/plugin-react": "^2.0.0",
-    "@rsbuild/plugin-styled-components": "^1.6.1",
+    "@rsbuild/core": "2.0.9",
+    "@rsbuild/plugin-react": "^2.0.1",
+    "@rsbuild/plugin-styled-components": "^1.6.2",
     "@types/react": "^19.2.15",
     "@types/react-dom": "^19.2.3",
     "typescript": "^5.9.3"

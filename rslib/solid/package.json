@@ -17,9 +17,9 @@
     "dev": "rslib -w"
   },
   "devDependencies": {
-    "@rsbuild/plugin-babel": "^1.2.0",
-    "@rsbuild/plugin-solid": "^1.2.0",
-    "@rslib/core": "^0.21.5",
+    "@rsbuild/plugin-babel": "^1.2.1",
+    "@rsbuild/plugin-solid": "^1.2.1",
+    "@rslib/core": "^0.22.0",
     "preact": "^10.29.2",
     "solid-js": "^1.9.13",
     "typescript": "^5.9.3"

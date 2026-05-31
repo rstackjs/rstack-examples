@@ -7,7 +7,7 @@
   "devDependencies": {
     "@rspack/cli": "2.0.5",
     "@rspack/core": "2.0.5",
-    "@rspack/dev-server": "2.0.2",
+    "@rspack/dev-server": "2.0.3",
     "license-webpack-plugin": "^4.0.2",
     "react": "^19.2.6",
     "react-dom": "^19.2.6"
