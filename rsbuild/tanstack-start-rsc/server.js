@@ -3,7 +3,7 @@ import path from 'node:path';
 import { spawn } from 'node:child_process';
 import { pathToFileURL } from 'node:url';
 
-const distDir = process.env.E2E_DIST_DIR || 'dist';
+const distDir = 'dist';
 
 function resolveDistClientDir() {
   return path.resolve(distDir, 'client');
