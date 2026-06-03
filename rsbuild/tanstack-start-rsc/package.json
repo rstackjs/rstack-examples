@@ -12,20 +12,20 @@
     "@tanstack/react-router-devtools": "^1.167.0",
     "@tanstack/react-start": "^1.168.19",
     "dexie": "^4.0.10",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
     "srvx": "^0.11.16",
+    "tailwindcss": "^4.3.0",
     "zod": "^4.4.3",
     "zustand": "^5.0.10"
   },
   "devDependencies": {
-    "@rsbuild/core": "^2.0.9",
-    "@rsbuild/plugin-react": "^2.0.0",
+    "@rsbuild/core": "^2.0.11",
+    "@rsbuild/plugin-react": "^2.0.1",
     "@rsbuild/plugin-tailwindcss": "^2.0.1",
     "@types/node": "22.10.2",
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.2",
-    "tailwindcss": "^4.1.18",
     "typescript": "^6.0.3"
   }
 }
