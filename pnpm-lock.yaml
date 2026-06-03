@@ -598,76 +598,6 @@ importers:
         specifier: ^5.9.3
         version: 5.9.3
 
-  rsbuild/start-rscs:
-    dependencies:
-      '@tanstack/react-router':
-        specifier: ^1.170.11
-        version: 1.170.11(react-dom@19.2.6)(react@19.2.6)
-      '@tanstack/react-router-devtools':
-        specifier: ^1.167.0
-        version: 1.167.0(@tanstack/react-router@1.170.11)(@tanstack/router-core@1.171.9)(csstype@3.2.3)(react-dom@19.2.6)(react@19.2.6)
-      '@tanstack/react-start':
-        specifier: ^1.168.19
-        version: 1.168.19(@rsbuild/core@2.0.9)(@rspack/core@2.0.5)(@vitejs/plugin-rsc@0.5.27)(crossws@0.4.5)(react-dom@19.2.6)(react-server-dom-rspack@0.0.2)(react@19.2.6)(vite@8.0.16)(webpack@5.102.1)
-      dexie:
-        specifier: ^4.0.10
-        version: 4.4.3
-      react:
-        specifier: ^19.2.0
-        version: 19.2.6
-      react-dom:
-        specifier: ^19.2.0
-        version: 19.2.6(react@19.2.6)
-      tailwind-merge:
-        specifier: ^3.6.0
-        version: 3.6.0
-      zod:
-        specifier: ^4.4.3
-        version: 4.4.3
-      zustand:
-        specifier: ^5.0.10
-        version: 5.0.14(@types/react@19.2.15)(react@19.2.6)(use-sync-external-store@1.6.0)
-    devDependencies:
-      '@rsbuild/core':
-        specifier: ^2.0.9
-        version: 2.0.9(@module-federation/runtime-tools@2.5.0)(core-js@3.49.0)
-      '@rsbuild/plugin-react':
-        specifier: ^2.0.0
-        version: 2.0.1(@rsbuild/core@2.0.9)(@rspack/core@2.0.5)
-      '@rsbuild/plugin-tailwindcss':
-        specifier: ^2.0.1
-        version: 2.0.1(@rsbuild/core@2.0.9)(webpack@5.102.1)
-      '@tailwindcss/vite':
-        specifier: ^4.1.18
-        version: 4.3.0(vite@8.0.16)
-      '@types/node':
-        specifier: 22.10.2
-        version: 22.10.2
-      '@types/react':
-        specifier: ^19.2.2
-        version: 19.2.15
-      '@types/react-dom':
-        specifier: ^19.2.2
-        version: 19.2.3(@types/react@19.2.15)
-      '@vitejs/plugin-react':
-        specifier: ^6.0.1
-        version: 6.0.2(babel-plugin-react-compiler@1.0.0)(vite@8.0.16)
-      '@vitejs/plugin-rsc':
-        specifier: ^0.5.20
-        version: 0.5.27(react-dom@19.2.6)(react@19.2.6)(vite@8.0.16)
-      nitro:
-        specifier: npm:nitro-nightly@latest
-        version: nitro-nightly@3.0.1-20260603-085201-f0cb358c(chokidar@5.0.0)(dotenv@16.4.5)(jiti@2.7.0)(lru-cache@11.3.5)(rollup@4.60.3)(vite@8.0.16)
-      tailwindcss:
-        specifier: ^4.1.18
-        version: 4.3.0
-      typescript:
-        specifier: ^5.7.2
-        version: 5.9.3
-      vite:
-        specifier: ^8.0.14
-        version: 8.0.16(@types/node@22.10.2)(esbuild@0.28.0)(jiti@2.7.0)(less@4.6.4)(sass-embedded@1.100.0)(sass@1.100.0)(stylus@0.64.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.9.0)
-
   rsbuild/styled-components:
     dependencies:
       react:
@@ -775,6 +705,64 @@ importers:
         version: 1.1.2(@babel/core@7.29.7)(@rsbuild/core@2.0.9)(less@4.6.4)(postcss-load-config@6.0.1)(postcss@8.5.15)(pug@3.0.2)(sass@1.100.0)(stylus@0.64.0)(svelte@5.56.0)(typescript@5.9.3)
       typescript:
         specifier: ^5.9.3
+        version: 5.9.3
+
+  rsbuild/tanstack-start:
+    dependencies:
+      '@tanstack/react-router':
+        specifier: ^1.170.11
+        version: 1.170.11(react-dom@19.2.6)(react@19.2.6)
+      '@tanstack/react-router-devtools':
+        specifier: ^1.167.0
+        version: 1.167.0(@tanstack/react-router@1.170.11)(@tanstack/router-core@1.171.9)(csstype@3.2.3)(react-dom@19.2.6)(react@19.2.6)
+      '@tanstack/react-start':
+        specifier: ^1.168.19
+        version: 1.168.19(@rsbuild/core@2.0.9)(@rspack/core@2.0.5)(@vitejs/plugin-rsc@0.5.27)(crossws@0.4.5)(react-dom@19.2.6)(react-server-dom-rspack@0.0.2)(react@19.2.6)(vite@8.0.16)(webpack@5.102.1)
+      dexie:
+        specifier: ^4.0.10
+        version: 4.4.3
+      react:
+        specifier: ^19.2.0
+        version: 19.2.6
+      react-dom:
+        specifier: ^19.2.0
+        version: 19.2.6(react@19.2.6)
+      tailwind-merge:
+        specifier: ^3.6.0
+        version: 3.6.0
+      zod:
+        specifier: ^4.4.3
+        version: 4.4.3
+      zustand:
+        specifier: ^5.0.10
+        version: 5.0.14(@types/react@19.2.15)(react@19.2.6)(use-sync-external-store@1.6.0)
+    devDependencies:
+      '@rsbuild/core':
+        specifier: ^2.0.9
+        version: 2.0.9(@module-federation/runtime-tools@2.5.0)(core-js@3.49.0)
+      '@rsbuild/plugin-react':
+        specifier: ^2.0.0
+        version: 2.0.1(@rsbuild/core@2.0.9)(@rspack/core@2.0.5)
+      '@rsbuild/plugin-tailwindcss':
+        specifier: ^2.0.1
+        version: 2.0.1(@rsbuild/core@2.0.9)(webpack@5.102.1)
+      '@types/node':
+        specifier: 22.10.2
+        version: 22.10.2
+      '@types/react':
+        specifier: ^19.2.2
+        version: 19.2.15
+      '@types/react-dom':
+        specifier: ^19.2.2
+        version: 19.2.3(@types/react@19.2.15)
+      nitro:
+        specifier: npm:nitro-nightly@latest
+        version: nitro-nightly@3.0.1-20260603-085201-f0cb358c(chokidar@5.0.0)(dotenv@16.4.5)(jiti@2.7.0)(lru-cache@11.3.5)(rollup@4.60.3)(vite@8.0.16)
+      tailwindcss:
+        specifier: ^4.1.18
+        version: 4.3.0
+      typescript:
+        specifier: ^5.7.2
         version: 5.9.3
 
   rsbuild/umd:
@@ -8484,11 +8472,6 @@ packages:
   '@tailwindcss/postcss@4.3.0':
     resolution: {integrity: sha512-Jm05Tjx+9yCLGv5qw1c+84Psds8MnyrEQYCB+FFk2lgGiUjlRqdxke4mVTuYrj2xnVZqKim2Apr5ySuQRYAw/w==}
 
-  '@tailwindcss/vite@4.3.0':
-    resolution: {integrity: sha512-t6J3OrB5Fc0ExuhohouH0fWUGMYL6PTLhW+E7zIk/pdbnJARZDCwjBznFnkh5ynRnIRSI4YjtTH0t6USjJISrw==}
-    peerDependencies:
-      vite: ^5.2.0 || ^6 || ^7 || ^8
-
   '@tailwindcss/webpack@4.3.0':
     resolution: {integrity: sha512-oaEdJ/X298hmdZrvI1NmAQZFKJ5XJiRXxHwlAw62GOaB5G7Ic3Uv+gfomdI8aukJXRH87h5nERy8yxvAqwqMnQ==}
     peerDependencies:
@@ -9042,19 +9025,6 @@ packages:
     resolution: {integrity: sha512-PHHxeAASgiOpSmMjceweIrv2AxDZIkWXyaczksMoWvKV2YAYEhoizRuk/xFnKF+emUIi46TsQ+rvlm/t2BBCfA==}
     peerDependencies:
       vue: ^3.0.0
-
-  '@vitejs/plugin-react@6.0.2':
-    resolution: {integrity: sha512-DlSMqo4WhThw4vB8Mpn0Woe9J+Jfq1geJ61AKW0QEgLzGMNwtIMdxbDUzLxcun8W7NbJO0e2Jg/Nxm3cCSVzzg==}
-    engines: {node: ^20.19.0 || >=22.12.0}
-    peerDependencies:
-      '@rolldown/plugin-babel': ^0.1.7 || ^0.2.0
-      babel-plugin-react-compiler: ^1.0.0
-      vite: ^8.0.0
-    peerDependenciesMeta:
-      '@rolldown/plugin-babel':
-        optional: true
-      babel-plugin-react-compiler:
-        optional: true
 
   '@vitejs/plugin-rsc@0.5.27':
     resolution: {integrity: sha512-s1fd5DUkPXk86DDHPM/kP93WrvI0MoA8klxdDZmD1fMSaA9xujfgunsm8ZoUH0FemR+63vNalFsIDR0AJH4ktg==}
@@ -21092,13 +21062,6 @@ snapshots:
       postcss: 8.5.14
       tailwindcss: 4.3.0
 
-  '@tailwindcss/vite@4.3.0(vite@8.0.16)':
-    dependencies:
-      '@tailwindcss/node': 4.3.0
-      '@tailwindcss/oxide': 4.3.0
-      tailwindcss: 4.3.0
-      vite: 8.0.16(@types/node@22.10.2)(esbuild@0.28.0)(jiti@2.7.0)(less@4.6.4)(sass-embedded@1.100.0)(sass@1.100.0)(stylus@0.64.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.9.0)
-
   '@tailwindcss/webpack@4.3.0(webpack@5.102.1)':
     dependencies:
       '@alloc/quick-lru': 5.2.0
@@ -21268,7 +21231,7 @@ snapshots:
       babel-dead-code-elimination: 1.0.12
       diff: 8.0.4
       pathe: 2.0.3
-      tinyglobby: 0.2.16
+      tinyglobby: 0.2.17
     transitivePeerDependencies:
       - supports-color
 
@@ -21293,14 +21256,14 @@ snapshots:
       '@tanstack/router-utils': 1.162.1
       '@tanstack/start-client-core': 1.170.7
       '@tanstack/start-server-core': 1.169.9(crossws@0.4.5)
-      exsolve: 1.0.7
+      exsolve: 1.0.8
       lightningcss: 1.32.0
       pathe: 2.0.3
       picomatch: 4.0.4
       seroval: 1.5.4
       source-map: 0.7.6
       srvx: 0.11.16
-      tinyglobby: 0.2.16
+      tinyglobby: 0.2.17
       ufo: 1.6.3
       vitefu: 1.1.3(vite@8.0.16)
       xmlbuilder2: 4.0.3
@@ -21851,13 +21814,6 @@ snapshots:
     dependencies:
       vue: 3.5.35(typescript@5.9.3)
 
-  '@vitejs/plugin-react@6.0.2(babel-plugin-react-compiler@1.0.0)(vite@8.0.16)':
-    dependencies:
-      '@rolldown/pluginutils': 1.0.1
-      vite: 8.0.16(@types/node@22.10.2)(esbuild@0.28.0)(jiti@2.7.0)(less@4.6.4)(sass-embedded@1.100.0)(sass@1.100.0)(stylus@0.64.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.9.0)
-    optionalDependencies:
-      babel-plugin-react-compiler: 1.0.0
-
   '@vitejs/plugin-rsc@0.5.27(react-dom@19.2.6)(react@19.2.6)(vite@8.0.16)':
     dependencies:
       '@rolldown/pluginutils': 1.0.1
@@ -21871,6 +21827,7 @@ snapshots:
       turbo-stream: 3.2.0
       vite: 8.0.16(@types/node@22.10.2)(esbuild@0.28.0)(jiti@2.7.0)(less@4.6.4)(sass-embedded@1.100.0)(sass@1.100.0)(stylus@0.64.0)(terser@5.37.0)(tsx@4.19.2)(yaml@2.9.0)
       vitefu: 1.1.3(vite@8.0.16)
+    optional: true
 
   '@vitest/expect@3.2.4':
     dependencies:
@@ -23043,7 +23000,7 @@ snapshots:
       semver: 7.7.4
     optionalDependencies:
       '@rspack/core': 2.0.5(@module-federation/runtime-tools@2.5.0)(@swc/helpers@0.5.23)
-      webpack: 5.102.1(postcss@8.5.15)
+      webpack: 5.102.1(postcss@8.5.10)
 
   css-mediaquery@0.1.2: {}
 
@@ -23622,7 +23579,8 @@ snapshots:
 
   es-module-lexer@1.7.0: {}
 
-  es-module-lexer@2.1.0: {}
+  es-module-lexer@2.1.0:
+    optional: true
 
   es-object-atoms@1.1.1:
     dependencies:
@@ -29366,6 +29324,17 @@ snapshots:
     optionalDependencies:
       lightningcss: 1.32.0
 
+  terser-webpack-plugin@5.6.1(postcss@8.5.10)(webpack@5.102.1):
+    dependencies:
+      '@jridgewell/trace-mapping': 0.3.31
+      jest-worker: 27.5.1
+      schema-utils: 4.3.3
+      terser: 5.37.0
+      webpack: 5.102.1(postcss@8.5.10)
+    optionalDependencies:
+      postcss: 8.5.10
+    optional: true
+
   terser-webpack-plugin@5.6.1(postcss@8.5.15)(webpack@5.102.1):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
@@ -29552,7 +29521,8 @@ snapshots:
       safe-buffer: 5.2.1
     optional: true
 
-  turbo-stream@3.2.0: {}
+  turbo-stream@3.2.0:
+    optional: true
 
   type-check@0.4.0:
     dependencies:
@@ -30033,6 +30003,7 @@ snapshots:
       terser: 5.37.0
       tsx: 4.19.2
       yaml: 2.9.0
+    optional: true
 
   vitefu@1.1.3(vite@8.0.16):
     optionalDependencies:
@@ -30345,6 +30316,48 @@ snapshots:
       - lightningcss
       - postcss
       - uglify-js
+
+  webpack@5.102.1(postcss@8.5.10):
+    dependencies:
+      '@types/eslint-scope': 3.7.7
+      '@types/estree': 1.0.9
+      '@types/json-schema': 7.0.15
+      '@webassemblyjs/ast': 1.14.1
+      '@webassemblyjs/wasm-edit': 1.14.1
+      '@webassemblyjs/wasm-parser': 1.14.1
+      acorn: 8.16.0
+      acorn-import-phases: 1.0.4(acorn@8.16.0)
+      browserslist: 4.28.2
+      chrome-trace-event: 1.0.4
+      enhanced-resolve: 5.21.3
+      es-module-lexer: 1.7.0
+      eslint-scope: 5.1.1
+      events: 3.3.0
+      glob-to-regexp: 0.4.1
+      graceful-fs: 4.2.11
+      json-parse-even-better-errors: 2.3.1
+      loader-runner: 4.3.2
+      mime-types: 2.1.35
+      neo-async: 2.6.2
+      schema-utils: 4.3.3
+      tapable: 2.3.3
+      terser-webpack-plugin: 5.6.1(postcss@8.5.10)(webpack@5.102.1)
+      watchpack: 2.5.1
+      webpack-sources: 3.4.1
+    transitivePeerDependencies:
+      - '@minify-html/node'
+      - '@swc/core'
+      - '@swc/css'
+      - '@swc/html'
+      - clean-css
+      - cssnano
+      - csso
+      - esbuild
+      - html-minifier-terser
+      - lightningcss
+      - postcss
+      - uglify-js
+    optional: true
 
   webpack@5.102.1(postcss@8.5.15):
     dependencies:
