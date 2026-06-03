@@ -1,0 +1,33 @@
+{
+  "name": "@rsbuild-example/tanstack-start",
+  "private": true,
+  "type": "module",
+  "imports": {
+    "#/*": "./src/*"
+  },
+  "scripts": {
+    "dev": "rsbuild",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "@tanstack/react-devtools": "^0.10.5",
+    "@tanstack/react-router": "^1.170.11",
+    "@tanstack/react-router-devtools": "^1.167.0",
+    "@tanstack/react-start": "^1.168.19",
+    "@tanstack/router-plugin": "^1.168.14",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "tailwindcss": "^4.3.0"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^2.0.5",
+    "@rsbuild/plugin-react": "^2.0.0",
+    "@rsbuild/plugin-tailwindcss": "^2.0.1",
+    "@tailwindcss/typography": "^0.5.19",
+    "@types/node": "^25.6.2",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^6.0.3"
+  }
+}
