@@ -1,10 +1,9 @@
 {
-  "name": "tanstack-start-example-rscs",
+  "name": "@rsbuild-example/tanstack-start-rsc",
   "private": true,
-  "sideEffects": false,
   "type": "module",
   "scripts": {
-    "dev": "rsbuild dev",
+    "dev": "rsbuild",
     "build": "rsbuild build && tsc --noEmit",
     "start": "node server.js"
   },
@@ -15,7 +14,6 @@
     "dexie": "^4.0.10",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
-    "tailwind-merge": "^3.6.0",
     "zod": "^4.4.3",
     "zustand": "^5.0.10"
   },
@@ -26,8 +24,7 @@
     "@types/node": "22.10.2",
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.2",
-    "nitro": "npm:nitro-nightly@latest",
     "tailwindcss": "^4.1.18",
-    "typescript": "^5.7.2"
+    "typescript": "^6.0.3"
   }
 }
