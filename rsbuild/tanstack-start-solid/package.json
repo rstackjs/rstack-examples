@@ -1,5 +1,5 @@
 {
-  "name": "@rsbuild-example/tanstack-stack-solid",
+  "name": "@rsbuild-example/tanstack-start-solid",
   "private": true,
   "type": "module",
   "scripts": {
@@ -21,6 +21,7 @@
     "@rsbuild/plugin-babel": "^1.2.1",
     "@rsbuild/plugin-solid": "^1.2.1",
     "@rsbuild/plugin-tailwindcss": "^2.0.1",
+    "@types/node": "^25.9.1",
     "typescript": "^6.0.2"
   }
 }
