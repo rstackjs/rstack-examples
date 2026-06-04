@@ -9,7 +9,7 @@
       "@/*": ["./src/*"]
     },
     "lib": ["ES2022", "DOM", "DOM.Iterable"],
-    "types": ["node"],
+    "types": ["node", "@rsbuild/core/client"],
 
     /* Bundler mode */
     "moduleResolution": "bundler",
