@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "rsbuild",
     "build": "rsbuild build",
-    "preview": "rsbuild preview"
+    "preview": "rsbuild preview",
+    "start": "srvx --prod -s ../client dist/server/index.js"
   },
   "dependencies": {
     "@tanstack/router-plugin": "^1.133.21",
@@ -14,6 +15,7 @@
     "@tanstack/solid-router-ssr-query": "^1.167.1",
     "@tanstack/solid-start": "^1.168.19",
     "solid-js": "^1.9.12",
+    "srvx": "^0.11.16",
     "tailwindcss": "^4.1.18"
   },
   "devDependencies": {

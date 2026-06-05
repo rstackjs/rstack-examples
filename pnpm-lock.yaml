@@ -730,6 +730,9 @@ importers:
       react-dom:
         specifier: ^19.2.7
         version: 19.2.7(react@19.2.7)
+      srvx:
+        specifier: ^0.11.16
+        version: 0.11.16
       tailwindcss:
         specifier: ^4.3.0
         version: 4.3.0
@@ -837,6 +840,9 @@ importers:
       solid-js:
         specifier: ^1.9.12
         version: 1.9.13
+      srvx:
+        specifier: ^0.11.16
+        version: 0.11.16
       tailwindcss:
         specifier: ^4.1.18
         version: 4.3.0
@@ -7970,7 +7976,6 @@ packages:
   '@rspack/dev-server@2.0.3':
     resolution: {integrity: sha512-S29nOxXQS9o+0uGNe7SgND2dAKnte5ZTD5tiT3/B4lKbviqpXD4tbH7NZWA3hGwlSkmOIbFlysYPL1bVHuBcSg==}
     engines: {node: ^20.19.0 || >=22.12.0}
-    deprecated: Use v2.0.3 instead
     peerDependencies:
       '@rspack/core': ^2.0.0-0
       selfsigned: ^5.0.0
