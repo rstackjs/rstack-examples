@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build": "rspack build",
-    "dev": "rspack dev",
+    "dev": "cross-env NODE_ENV=development rspack --watch --mode development",
     "start": "node dist/main.js"
   },
   "dependencies": {
@@ -20,6 +20,7 @@
     "@rspack/cli": "2.0.5",
     "@rspack/core": "2.0.5",
     "@rspack/dev-server": "2.0.3",
+    "cross-env": "10.1.0",
     "webpack-node-externals": "3.0.0"
   }
 }
