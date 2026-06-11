@@ -2693,6 +2693,9 @@ importers:
       '@rspack/dev-server':
         specifier: 2.0.3
         version: 2.0.3(@rspack/core@2.0.5)
+      cross-env:
+        specifier: 10.1.0
+        version: 10.1.0
       webpack-node-externals:
         specifier: 3.0.0
         version: 3.0.0
@@ -21908,7 +21911,7 @@ snapshots:
       '@tailwindcss/node': 4.3.0
       '@tailwindcss/oxide': 4.3.0
       tailwindcss: 4.3.0
-      webpack: 5.102.1(esbuild@0.28.0)
+      webpack: 5.102.1
 
   '@tanstack/devtools-client@0.0.6':
     dependencies:
@@ -30391,6 +30394,7 @@ snapshots:
       webpack: 5.102.1(esbuild@0.28.0)
     optionalDependencies:
       esbuild: 0.28.0
+    optional: true
 
   terser-webpack-plugin@5.6.1(lightningcss@1.32.0)(webpack@5.102.1):
     dependencies:
@@ -31349,6 +31353,7 @@ snapshots:
       - lightningcss
       - postcss
       - uglify-js
+    optional: true
 
   webpack@5.102.1(esbuild@0.28.0)(lightningcss@1.32.0):
     dependencies:
