@@ -4,14 +4,13 @@ import { rspack } from '@rspack/core';
 import { RunScriptWebpackPlugin } from 'run-script-webpack-plugin';
 import nodeExternals from 'webpack-node-externals';
 
+const isDev = process.env.NODE_ENV !== 'production';
+
 export default defineConfig({
   context: import.meta.dirname,
   target: 'node',
   entry: {
-    main:
-      process.env.NODE_ENV === 'production'
-        ? './src/main.ts'
-        : ['@rspack/core/hot/poll?100', './src/main.ts'],
+    main: isDev ? ['@rspack/core/hot/poll?100', './src/main.ts'] : './src/main.ts',
   },
   output: {
     clean: true,
@@ -61,18 +60,15 @@ export default defineConfig({
     ],
   },
   externalsType: 'commonjs',
-  plugins: [
-    process.env.NODE_ENV !== 'production' &&
-      new RunScriptWebpackPlugin({
-        name: 'main.js',
-        autoRestart: false,
-      }),
-  ],
-  devServer: {
-    devMiddleware: {
-      writeToDisk: true,
-    },
-  },
+  plugins: isDev
+    ? [
+        new RunScriptWebpackPlugin({
+          name: 'main.js',
+          autoRestart: false,
+        }),
+        new rspack.HotModuleReplacementPlugin(),
+      ]
+    : [],
   externals: [
     nodeExternals({
       allowlist: [/@rspack\/core\/hot\/poll/],
