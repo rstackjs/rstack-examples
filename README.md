@@ -17,19 +17,32 @@ This repository contains comprehensive examples that demonstrate the Rstack ecos
 
 ### Clone single example
 
-To clone a single example, you can use the [gitpick](https://github.com/nrjdalal/gitpick) to clone a sub-directory from the current repository.
+To clone a single example, use [giget](https://github.com/unjs/giget) to download a sub-directory from the current repository.
 
 For example, to clone the `/rspack/basic` example, run the following command:
 
 ```bash
 # Clone the basic example
-npx gitpick https://github.com/rstackjs/rstack-examples/tree/main/rspack/basic
+npx giget gh:rstackjs/rstack-examples/rspack/basic my-app
 
-# Enter the basic example directory
-cd basic
+# Enter the my-app example directory
+cd my-app
 
 # Install the dependencies
 pnpm i
+```
+
+The second argument is the output directory. Pass it explicitly so the example is
+created with a clear local folder name.
+
+You can clone any other example by replacing the path and output directory:
+
+```bash
+# Clone the Rsbuild React example
+npx giget gh:rstackjs/rstack-examples/rsbuild/react my-app
+
+# Clone the Rslib React example
+npx giget gh:rstackjs/rstack-examples/rslib/react-basic my-lib
 ```
 
 ### Clone all examples
