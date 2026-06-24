@@ -1,4 +1,5 @@
 import { afterEach, beforeEach, describe, expect, it, rs, rstest } from '@rstest/core';
+import { formatDate as actualFormatDate } from '../src/utils' with { rstest: 'importActual' };
 
 describe('rs.doMock() - Dynamic Module Mocking', () => {
   /**
@@ -87,15 +88,10 @@ describe('rs.importActual() - Import Original Module', () => {
    */
 
   it('should import actual module inside mock', async () => {
-    rs.doMock('../src/utils', async () => {
-      const actual = await rs.importActual<typeof import('../src/utils')>('../src/utils');
-
-      return {
-        ...actual,
-        // Override only specific functions
-        generateId: () => 'overridden-id',
-      };
-    });
+    rs.doMock('../src/utils', () => ({
+      formatDate: actualFormatDate,
+      generateId: () => 'overridden-id',
+    }));
 
     const utils = await import('../src/utils');
 
