@@ -17,11 +17,9 @@
     "dev": "rslib -w"
   },
   "devDependencies": {
-    "@rsbuild/plugin-babel": "^1.2.1",
-    "@rsbuild/plugin-react": "^2.0.1",
-    "@rslib/core": "^0.22.0",
+    "@rsbuild/plugin-react": "^2.1.0",
+    "@rslib/core": "^0.23.1",
     "@types/react": "^19.2.15",
-    "babel-plugin-react-compiler": "^1.0.0",
     "react": "^19.2.6",
     "typescript": "^5.9.3"
   },
