@@ -1,14 +1,22 @@
 import { render, screen } from '@solidjs/testing-library';
 import { expect, test } from '@rstest/core';
-import { CounterButton } from '../src';
+import { Button } from '../src';
 
-test('CounterButton should render and update count', () => {
-  render(() => <CounterButton initialValue={2} step={3} primary />);
+test('The button should handle click events', () => {
+  let count = 0;
+  render(() => (
+    <Button
+      backgroundColor="#ccc"
+      label="Demo Button"
+      onClick={() => {
+        count += 1;
+      }}
+    />
+  ));
 
-  const value = screen.getByTestId('counter-value');
-  const button = screen.getByTestId('increment-button') as HTMLButtonElement;
+  const button = screen.getByText('Demo Button') as HTMLButtonElement;
 
-  expect(value.textContent).toBe('2');
+  expect(count).toBe(0);
   button.click();
-  expect(value.textContent).toBe('5');
+  expect(count).toBe(1);
 });

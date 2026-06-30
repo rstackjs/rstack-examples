@@ -1,2 +1,2 @@
-export { CounterButton } from './Button';
-export type { CounterButtonProps } from './Button';
+export { Button } from './Button';
+export type { ButtonProps } from './Button';

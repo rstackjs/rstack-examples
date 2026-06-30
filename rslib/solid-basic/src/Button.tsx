@@ -1,36 +1,31 @@
-import { createSignal, type Component } from 'solid-js';
+import type { Component } from 'solid-js';
 import './button.css';
 
-export interface CounterButtonProps {
+export interface ButtonProps {
   primary?: boolean;
+  backgroundColor?: string;
   size?: 'small' | 'medium' | 'large';
-  initialValue?: number;
-  step?: number;
+  label: string;
+  onClick?: () => void;
 }
 
-export const CounterButton: Component<CounterButtonProps> = ({
+export const Button: Component<ButtonProps> = ({
   primary = false,
   size = 'medium',
-  initialValue = 0,
-  step = 1,
+  backgroundColor,
+  label,
+  onClick,
 }) => {
   const mode = primary ? 'demo-button--primary' : 'demo-button--secondary';
-  const [count, setCount] = createSignal(initialValue);
 
   return (
-    <div class="counter-card" data-testid="counter-card">
-      <span class="counter-card__label">Solid counter</span>
-      <strong class="counter-card__value" data-testid="counter-value">
-        {count()}
-      </strong>
-      <button
-        type="button"
-        class={`demo-button ${`demo-button--${size}`} ${mode}`}
-        data-testid="increment-button"
-        onClick={() => setCount((value) => value + step)}
-      >
-        Increment by {step}
-      </button>
-    </div>
+    <button
+      type="button"
+      class={`demo-button demo-button--${size} ${mode}`}
+      style={{ 'background-color': backgroundColor }}
+      onClick={onClick}
+    >
+      {label}
+    </button>
   );
 };
