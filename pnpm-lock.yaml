@@ -1547,7 +1547,7 @@ importers:
         specifier: ^5.9.3
         version: 5.9.3
 
-  rslib/solid:
+  rslib/solid-basic:
     devDependencies:
       '@rsbuild/plugin-babel':
         specifier: ^1.2.1
@@ -1558,9 +1558,36 @@ importers:
       '@rslib/core':
         specifier: ^0.22.0
         version: 0.22.0(@module-federation/runtime-tools@2.5.0)(core-js@3.49.0)(typescript@5.9.3)
-      preact:
-        specifier: ^10.29.2
-        version: 10.29.2
+      solid-js:
+        specifier: ^1.9.13
+        version: 1.9.13
+      typescript:
+        specifier: ^5.9.3
+        version: 5.9.3
+
+  rslib/solid-rstest:
+    devDependencies:
+      '@rsbuild/plugin-babel':
+        specifier: ^1.2.1
+        version: 1.2.1(@rsbuild/core@2.0.11)
+      '@rsbuild/plugin-solid':
+        specifier: ^1.2.1
+        version: 1.2.1(@babel/core@7.29.7)(@rsbuild/core@2.0.11)(solid-js@1.9.13)
+      '@rslib/core':
+        specifier: ^0.22.0
+        version: 0.22.0(@module-federation/runtime-tools@2.5.0)(core-js@3.49.0)(typescript@5.9.3)
+      '@rstest/adapter-rslib':
+        specifier: ^0.10.3
+        version: 0.10.3(@rslib/core@0.22.0)(@rstest/core@0.10.3)(typescript@5.9.3)
+      '@rstest/core':
+        specifier: ^0.10.3
+        version: 0.10.3(@module-federation/runtime-tools@2.5.0)(core-js@3.49.0)(happy-dom@20.9.0)(jsdom@27.4.0)
+      '@solidjs/testing-library':
+        specifier: ^0.8.10
+        version: 0.8.10(solid-js@1.9.13)
+      happy-dom:
+        specifier: ^20.9.0
+        version: 20.9.0
       solid-js:
         specifier: ^1.9.13
         version: 1.9.13
@@ -8476,6 +8503,16 @@ packages:
     resolution: {integrity: sha512-zdIWBGpR9zGx1p1bzIPqF5Gs+Ks/BH8R6fWhmUa/dcK1L2rUC8BAcZJzNRYBQv74kScf1TSOs0EY//Vd/I0V8g==}
     peerDependencies:
       solid-js: '>=1.8.4'
+
+  '@solidjs/testing-library@0.8.10':
+    resolution: {integrity: sha512-qdeuIerwyq7oQTIrrKvV0aL9aFeuwTd86VYD3afdq5HYEwoox1OBTJy4y8A3TFZr8oAR0nujYgCzY/8wgHGfeQ==}
+    engines: {node: '>= 14'}
+    peerDependencies:
+      '@solidjs/router': '>=0.9.0'
+      solid-js: '>=1.0.0'
+    peerDependenciesMeta:
+      '@solidjs/router':
+        optional: true
 
   '@storybook/addon-docs@10.4.1':
     resolution: {integrity: sha512-IYqUdjoZe4VO2LFZlKL/gwy7DsQSWCq6hX+zc1MBmZo04yycDASk1tte57n9pdlW3ajw9yYMF/+lVBi+xQjyvw==}
@@ -21797,6 +21834,11 @@ snapshots:
 
   '@solidjs/meta@0.29.4(solid-js@1.9.13)':
     dependencies:
+      solid-js: 1.9.13
+
+  '@solidjs/testing-library@0.8.10(solid-js@1.9.13)':
+    dependencies:
+      '@testing-library/dom': 10.4.1
       solid-js: 1.9.13
 
   '@storybook/addon-docs@10.4.1(@types/react-dom@19.2.3)(@types/react@19.2.15)(esbuild@0.28.0)(rollup@4.60.3)(storybook@10.4.1)(vite@7.1.1)(webpack@5.102.1)':

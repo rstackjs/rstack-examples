@@ -1,4 +1,4 @@
-# Rslib project
+# Rslib Solid basic
 
 ## Setup
 

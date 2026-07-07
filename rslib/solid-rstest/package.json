@@ -1,9 +1,10 @@
 {
-  "name": "@rslib-example/solid",
+  "name": "@rslib-example/solid-rstest",
   "version": "0.0.0",
   "type": "module",
   "exports": {
     ".": {
+      "solid": "./dist/index.jsx",
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js"
     }
@@ -14,17 +15,21 @@
   ],
   "scripts": {
     "build": "rslib",
-    "dev": "rslib -w"
+    "dev": "rslib -w",
+    "test": "rstest"
   },
   "devDependencies": {
     "@rsbuild/plugin-babel": "^1.2.1",
     "@rsbuild/plugin-solid": "^1.2.1",
     "@rslib/core": "^0.22.0",
-    "preact": "^10.29.2",
+    "@rstest/adapter-rslib": "^0.10.3",
+    "@rstest/core": "^0.10.3",
+    "@solidjs/testing-library": "^0.8.10",
+    "happy-dom": "^20.9.0",
     "solid-js": "^1.9.13",
     "typescript": "^5.9.3"
   },
   "peerDependencies": {
-    "solid-js": "^1.0.0"
+    "solid-js": "^1.8.0"
   }
 }
