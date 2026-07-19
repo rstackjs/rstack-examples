@@ -1,4 +1,5 @@
 {
+  "name": "@rspack-example/next-rspack-page-router",
   "private": true,
   "scripts": {
     "build": "next build",

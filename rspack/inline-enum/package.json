@@ -1,5 +1,5 @@
 {
-  "name": "@rspack-example/builtin-swc-loader",
+  "name": "@rspack-example/inline-enum",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",

@@ -1,5 +1,5 @@
 {
-  "name": "source-map-with-vscode-debugging",
+  "name": "@rspack-example/source-map-with-vscode-debugging",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",

@@ -1,5 +1,5 @@
 {
-  "name": "rspack-rsc",
+  "name": "@rspack-example/rspack-rsc",
   "private": true,
   "version": "1.0.0",
   "type": "module",
