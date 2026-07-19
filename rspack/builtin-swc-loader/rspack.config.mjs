@@ -60,10 +60,6 @@ export default defineConfig({
                   ['@swc/plugin-styled-components', {}],
                   ['@swc/plugin-styled-jsx', {}],
                   ['@swc/plugin-transform-imports', {}],
-                  // TODO: these plugins are not yet updated to `swc_core` v9
-                  // ['@lingui/swc-plugin', {}],
-                  // ['swc-plugin-css-modules', {}],
-                  // ['swc-plugin-vue-jsx', {}],
                 ],
               },
             },

@@ -10,9 +10,9 @@
     "vue": "^3.5.35"
   },
   "devDependencies": {
-    "@rspack/cli": "2.0.5",
-    "@rspack/core": "2.0.5",
-    "@rspack/dev-server": "2.0.3",
+    "@rspack/cli": "2.1.4",
+    "@rspack/core": "2.1.4",
+    "@rspack/dev-server": "2.1.0",
     "html-webpack-plugin": "5.6.7",
     "rspack-vue-loader": "^17.5.1",
     "unplugin-auto-import": "^21.0.0"

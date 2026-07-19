@@ -18,7 +18,7 @@
     "test": "rstest"
   },
   "devDependencies": {
-    "@rsbuild/plugin-react": "^2.0.1",
+    "@rsbuild/plugin-react": "^2.1.0",
     "@rslib/core": "^0.22.0",
     "@rstest/adapter-rslib": "^0.10.3",
     "@rstest/core": "^0.10.3",
@@ -26,7 +26,7 @@
     "@testing-library/react": "^16.3.2",
     "@types/react": "^19.2.15",
     "jsdom": "^27.4.0",
-    "react": "^19.2.6",
+    "react": "^19.2.7",
     "typescript": "^5.9.3"
   },
   "peerDependencies": {

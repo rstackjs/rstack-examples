@@ -9,15 +9,15 @@
   },
   "dependencies": {
     "@swc/helpers": "^0.5.23",
-    "react": "^19.2.6",
-    "react-dom": "^19.2.6",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
     "react-refresh": "0.18.0"
   },
   "devDependencies": {
     "@babel/plugin-syntax-jsx": "^7.29.7",
-    "@rspack/cli": "2.0.5",
-    "@rspack/core": "2.0.5",
-    "@rspack/dev-server": "2.0.3",
+    "@rspack/cli": "2.1.4",
+    "@rspack/core": "2.1.4",
+    "@rspack/dev-server": "2.1.0",
     "babel-loader": "^10.1.1",
     "babel-plugin-react-compiler": "^1.0.0"
   }

@@ -11,13 +11,13 @@
     "@swc/helpers": "^0.5.23",
     "less-loader": "12.3.3",
     "normalize.css": "8.0.1",
-    "react": "^19.2.6",
-    "react-dom": "^19.2.6"
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
   },
   "devDependencies": {
-    "@rspack/cli": "2.0.5",
-    "@rspack/core": "2.0.5",
-    "@rspack/dev-server": "2.0.3",
+    "@rspack/cli": "2.1.4",
+    "@rspack/core": "2.1.4",
+    "@rspack/dev-server": "2.1.0",
     "react-refresh": "^0.18.0"
   }
 }

@@ -9,13 +9,13 @@
     "preview": "rsbuild preview"
   },
   "dependencies": {
-    "react": "^19.2.6",
-    "react-dom": "^19.2.6",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
     "styled-components": "^6.4.2"
   },
   "devDependencies": {
-    "@rsbuild/core": "2.0.9",
-    "@rsbuild/plugin-react": "^2.0.1",
+    "@rsbuild/core": "2.1.6",
+    "@rsbuild/plugin-react": "^2.1.0",
     "@rsbuild/plugin-styled-components": "^1.6.2",
     "@types/react": "^19.2.15",
     "@types/react-dom": "^19.2.3",

@@ -10,8 +10,8 @@
   },
   "devDependencies": {
     "@perfsee/webpack": "1.14.2",
-    "@rspack/cli": "2.0.5",
-    "@rspack/core": "2.0.5",
-    "@rspack/dev-server": "2.0.3"
+    "@rspack/cli": "2.1.4",
+    "@rspack/core": "2.1.4",
+    "@rspack/dev-server": "2.1.0"
   }
 }

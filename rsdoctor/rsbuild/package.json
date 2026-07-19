@@ -9,14 +9,14 @@
     "dev": "rsbuild"
   },
   "dependencies": {
-    "react": "^19.2.6",
-    "react-dom": "^19.2.6",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
     "semver6": "npm:semver@6.3.1",
     "semver7": "npm:semver@7.8.1"
   },
   "devDependencies": {
-    "@rsbuild/core": "2.0.9",
-    "@rsbuild/plugin-react": "^2.0.1",
+    "@rsbuild/core": "2.1.6",
+    "@rsbuild/plugin-react": "^2.1.0",
     "@rsdoctor/rspack-plugin": "^1.5.12",
     "@types/react": "^19.2.15",
     "@types/react-dom": "^19.2.3",

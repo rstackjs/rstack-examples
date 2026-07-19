@@ -8,9 +8,9 @@
     "dev": "NODE_ENV=development NO_CSP=true node server.js"
   },
   "devDependencies": {
-    "@rspack/cli": "2.0.5",
-    "@rspack/core": "2.0.5",
-    "@rspack/dev-server": "2.0.3",
+    "@rspack/cli": "2.1.4",
+    "@rspack/core": "2.1.4",
+    "@rspack/dev-server": "2.1.0",
     "@rspack/plugin-react-refresh": "^2.0.1",
     "@types/express": "^5.0.6",
     "@types/ws": "^8.18.1",
@@ -28,8 +28,8 @@
     "@types/react": "^19.2.15",
     "@types/react-dom": "^19.2.3",
     "express": "^5.2.1",
-    "react": "^19.2.6",
-    "react-dom": "^19.2.6",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
     "rsc-html-stream": "^0.0.7",
     "srvx": "^0.11.16"
   }

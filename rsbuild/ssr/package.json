@@ -9,12 +9,12 @@
     "preview": "rsbuild preview"
   },
   "dependencies": {
-    "react": "^19.2.6",
-    "react-dom": "^19.2.6"
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
   },
   "devDependencies": {
-    "@rsbuild/core": "2.0.9",
-    "@rsbuild/plugin-react": "2.0.1",
+    "@rsbuild/core": "2.1.6",
+    "@rsbuild/plugin-react": "2.1.0",
     "@types/react": "^19.2.15",
     "@types/react-dom": "^19.2.3",
     "cross-env": "^10.1.0",

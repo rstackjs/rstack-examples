@@ -8,14 +8,14 @@
     "dev": "rspack dev"
   },
   "dependencies": {
-    "react": "^19.2.6"
+    "react": "^19.2.7"
   },
   "devDependencies": {
     "@babel/preset-env": "7.29.7",
     "@mdx-js/loader": "3.1.1",
-    "@rspack/cli": "2.0.5",
-    "@rspack/core": "2.0.5",
-    "@rspack/dev-server": "2.0.3",
+    "@rspack/cli": "2.1.4",
+    "@rspack/core": "2.1.4",
+    "@rspack/dev-server": "2.1.0",
     "@svgr/webpack": "8.1.0",
     "autoprefixer": "10.5.0",
     "babel-loader": "10.1.1",
