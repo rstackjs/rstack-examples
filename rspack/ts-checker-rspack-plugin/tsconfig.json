@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "types": ["@rspack/core/module", "node"],
     "allowJs": true,
     "lib": ["ES2015"],
     "outDir": "dist",

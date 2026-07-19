@@ -1,7 +1,7 @@
 {
   "extends": "../tsconfig.json",
   "compilerOptions": {
-    "types": ["@testing-library/jest-dom"]
+    "types": ["@rspack/core/module", "node", "@testing-library/jest-dom"]
   },
-  "include": ["./"]
+  "include": ["./", "../src/assets.d.ts"]
 }

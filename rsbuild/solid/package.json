@@ -15,6 +15,7 @@
     "@rsbuild/core": "2.1.6",
     "@rsbuild/plugin-babel": "^1.2.1",
     "@rsbuild/plugin-solid": "^1.2.1",
+    "@types/node": "^24.12.4",
     "typescript": "^5.9.3"
   }
 }

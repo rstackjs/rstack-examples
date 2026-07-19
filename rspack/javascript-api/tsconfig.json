@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "types": ["@rspack/core/module", "node"],
     "outDir": "./dist",
     "target": "es2016",
     "module": "commonjs",

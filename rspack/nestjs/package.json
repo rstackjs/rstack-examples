@@ -20,7 +20,9 @@
     "@rspack/cli": "2.1.4",
     "@rspack/core": "2.1.4",
     "@rspack/dev-server": "2.1.0",
+    "@types/node": "^24.12.4",
     "cross-env": "10.1.0",
+    "typescript": "^5.9.3",
     "webpack-node-externals": "3.0.0"
   }
 }

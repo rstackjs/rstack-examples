@@ -73,6 +73,9 @@ async function handleRequest({
       // aka progressive enhancement.
       const formData = await request.formData();
       const decodedAction = await decodeAction(formData);
+      if (!decodedAction) {
+        return new Response('Bad Request: server action not found', { status: 400 });
+      }
       try {
         const result = await decodedAction();
         formState = (await decodeFormState(result, formData)) as ReactFormState;
@@ -160,7 +163,12 @@ async function handler(request: Request, id?: number): Promise<Response> {
 }
 
 const fetch = (req: IncomingMessage, res: ServerResponse<IncomingMessage>, id?: number) =>
-  toNodeHandler((req) => handler(req, id))(req, res);
+  (
+    toNodeHandler((req) => handler(req, id)) as (
+      req: IncomingMessage,
+      res: ServerResponse<IncomingMessage>,
+    ) => void
+  )(req, res);
 
 async function nodeHandler(
   req: IncomingMessage,

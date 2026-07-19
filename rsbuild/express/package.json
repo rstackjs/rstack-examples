@@ -11,6 +11,7 @@
   "devDependencies": {
     "@rsbuild/core": "2.1.6",
     "@types/express": "^5.0.6",
+    "@types/node": "^24.12.4",
     "express": "^5.2.1",
     "typescript": "^5.9.3"
   }

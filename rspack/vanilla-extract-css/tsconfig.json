@@ -6,6 +6,7 @@
     "jsx": "react-jsx",
     "strict": true,
     "skipLibCheck": true,
+    "types": ["@rspack/core/module", "node"],
     "isolatedModules": true,
     "resolveJsonModule": true,
     "moduleResolution": "bundler",

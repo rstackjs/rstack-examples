@@ -11,6 +11,7 @@
   "devDependencies": {
     "@fastify/middie": "^9.3.2",
     "@rsbuild/core": "2.1.6",
+    "@types/node": "^24.12.4",
     "fastify": "^5.8.5",
     "typescript": "^5.9.3"
   }

@@ -8,11 +8,10 @@
     "skipLibCheck": true,
     "jsx": "preserve",
     "jsxImportSource": "solid-js",
-    "types": ["@rstest/core"],
-    "baseUrl": ".",
+    "types": ["@rsbuild/core/types", "node", "@rstest/core"],
     "paths": {
-      "@/*": ["src/*"],
-      "@components/*": ["src/components/*"]
+      "@/*": ["./src/*"],
+      "@components/*": ["./src/components/*"]
     }
   },
   "include": ["src", "tests", "rstest.config.ts", "rsbuild.config.ts"]

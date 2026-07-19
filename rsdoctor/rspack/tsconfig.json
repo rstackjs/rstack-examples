@@ -10,6 +10,7 @@
     "isolatedModules": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
+    "types": ["@rspack/core/module", "node"],
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "jsx": "preserve",

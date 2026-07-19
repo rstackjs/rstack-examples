@@ -20,8 +20,12 @@
     "@rspack/core": "2.1.4",
     "@rspack/dev-server": "2.1.0",
     "@rspack/plugin-react-refresh": "^2.0.1",
+    "@types/node": "^24.12.4",
     "@types/react": "^19.2.15",
     "@types/react-dom": "^19.2.3",
-    "react-refresh": "^0.18.0"
+    "@types/semver6": "npm:@types/semver@7.7.1",
+    "@types/semver7": "npm:@types/semver@7.7.1",
+    "react-refresh": "^0.18.0",
+    "typescript": "^5.9.3"
   }
 }

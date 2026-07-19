@@ -1,6 +1,7 @@
 {
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
+    "types": ["@rspack/core/module", "node"],
     "outDir": "dist",
     "rootDir": "src"
   },

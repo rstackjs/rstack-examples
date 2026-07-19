@@ -12,6 +12,7 @@
     "@rsbuild/core": "2.1.6",
     "@rstest/adapter-rsbuild": "^0.10.3",
     "@rstest/core": "^0.10.3",
+    "@types/node": "^24.12.4",
     "happy-dom": "^20.9.0",
     "typescript": "^5.9.3"
   }

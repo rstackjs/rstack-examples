@@ -1,7 +1,16 @@
 {
   "compilerOptions": {
+    "lib": ["DOM", "ES2020"],
     "jsx": "preserve",
-    "isolatedModules": true,
-    "typeRoots": ["node_modules/@types"]
-  }
+    "jsxImportSource": "vue",
+    "target": "ES2020",
+    "noEmit": true,
+    "skipLibCheck": true,
+    "useDefineForClassFields": true,
+    "types": ["@rspack/core/module", "node"],
+    "resolveJsonModule": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true
+  },
+  "include": ["src", "global.d.ts"]
 }
