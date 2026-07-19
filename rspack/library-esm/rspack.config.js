@@ -17,6 +17,14 @@ export default defineConfig({
     workerChunkLoading: 'import',
   },
   module: {
+    rules: [
+      {
+        test: /\.[cm]?[jt]sx?$/,
+        resolve: {
+          fullySpecified: false,
+        },
+      },
+    ],
     parser: {
       javascript: {
         importMeta: false, // keep import.meta for runtime

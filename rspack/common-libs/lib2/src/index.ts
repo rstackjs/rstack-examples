@@ -1,5 +1,5 @@
-import { button } from '@components/button.js';
+import { button } from '@components/button';
 
 console.log('button', button);
 
-export * from '@components/button.js';
+export * from '@components/button';

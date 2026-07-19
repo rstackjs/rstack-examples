@@ -3,6 +3,16 @@ import { defineConfig } from '@rspack/cli';
 import EslintPlugin from 'eslint-rspack-plugin';
 
 export default defineConfig({
+  module: {
+    rules: [
+      {
+        test: /\.[cm]?[jt]sx?$/,
+        resolve: {
+          fullySpecified: false,
+        },
+      },
+    ],
+  },
   context: import.meta.dirname,
   entry: {
     main: './src/index.js',

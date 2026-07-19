@@ -4,6 +4,16 @@ import { defineConfig } from '@rspack/cli';
 import { rspack } from '@rspack/core';
 
 export default defineConfig({
+  module: {
+    rules: [
+      {
+        test: /\.[cm]?[jt]sx?$/,
+        resolve: {
+          fullySpecified: false,
+        },
+      },
+    ],
+  },
   entry: './index',
   output: {
     path: path.resolve(import.meta.dirname, 'dist'),

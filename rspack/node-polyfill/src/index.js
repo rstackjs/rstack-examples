@@ -1,5 +1,5 @@
 import util from 'util';
-import logger from './logger.js';
+import logger from './logger';
 
 console.log('procss:', process.version);
 console.log('buffer', Buffer.from('abcd'));

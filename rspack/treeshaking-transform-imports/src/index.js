@@ -1,2 +1,2 @@
-import { a } from './sdk.js';
+import { a } from './sdk';
 console.log(a);

@@ -1,4 +1,4 @@
-import info from './info.js';
+import info from './info';
 
 const text = document.createElement('text');
 
@@ -7,7 +7,7 @@ text.textContent = info;
 document.body.appendChild(text);
 
 document.addEventListener('click', () => {
-  import('./show-msg.js');
+  import('./show-msg');
 });
 
 module.hot.accept('./info', () => {

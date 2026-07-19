@@ -19,6 +19,12 @@ export default defineConfig({
   module: {
     rules: [
       {
+        test: /\.[cm]?[jt]sx?$/,
+        resolve: {
+          fullySpecified: false,
+        },
+      },
+      {
         test: /\.css$/,
         type: 'css',
       },

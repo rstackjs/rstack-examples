@@ -1,5 +1,5 @@
-import simpleWorklet from './worklet/simple.worklet.js?url';
-import complexWorklet from './worklet/complex.worklet.js';
+import simpleWorklet from './worklet/simple.worklet?url';
+import complexWorklet from './worklet/complex.worklet';
 let context = new AudioContext();
 
 context.audioWorklet.addModule(simpleWorklet).then(() => {

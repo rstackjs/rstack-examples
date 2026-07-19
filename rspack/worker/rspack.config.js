@@ -4,6 +4,16 @@ import { defineConfig } from '@rspack/cli';
 import { rspack } from '@rspack/core';
 
 export default defineConfig({
+  module: {
+    rules: [
+      {
+        test: /\.[cm]?[jt]sx?$/,
+        resolve: {
+          fullySpecified: false,
+        },
+      },
+    ],
+  },
   entry: './example.js',
   context: import.meta.dirname,
   output: {

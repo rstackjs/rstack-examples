@@ -1,2 +1,2 @@
-export * from './answer.js';
-export * from './secret.js';
+export * from './answer';
+export * from './secret';

@@ -1,2 +1,2 @@
-import { b } from './sdk.js';
+import { b } from './sdk';
 export const a = b;

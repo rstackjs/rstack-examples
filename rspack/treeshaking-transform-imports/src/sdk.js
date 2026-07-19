@@ -1,3 +1,3 @@
-export { a } from './a.js';
-export { b } from './b.js';
-export { c } from './c.js';
+export { a } from './a';
+export { b } from './b';
+export { c } from './c';

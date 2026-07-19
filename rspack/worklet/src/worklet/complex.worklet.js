@@ -1,4 +1,4 @@
-import { answer } from './answer.ts';
+import { answer } from './answer';
 class PortProcessor extends AudioWorkletProcessor {
   constructor() {
     super();

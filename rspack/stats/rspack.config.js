@@ -33,6 +33,16 @@ class StatsPrinterTestPlugin {
 }
 
 export default defineConfig({
+  module: {
+    rules: [
+      {
+        test: /\.[cm]?[jt]sx?$/,
+        resolve: {
+          fullySpecified: false,
+        },
+      },
+    ],
+  },
   context: import.meta.dirname,
   entry: {
     main: './src/index.js',

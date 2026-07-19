@@ -1,5 +1,5 @@
-import a from '../dll/a.ts';
-import alpha from '../dll/alpha.ts';
+import a from '../dll/a';
+import alpha from '../dll/alpha';
 import beta from 'beta/beta';
 import b from 'beta/b';
 import c from 'beta/c';

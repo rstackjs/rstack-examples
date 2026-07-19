@@ -1,5 +1,5 @@
-import { tab } from '@components/tab.js';
+import { tab } from '@components/tab';
 
 console.log('button', tab);
 
-export * from '@components/tab.js';
+export * from '@components/tab';

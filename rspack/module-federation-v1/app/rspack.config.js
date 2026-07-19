@@ -19,6 +19,12 @@ export default defineConfig({
   module: {
     rules: [
       {
+        test: /\.[cm]?[jt]sx?$/,
+        resolve: {
+          fullySpecified: false,
+        },
+      },
+      {
         test: /\.(?:js|mjs|cjs|jsx)$/,
         include: path.resolve(import.meta.dirname, 'src'),
         use: {

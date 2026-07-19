@@ -7,6 +7,14 @@ export default defineConfig({
     main: './index.js',
   },
   module: {
+    rules: [
+      {
+        test: /\.[cm]?[jt]sx?$/,
+        resolve: {
+          fullySpecified: false,
+        },
+      },
+    ],
     parser: {
       asset: {
         dataUrlCondition: {

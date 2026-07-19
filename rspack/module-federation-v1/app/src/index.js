@@ -7,7 +7,7 @@
 // This also requires an async boundary (import())
 
 // At this point shared modules initialized and remote modules are loaded
-import('./bootstrap.js');
+import('./bootstrap');
 
 // It's possible to place more code here to do stuff on page init
 // but it can't use any of the shared modules or remote modules.
