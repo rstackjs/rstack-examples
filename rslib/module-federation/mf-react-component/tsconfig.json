@@ -3,6 +3,7 @@
     "jsx": "react-jsx",
     "strict": true,
     "skipLibCheck": true,
+    "types": ["@rslib/core/types"],
     "esModuleInterop": true,
     "paths": {
       "*": ["./@mf-types/*"]

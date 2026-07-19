@@ -18,9 +18,11 @@
     "@rsbuild/core": "2.1.6",
     "@rsbuild/plugin-react": "^2.1.0",
     "@rsdoctor/rspack-plugin": "^1.5.12",
+    "@types/node": "^24.12.4",
     "@types/react": "^19.2.15",
     "@types/react-dom": "^19.2.3",
     "@types/semver6": "npm:@types/semver@7.7.1",
+    "@types/semver7": "npm:@types/semver@7.7.1",
     "typescript": "^5.9.3"
   }
 }

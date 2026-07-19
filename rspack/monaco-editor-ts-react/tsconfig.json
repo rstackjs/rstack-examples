@@ -1,16 +1,15 @@
 {
   "compilerOptions": {
-    "sourceMap": true,
-    "module": "ES2020",
-    "moduleResolution": "node",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
     "strict": true,
-    "target": "ES6",
-    "outDir": "./dist",
-    "lib": ["dom", "es5", "es2015.collection", "es2015.promise"],
-    "types": [],
-    "jsx": "preserve",
-    "esModuleInterop": true,
-    "typeRoots": ["node_modules/@types"]
+    "target": "ES2020",
+    "noEmit": true,
+    "skipLibCheck": true,
+    "lib": ["DOM", "ES2020"],
+    "types": ["@rspack/core/module", "node"],
+    "jsx": "react-jsx",
+    "esModuleInterop": true
   },
   "include": ["./src/**/*"],
   "exclude": ["node_modules"]

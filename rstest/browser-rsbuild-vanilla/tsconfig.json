@@ -6,7 +6,7 @@
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "types": ["@rstest/core"]
+    "types": ["@rsbuild/core/types", "node", "@rstest/core"]
   },
   "include": ["src", "tests", "rstest.config.ts", "rsbuild.config.ts"]
 }

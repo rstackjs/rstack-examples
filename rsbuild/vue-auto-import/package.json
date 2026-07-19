@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "rsbuild build",
+    "build": "vue-tsc && rsbuild build",
     "dev": "rsbuild --open",
     "preview": "rsbuild preview"
   },
@@ -14,7 +14,9 @@
   "devDependencies": {
     "@rsbuild/core": "2.1.6",
     "@rsbuild/plugin-vue": "^1.2.9",
+    "@types/node": "^24.12.4",
     "typescript": "^5.9.3",
-    "unplugin-auto-import": "^21.0.0"
+    "unplugin-auto-import": "^21.0.0",
+    "vue-tsc": "^3.3.7"
   }
 }

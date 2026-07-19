@@ -4,10 +4,12 @@
     "lib": ["DOM", "ES2020"],
     "module": "ESNext",
     "strict": true,
+    "noEmit": true,
     "skipLibCheck": true,
+    "types": ["@rsbuild/core/types", "node"],
     "isolatedModules": true,
     "resolveJsonModule": true,
     "moduleResolution": "bundler"
   },
-  "include": ["src", "./auto-imports.d.ts", "components.d.ts"]
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "auto-imports.d.ts", "components.d.ts"]
 }

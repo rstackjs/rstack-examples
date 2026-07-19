@@ -13,6 +13,7 @@
     "@rsbuild/core": "2.1.6",
     "@rstest/browser": "^0.10.3",
     "@rstest/core": "^0.10.3",
+    "@types/node": "^24.12.4",
     "playwright": "^1.60.0",
     "typescript": "^5.9.3"
   }

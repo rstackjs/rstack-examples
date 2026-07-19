@@ -6,12 +6,13 @@
     "jsx": "preserve",
     "jsxImportSource": "vue",
     "strict": true,
+    "noEmit": true,
     "skipLibCheck": true,
     "isolatedModules": true,
     "resolveJsonModule": true,
     "moduleResolution": "bundler",
     "useDefineForClassFields": true,
-    "types": ["element-plus/global"]
+    "types": ["@rsbuild/core/types", "node", "element-plus/global"]
   },
-  "include": ["src"]
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"]
 }

@@ -1,4 +1,4 @@
-// @ts-expect-error ignore remote module type check for passing ci run build because we set @mf-types folder in .gitignore
+// @ts-ignore ignore remote module type check for passing ci run build because we set @mf-types folder in .gitignore
 import { Counter } from 'rslib-module';
 
 const Component = () => <Counter />;

@@ -3,6 +3,7 @@
     "lib": ["DOM", "ES2022"],
     "jsx": "preserve",
     "skipLibCheck": true,
+    "types": ["@rslib/core/types"],
     "jsxImportSource": "vue",
     "useDefineForClassFields": true,
     "declaration": true,

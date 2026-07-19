@@ -4,19 +4,19 @@
     "target": "ES2020",
     "noEmit": true,
     "skipLibCheck": true,
+    "types": ["@rspack/core/module", "node"],
     "useDefineForClassFields": true,
     "jsx": "react-jsx",
 
     /* modules */
-    "module": "nodenext",
-    "moduleResolution": "nodenext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "allowImportingTsExtensions": true,
 
     /* type checking */
     "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "typeRoots": ["./node_modules/@types", "./types"]
+    "noUnusedParameters": true
   },
   "include": ["src", "types"]
 }

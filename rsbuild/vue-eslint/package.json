@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "rsbuild build",
+    "build": "vue-tsc && rsbuild build",
     "dev": "rsbuild --open",
     "preview": "rsbuild preview"
   },
@@ -15,10 +15,12 @@
     "@rsbuild/core": "2.1.6",
     "@rsbuild/plugin-eslint": "^2.0.1",
     "@rsbuild/plugin-vue": "^1.2.9",
+    "@types/node": "^24.12.4",
     "@typescript-eslint/eslint-plugin": "^8.60.0",
     "@typescript-eslint/parser": "^8.60.0",
     "eslint": "^9.39.4",
     "eslint-plugin-vue": "^9.33.0",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "vue-tsc": "^3.3.7"
   }
 }

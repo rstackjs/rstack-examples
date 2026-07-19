@@ -17,6 +17,7 @@
     "@rspack/cli": "2.1.4",
     "@rspack/core": "2.1.4",
     "@rspack/dev-server": "2.1.0",
+    "@types/node": "^24.12.4",
     "@types/react": "^19.2.15",
     "@types/react-dom": "^19.2.3",
     "typescript": "^5.9.3"

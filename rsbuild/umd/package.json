@@ -11,6 +11,7 @@
   "devDependencies": {
     "@rsbuild/core": "2.1.6",
     "@rsbuild/plugin-umd": "^1.0.7",
+    "@types/node": "^24.12.4",
     "typescript": "^5.9.3"
   }
 }

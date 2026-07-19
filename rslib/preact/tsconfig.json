@@ -6,6 +6,7 @@
     "jsxImportSource": "preact",
     "strict": true,
     "skipLibCheck": true,
+    "types": ["@rslib/core/types"],
     "isolatedModules": true,
     "resolveJsonModule": true,
     "moduleResolution": "bundler",

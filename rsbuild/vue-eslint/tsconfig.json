@@ -5,11 +5,13 @@
     "module": "ESNext",
     "jsx": "react-jsx",
     "strict": true,
+    "noEmit": true,
     "skipLibCheck": true,
+    "types": ["@rsbuild/core/types", "node"],
     "isolatedModules": true,
     "resolveJsonModule": true,
     "moduleResolution": "bundler",
     "useDefineForClassFields": true
   },
-  "include": ["src"]
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"]
 }

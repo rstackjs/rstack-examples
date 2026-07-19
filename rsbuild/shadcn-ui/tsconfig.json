@@ -11,6 +11,7 @@
     "jsx": "react-jsx",
     "strict": true,
     "skipLibCheck": true,
+    "types": ["@rsbuild/core/types", "node"],
     "isolatedModules": true,
     "resolveJsonModule": true,
     "moduleResolution": "bundler",
