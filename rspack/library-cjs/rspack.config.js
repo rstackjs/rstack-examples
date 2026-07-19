@@ -9,6 +9,7 @@ export default defineConfig({
   externalsType: 'commonjs',
   output: {
     chunkFormat: 'commonjs',
+    filename: '[name].cjs',
     library: {
       type: 'commonjs',
     },

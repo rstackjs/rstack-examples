@@ -3,7 +3,7 @@ const ReactCompilerConfig = {
   /* ... */
 };
 
-module.exports = {
+export default {
   plugins: [
     ['babel-plugin-react-compiler', ReactCompilerConfig], // must run first!
     '@babel/plugin-syntax-jsx',

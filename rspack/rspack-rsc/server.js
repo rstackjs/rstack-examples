@@ -72,7 +72,7 @@ app.use(hotMiddleware);
 
 function createServerWorker() {
   return new Promise((resolve, reject) => {
-    const workerPath = path.join(import.meta.dirname, 'dist/main.mjs');
+    const workerPath = path.join(import.meta.dirname, 'dist/main.js');
     const worker = new Worker(workerPath, {
       type: 'module',
     });

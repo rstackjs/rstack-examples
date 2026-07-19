@@ -8,6 +8,9 @@ export default defineConfig({
   },
   target: 'node',
   externalsType: 'commonjs',
+  output: {
+    filename: '[name].cjs',
+  },
   resolve: {
     extensions: ['...', '.ts', '.tsx', '.jsx'],
   },

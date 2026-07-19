@@ -1,6 +1,7 @@
 {
   "name": "lib1",
   "version": "1.0.0",
+  "type": "module",
   "main": "dist/index.js",
   "source": "src/index.ts",
   "scripts": {

@@ -8,6 +8,9 @@ export default defineConfig({
   entry: {
     main: ['@rspack/core/hot/poll?100', './src/main.ts'],
   },
+  output: {
+    filename: '[name].cjs',
+  },
   resolve: {
     extensions: ['...', '.ts', '.tsx', '.jsx'],
   },
@@ -39,7 +42,7 @@ export default defineConfig({
   plugins: [
     !process.env.BUILD &&
       new RunScriptWebpackPlugin({
-        name: 'main.js',
+        name: 'main.cjs',
         autoRestart: false,
       }),
   ],

@@ -1,6 +1,7 @@
 {
   "name": "@rspack-example/rspack-manifest-plugin_4",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "rspack build",
     "test": "node ./test.js"

@@ -1,5 +1,5 @@
 import { createRoot } from 'react-dom/client'; // <- this is a shared module, but used as usual
-import App from './App';
+import App from './App.js';
 
 // load app
 const el = document.createElement('main');

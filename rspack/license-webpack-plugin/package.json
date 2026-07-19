@@ -1,6 +1,7 @@
 {
   "name": "@rspack-example/license-webpack-plugin_4",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "rspack build"
   },

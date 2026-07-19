@@ -121,6 +121,8 @@ export function createRspackConfig({
       },
       output: {
         path: path.join(import.meta.dirname, 'dist'),
+        filename: '[name].js',
+        chunkFilename: '[id].js',
         module: true,
         chunkFormat: 'module',
         chunkLoading: 'import',

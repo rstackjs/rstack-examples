@@ -2,11 +2,12 @@
   "name": "@rspack-example/eslint",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "license": "MIT",
   "scripts": {
     "build": "rspack build",
     "dev": "rspack serve -c",
-    "dev:loader": "rspack serve -c rspack.config.loader.mjs"
+    "dev:loader": "rspack serve -c rspack.config.loader.js"
   },
   "devDependencies": {
     "@rspack/cli": "2.1.4",

@@ -1,2 +1,2 @@
-import { answer } from './Answer';
+import { answer } from './Answer.js';
 console.log('answer', answer);

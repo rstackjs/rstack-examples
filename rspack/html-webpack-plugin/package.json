@@ -1,6 +1,7 @@
 {
   "name": "@rspack-example/html-webpack-plugin_5",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "rspack build",
     "dev": "rspack dev"

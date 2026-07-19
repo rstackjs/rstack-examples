@@ -1,4 +1,4 @@
-import { history, add } from './chat-module';
+import { history, add } from './chat-module.js';
 
 onconnect = function (e) {
   console.log(e);

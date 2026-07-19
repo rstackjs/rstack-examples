@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import styles from './App.module.css';
 import { createSignal } from 'solid-js';
-import Message from './Message';
+import Message from './Message.jsx';
 function App() {
   const [count, setCount] = createSignal(1);
   const increment = () => setCount(count() + 1);

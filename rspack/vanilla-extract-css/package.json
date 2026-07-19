@@ -2,6 +2,7 @@
   "name": "@rspack-example/vanilla-extract",
   "version": "0.0.25",
   "private": true,
+  "type": "module",
   "main": "src/index.ts",
   "scripts": {
     "build": "rspack build",

@@ -1,5 +1,5 @@
 import { createRoot } from 'react-dom/client';
-import Component from './Component';
+import Component from './Component.js';
 import { de } from 'date-fns/locale';
 
 const el = document.createElement('main');

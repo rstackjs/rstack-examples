@@ -1,7 +1,7 @@
-import { something } from './static';
+import { something } from './static.js';
 const a = 10;
 async function render() {
-  import('./answer').then((x) => {
+  import('./answer.js').then((x) => {
     console.log('x:', x);
   });
   console.log('a:', a);

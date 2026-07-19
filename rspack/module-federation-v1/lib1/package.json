@@ -2,6 +2,7 @@
   "name": "@rspack-example/module-federation-v1-lib1",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "rspack dev",
     "build": "cross-env NODE_ENV=production rspack build",

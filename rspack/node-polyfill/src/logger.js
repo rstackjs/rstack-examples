@@ -1,3 +1,3 @@
-module.exports = function logger(method, ...args) {
+export default function logger(method, ...args) {
   console[method](...args);
-};
+}

@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom';
 import './styles.scss';
-import HelloWorld from './components/hello-world';
+import HelloWorld from './components/hello-world.jsx';
 
 function App() {
   return (

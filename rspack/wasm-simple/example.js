@@ -5,7 +5,7 @@ import {
   factorialJavascript,
   fibonacci,
   fibonacciJavascript,
-} from './math';
+} from './math.js';
 
 console.log(add(22, 2200));
 console.log(mathAdd(10, 101));

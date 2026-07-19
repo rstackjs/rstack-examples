@@ -1,6 +1,7 @@
 {
   "name": "@rspack-example/next-rspack-app-router",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "next build",
     "dev": "next",

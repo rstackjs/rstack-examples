@@ -71,7 +71,7 @@ chatWorker.port.onmessage = (event) => {
 fib1.addEventListener('change', async () => {
   try {
     const value = parseInt(fib1.value, 10);
-    const { fibonacci } = await import('./fibonacci');
+    const { fibonacci } = await import('./fibonacci.js');
     const result = fibonacci(value);
     output1.innerText = `fib(${value}) = ${result}`;
   } catch (e) {

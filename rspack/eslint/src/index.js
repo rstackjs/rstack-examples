@@ -1,4 +1,4 @@
-import { answer } from './answer';
+import { answer } from './answer.js';
 function render() {
   document.getElementById('root').innerHTML = `the answer to the universe is ${answer}`;
 }

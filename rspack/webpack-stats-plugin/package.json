@@ -1,6 +1,7 @@
 {
   "name": "@rspack-example/webpack-stats-plugin",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "rspack build"
   },

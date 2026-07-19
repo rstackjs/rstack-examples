@@ -1,9 +1,9 @@
-const { rspack } = require('@rspack/core');
-const { RspackDevServer } = require('@rspack/dev-server');
+import { rspack } from '@rspack/core';
+import { RspackDevServer } from '@rspack/dev-server';
 
 const compiler = rspack({
   entry: './src/index.js',
-  context: __dirname,
+  context: import.meta.dirname,
   plugins: [new rspack.HtmlRspackPlugin()],
   lazyCompilation: {
     backend: {

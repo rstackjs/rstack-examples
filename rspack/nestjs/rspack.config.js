@@ -14,6 +14,7 @@ export default defineConfig({
   },
   output: {
     clean: true,
+    filename: '[name].cjs',
   },
   resolve: {
     extensions: ['...', '.ts', '.tsx', '.jsx'],
@@ -63,7 +64,7 @@ export default defineConfig({
   plugins: isDev
     ? [
         new RunScriptWebpackPlugin({
-          name: 'main.js',
+          name: 'main.cjs',
           autoRestart: false,
         }),
         new rspack.HotModuleReplacementPlugin(),

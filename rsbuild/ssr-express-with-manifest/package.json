@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "build": "rsbuild build",
-    "dev": "cross-env NODE_OPTIONS=\"--experimental-vm-modules --no-warnings\" node ./server.mjs",
-    "preview": "node ./prod-server.mjs"
+    "dev": "cross-env NODE_OPTIONS=\"--experimental-vm-modules --no-warnings\" node ./server.js",
+    "preview": "node ./prod-server.js"
   },
   "dependencies": {
     "react": "^19.2.7",
