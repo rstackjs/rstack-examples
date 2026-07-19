@@ -1,7 +1,3 @@
-declare global {
-  var calculator: Calculator;
-}
-
 class Calculator {
   add(a: number, b: number): number {
     return a + b;
@@ -12,6 +8,8 @@ class Calculator {
   }
 }
 
-globalThis.calculator = new Calculator();
+const globalScope = globalThis as typeof globalThis & {
+  calculator: Calculator;
+};
 
-export default Calculator;
+globalScope.calculator = new Calculator();

@@ -4,19 +4,21 @@
   "description": "Repository for examples of rstack",
   "license": "MIT",
   "scripts": {
-    "build": "npm run build:rspack && npm run build:rsbuild && npm run build:rspress && npm run build:rsdoctor && npm run build:rslib",
-    "build:rsbuild": "pnpm --filter \"@rsbuild-example/*\" --stream build",
-    "build:rsdoctor": "pnpm --filter \"@rsdoctor-example.*\" --stream build",
-    "build:rslib": "pnpm --filter \"@rslib-example/-*\" --stream build",
-    "build:rspack": "pnpm --filter \"@rspack-example/*\" --stream build",
-    "build:rspress": "pnpm --filter \"@rspress-example/*\" --stream build",
+    "build": "pnpm run build:rspack && pnpm run build:rsbuild && pnpm run build:rspress && pnpm run build:rsdoctor && pnpm run build:rslib && pnpm run build:rstest",
+    "build:rsbuild": "pnpm --filter \"./rsbuild/**\" --stream build",
+    "build:rsdoctor": "pnpm --filter \"./rsdoctor/**\" --stream build",
+    "build:rslib": "pnpm --filter \"./rslib/**\" --stream build",
+    "build:rspack": "pnpm --filter \"./rspack/**\" --stream build",
+    "build:rspress": "pnpm --filter \"./rspress/**\" --stream build",
+    "build:rstest": "pnpm --filter \"./rstest/**\" --stream build",
     "bump": "taze -l",
     "lint": "rslint && prettier -c \"*.{json,jsonc,md,yml,yaml,ts}\" \".vscode/*.json\" \"{rspack,rsbuild,rspress,rsdoctor,rslib,rstest}/**/*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}\"",
     "lint:write": "rslint --fix && prettier -w \"*.{json,jsonc,md,yml,yaml,ts}\" \".vscode/*.json\" \"{rspack,rsbuild,rspress,rsdoctor,rslib,rstest}/**/*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}\"",
     "prepare": "husky",
     "sort-package-json": "npx sort-package-json \"rspack/*/package.json\" \"rsbuild/*/package.json\" \"rspress/*/package.json\" \"rsdoctor/*/package.json\" \"rslib/*/package.json\" \"rstest/*/package.json\"",
-    "test:rspack": "pnpm --filter \"@rspack-example/*\" --stream test",
-    "test:rstest": "pnpm --filter \"@rstest-example/*\" --stream test"
+    "test": "pnpm run test:rspack && pnpm run test:rstest",
+    "test:rspack": "pnpm --filter \"./rspack/**\" --stream test",
+    "test:rstest": "pnpm --filter \"./rstest/**\" --stream test"
   },
   "lint-staged": {
     "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx}": [

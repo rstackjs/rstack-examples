@@ -2,7 +2,7 @@ name: CI
 
 on:
   schedule:
-    - cron: "0 1 * * *"
+    - cron: '0 1 * * *'
 
   workflow_dispatch:
 
@@ -26,7 +26,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6
         with:
-          node-version-file: ".nvmrc"
+          node-version-file: '.nvmrc'
 
       - name: Install dependencies
         run: pnpm install
@@ -34,25 +34,8 @@ jobs:
       - name: Install Playwright browsers
         run: pnpm --filter @rstest-example/browser-locator exec playwright install --with-deps chromium
 
-      - name: Build Rspack
-        run: |
-          pnpm build:rspack
+      - name: Build
+        run: node --run build
 
-      - name: Build Rsbuild
-        run: |
-          pnpm build:rsbuild
-
-      - name: Build Rslib
-        run: |
-          pnpm build:rslib
-
-      - name: Build Rspress
-        run: |
-          pnpm build:rspress
-
-      - name: Build Rsdoctor
-        run: |
-          pnpm build:rsdoctor
-
-      - name: Test Rstest
-        run: pnpm test:rstest
+      - name: Test
+        run: node --run test
