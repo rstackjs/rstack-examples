@@ -2,6 +2,7 @@
   "name": "@rstest-example/rspack-adapter",
   "private": true,
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "build": "rspack build",
     "dev": "rspack dev",

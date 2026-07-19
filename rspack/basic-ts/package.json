@@ -1,5 +1,5 @@
 {
-  "name": "@rspack-example/basic",
+  "name": "@rspack-example/basic-ts",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",

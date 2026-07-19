@@ -53,6 +53,9 @@ export default defineConfig({
       },
     ],
   },
+  performance: {
+    hints: false,
+  },
   plugins: [
     new rspack.HtmlRspackPlugin({
       template: './src/index.html',
