@@ -32,6 +32,9 @@ export default defineConfig({
   optimization: {
     minimize: false,
   },
+  externals: {
+    express: 'express',
+  },
   externalsType: 'commonjs',
   plugins: [
     !process.env.BUILD &&
