@@ -5,9 +5,9 @@ export default defineConfig({
   extends: withRslibConfig({
     libId: 'esm',
     modifyLibConfig: (config) => {
-      config.source ??= {};
-      config.source.alias = {
-        ...config.source.alias,
+      config.resolve ??= {};
+      config.resolve.alias = {
+        ...config.resolve.alias,
         '@test-utils': './tests/test-utils.ts',
       };
       return config;
