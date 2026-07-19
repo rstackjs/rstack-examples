@@ -1,6 +1,7 @@
 {
   "name": "@rspack-example/terser-webpack-plugin_5",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "rspack build"
   },

@@ -2,6 +2,7 @@
   "name": "@rsdoctor-example/rspack",
   "version": "0.1.1",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "NODE_ENV=production rspack build",
     "build:analysis": "RSDOCTOR=true NODE_ENV=production rspack build",

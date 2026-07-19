@@ -1,5 +1,6 @@
-const esbuild = require('esbuild');
-module.exports = function workletLoader(source) {
+import esbuild from 'esbuild';
+
+export default function workletLoader(source) {
   const result = esbuild.buildSync({
     entryPoints: [this.resource],
     write: false,
@@ -7,4 +8,4 @@ module.exports = function workletLoader(source) {
   });
   const content = result.outputFiles[0].text;
   return content;
-};
+}

@@ -1,6 +1,7 @@
 {
   "name": "@rspack-example/generate-package-json-webpack-plugin",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "rspack build"
   },

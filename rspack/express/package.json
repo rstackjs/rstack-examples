@@ -2,6 +2,7 @@
   "name": "@rspack-example/express",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "license": "MIT",
   "scripts": {
     "build": "cross-env BUILD=true rspack build",

@@ -1,6 +1,7 @@
 {
   "name": "rstack-examples",
   "version": "1.0.0",
+  "type": "module",
   "description": "Repository for examples of rstack",
   "license": "MIT",
   "scripts": {

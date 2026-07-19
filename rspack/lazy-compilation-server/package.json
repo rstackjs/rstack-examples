@@ -1,6 +1,7 @@
 {
   "name": "@rspack-example/use-custom-server-for-lazy-compilation",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "node ./dev.js"
   },

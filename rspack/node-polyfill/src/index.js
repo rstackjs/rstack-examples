@@ -1,5 +1,6 @@
-const util = require('util');
-const logger = require('./logger');
+import util from 'util';
+import logger from './logger';
+
 console.log('procss:', process.version);
 console.log('buffer', Buffer.from('abcd'));
 console.log('util:', util.format('%s:%s', 'foo', 'bar'));

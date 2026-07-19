@@ -2,6 +2,7 @@
   "name": "@rspack-example/worker",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "license": "MIT",
   "main": "example.js",
   "scripts": {

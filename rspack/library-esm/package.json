@@ -2,6 +2,7 @@
   "name": "@rspack-example/library-esm",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "license": "MIT",
   "sideEffects": [
     "**/*.css",

@@ -1,6 +1,7 @@
 {
   "name": "@rspack-example/case-sensitive-paths-webpack-plugin",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "rspack build || echo 'make-ci-happy'",
     "dev": "rspack dev"
