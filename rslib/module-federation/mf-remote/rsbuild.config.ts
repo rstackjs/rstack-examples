@@ -24,6 +24,9 @@ export default defineConfig({
     ),
   ],
   server: {
+    cors: {
+      origin: 'http://localhost:3000',
+    },
     port: 3002,
   },
 });

@@ -9,6 +9,8 @@ export default defineConfig({
     new rspack.HtmlRspackPlugin({
       template: './index.html',
     }),
-    sentryWebpackPlugin({}),
+    sentryWebpackPlugin({
+      // Options
+    }),
   ],
 });
