@@ -17,6 +17,8 @@ export default defineConfig({
     index: './src/index.js',
   },
   output: {
+    filename: '[name].cjs',
+    globalObject: 'globalThis',
     library: {
       type: 'umd',
       name: 'rspack_library',
