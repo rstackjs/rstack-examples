@@ -66,8 +66,7 @@ declare module 'react-server-dom-rspack/client.browser' {
   export interface Options {
     callServer?: CallServerCallback;
     environmentName?: string;
-    // It's optional but we want to avoid accidentally omitting it.
-    findSourceMapURL: FindSourceMapURLCallback | undefined;
+    findSourceMapURL?: FindSourceMapURLCallback;
     replayConsoleLogs?: boolean;
     temporaryReferences?: TemporaryReferenceSet;
     debugChannel?: { readable?: ReadableStream; writable?: WritableStream };
@@ -82,6 +81,8 @@ declare module 'react-server-dom-rspack/client.browser' {
     stream: ReadableStream,
     options?: Options,
   ): Promise<T>;
+
+  export function setServerCallback(callback: CallServerCallback): void;
 }
 
 declare module 'react-server-dom-rspack/server.edge' {
@@ -162,59 +163,53 @@ declare module 'react-server-dom-rspack/server' {
 
 declare module 'react-server-dom-rspack/server.node' {
   import type { Busboy } from 'busboy';
-
-  export {
-    createClientModuleProxy,
-    decodeReplyFromAsyncIterable,
-    registerServerReference,
-    renderToReadableStream,
-  } from 'react-server-dom-rspack/server.edge';
+  import type { ReactFormState } from 'react-dom/client';
 
   export type TemporaryReferenceSet = WeakMap<any, string>;
 
-  export type ImportManifestEntry = {
-    id: string;
-    // chunks is a double indexed array of chunkId / chunkFilename pairs
-    chunks: Array<string>;
-    name: string;
-    async?: boolean;
+  export type ServerEntry<T> = T & {
+    resource: string;
+    entryJsFiles: string[];
+    entryCssFiles: string[];
   };
-
-  export type ServerManifest = {
-    [id: string]: ImportManifestEntry;
-  };
-
-  export type ReactFormState = [
-    unknown /* actual state value */,
-    string /* key path */,
-    string /* Server Reference ID */,
-    number /* number of bound arguments */,
-  ];
 
   export function createTemporaryReferenceSet(...args: unknown[]): TemporaryReferenceSet;
 
   export function decodeReplyFromBusboy(
     busboyStream: Busboy,
-    webpackMap: ServerManifest,
     options?: { temporaryReferences?: TemporaryReferenceSet },
   ): Promise<unknown[]>;
 
   export function decodeReply<T>(
     body: string | FormData,
-    webpackMap: ServerManifest,
     options?: { temporaryReferences?: TemporaryReferenceSet },
   ): Promise<T[]>;
 
-  export function decodeAction(
-    body: FormData,
-    serverManifest: ServerManifest,
-  ): Promise<() => unknown> | null;
+  export function decodeAction(body: FormData): Promise<() => unknown> | null;
 
   export function decodeFormState(
     actionResult: unknown,
     body: FormData,
-    serverManifest: ServerManifest,
   ): Promise<ReactFormState | null>;
+
+  export function loadServerAction(actionId: string): (...args: unknown[]) => Promise<unknown>;
+
+  export function renderToReadableStream(
+    model: unknown,
+    options?: {
+      temporaryReferences?: TemporaryReferenceSet;
+      environmentName?: string | (() => string);
+      filterStackFrame?: (
+        url: string,
+        functionName: string,
+        lineNumber: number,
+        columnNumber: number,
+      ) => boolean;
+      onError?: (error: unknown) => void;
+      signal?: AbortSignal;
+      debugChannel?: { readable?: ReadableStream; writable?: WritableStream };
+    },
+  ): ReadableStream<Uint8Array>;
 }
 declare module 'react-server-dom-rspack/static' {
   export type TemporaryReferenceSet = WeakMap<any, string>;
