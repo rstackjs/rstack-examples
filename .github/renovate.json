@@ -1,5 +1,11 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["github>rstackjs/renovate"],
+  "env": {
+    "PNPM_MAX_WORKERS": "1"
+  },
+  "toolSettings": {
+    "nodeMaxMemory": 1536
+  },
   "ignoreDeps": ["@nestjs/common", "@nestjs/core", "@nestjs/platform-express"]
 }
