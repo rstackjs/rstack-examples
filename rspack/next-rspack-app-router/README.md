@@ -1,1 +1,0 @@
-# Next-Rspack-App-Router
