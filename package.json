@@ -11,7 +11,7 @@
     "build:rsdoctor": "pnpm --filter \"./rsdoctor/**\" --stream build",
     "build:rslib": "pnpm --filter \"./rslib/**\" --stream build",
     "build:rspack": "pnpm --filter \"./rspack/**\" --stream build",
-    "build:rspack:ci": "pnpm --filter \"./rspack/**\" --filter \"!./rspack/next-rspack-app-router\" --filter \"!./rspack/next-rspack-page-router\" --stream build",
+    "build:rspack:eco-ci": "pnpm --filter \"./rspack/**\" --filter \"!./rspack/next-rspack-app-router\" --filter \"!./rspack/next-rspack-page-router\" --stream build",
     "build:rspress": "pnpm --filter \"./rspress/**\" --stream build",
     "build:rstest": "pnpm --filter \"./rstest/**\" --stream build",
     "bump": "taze -l",
@@ -21,6 +21,7 @@
     "sort-package-json": "npx sort-package-json \"rspack/*/package.json\" \"rsbuild/*/package.json\" \"rspress/*/package.json\" \"rsdoctor/*/package.json\" \"rslib/*/package.json\" \"rstest/*/package.json\"",
     "test": "pnpm run test:rspack && pnpm run test:rstest",
     "test:rspack": "pnpm --filter \"./rspack/**\" --stream test",
+    "test:rspack:eco-ci": "pnpm --filter \"./rspack/**\" --filter \"!./rspack/next-rspack-app-router\" --filter \"!./rspack/next-rspack-page-router\" --stream test",
     "test:rstest": "pnpm --filter \"./rstest/**\" --stream test"
   },
   "lint-staged": {
