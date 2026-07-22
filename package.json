@@ -6,10 +6,12 @@
   "license": "MIT",
   "scripts": {
     "build": "pnpm run build:rspack && pnpm run build:rsbuild && pnpm run build:rspress && pnpm run build:rsdoctor && pnpm run build:rslib && pnpm run build:rstest",
+    "build:ci": "pnpm run build:rspack:ci && pnpm run build:rsbuild && pnpm run build:rspress && pnpm run build:rsdoctor && pnpm run build:rslib && pnpm run build:rstest",
     "build:rsbuild": "pnpm --filter \"./rsbuild/**\" --stream build",
     "build:rsdoctor": "pnpm --filter \"./rsdoctor/**\" --stream build",
     "build:rslib": "pnpm --filter \"./rslib/**\" --stream build",
     "build:rspack": "pnpm --filter \"./rspack/**\" --stream build",
+    "build:rspack:ci": "pnpm --filter \"./rspack/**\" --filter \"!./rspack/next-rspack-app-router\" --filter \"!./rspack/next-rspack-page-router\" --stream build",
     "build:rspress": "pnpm --filter \"./rspress/**\" --stream build",
     "build:rstest": "pnpm --filter \"./rstest/**\" --stream build",
     "bump": "taze -l",
