@@ -31,9 +31,6 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      # Browser tests launch the Chrome already available on the CI runner,
-      # so Playwright does not need to download Chromium.
-
       - name: Build
         run: node --run build
 
