@@ -8,7 +8,7 @@ export default defineConfig({
     provider: 'playwright',
     browser: 'chromium',
     // Use the preinstalled Chrome in CI to avoid downloading Playwright's Chromium.
-    providerOptions: process.env.CI
+    providerOptions: process.env.GITHUB_ACTIONS
       ? {
           launch: {
             channel: 'chrome',
