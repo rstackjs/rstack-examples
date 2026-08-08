@@ -17,7 +17,7 @@
     "dev": "rslib -w"
   },
   "devDependencies": {
-    "@rsbuild/plugin-less": "^1.6.4",
+    "@rsbuild/plugin-less": "^2.0.1",
     "@rsbuild/plugin-react": "^2.1.0",
     "@rslib/core": "^0.22.0",
     "@types/react": "^19.2.15",
