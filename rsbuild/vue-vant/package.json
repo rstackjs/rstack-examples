@@ -15,7 +15,7 @@
   "devDependencies": {
     "@rsbuild/core": "2.1.6",
     "@rsbuild/plugin-less": "^1.6.4",
-    "@rsbuild/plugin-vue": "^1.2.9",
+    "@rsbuild/plugin-vue": "^2.0.1",
     "@types/node": "^24.12.4",
     "@vant/auto-import-resolver": "^1.3.0",
     "typescript": "^5.9.3",

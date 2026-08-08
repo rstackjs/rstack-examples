@@ -973,8 +973,8 @@ importers:
         specifier: 2.1.6
         version: 2.1.6(@module-federation/runtime-tools@2.5.0)(core-js@3.49.0)
       '@rsbuild/plugin-vue':
-        specifier: ^1.2.9
-        version: 1.2.9(@rsbuild/core@2.1.6)(@rspack/core@2.1.4)(vue@3.5.35)
+        specifier: ^2.0.1
+        version: 2.0.1(@rsbuild/core@2.1.6)(@rspack/core@2.1.4)(vue@3.5.35)
       '@types/node':
         specifier: ^24.12.4
         version: 24.12.4
@@ -995,8 +995,8 @@ importers:
         specifier: 2.1.6
         version: 2.1.6(@module-federation/runtime-tools@2.5.0)(core-js@3.49.0)
       '@rsbuild/plugin-vue':
-        specifier: ^1.2.9
-        version: 1.2.9(@rsbuild/core@2.1.6)(@rspack/core@2.1.4)(vue@3.5.35)
+        specifier: ^2.0.1
+        version: 2.0.1(@rsbuild/core@2.1.6)(@rspack/core@2.1.4)(vue@3.5.35)
       '@types/node':
         specifier: ^24.12.4
         version: 24.12.4
@@ -1023,8 +1023,8 @@ importers:
         specifier: 2.1.6
         version: 2.1.6(@module-federation/runtime-tools@2.5.0)(core-js@3.49.0)
       '@rsbuild/plugin-vue':
-        specifier: ^1.2.9
-        version: 1.2.9(@rsbuild/core@2.1.6)(@rspack/core@2.1.4)(vue@3.5.35)
+        specifier: ^2.0.1
+        version: 2.0.1(@rsbuild/core@2.1.6)(@rspack/core@2.1.4)(vue@3.5.35)
       '@types/node':
         specifier: ^24.12.4
         version: 24.12.4
@@ -1054,8 +1054,8 @@ importers:
         specifier: ^2.0.1
         version: 2.0.1(@rsbuild/core@2.1.6)(@rspack/core@2.1.4)(eslint@9.39.4)
       '@rsbuild/plugin-vue':
-        specifier: ^1.2.9
-        version: 1.2.9(@rsbuild/core@2.1.6)(@rspack/core@2.1.4)(vue@3.5.35)
+        specifier: ^2.0.1
+        version: 2.0.1(@rsbuild/core@2.1.6)(@rspack/core@2.1.4)(vue@3.5.35)
       '@types/node':
         specifier: ^24.12.4
         version: 24.12.4
@@ -1094,8 +1094,8 @@ importers:
         specifier: ^1.6.4
         version: 1.6.4(@rsbuild/core@2.1.6)(@rspack/core@2.1.4)(webpack@5.102.1)
       '@rsbuild/plugin-vue':
-        specifier: ^1.2.9
-        version: 1.2.9(@rsbuild/core@2.1.6)(@rspack/core@2.1.4)(vue@3.5.35)
+        specifier: ^2.0.1
+        version: 2.0.1(@rsbuild/core@2.1.6)(@rspack/core@2.1.4)(vue@3.5.35)
       '@types/node':
         specifier: ^24.12.4
         version: 24.12.4
@@ -1757,8 +1757,8 @@ importers:
   rslib/vue-basic:
     devDependencies:
       '@rsbuild/plugin-vue':
-        specifier: ^1.2.9
-        version: 1.2.9(@rsbuild/core@2.1.6)(@rspack/core@2.1.4)(vue@3.5.35)
+        specifier: ^2.0.1
+        version: 2.0.1(@rsbuild/core@2.1.6)(@rspack/core@2.1.4)(vue@3.5.35)
       '@rslib/core':
         specifier: ^0.22.0
         version: 0.22.0(@module-federation/runtime-tools@2.5.0)(core-js@3.49.0)(typescript@5.9.3)
@@ -1775,8 +1775,8 @@ importers:
   rslib/vue-rstest:
     devDependencies:
       '@rsbuild/plugin-vue':
-        specifier: ^1.2.9
-        version: 1.2.9(@rsbuild/core@2.1.6)(@rspack/core@2.1.4)(@vue/compiler-sfc@3.5.35)(vue@3.5.35)
+        specifier: ^2.0.1
+        version: 2.0.1(@rsbuild/core@2.1.6)(@rspack/core@2.1.4)(@vue/compiler-sfc@3.5.35)(vue@3.5.35)
       '@rslib/core':
         specifier: ^0.22.0
         version: 0.22.0(@module-federation/runtime-tools@2.5.0)(core-js@3.49.0)(typescript@5.9.3)
@@ -1811,8 +1811,8 @@ importers:
         specifier: ~2.1.6
         version: 2.1.6(@module-federation/runtime-tools@2.5.0)(core-js@3.49.0)
       '@rsbuild/plugin-vue':
-        specifier: ^1.2.9
-        version: 1.2.9(@rsbuild/core@2.1.6)(@rspack/core@2.1.4)(vue@3.5.35)
+        specifier: ^2.0.1
+        version: 2.0.1(@rsbuild/core@2.1.6)(@rspack/core@2.1.4)(vue@3.5.35)
       '@rslib/core':
         specifier: ^0.22.0
         version: 0.22.0(@module-federation/runtime-tools@2.5.0)(core-js@3.49.0)(typescript@5.9.3)
@@ -7557,10 +7557,10 @@ packages:
       '@rsbuild/core':
         optional: true
 
-  '@rsbuild/plugin-vue@1.2.9':
-    resolution: {integrity: sha512-ufD4eufkZZlNK3iY5NWg57AMK9qrTFmHycDkSTfRTua4Qczf7q9s7rCLYVfVv2w36cOXJIewM+376jD0zaQShQ==}
+  '@rsbuild/plugin-vue@2.0.1':
+    resolution: {integrity: sha512-JbQ/e4J7lICXC6JpovJS9PHlIT0Vl1XngTni3HuVkXF82Q18k8nd0RmRDVRDFcb/mvqij5ITwZsez9h3DoYcQQ==}
     peerDependencies:
-      '@rsbuild/core': ^1.0.0 || ^2.0.0-0
+      '@rsbuild/core': ^2.0.0
     peerDependenciesMeta:
       '@rsbuild/core':
         optional: true
@@ -18707,7 +18707,7 @@ snapshots:
     optionalDependencies:
       '@rsbuild/core': 2.1.6(@module-federation/runtime-tools@2.5.0)(core-js@3.49.0)
 
-  '@rsbuild/plugin-vue@1.2.9(@rsbuild/core@2.1.6)(@rspack/core@2.1.4)(@vue/compiler-sfc@3.5.35)(vue@3.5.35)':
+  '@rsbuild/plugin-vue@2.0.1(@rsbuild/core@2.1.6)(@rspack/core@2.1.4)(@vue/compiler-sfc@3.5.35)(vue@3.5.35)':
     dependencies:
       rspack-vue-loader: 17.5.1(@rspack/core@2.1.4)(@vue/compiler-sfc@3.5.35)(vue@3.5.35)
     optionalDependencies:
@@ -18717,7 +18717,7 @@ snapshots:
       - '@vue/compiler-sfc'
       - vue
 
-  '@rsbuild/plugin-vue@1.2.9(@rsbuild/core@2.1.6)(@rspack/core@2.1.4)(vue@3.5.35)':
+  '@rsbuild/plugin-vue@2.0.1(@rsbuild/core@2.1.6)(@rspack/core@2.1.4)(vue@3.5.35)':
     dependencies:
       rspack-vue-loader: 17.5.1(@rspack/core@2.1.4)(vue@3.5.35)
     optionalDependencies:
