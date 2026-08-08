@@ -229,8 +229,8 @@ importers:
         specifier: 2.1.6
         version: 2.1.6(@module-federation/runtime-tools@2.5.0)(core-js@3.49.0)
       '@rsbuild/plugin-preact':
-        specifier: ^1.7.3
-        version: 1.7.3(@rsbuild/core@2.1.6)(preact@10.29.2)
+        specifier: ^2.0.0
+        version: 2.0.0(@rsbuild/core@2.1.6)(@rspack/core@2.1.4)(preact@10.29.2)
       '@types/node':
         specifier: ^24.12.4
         version: 24.12.4
@@ -1398,8 +1398,8 @@ importers:
   rslib/preact:
     devDependencies:
       '@rsbuild/plugin-preact':
-        specifier: ^1.7.3
-        version: 1.7.3(@rsbuild/core@2.1.6)(preact@10.29.2)
+        specifier: ^2.0.0
+        version: 2.0.0(@rsbuild/core@2.1.6)(@rspack/core@2.1.4)(preact@10.29.2)
       '@rslib/core':
         specifier: ^0.22.0
         version: 0.22.0(@module-federation/runtime-tools@2.5.0)(core-js@3.49.0)(typescript@5.9.3)
@@ -4280,8 +4280,8 @@ importers:
         specifier: 2.1.6
         version: 2.1.6(@module-federation/runtime-tools@2.5.0)(core-js@3.49.0)
       '@rsbuild/plugin-preact':
-        specifier: ^1.7.3
-        version: 1.7.3(@rsbuild/core@2.1.6)(preact@10.29.2)
+        specifier: ^2.0.0
+        version: 2.0.0(@rsbuild/core@2.1.6)(@rspack/core@2.1.4)(preact@10.29.2)
       '@rstest/adapter-rsbuild':
         specifier: ^0.10.3
         version: 0.10.3(@rsbuild/core@2.1.6)(@rstest/core@0.10.3)
@@ -7477,10 +7477,10 @@ packages:
       '@rsbuild/core':
         optional: true
 
-  '@rsbuild/plugin-preact@1.7.3':
-    resolution: {integrity: sha512-PoIWj0FJ7z6m3izcffPIPlulUNGFpbIdUIJXp3w0bjpA9QHQzS1PkbEJBCiSNaMu7YtDIfPIPIcthBD2Gotkbg==}
+  '@rsbuild/plugin-preact@2.0.0':
+    resolution: {integrity: sha512-71eGBA8AilI/v9WDxHTWkB9CnMRb8XI6jOQAP/j+a3++CoUFA9QwYr7r5jPtpdzmf4RKugUXfc3baKM/paqOGQ==}
     peerDependencies:
-      '@rsbuild/core': ^1.0.0 || ^2.0.0-0
+      '@rsbuild/core': ^2.0.0
     peerDependenciesMeta:
       '@rsbuild/core':
         optional: true
@@ -7915,6 +7915,16 @@ packages:
     peerDependencies:
       '@prefresh/core': ^1.5.0
       '@prefresh/utils': ^1.2.0
+
+  '@rspack/plugin-preact-refresh@2.0.1':
+    resolution: {integrity: sha512-tQ3WRBVaJ5JVy4jQHaYpYqeQrPStc7WrIJlVMrY/2mJMe5D1Ma4EO6K7J0v4Zx3HZMoJ1xeaqfCI9E8UHFE9yQ==}
+    peerDependencies:
+      '@prefresh/core': ^1.5.0
+      '@prefresh/utils': ^1.2.0
+      '@rspack/core': ^2.0.0
+    peerDependenciesMeta:
+      '@rspack/core':
+        optional: true
 
   '@rspack/plugin-react-refresh@2.0.0':
     resolution: {integrity: sha512-Cf6CxBStNDJbiXMc/GmsvG1G8PRlUpa0MSfWsMTI+e8npzuTN/p8nwLs3shriBZOLciqgkSZpBtPTd10BLpj1g==}
@@ -18556,15 +18566,16 @@ snapshots:
       - supports-color
       - webpack
 
-  '@rsbuild/plugin-preact@1.7.3(@rsbuild/core@2.1.6)(preact@10.29.2)':
+  '@rsbuild/plugin-preact@2.0.0(@rsbuild/core@2.1.6)(@rspack/core@2.1.4)(preact@10.29.2)':
     dependencies:
       '@prefresh/core': 1.5.10(preact@10.29.2)
       '@prefresh/utils': 1.2.1
-      '@rspack/plugin-preact-refresh': 1.1.6(@prefresh/core@1.5.10)(@prefresh/utils@1.2.1)
+      '@rspack/plugin-preact-refresh': 2.0.1(@prefresh/core@1.5.10)(@prefresh/utils@1.2.1)(@rspack/core@2.1.4)
       '@swc/plugin-prefresh': 12.12.0
     optionalDependencies:
       '@rsbuild/core': 2.1.6(@module-federation/runtime-tools@2.5.0)(core-js@3.49.0)
     transitivePeerDependencies:
+      - '@rspack/core'
       - preact
 
   '@rsbuild/plugin-react@2.0.1(@rsbuild/core@2.1.6)(@rspack/core@2.1.4)':
@@ -19048,6 +19059,13 @@ snapshots:
     dependencies:
       '@prefresh/core': 1.5.10(preact@10.29.2)
       '@prefresh/utils': 1.2.1
+
+  '@rspack/plugin-preact-refresh@2.0.1(@prefresh/core@1.5.10)(@prefresh/utils@1.2.1)(@rspack/core@2.1.4)':
+    dependencies:
+      '@prefresh/core': 1.5.10(preact@10.29.2)
+      '@prefresh/utils': 1.2.1
+    optionalDependencies:
+      '@rspack/core': 2.1.4(@module-federation/runtime-tools@2.5.0)(@swc/helpers@0.5.23)
 
   '@rspack/plugin-react-refresh@2.0.0(@rspack/core@2.1.4)(react-refresh@0.18.0)':
     dependencies:
