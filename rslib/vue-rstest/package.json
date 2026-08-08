@@ -18,7 +18,7 @@
     "test": "rstest"
   },
   "devDependencies": {
-    "@rsbuild/plugin-vue": "^1.2.9",
+    "@rsbuild/plugin-vue": "^2.0.1",
     "@rslib/core": "^0.22.0",
     "@rstest/adapter-rslib": "^0.10.3",
     "@rstest/core": "^0.10.3",

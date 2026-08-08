@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@rsbuild/core": "~2.1.6",
-    "@rsbuild/plugin-vue": "^1.2.9",
+    "@rsbuild/plugin-vue": "^2.0.1",
     "@rslib/core": "^0.22.0",
     "@storybook/addon-docs": "^10.4.1",
     "@storybook/addon-onboarding": "^10.4.1",
