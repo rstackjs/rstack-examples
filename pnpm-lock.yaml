@@ -307,8 +307,8 @@ importers:
         specifier: 2.1.6
         version: 2.1.6(@module-federation/runtime-tools@2.5.0)(core-js@3.49.0)
       '@rsbuild/plugin-babel':
-        specifier: ^1.2.1
-        version: 1.2.1(@rsbuild/core@2.1.6)
+        specifier: ^2.0.1
+        version: 2.0.1(@rsbuild/core@2.1.6)(@rspack/core@2.1.4)(webpack@5.102.1)
       '@rsbuild/plugin-react':
         specifier: ^2.1.0
         version: 2.1.0(@rsbuild/core@2.1.6)(@rspack/core@2.1.4)
@@ -532,8 +532,8 @@ importers:
         specifier: 2.1.6
         version: 2.1.6(@module-federation/runtime-tools@2.5.0)(core-js@3.49.0)
       '@rsbuild/plugin-babel':
-        specifier: ^1.2.1
-        version: 1.2.1(@rsbuild/core@2.1.6)
+        specifier: ^2.0.1
+        version: 2.0.1(@rsbuild/core@2.1.6)(@rspack/core@2.1.4)(webpack@5.102.1)
       '@rsbuild/plugin-solid':
         specifier: ^1.2.1
         version: 1.2.1(@babel/core@7.29.7)(@rsbuild/core@2.1.6)(solid-js@1.9.13)
@@ -899,8 +899,8 @@ importers:
         specifier: ^2.1.6
         version: 2.1.6(@module-federation/runtime-tools@2.5.0)(core-js@3.49.0)
       '@rsbuild/plugin-babel':
-        specifier: ^1.2.1
-        version: 1.2.1(@rsbuild/core@2.1.6)
+        specifier: ^2.0.1
+        version: 2.0.1(@rsbuild/core@2.1.6)(@rspack/core@2.1.4)(webpack@5.102.1)
       '@rsbuild/plugin-solid':
         specifier: ^1.2.1
         version: 1.2.1(@babel/core@7.29.7)(@rsbuild/core@2.1.6)(solid-js@1.9.13)
@@ -1661,8 +1661,8 @@ importers:
   rslib/solid-basic:
     devDependencies:
       '@rsbuild/plugin-babel':
-        specifier: ^1.2.1
-        version: 1.2.1(@rsbuild/core@2.1.6)
+        specifier: ^2.0.1
+        version: 2.0.1(@rsbuild/core@2.1.6)(@rspack/core@2.1.4)(webpack@5.102.1)
       '@rsbuild/plugin-solid':
         specifier: ^1.2.1
         version: 1.2.1(@babel/core@7.29.7)(@rsbuild/core@2.1.6)(solid-js@1.9.13)
@@ -1679,8 +1679,8 @@ importers:
   rslib/solid-rstest:
     devDependencies:
       '@rsbuild/plugin-babel':
-        specifier: ^1.2.1
-        version: 1.2.1(@rsbuild/core@2.1.6)
+        specifier: ^2.0.1
+        version: 2.0.1(@rsbuild/core@2.1.6)(@rspack/core@2.1.4)(webpack@5.102.1)
       '@rsbuild/plugin-solid':
         specifier: ^1.2.1
         version: 1.2.1(@babel/core@7.29.7)(@rsbuild/core@2.1.6)(solid-js@1.9.13)
@@ -4344,8 +4344,8 @@ importers:
         specifier: 2.1.6
         version: 2.1.6(@module-federation/runtime-tools@2.5.0)(core-js@3.49.0)
       '@rsbuild/plugin-babel':
-        specifier: ^1.2.1
-        version: 1.2.1(@rsbuild/core@2.1.6)
+        specifier: ^2.0.1
+        version: 2.0.1(@rsbuild/core@2.1.6)(@rspack/core@2.1.4)(webpack@5.102.1)
       '@rsbuild/plugin-solid':
         specifier: ^1.2.1
         version: 1.2.1(@babel/core@7.29.7)(@rsbuild/core@2.1.6)(solid-js@1.9.13)
@@ -4731,6 +4731,12 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0-0
 
+  '@babel/plugin-proposal-decorators@7.29.7':
+    resolution: {integrity: sha512-EtU0Hi3GvrTqD56xKmZvV/uCXK2ZbwVNPNLAquVItcAZpUhkXwWlo3Fmj0c2LxgSf2I8IDULeAepwNP1OefLXg==}
+    engines: {node: '>=6.9.0'}
+    peerDependencies:
+      '@babel/core': ^7.0.0-0
+
   '@babel/plugin-proposal-private-property-in-object@7.21.0-placeholder-for-preset-env.2':
     resolution: {integrity: sha512-SOSkfJDddaM7mak6cPEpswyTRnuRltl429hMraQEglW+OkovnCzsiszTmsrlY//qLFjCpQDFRvjdm2wA5pPm9w==}
     engines: {node: '>=6.9.0'}
@@ -4739,6 +4745,12 @@ packages:
 
   '@babel/plugin-syntax-decorators@7.28.6':
     resolution: {integrity: sha512-71EYI0ONURHJBL4rSFXnITXqXrrY8q4P0q006DPfN+Rk+ASM+++IBXem/ruokgBZR8YNEWZ8R6B+rCb8VcUTqA==}
+    engines: {node: '>=6.9.0'}
+    peerDependencies:
+      '@babel/core': ^7.0.0-0
+
+  '@babel/plugin-syntax-decorators@7.29.7':
+    resolution: {integrity: sha512-9MTTLbF39X6sqM92JPEsoI7++26hjZvzkxKZy64aMhWLH2mPkJ/Q3AV4QLmls3R14FpSpkOwQQfUh962JGQxxg==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -7419,6 +7431,14 @@ packages:
     resolution: {integrity: sha512-6Zad7Ff/RUNc91AtftemJcJ1wcZRGOiwuJy349qlLJl9F++oRYwUhx+MxLSpNnVeIywWx2mKdZZBtD1hLqfj9w==}
     peerDependencies:
       '@rsbuild/core': ^1.0.0 || ^2.0.0-0
+    peerDependenciesMeta:
+      '@rsbuild/core':
+        optional: true
+
+  '@rsbuild/plugin-babel@2.0.1':
+    resolution: {integrity: sha512-PkKWwQDm6Ll3emj9vrq4DYpob9XYonsgkuo4o9lY3ySNmK18+bKUCzPQkqrsMaJi+h1wDwFH/XnMGlIRS//dCw==}
+    peerDependencies:
+      '@rsbuild/core': ^2.0.0
     peerDependenciesMeta:
       '@rsbuild/core':
         optional: true
@@ -16018,11 +16038,25 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
+  '@babel/plugin-proposal-decorators@7.29.7(@babel/core@7.29.7)':
+    dependencies:
+      '@babel/core': 7.29.7
+      '@babel/helper-create-class-features-plugin': 7.29.7(@babel/core@7.29.7)
+      '@babel/helper-plugin-utils': 7.29.7
+      '@babel/plugin-syntax-decorators': 7.29.7(@babel/core@7.29.7)
+    transitivePeerDependencies:
+      - supports-color
+
   '@babel/plugin-proposal-private-property-in-object@7.21.0-placeholder-for-preset-env.2(@babel/core@7.29.7)':
     dependencies:
       '@babel/core': 7.29.7
 
   '@babel/plugin-syntax-decorators@7.28.6(@babel/core@7.29.7)':
+    dependencies:
+      '@babel/core': 7.29.7
+      '@babel/helper-plugin-utils': 7.29.7
+
+  '@babel/plugin-syntax-decorators@7.29.7(@babel/core@7.29.7)':
     dependencies:
       '@babel/core': 7.29.7
       '@babel/helper-plugin-utils': 7.29.7
@@ -18501,6 +18535,22 @@ snapshots:
       '@rsbuild/core': 2.1.6(@module-federation/runtime-tools@2.5.0)(core-js@3.49.0)
     transitivePeerDependencies:
       - supports-color
+
+  '@rsbuild/plugin-babel@2.0.1(@rsbuild/core@2.1.6)(@rspack/core@2.1.4)(webpack@5.102.1)':
+    dependencies:
+      '@babel/core': 7.29.7
+      '@babel/plugin-proposal-decorators': 7.29.7(@babel/core@7.29.7)
+      '@babel/plugin-transform-class-properties': 7.29.7(@babel/core@7.29.7)
+      '@babel/preset-typescript': 7.29.7(@babel/core@7.29.7)
+      '@types/babel__core': 7.20.5
+      babel-loader: 10.1.1(@babel/core@7.29.7)(@rspack/core@2.1.4)(webpack@5.102.1)
+      reduce-configs: 1.1.2
+    optionalDependencies:
+      '@rsbuild/core': 2.1.6(@module-federation/runtime-tools@2.5.0)(core-js@3.49.0)
+    transitivePeerDependencies:
+      - '@rspack/core'
+      - supports-color
+      - webpack
 
   '@rsbuild/plugin-check-syntax@1.6.1(@rsbuild/core@2.1.6)':
     dependencies:

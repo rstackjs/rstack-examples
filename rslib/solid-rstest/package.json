@@ -19,7 +19,7 @@
     "test": "rstest"
   },
   "devDependencies": {
-    "@rsbuild/plugin-babel": "^1.2.1",
+    "@rsbuild/plugin-babel": "^2.0.1",
     "@rsbuild/plugin-solid": "^1.2.1",
     "@rslib/core": "^0.22.0",
     "@rstest/adapter-rslib": "^0.10.3",
