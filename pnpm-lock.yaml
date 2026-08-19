@@ -528,19 +528,22 @@ importers:
 
   rsbuild/solid:
     dependencies:
+      '@solidjs/web':
+        specifier: ^2.0.0-rc.0
+        version: 2.0.0-rc.0(solid-js@2.0.0-rc.0)
       solid-js:
-        specifier: ^1.9.13
-        version: 1.9.13
+        specifier: ^2.0.0-rc.0
+        version: 2.0.0-rc.0
     devDependencies:
       '@rsbuild/core':
         specifier: 2.2.0-beta.1
         version: 2.2.0-beta.1(@module-federation/runtime-tools@2.5.0)(core-js@3.49.0)
       '@rsbuild/plugin-babel':
-        specifier: ^2.0.1
-        version: 2.0.1(@rsbuild/core@2.2.0-beta.1)(@rspack/core@2.1.4)(webpack@5.102.1)
+        specifier: ^2.1.0
+        version: 2.1.0(@rsbuild/core@2.2.0-beta.1)(@rspack/core@2.1.4)(webpack@5.102.1)
       '@rsbuild/plugin-solid':
-        specifier: ^1.2.1
-        version: 1.2.1(@babel/core@7.29.7)(@rsbuild/core@2.2.0-beta.1)(solid-js@1.9.13)
+        specifier: ^2.0.0-beta.1
+        version: 2.0.0-beta.1(@babel/core@7.29.7)(@rsbuild/core@2.2.0-beta.1)(@rspack/core@2.1.4)(@solidjs/web@2.0.0-rc.0)(solid-js@2.0.0-rc.0)(webpack@5.102.1)
       '@types/node':
         specifier: ^24.12.4
         version: 24.12.4
@@ -5241,6 +5244,45 @@ packages:
     resolution: {integrity: sha512-4B4OijXeVNOPZlYA2oEwWOTkzyltLao+xbotHQeqN++Rv27Y6s818+n2Qkp8q+Fxhn0t/5lA5X1Mxktud8eayQ==}
     engines: {node: '>=14.17.0'}
 
+  '@dom-expressions/babel-plugin-jsx@0.50.0-next.42':
+    resolution: {integrity: sha512-ol24x9RW8loPyOTzC/mQzh/zAsrsPxyTG4WRxxRlwzNK2uBWIBftWN5IwmSV51zDQa7JcT6sE6kkXFCLUvsYIQ==}
+    peerDependencies:
+      '@babel/core': ^7.20.12
+
+  '@dom-expressions/compiler-darwin-arm64@0.50.0-next.42':
+    resolution: {integrity: sha512-UfmStMN/2eZKXOWcdfOLdeUFLKmO2rGjSv3U2kq2KUSEagbhArjYjuh4POR9X//E9NRAX4cWRZwU3h9qykQnTQ==}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@dom-expressions/compiler-darwin-x64@0.50.0-next.42':
+    resolution: {integrity: sha512-xTK8PzrmDdneqwD3G6YzTpy4isUlaZnCXWufblVbDDwF1HWHnspy4CwHeRf19t7OM81pJb+AGQg+6XwxhoAYUw==}
+    cpu: [x64]
+    os: [darwin]
+
+  '@dom-expressions/compiler-linux-arm64-gnu@0.50.0-next.42':
+    resolution: {integrity: sha512-qLM/IBZjmx1n2dVz1YWc1UIBdVJO2pPOmR91/XIwn7LaQ22szskjDusVE7cwczudv3s7jBogrq1wW0DOQs0zaQ==}
+    cpu: [arm64]
+    os: [linux]
+    libc: [glibc]
+
+  '@dom-expressions/compiler-linux-x64-gnu@0.50.0-next.42':
+    resolution: {integrity: sha512-zmGIk6guJL/aB2CZokXjy2XRhBJ5RarUO2fJfG5wuRfLrfM63a6Pny/1uf20QE0lZS6V7DWz6Fh/1qrfi2aDSw==}
+    cpu: [x64]
+    os: [linux]
+    libc: [glibc]
+
+  '@dom-expressions/compiler-wasm32-wasi@0.50.0-next.42':
+    resolution: {integrity: sha512-YQo3oMyl/bqCy8oDJSPh9WBvvMD7pK3xKX9BTo8oGy7aWw/BAdRQ5DGngmYH09NQ9uB9+AcjAAdVpCWGoJ20wQ==}
+    engines: {node: '>=14.0.0'}
+
+  '@dom-expressions/compiler-win32-x64-msvc@0.50.0-next.42':
+    resolution: {integrity: sha512-yDTXceK+gUE1lIHZygVQT6eAuLeejkAMWEB7tdEg0Q5sNScnW6drcS6CsGbiCxPyUT8Yi8KbvmdUY3DW2FZfiQ==}
+    cpu: [x64]
+    os: [win32]
+
+  '@dom-expressions/compiler@0.50.0-next.42':
+    resolution: {integrity: sha512-vdmQw2kzEIFEklKd8kHPkzVfeZ/N3hvlohV9z2q7pf9BB8HeElosSQESbKReSm8SofemYYURiNutm94g5K3qyA==}
+
   '@dual-bundle/import-meta-resolve@4.1.0':
     resolution: {integrity: sha512-+nxncfwHM5SgAtrVzgpzJOI1ol0PkumhVo469KCf9lUi21IGcY90G98VuHm9VRrUypmAzawAHO9bs6hqeADaVg==}
 
@@ -7466,6 +7508,14 @@ packages:
       '@rsbuild/core':
         optional: true
 
+  '@rsbuild/plugin-babel@2.1.0':
+    resolution: {integrity: sha512-62u4BRYrMxMZRsxCcc4UGr2KsXEem6Y2XFH7o8Zg0xnCiH6FW890NcsaorQpMwDaTlAeOH8F6iaha8qdE03aEA==}
+    peerDependencies:
+      '@rsbuild/core': ^2.0.0
+    peerDependenciesMeta:
+      '@rsbuild/core':
+        optional: true
+
   '@rsbuild/plugin-check-syntax@1.6.1':
     resolution: {integrity: sha512-26xtEYN0QjZYoyt0lWnvIztBWjEZJvcfw7MN4f5B4SpNggmnF7F7aNPrgkY3EccXVFx1VGQBhnCkBV//OoS07Q==}
     peerDependencies:
@@ -7536,6 +7586,16 @@ packages:
     resolution: {integrity: sha512-jL1EflslIdwt9J0brMxE4TouH+oEdAzCLwxt53+0RzdhDU3uDbdCc2jBu0+4RW57h/ITcumxNEUidBROqzpCMw==}
     peerDependencies:
       '@rsbuild/core': ^1.0.0 || ^2.0.0-0
+    peerDependenciesMeta:
+      '@rsbuild/core':
+        optional: true
+
+  '@rsbuild/plugin-solid@2.0.0-beta.1':
+    resolution: {integrity: sha512-RQqfspN5MK5xybfOrY9+lCbAU8EQdQ6985xErLhobciOCRtQjmBduTVPoArXuHFPYCF4C/j1mXNr3RAa7HRnHQ==}
+    peerDependencies:
+      '@rsbuild/core': ^1.0.0 || ^2.0.0
+      '@solidjs/web': ^2.0.0-rc.0
+      solid-js: ^2.0.0-rc.0
     peerDependenciesMeta:
       '@rsbuild/core':
         optional: true
@@ -8387,6 +8447,9 @@ packages:
     peerDependencies:
       solid-js: '>=1.8.4'
 
+  '@solidjs/signals@2.0.0-rc.0':
+    resolution: {integrity: sha512-oKZSfvsCcKw1uJjOGbUkJ+OqlhXLHtZ+rShSyu9KH0lUH7UUwfMfsKeh81JPiQxDDg4YLhEwI38hg0JkwzTdvA==}
+
   '@solidjs/testing-library@0.8.10':
     resolution: {integrity: sha512-qdeuIerwyq7oQTIrrKvV0aL9aFeuwTd86VYD3afdq5HYEwoox1OBTJy4y8A3TFZr8oAR0nujYgCzY/8wgHGfeQ==}
     engines: {node: '>= 14'}
@@ -8396,6 +8459,11 @@ packages:
     peerDependenciesMeta:
       '@solidjs/router':
         optional: true
+
+  '@solidjs/web@2.0.0-rc.0':
+    resolution: {integrity: sha512-pYSaA9+dH8H1h/d/ZF/P2kR6omfzFGNcdzKhWTcg9fJghXhn8+5UrXUr2iYxDdYNOXZzxxFQhYHSJ7P4HKDqgw==}
+    peerDependencies:
+      solid-js: ^2.0.0-rc.0
 
   '@storybook/addon-docs@10.4.1':
     resolution: {integrity: sha512-IYqUdjoZe4VO2LFZlKL/gwy7DsQSWCq6hX+zc1MBmZo04yycDASk1tte57n9pdlW3ajw9yYMF/+lVBi+xQjyvw==}
@@ -9768,6 +9836,15 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0
       solid-js: ^1.9.12
+    peerDependenciesMeta:
+      solid-js:
+        optional: true
+
+  babel-preset-solid@2.0.0-rc.0:
+    resolution: {integrity: sha512-Ap2/QQY3pICj+Q0VM/RnIOpZo7e6icZnUA0oBJuhqzoCrljqMNo3eFb2OeEa4pUQeFREJOlex4Bt1ggwrcgC8w==}
+    peerDependencies:
+      '@babel/core': ^7.0.0
+      solid-js: ^2.0.0-rc.0
     peerDependenciesMeta:
       solid-js:
         optional: true
@@ -14367,6 +14444,9 @@ packages:
   solid-js@1.9.13:
     resolution: {integrity: sha512-6hJeJMOcEX8ktqjpDoJZEmld3ijvcvWBDtiXBm7f4332SiFN66QeAQI1REQshvyUoISsSeJ4PHDauKYbwao9JQ==}
 
+  solid-js@2.0.0-rc.0:
+    resolution: {integrity: sha512-3enTJ71VL69nM5p/it2InVBDBt316Cqfij+F0S7VuHZLITc8YV7Rvavjoy52nAKKxYWXM+BcXh2K7KcLTf1zdQ==}
+
   solid-refresh@0.7.8:
     resolution: {integrity: sha512-iG442T3HXJp5jEebCy8okETrWnmX7CnxNOKrJQVeufh6WXSn+xtLXaptUXXMHTWcRqTJOJwQ8UwzxrRtVFSIzA==}
     peerDependencies:
@@ -15341,6 +15421,9 @@ packages:
     resolution: {integrity: sha512-+g8ENReyr8YsOc6fv/NVJs2vFdHBnBNdfE49rshrTzDWOlUx4Gq7KOS2GD8eqhy2j+Ejq29+SbKH8yjkAqXqoA==}
     engines: {node: '>=8'}
     hasBin: true
+
+  validate-html-nesting@1.2.4:
+    resolution: {integrity: sha512-doQi7e8EJ2OWneSG1aZpJluS6A49aZM0+EICXWKm1i6WvqTLmq0tpUcImc4KTWG50mORO0C4YDBtOCSYvElftw==}
 
   validate-npm-package-license@3.0.4:
     resolution: {integrity: sha512-DpKm2Ui/xN7/HQKCtpZxoRWBhZ9Z0kqtygG8XCgNQ8ZlDnxuQmWhj566j8fN4Cu3/JmbhsDo7fcAJq4s9h27Ew==}
@@ -16745,6 +16828,47 @@ snapshots:
   '@ctrl/tinycolor@4.2.0': {}
 
   '@discoveryjs/json-ext@0.6.3': {}
+
+  '@dom-expressions/babel-plugin-jsx@0.50.0-next.42(@babel/core@7.29.7)':
+    dependencies:
+      '@babel/core': 7.29.7
+      '@babel/helper-module-imports': 7.18.6
+      '@babel/plugin-syntax-jsx': 7.29.7(@babel/core@7.29.7)
+      '@babel/types': 7.29.7
+      html-entities: 2.3.3
+      parse5: 7.3.0
+      validate-html-nesting: 1.2.4
+
+  '@dom-expressions/compiler-darwin-arm64@0.50.0-next.42':
+    optional: true
+
+  '@dom-expressions/compiler-darwin-x64@0.50.0-next.42':
+    optional: true
+
+  '@dom-expressions/compiler-linux-arm64-gnu@0.50.0-next.42':
+    optional: true
+
+  '@dom-expressions/compiler-linux-x64-gnu@0.50.0-next.42':
+    optional: true
+
+  '@dom-expressions/compiler-wasm32-wasi@0.50.0-next.42':
+    dependencies:
+      '@emnapi/core': 1.11.2
+      '@emnapi/runtime': 1.11.2
+      '@napi-rs/wasm-runtime': 1.1.6(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)
+    optional: true
+
+  '@dom-expressions/compiler-win32-x64-msvc@0.50.0-next.42':
+    optional: true
+
+  '@dom-expressions/compiler@0.50.0-next.42':
+    optionalDependencies:
+      '@dom-expressions/compiler-darwin-arm64': 0.50.0-next.42
+      '@dom-expressions/compiler-darwin-x64': 0.50.0-next.42
+      '@dom-expressions/compiler-linux-arm64-gnu': 0.50.0-next.42
+      '@dom-expressions/compiler-linux-x64-gnu': 0.50.0-next.42
+      '@dom-expressions/compiler-wasm32-wasi': 0.50.0-next.42
+      '@dom-expressions/compiler-win32-x64-msvc': 0.50.0-next.42
 
   '@dual-bundle/import-meta-resolve@4.1.0': {}
 
@@ -18705,6 +18829,22 @@ snapshots:
       - supports-color
       - webpack
 
+  '@rsbuild/plugin-babel@2.1.0(@rsbuild/core@2.2.0-beta.1)(@rspack/core@2.1.4)(webpack@5.102.1)':
+    dependencies:
+      '@babel/core': 7.29.7
+      '@babel/plugin-proposal-decorators': 7.29.7(@babel/core@7.29.7)
+      '@babel/plugin-transform-class-properties': 7.29.7(@babel/core@7.29.7)
+      '@babel/preset-typescript': 7.29.7(@babel/core@7.29.7)
+      '@types/babel__core': 7.20.5
+      babel-loader: 10.1.1(@babel/core@7.29.7)(@rspack/core@2.1.4)(webpack@5.102.1)
+      reduce-configs: 1.1.2
+    optionalDependencies:
+      '@rsbuild/core': 2.2.0-beta.1(@module-federation/runtime-tools@2.5.0)(core-js@3.49.0)
+    transitivePeerDependencies:
+      - '@rspack/core'
+      - supports-color
+      - webpack
+
   '@rsbuild/plugin-check-syntax@1.6.1(@rsbuild/core@2.2.0-beta.1)':
     dependencies:
       acorn: 8.16.0
@@ -18850,6 +18990,21 @@ snapshots:
       - '@babel/core'
       - solid-js
       - supports-color
+
+  '@rsbuild/plugin-solid@2.0.0-beta.1(@babel/core@7.29.7)(@rsbuild/core@2.2.0-beta.1)(@rspack/core@2.1.4)(@solidjs/web@2.0.0-rc.0)(solid-js@2.0.0-rc.0)(webpack@5.102.1)':
+    dependencies:
+      '@dom-expressions/compiler': 0.50.0-next.42
+      '@rsbuild/plugin-babel': 2.1.0(@rsbuild/core@2.2.0-beta.1)(@rspack/core@2.1.4)(webpack@5.102.1)
+      '@solidjs/web': 2.0.0-rc.0(solid-js@2.0.0-rc.0)
+      babel-preset-solid: 2.0.0-rc.0(@babel/core@7.29.7)(solid-js@2.0.0-rc.0)
+      solid-js: 2.0.0-rc.0
+    optionalDependencies:
+      '@rsbuild/core': 2.2.0-beta.1(@module-federation/runtime-tools@2.5.0)(core-js@3.49.0)
+    transitivePeerDependencies:
+      - '@babel/core'
+      - '@rspack/core'
+      - supports-color
+      - webpack
 
   '@rsbuild/plugin-styled-components@1.6.2(@rsbuild/core@2.2.0-beta.1)':
     dependencies:
@@ -19937,10 +20092,18 @@ snapshots:
     dependencies:
       solid-js: 1.9.13
 
+  '@solidjs/signals@2.0.0-rc.0': {}
+
   '@solidjs/testing-library@0.8.10(solid-js@1.9.13)':
     dependencies:
       '@testing-library/dom': 10.4.1
       solid-js: 1.9.13
+
+  '@solidjs/web@2.0.0-rc.0(solid-js@2.0.0-rc.0)':
+    dependencies:
+      seroval: 1.5.4
+      seroval-plugins: 1.5.4(seroval@1.5.4)
+      solid-js: 2.0.0-rc.0
 
   '@storybook/addon-docs@10.4.1(@types/react-dom@19.2.3)(@types/react@19.2.15)(esbuild@0.28.1)(rollup@4.60.3)(storybook@10.4.1)(vite@7.1.1)(webpack@5.102.1)':
     dependencies:
@@ -21654,6 +21817,13 @@ snapshots:
       babel-plugin-jsx-dom-expressions: 0.40.6(@babel/core@7.29.7)
     optionalDependencies:
       solid-js: 1.9.13
+
+  babel-preset-solid@2.0.0-rc.0(@babel/core@7.29.7)(solid-js@2.0.0-rc.0):
+    dependencies:
+      '@babel/core': 7.29.7
+      '@dom-expressions/babel-plugin-jsx': 0.50.0-next.42(@babel/core@7.29.7)
+    optionalDependencies:
+      solid-js: 2.0.0-rc.0
 
   babel-walk@3.0.0-canary-5:
     dependencies:
@@ -27450,6 +27620,13 @@ snapshots:
       seroval: 1.5.4
       seroval-plugins: 1.5.4(seroval@1.5.4)
 
+  solid-js@2.0.0-rc.0:
+    dependencies:
+      '@solidjs/signals': 2.0.0-rc.0
+      csstype: 3.2.3
+      seroval: 1.5.4
+      seroval-plugins: 1.5.4(seroval@1.5.4)
+
   solid-refresh@0.7.8(solid-js@1.9.13):
     dependencies:
       '@babel/generator': 7.29.7
@@ -28618,6 +28795,8 @@ snapshots:
       diff: 5.2.0
       kleur: 4.1.5
       sade: 1.8.1
+
+  validate-html-nesting@1.2.4: {}
 
   validate-npm-package-license@3.0.4:
     dependencies:
