@@ -9,9 +9,9 @@
     "start": "srvx --prod -s ../client dist/server/index.js"
   },
   "dependencies": {
-    "@tanstack/solid-router": "^1.170.11",
-    "@tanstack/solid-router-devtools": "^1.167.0",
-    "@tanstack/solid-start": "^1.168.19",
+    "@tanstack/solid-router": "^1.170.29",
+    "@tanstack/solid-router-devtools": "^1.167.1",
+    "@tanstack/solid-start": "^1.168.46",
     "solid-js": "^1.9.12",
     "srvx": "^0.11.16",
     "tailwindcss": "^4.3.0"
