@@ -825,6 +825,9 @@ importers:
       '@types/react-dom':
         specifier: ^19.2.3
         version: 19.2.3(@types/react@19.2.15)
+      solid-js:
+        specifier: ^1.9.9
+        version: 1.9.13
       typescript:
         specifier: ^6.0.3
         version: 6.0.3
