@@ -14,7 +14,7 @@
     "react-dom": "^19.2.7"
   },
   "devDependencies": {
-    "@rsbuild/core": "2.2.0-beta.1",
+    "@rsbuild/core": "2.2.0",
     "@rsbuild/plugin-eslint": "^2.0.1",
     "@rsbuild/plugin-react": "^2.1.0",
     "@types/node": "^24.12.4",
