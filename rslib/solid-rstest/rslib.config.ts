@@ -7,7 +7,6 @@ export default defineConfig({
     {
       id: 'compiled',
       bundle: false,
-      format: 'esm',
       dts: true,
       plugins: [
         pluginBabel({
@@ -19,7 +18,6 @@ export default defineConfig({
     {
       id: 'source',
       bundle: false,
-      format: 'esm',
       output: {
         filename: {
           js: '[name].jsx',
