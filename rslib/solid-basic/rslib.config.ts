@@ -25,7 +25,6 @@ export default defineConfig({
       },
       tools: {
         swc: {
-          detectSyntax: 'auto',
           jsc: {
             transform: {
               react: {
