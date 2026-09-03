@@ -21,7 +21,7 @@
   "devDependencies": {
     "@rsbuild/core": "~2.2.0",
     "@rsbuild/plugin-vue": "^2.0.1",
-    "@rslib/core": "^0.22.0",
+    "@rslib/core": "^1.0.0",
     "@storybook/addon-docs": "^10.4.1",
     "@storybook/addon-onboarding": "^10.4.1",
     "storybook": "^10.4.1",

@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@rsbuild/plugin-svelte": "^2.0.1",
-    "@rslib/core": "^0.22.0",
+    "@rslib/core": "^1.0.0",
     "@tsconfig/svelte": "^5.0.8",
     "@types/node": "^24.12.4",
     "svelte": "^5.56.0",

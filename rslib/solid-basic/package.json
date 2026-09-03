@@ -20,7 +20,7 @@
   "devDependencies": {
     "@rsbuild/plugin-babel": "^2.0.1",
     "@rsbuild/plugin-solid": "^1.2.1",
-    "@rslib/core": "^0.22.0",
+    "@rslib/core": "^1.0.0",
     "solid-js": "^1.9.13",
     "typescript": "^5.9.3"
   },

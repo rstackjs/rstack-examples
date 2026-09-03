@@ -23,7 +23,7 @@
     "@module-federation/rsbuild-plugin": "^2.5.0",
     "@module-federation/storybook-addon": "^6.0.12",
     "@rsbuild/plugin-react": "^2.1.0",
-    "@rslib/core": "^0.22.0",
+    "@rslib/core": "^1.0.0",
     "@types/react": "^19.2.15",
     "http-server": "^14.1.1",
     "react": "^19.2.7",
