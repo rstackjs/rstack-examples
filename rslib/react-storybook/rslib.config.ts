@@ -7,12 +7,8 @@ export default defineConfig({
       index: ['./src/**'],
     },
   },
-  lib: [
-    {
-      bundle: false,
-      dts: true,
-    },
-  ],
+  bundle: false,
+  dts: true,
   output: {
     target: 'web',
   },
