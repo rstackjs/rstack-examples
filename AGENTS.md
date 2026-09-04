@@ -71,7 +71,7 @@ Top-level directories:
 
 ## Coding Conventions
 
-- Formatting and linting: `Rslint` and `Prettier` are used (see `rslint.config.ts` and `.prettierrc`).
+- Formatting, linting, staged-file tasks, and Git hooks use Rstack CLI (see `rstack.config.ts` and `.rstack/hooks/`).
   - Default JS/TS quote style is single quotes.
   - Line width is 100.
 - Prefer minimal, example-focused changes. This repo is a collection of runnable examples; avoid refactors that reduce clarity.

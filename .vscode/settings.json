@@ -13,13 +13,13 @@
   "files.exclude": {
     "**/.DS_Store": true
   },
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "rstack.rstack",
   "mdx.validate.validateFileLinks": "ignore",
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "rstack.rstack"
   },
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "rstack.rstack"
   },
   "cSpell.words": ["rstest"]
 }

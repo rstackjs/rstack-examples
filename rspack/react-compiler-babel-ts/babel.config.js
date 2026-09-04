@@ -1,7 +1,5 @@
 // babel.config.js
-const ReactCompilerConfig = {
-  /* ... */
-};
+const ReactCompilerConfig = {/* ... */};
 
 export default {
   plugins: [

@@ -1,8 +1,8 @@
 {
   "name": "@rspack-example/nest-alias",
   "version": "1.0.0",
-  "type": "module",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "build": "pnpm compile && pnpm bundle",
     "bundle": "rspack",

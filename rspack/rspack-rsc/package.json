@@ -1,11 +1,21 @@
 {
   "name": "@rspack-example/rspack-rsc",
-  "private": true,
   "version": "1.0.0",
+  "private": true,
   "type": "module",
   "scripts": {
     "build": "NODE_ENV=production rspack build",
     "dev": "NODE_ENV=development NO_CSP=true node server.js"
+  },
+  "dependencies": {
+    "@types/node": "^24.12.4",
+    "@types/react": "^19.2.15",
+    "@types/react-dom": "^19.2.3",
+    "express": "^5.2.1",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "rsc-html-stream": "^0.0.7",
+    "srvx": "^0.11.16"
   },
   "devDependencies": {
     "@rspack/cli": "2.2.0",
@@ -23,15 +33,5 @@
     "webpack-dev-middleware": "^7.4.5",
     "webpack-hot-middleware": "^2.26.1",
     "ws": "^8.21.0"
-  },
-  "dependencies": {
-    "@types/node": "^24.12.4",
-    "@types/react": "^19.2.15",
-    "@types/react-dom": "^19.2.3",
-    "express": "^5.2.1",
-    "react": "^19.2.7",
-    "react-dom": "^19.2.7",
-    "rsc-html-stream": "^0.0.7",
-    "srvx": "^0.11.16"
   }
 }
