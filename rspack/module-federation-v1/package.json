@@ -2,8 +2,8 @@
   "name": "@rspack-example/module-federation-v1",
   "version": "1.0.0",
   "private": true,
-  "type": "module",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "build": "pnpm --filter \"@rspack-example/module-federation-v1-*\" build",
     "dev": "pnpm --filter \"@rspack-example/module-federation-v1-*\" dev",

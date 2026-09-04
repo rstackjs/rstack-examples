@@ -1,6 +1,7 @@
 {
   "name": "lib2",
   "version": "1.0.0",
+  "license": "MIT",
   "type": "module",
   "main": "dist/index.js",
   "source": "src/index.ts",
@@ -9,6 +10,5 @@
   },
   "devDependencies": {
     "typescript": "^5.9.3"
-  },
-  "license": "MIT"
+  }
 }

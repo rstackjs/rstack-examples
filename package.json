@@ -1,9 +1,9 @@
 {
   "name": "rstack-examples",
   "version": "1.0.0",
-  "type": "module",
   "description": "Repository for examples of rstack",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "build": "pnpm run build:rspack && pnpm run build:rsbuild && pnpm run build:rspress && pnpm run build:rsdoctor && pnpm run build:rslib && pnpm run build:rstest",
     "build:ci": "pnpm run build:rspack:ci && pnpm run build:rsbuild && pnpm run build:rspress && pnpm run build:rsdoctor && pnpm run build:rslib && pnpm run build:rstest",
@@ -15,30 +15,18 @@
     "build:rspress": "pnpm --filter \"./rspress/**\" --stream build",
     "build:rstest": "pnpm --filter \"./rstest/**\" --stream build",
     "bump": "taze -l",
-    "lint": "rslint && prettier -c \"*.{json,jsonc,md,yml,yaml,ts}\" \".vscode/*.json\" \"{rspack,rsbuild,rspress,rsdoctor,rslib,rstest}/**/*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}\"",
-    "lint:write": "rslint --fix && prettier -w \"*.{json,jsonc,md,yml,yaml,ts}\" \".vscode/*.json\" \"{rspack,rsbuild,rspress,rsdoctor,rslib,rstest}/**/*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}\"",
-    "prepare": "husky",
-    "sort-package-json": "npx sort-package-json \"rspack/*/package.json\" \"rsbuild/*/package.json\" \"rspress/*/package.json\" \"rsdoctor/*/package.json\" \"rslib/*/package.json\" \"rstest/*/package.json\"",
+    "lint": "rs lint && rs fmt --check \"*.{json,jsonc,md,yml,yaml,ts}\" \".vscode/*.json\" \"{rspack,rsbuild,rspress,rsdoctor,rslib,rstest}/**/*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}\"",
+    "lint:write": "rs lint --fix && rs fmt \"*.{json,jsonc,md,yml,yaml,ts}\" \".vscode/*.json\" \"{rspack,rsbuild,rspress,rsdoctor,rslib,rstest}/**/*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}\"",
+    "prepare": "rs hooks",
+    "sort-package-json": "rs fmt \"rspack/*/package.json\" \"rsbuild/*/package.json\" \"rspress/*/package.json\" \"rsdoctor/*/package.json\" \"rslib/*/package.json\" \"rstest/*/package.json\"",
     "test": "pnpm run test:rspack && pnpm run test:rstest",
     "test:rspack": "pnpm --filter \"./rspack/**\" --stream test",
     "test:rspack:eco-ci": "pnpm --filter \"./rspack/**\" --filter \"!./rspack/next-rspack-app-router\" --filter \"!./rspack/next-rspack-page-router\" --stream test",
     "test:rstest": "pnpm --filter \"./rstest/**\" --stream test"
   },
-  "lint-staged": {
-    "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx}": [
-      "rslint --fix",
-      "prettier --write"
-    ],
-    "*.{json,jsonc,md,mdx,yml,yaml,css,scss,less,html,vue}": [
-      "prettier --write"
-    ]
-  },
   "devDependencies": {
-    "@rslint/core": "^0.5.3",
     "cross-env": "10.1.0",
-    "husky": "9.1.7",
-    "lint-staged": "16.4.0",
-    "prettier": "^3.8.3",
+    "rstack": "^0.7.2",
     "taze": "^19.14.1"
   },
   "packageManager": "pnpm@10.34.1"

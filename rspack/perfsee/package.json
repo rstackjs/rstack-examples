@@ -2,8 +2,8 @@
   "name": "@rspack-example/perfsee",
   "version": "1.0.0",
   "private": true,
-  "type": "module",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "analyze": "PERFSEE_AUDIT=true rspack build",
     "build": "cross-env PERFSEE_NO_UPLOAD=true rspack build",

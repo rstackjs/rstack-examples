@@ -1,7 +1,7 @@
 {
   "name": "lib3",
   "version": "1.0.0",
+  "license": "MIT",
   "type": "module",
-  "main": "src/index.js",
-  "license": "MIT"
+  "main": "src/index.js"
 }
