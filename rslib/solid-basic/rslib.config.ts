@@ -3,11 +3,10 @@ import { pluginSolid } from '@rsbuild/plugin-solid';
 import { defineConfig } from '@rslib/core';
 
 export default defineConfig({
+  bundle: false,
   lib: [
     {
       id: 'compiled',
-      bundle: false,
-      format: 'esm',
       dts: true,
       plugins: [
         pluginBabel({
@@ -18,8 +17,6 @@ export default defineConfig({
     },
     {
       id: 'source',
-      bundle: false,
-      format: 'esm',
       output: {
         filename: {
           js: '[name].jsx',
@@ -27,7 +24,6 @@ export default defineConfig({
       },
       tools: {
         swc: {
-          detectSyntax: 'auto',
           jsc: {
             transform: {
               react: {

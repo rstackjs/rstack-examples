@@ -2,12 +2,7 @@ import { pluginVue } from '@rsbuild/plugin-vue';
 import { defineConfig } from '@rslib/core';
 
 export default defineConfig({
-  lib: [
-    {
-      bundle: false,
-      format: 'esm',
-    },
-  ],
+  bundle: false,
   output: {
     target: 'web',
   },
