@@ -2,13 +2,13 @@
   "name": "@rspack-example/module-federation-v1.5-lib2",
   "version": "1.0.0",
   "private": true,
+  "license": "MIT",
   "type": "module",
   "scripts": {
-    "dev": "rspack dev",
     "build": "cross-env NODE_ENV=production rspack build",
+    "dev": "rspack dev",
     "start": "serve ./dist -p 8082"
   },
-  "license": "MIT",
   "dependencies": {
     "date-fns": "^4.4.0",
     "lodash": "^4.18.1",

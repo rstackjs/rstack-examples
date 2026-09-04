@@ -2,8 +2,8 @@
   "name": "@rspack-example/nestjs",
   "version": "1.0.0",
   "private": true,
-  "type": "module",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "build": "rspack build",
     "dev": "cross-env NODE_ENV=development rspack --watch --mode development",

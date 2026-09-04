@@ -3,8 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "rsbuild",
     "build": "rsbuild build",
+    "dev": "rsbuild",
     "preview": "rsbuild preview",
     "start": "srvx --prod -s ../client dist/server/index.js"
   },

@@ -1,8 +1,8 @@
 {
   "name": "@rsdoctor-example/rsbuild",
   "version": "0.0.1",
-  "type": "module",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "build": "rsbuild build",
     "build:analysis": "RSDOCTOR=true rsbuild build",

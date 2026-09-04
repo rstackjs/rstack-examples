@@ -2,13 +2,13 @@
   "name": "@rspack-example/library-umd",
   "version": "1.0.0",
   "private": true,
-  "type": "module",
   "license": "MIT",
   "sideEffects": [
     "**/*.css",
     "**/*.less",
     "**/*.scss"
   ],
+  "type": "module",
   "scripts": {
     "build": "rspack build",
     "dev": "rspack build --watch"
