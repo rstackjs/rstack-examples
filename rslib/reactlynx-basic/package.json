@@ -1,0 +1,32 @@
+{
+  "name": "@rslib-example/reactlynx-basic",
+  "version": "0.0.0",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.jsx"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rslib",
+    "dev": "rslib --watch"
+  },
+  "devDependencies": {
+    "@lynx-js/react": "^0.126.0",
+    "@lynx-js/types": "^4.2.1",
+    "@rsbuild/plugin-react": "^2.1.0",
+    "@rslib/core": "^1.0.0",
+    "@types/react": "^19.2.18",
+    "typescript": "^6.0.3"
+  },
+  "peerDependencies": {
+    "@lynx-js/react": ">=0.100.0",
+    "@lynx-js/types": ">=4",
+    "@types/react": ">=19"
+  }
+}
