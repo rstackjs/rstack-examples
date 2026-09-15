@@ -12,6 +12,7 @@ This repository contains comprehensive examples that demonstrate the Rstack ecos
 |  [Rspress](https://github.com/web-infra-dev/rspress)  |  <a href="https://github.com/web-infra-dev/rspress" target="blank"><img src="https://assets.rspack.rs/rspress/rspress-banner.png" width="400" /></a>   | [Examples](./rspress/)  | [Document](https://rspress.rs/)  |
 | [Rsdoctor](https://github.com/web-infra-dev/rsdoctor) | <a href="https://github.com/web-infra-dev/rsdoctor" target="blank"><img src="https://assets.rspack.rs/rsdoctor/rsdoctor-banner.png" width="400" /></a> | [Examples](./rsdoctor/) | [Document](https://rsdoctor.rs/) |
 |    [Rslib](https://github.com/web-infra-dev/rslib)    |     <a href="https://github.com/web-infra-dev/rslib" target="blank"><img src="https://assets.rspack.rs/rslib/rslib-banner.png" width="400" /></a>      |   [Examples](./rslib)   |  [Document](https://rslib.rs/)   |
+|   [Rstest](https://github.com/web-infra-dev/rstest)   |    <a href="https://github.com/web-infra-dev/rstest" target="blank"><img src="https://assets.rspack.rs/rstest/rstest-banner.png" width="400" /></a>    |  [Examples](./rstest)   |  [Document](https://rstest.rs/)  |
 
 ## How to Use
 

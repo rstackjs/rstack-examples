@@ -1,0 +1,29 @@
+{
+  "name": "@rstest-example/module-federation-browser-host",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "rsbuild build",
+    "dev": "rsbuild dev",
+    "test": "rstest"
+  },
+  "dependencies": {
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "@module-federation/rsbuild-plugin": "^2.9.0",
+    "@module-federation/rstest": "^2.9.0",
+    "@rsbuild/core": "2.2.0",
+    "@rsbuild/plugin-react": "^2.1.0",
+    "@rstest/browser": "^0.11.12",
+    "@rstest/browser-react": "^0.11.12",
+    "@rstest/core": "^0.11.12",
+    "@types/node": "^24.12.4",
+    "@types/react": "^19.2.15",
+    "@types/react-dom": "^19.2.3",
+    "playwright": "^1.60.0",
+    "typescript": "^5.9.3"
+  }
+}

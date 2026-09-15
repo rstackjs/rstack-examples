@@ -1,0 +1,23 @@
+{
+  "name": "@rstest-example/module-federation-node-remote",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/esm/index.d.ts",
+      "import": "./dist/esm/index.js"
+    }
+  },
+  "module": "./dist/esm/index.js",
+  "types": "./dist/esm/index.d.ts",
+  "scripts": {
+    "build": "rslib",
+    "prepare": "pnpm run build"
+  },
+  "devDependencies": {
+    "@module-federation/rsbuild-plugin": "^2.9.0",
+    "@rslib/core": "^1.0.0",
+    "typescript": "^5.9.3"
+  }
+}

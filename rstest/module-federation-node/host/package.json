@@ -1,0 +1,15 @@
+{
+  "name": "@rstest-example/module-federation-node-host",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "rstest"
+  },
+  "devDependencies": {
+    "@module-federation/rstest": "^2.9.0",
+    "@rstest/core": "^0.11.12",
+    "@types/node": "^24.12.4",
+    "typescript": "^5.9.3"
+  }
+}
