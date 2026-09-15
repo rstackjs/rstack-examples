@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "lib": ["DOM", "ES2020"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "jsx": "react-jsx",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "types": ["@rsbuild/core/types", "node", "@rstest/core"]
+  },
+  "include": [
+    "src",
+    "tests",
+    "global-setup.ts",
+    "module-federation.config.ts",
+    "rsbuild.config.ts",
+    "rstest.config.ts"
+  ]
+}

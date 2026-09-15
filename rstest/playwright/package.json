@@ -1,0 +1,26 @@
+{
+  "name": "@rstest-example/playwright",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "rsbuild build",
+    "dev": "rsbuild dev",
+    "preview": "rsbuild preview",
+    "test": "pnpm run build && rstest"
+  },
+  "dependencies": {
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "2.2.0",
+    "@rsbuild/plugin-react": "^2.1.0",
+    "@rstest/core": "^0.11.12",
+    "@rstest/playwright": "^0.11.12",
+    "@types/react": "^19.2.15",
+    "@types/react-dom": "^19.2.3",
+    "playwright": "^1.60.0",
+    "typescript": "^5.9.3"
+  }
+}

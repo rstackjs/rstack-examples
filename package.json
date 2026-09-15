@@ -18,7 +18,7 @@
     "lint": "rs lint && rs fmt --check \"*.{json,jsonc,md,yml,yaml,ts}\" \".vscode/*.json\" \"{rspack,rsbuild,rspress,rsdoctor,rslib,rstest}/**/*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}\"",
     "lint:write": "rs lint --fix && rs fmt \"*.{json,jsonc,md,yml,yaml,ts}\" \".vscode/*.json\" \"{rspack,rsbuild,rspress,rsdoctor,rslib,rstest}/**/*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}\"",
     "prepare": "rs hooks",
-    "sort-package-json": "rs fmt \"rspack/*/package.json\" \"rsbuild/*/package.json\" \"rspress/*/package.json\" \"rsdoctor/*/package.json\" \"rslib/*/package.json\" \"rstest/*/package.json\"",
+    "sort-package-json": "rs fmt \"rspack/*/package.json\" \"rsbuild/*/package.json\" \"rspress/*/package.json\" \"rsdoctor/*/package.json\" \"rslib/*/package.json\" \"rstest/*/package.json\" \"rstest/*/*/package.json\"",
     "test": "pnpm run test:rspack && pnpm run test:rstest",
     "test:rspack": "pnpm --filter \"./rspack/**\" --stream test",
     "test:rspack:eco-ci": "pnpm --filter \"./rspack/**\" --filter \"!./rspack/next-rspack-app-router\" --filter \"!./rspack/next-rspack-page-router\" --stream test",
