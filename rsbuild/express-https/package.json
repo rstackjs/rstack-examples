@@ -1,0 +1,19 @@
+{
+  "name": "@rsbuild-example/express-https",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "rsbuild build",
+    "dev": "node ./server.js",
+    "preview": "rsbuild preview"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "2.2.0",
+    "@types/express": "^5.0.6",
+    "@types/node": "^24.12.4",
+    "express": "^5.2.1",
+    "selfsigned": "^5.5.0",
+    "typescript": "^5.9.3"
+  }
+}
