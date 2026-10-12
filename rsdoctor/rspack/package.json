@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "@swc/helpers": "^0.5.23",
-    "react": "^19.2.7",
-    "react-dom": "^19.2.7",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
     "semver6": "npm:semver@6.3.1",
     "semver7": "npm:semver@7.8.1"
   },
@@ -21,12 +21,12 @@
     "@rspack/core": "2.2.8",
     "@rspack/dev-server": "2.2.1",
     "@rspack/plugin-react-refresh": "^2.0.2",
-    "@types/node": "^24.12.4",
-    "@types/react": "^19.2.15",
-    "@types/react-dom": "^19.2.3",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
     "@types/semver6": "npm:@types/semver@7.7.1",
     "@types/semver7": "npm:@types/semver@7.7.1",
-    "react-refresh": "^0.18.0",
+    "react-refresh": "^0.19.0",
     "typescript": "^5.9.3"
   }
 }

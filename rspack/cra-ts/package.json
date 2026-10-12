@@ -21,17 +21,17 @@
   },
   "dependencies": {
     "@swc/helpers": "^0.5.23",
-    "react": "^19.2.7",
-    "react-dom": "^19.2.7"
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
   },
   "devDependencies": {
     "@rspack/cli": "2.2.8",
     "@rspack/core": "2.2.8",
     "@rspack/dev-server": "2.2.1",
     "@rspack/plugin-react-refresh": "^2.0.2",
-    "@types/react": "^19.2.15",
-    "@types/react-dom": "^19.2.3",
-    "react-refresh": "^0.18.0",
-    "web-vitals": "^5.3.0"
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "react-refresh": "^0.19.0",
+    "web-vitals": "^6.2.3"
   }
 }

@@ -21,7 +21,7 @@
     "@rsbuild/plugin-babel": "^2.1.0",
     "@rsbuild/plugin-solid": "^1.2.2",
     "@rslib/core": "^1.0.3",
-    "solid-js": "^1.9.13",
+    "solid-js": "^1.9.17",
     "typescript": "^5.9.3"
   },
   "peerDependencies": {

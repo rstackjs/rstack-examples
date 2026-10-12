@@ -12,11 +12,11 @@
     "@rspress/core": "^2.0.23"
   },
   "devDependencies": {
-    "@types/node": "^24.12.4",
-    "@types/react": "^19.2.15",
-    "@types/react-dom": "^19.2.3",
-    "react": "^19.2.7",
-    "react-dom": "^19.2.7",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
     "typescript": "^5.9.3"
   }
 }

@@ -9,16 +9,16 @@
     "preview": "rsbuild preview"
   },
   "dependencies": {
-    "element-plus": "^2.14.1",
-    "vue": "^3.5.35"
+    "element-plus": "^2.14.7",
+    "vue": "^3.5.43"
   },
   "devDependencies": {
     "@rsbuild/core": "2.2.12",
     "@rsbuild/plugin-vue": "^2.0.1",
-    "@types/node": "^24.12.4",
+    "@types/node": "^24.19.2",
     "typescript": "^5.9.3",
-    "unplugin-auto-import": "^21.0.0",
-    "unplugin-vue-components": "^31.1.0",
-    "vue-tsc": "^3.3.7"
+    "unplugin-auto-import": "^21.1.0",
+    "unplugin-vue-components": "^32.1.0",
+    "vue-tsc": "^3.3.13"
   }
 }

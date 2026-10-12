@@ -10,16 +10,16 @@
   },
   "dependencies": {
     "@swc/helpers": "^0.5.23",
-    "react": "^19.2.7",
-    "react-dom": "^19.2.7",
-    "styled-components": "6.4.2"
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "styled-components": "6.5.3"
   },
   "devDependencies": {
     "@rspack/cli": "2.2.8",
     "@rspack/core": "2.2.8",
     "@rspack/dev-server": "2.2.1",
-    "@types/react": "^19.2.15",
-    "@types/react-dom": "^19.2.3",
-    "react-refresh": "^0.18.0"
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "react-refresh": "^0.19.0"
   }
 }

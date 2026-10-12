@@ -25,8 +25,8 @@
     "@rstest/adapter-rslib": "^0.12.3",
     "@rstest/core": "^0.12.3",
     "@solidjs/testing-library": "^0.8.10",
-    "happy-dom": "^20.9.0",
-    "solid-js": "^1.9.13",
+    "happy-dom": "^20.14.6",
+    "solid-js": "^1.9.17",
     "typescript": "^5.9.3"
   },
   "peerDependencies": {

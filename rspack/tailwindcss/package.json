@@ -12,8 +12,8 @@
     "@rspack/cli": "2.2.8",
     "@rspack/core": "2.2.8",
     "@rspack/dev-server": "2.2.1",
-    "@tailwindcss/webpack": "^4.3.0",
-    "css-loader": "^7.1.4",
-    "tailwindcss": "^4.3.0"
+    "@tailwindcss/webpack": "^4.3.3",
+    "css-loader": "^7.1.5",
+    "tailwindcss": "^4.3.3"
   }
 }

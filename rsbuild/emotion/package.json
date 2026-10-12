@@ -10,16 +10,16 @@
   },
   "dependencies": {
     "@emotion/react": "11.14.0",
-    "react": "^19.2.7",
-    "react-dom": "^19.2.7"
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
   },
   "devDependencies": {
     "@rsbuild/core": "2.2.12",
     "@rsbuild/plugin-react": "^2.1.1",
-    "@swc/plugin-emotion": "^15.0.0",
-    "@types/node": "^24.12.4",
-    "@types/react": "^19.2.15",
-    "@types/react-dom": "^19.2.3",
+    "@swc/plugin-emotion": "^19.0.0",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
     "typescript": "^5.9.3"
   }
 }

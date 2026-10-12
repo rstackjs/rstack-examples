@@ -9,15 +9,15 @@
     "dev": "rspack dev"
   },
   "dependencies": {
-    "vue": "3.5.35"
+    "vue": "3.5.43"
   },
   "devDependencies": {
     "@rspack/cli": "2.2.8",
     "@rspack/core": "2.2.8",
     "@rspack/dev-server": "2.2.1",
-    "css-loader": "^7.1.4",
-    "less": "4.6.4",
-    "less-loader": "^12.3.3",
+    "css-loader": "^7.1.5",
+    "less": "4.9.1",
+    "less-loader": "^13.0.0",
     "rspack-vue-loader": "^17.7.0",
     "style-loader": "^4.0.0"
   }

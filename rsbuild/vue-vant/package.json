@@ -9,18 +9,18 @@
     "preview": "rsbuild preview"
   },
   "dependencies": {
-    "vant": "^4.9.24",
-    "vue": "^3.5.35"
+    "vant": "^4.10.2",
+    "vue": "^3.5.43"
   },
   "devDependencies": {
     "@rsbuild/core": "2.2.12",
     "@rsbuild/plugin-less": "^2.0.1",
     "@rsbuild/plugin-vue": "^2.0.1",
-    "@types/node": "^24.12.4",
+    "@types/node": "^24.19.2",
     "@vant/auto-import-resolver": "^1.3.0",
     "typescript": "^5.9.3",
-    "unplugin-auto-import": "^21.0.0",
-    "unplugin-vue-components": "^31.1.0",
-    "vue-tsc": "^3.3.7"
+    "unplugin-auto-import": "^21.1.0",
+    "unplugin-vue-components": "^32.1.0",
+    "vue-tsc": "^3.3.13"
   }
 }

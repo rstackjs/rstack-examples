@@ -10,19 +10,19 @@
     "preview": "rsbuild preview"
   },
   "dependencies": {
-    "react": "^19.2.7",
-    "react-dom": "^19.2.7"
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
   },
   "devDependencies": {
     "@rsbuild/core": "2.2.12",
     "@rsbuild/plugin-eslint": "^2.0.2",
     "@rsbuild/plugin-react": "^2.1.1",
-    "@types/node": "^24.12.4",
-    "@types/react": "^19.2.15",
-    "@types/react-dom": "^19.2.3",
-    "@typescript-eslint/eslint-plugin": "^8.60.0",
-    "@typescript-eslint/parser": "^8.60.0",
-    "eslint": "^9.39.4",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@typescript-eslint/eslint-plugin": "^8.71.1",
+    "@typescript-eslint/parser": "^8.71.1",
+    "eslint": "^9.39.5",
     "eslint-plugin-react-hooks": "^7.1.1",
     "typescript": "^5.9.3"
   }

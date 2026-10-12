@@ -25,9 +25,9 @@
     "@rspress/core": "^2.0.23",
     "@rspress/plugin-api-docgen": "^2.0.23",
     "@rspress/plugin-preview": "^2.0.23",
-    "@types/node": "^24.12.4",
-    "@types/react": "^19.2.15",
-    "react": "^19.2.7",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "react": "^19.3.0",
     "typescript": "^6.0.3"
   },
   "peerDependencies": {

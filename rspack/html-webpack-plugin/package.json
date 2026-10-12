@@ -10,7 +10,7 @@
     "@rspack/cli": "2.2.8",
     "@rspack/core": "2.2.8",
     "@rspack/dev-server": "2.2.1",
-    "html-webpack-plugin": "^5.6.7"
+    "html-webpack-plugin": "^5.6.8"
   },
   "rspack": {
     "version": ">=0.3.11"

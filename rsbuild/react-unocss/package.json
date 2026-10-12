@@ -9,18 +9,18 @@
     "preview": "rsbuild preview"
   },
   "dependencies": {
-    "react": "^19.2.7",
-    "react-dom": "^19.2.7"
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
   },
   "devDependencies": {
     "@rsbuild/core": "2.2.12",
     "@rsbuild/plugin-react": "^2.1.1",
-    "@types/node": "^24.12.4",
-    "@types/react": "^19.2.15",
-    "@types/react-dom": "^19.2.3",
-    "@unocss/preset-attributify": "^66.7.0",
-    "@unocss/preset-uno": "^66.7.0",
-    "@unocss/webpack": "^66.7.0",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@unocss/preset-attributify": "^66.11.0",
+    "@unocss/preset-uno": "^66.11.0",
+    "@unocss/webpack": "^66.11.0",
     "typescript": "^5.9.3"
   }
 }

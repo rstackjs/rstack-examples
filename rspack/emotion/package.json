@@ -10,13 +10,13 @@
   },
   "dependencies": {
     "@emotion/react": "11.14.0",
-    "react": "^19.2.7",
-    "react-dom": "^19.2.7"
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
   },
   "devDependencies": {
     "@rspack/cli": "2.2.8",
     "@rspack/core": "2.2.8",
     "@rspack/dev-server": "2.2.1",
-    "@swc/plugin-emotion": "^15.0.0"
+    "@swc/plugin-emotion": "^19.0.0"
   }
 }

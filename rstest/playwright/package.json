@@ -10,17 +10,17 @@
     "test": "pnpm run build && rstest"
   },
   "dependencies": {
-    "react": "^19.2.7",
-    "react-dom": "^19.2.7"
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
   },
   "devDependencies": {
     "@rsbuild/core": "2.2.12",
     "@rsbuild/plugin-react": "^2.1.1",
     "@rstest/core": "^0.12.3",
     "@rstest/playwright": "^0.12.3",
-    "@types/react": "^19.2.15",
-    "@types/react-dom": "^19.2.3",
-    "playwright": "^1.60.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "playwright": "^1.64.0",
     "typescript": "^5.9.3"
   }
 }

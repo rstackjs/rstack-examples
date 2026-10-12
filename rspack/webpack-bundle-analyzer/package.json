@@ -10,6 +10,6 @@
     "@rspack/cli": "2.2.8",
     "@rspack/core": "2.2.8",
     "@rspack/dev-server": "2.2.1",
-    "webpack-bundle-analyzer": "^5.3.0"
+    "webpack-bundle-analyzer": "^5.4.0"
   }
 }

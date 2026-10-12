@@ -9,19 +9,19 @@
     "start": "srvx --prod -s ../client dist/server/index.js"
   },
   "dependencies": {
-    "@tanstack/solid-router": "^1.170.29",
-    "@tanstack/solid-router-devtools": "^1.167.1",
-    "@tanstack/solid-start": "^1.168.46",
-    "solid-js": "^1.9.12",
-    "srvx": "^0.11.16",
-    "tailwindcss": "^4.3.0"
+    "@tanstack/solid-router": "^1.170.39",
+    "@tanstack/solid-router-devtools": "^1.167.2",
+    "@tanstack/solid-start": "^1.168.58",
+    "solid-js": "^1.9.17",
+    "srvx": "^1.0.5",
+    "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
     "@rsbuild/core": "^2.2.12",
     "@rsbuild/plugin-babel": "^2.1.0",
     "@rsbuild/plugin-solid": "^1.2.2",
     "@rsbuild/plugin-tailwindcss": "^2.0.3",
-    "@types/node": "^24.12.4",
+    "@types/node": "^24.19.2",
     "typescript": "^6.0.3"
   }
 }
