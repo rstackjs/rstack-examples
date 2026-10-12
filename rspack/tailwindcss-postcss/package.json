@@ -14,7 +14,7 @@
     "@rspack/dev-server": "2.2.1",
     "@tailwindcss/postcss": "^4.3.0",
     "autoprefixer": "10.5.0",
-    "postcss": "8.5.15",
+    "postcss": "8.5.23",
     "postcss-loader": "8.2.1",
     "tailwindcss": "^4.3.0"
   }
