@@ -16,11 +16,11 @@
     "semver7": "npm:semver@7.8.1"
   },
   "devDependencies": {
-    "@rsdoctor/rspack-plugin": "^1.5.12",
-    "@rspack/cli": "2.2.3",
-    "@rspack/core": "2.2.3",
+    "@rsdoctor/rspack-plugin": "^1.6.5",
+    "@rspack/cli": "2.2.8",
+    "@rspack/core": "2.2.8",
     "@rspack/dev-server": "2.2.1",
-    "@rspack/plugin-react-refresh": "^2.0.1",
+    "@rspack/plugin-react-refresh": "^2.0.2",
     "@types/node": "^24.12.4",
     "@types/react": "^19.2.15",
     "@types/react-dom": "^19.2.3",

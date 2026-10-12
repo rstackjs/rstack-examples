@@ -10,12 +10,12 @@
     "test:watch": "rstest --watch"
   },
   "devDependencies": {
-    "@rsbuild/core": "2.2.0",
-    "@rsbuild/plugin-react": "^2.1.0",
-    "@rstest/adapter-rsbuild": "^0.10.3",
-    "@rstest/browser": "^0.10.3",
-    "@rstest/browser-react": "^0.10.3",
-    "@rstest/core": "^0.10.3",
+    "@rsbuild/core": "2.2.12",
+    "@rsbuild/plugin-react": "^2.1.1",
+    "@rstest/adapter-rsbuild": "^0.12.3",
+    "@rstest/browser": "^0.12.3",
+    "@rstest/browser-react": "^0.12.3",
+    "@rstest/core": "^0.12.3",
     "@types/react": "^19.2.15",
     "@types/react-dom": "^19.2.3",
     "playwright": "^1.60.0",

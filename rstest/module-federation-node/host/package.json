@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "@module-federation/rstest": "^2.9.0",
-    "@rstest/core": "^0.11.12",
+    "@rstest/core": "^0.12.3",
     "@types/node": "^24.12.4",
     "typescript": "^5.9.3"
   }

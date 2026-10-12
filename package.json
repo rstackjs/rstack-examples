@@ -26,7 +26,7 @@
   },
   "devDependencies": {
     "cross-env": "10.1.0",
-    "rstack": "^0.7.2",
+    "rstack": "^0.8.3",
     "taze": "^19.14.1"
   },
   "packageManager": "pnpm@10.34.1"

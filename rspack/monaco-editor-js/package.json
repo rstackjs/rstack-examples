@@ -12,8 +12,8 @@
     "monaco-editor": "^0.55.1"
   },
   "devDependencies": {
-    "@rspack/cli": "2.2.3",
-    "@rspack/core": "2.2.3",
+    "@rspack/cli": "2.2.8",
+    "@rspack/core": "2.2.8",
     "@rspack/dev-server": "2.2.1"
   }
 }

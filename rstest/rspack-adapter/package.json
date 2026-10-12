@@ -15,12 +15,12 @@
     "react-dom": "^19.2.7"
   },
   "devDependencies": {
-    "@rspack/cli": "2.2.3",
-    "@rspack/core": "2.2.3",
+    "@rspack/cli": "2.2.8",
+    "@rspack/core": "2.2.8",
     "@rspack/dev-server": "2.2.1",
-    "@rspack/plugin-react-refresh": "^2.0.1",
-    "@rstest/adapter-rspack": "^0.10.3",
-    "@rstest/core": "^0.10.3",
+    "@rspack/plugin-react-refresh": "^2.0.2",
+    "@rstest/adapter-rspack": "^0.12.3",
+    "@rstest/core": "^0.12.3",
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",

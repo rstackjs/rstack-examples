@@ -1,7 +1,7 @@
 // @ts-check
 import { defineConfig } from '@rspack/cli';
 import { rspack } from '@rspack/core';
-import PreactRefreshPlugin from '@rspack/plugin-preact-refresh';
+import { PreactRefreshRspackPlugin } from '@rspack/plugin-preact-refresh';
 
 const dev = process.env.NODE_ENV === 'development';
 
@@ -76,6 +76,6 @@ export default defineConfig({
       scriptLoading: 'blocking',
     }),
     dev && new rspack.HotModuleReplacementPlugin(),
-    dev && new PreactRefreshPlugin(),
+    dev && new PreactRefreshRspackPlugin(),
   ],
 });
