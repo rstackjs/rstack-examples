@@ -2,7 +2,7 @@
 
 Custom [Express](https://expressjs.com/) **HTTPS** server integrated with Rsbuild's dev middlewares and HMR.
 
-The plain HTTP version lives in [`../express`](../express). Setting only `server.https` in `rsbuild.config` is not enough for a custom Express server: `app.listen()` still creates an HTTP server. This example creates the TLS socket with `https.createServer` and passes the same certificate into Rsbuild so the client uses `https` / `wss`.
+The plain HTTP version lives in [`../express`](../express). Setting only `server.https` in `rsbuild.config` is not enough for a custom Express server: `app.listen()` still creates an HTTP server. This example uses [`@rsbuild/plugin-basic-ssl`](https://github.com/rstackjs/rsbuild-plugin-basic-ssl) to generate and cache a self-signed certificate. After `createDevServer()`, it reads `server.https` from `rsbuild.getNormalizedConfig()` and passes the HTTPS options to `https.createServer`.
 
 ## Setup
 
@@ -20,7 +20,7 @@ Start the HTTPS dev server:
 pnpm dev
 ```
 
-Open the printed `https://localhost:<port>/` URL. The certificate is self-signed (`selfsigned`), so the browser will show a warning — continue once for local development.
+Open the printed `https://localhost:<port>/` URL. The certificate is self-signed, so the browser will show a warning — continue once for local development.
 
 Build the app for production:
 
@@ -28,7 +28,7 @@ Build the app for production:
 pnpm build
 ```
 
-Preview the production build locally (Rsbuild preview server; use `server.https` or `@rsbuild/plugin-basic-ssl` if you need HTTPS for preview):
+Preview the production build locally with Rsbuild's HTTPS preview server:
 
 ```bash
 pnpm preview
