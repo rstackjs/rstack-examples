@@ -1,30 +1,12 @@
 import https from 'node:https';
 import express from 'express';
 import { createRsbuild, loadConfig } from '@rsbuild/core';
-import selfsigned from 'selfsigned';
 
 export async function startDevServer() {
   const { content } = await loadConfig({});
 
-  // Generate an untrusted self-signed certificate for local HTTPS.
-  // Your browser will warn once; confirm to continue (same as plugin-basic-ssl).
-  const pems = await selfsigned.generate([{ name: 'commonName', value: 'localhost' }]);
-  const httpsOptions = {
-    key: pems.private,
-    cert: pems.cert,
-  };
-
-  // Pass the same HTTPS options into Rsbuild so asset/HMR URLs use https/wss.
-  // Do not rely on `server.https` alone with `app.listen()` — that stays HTTP.
   const rsbuild = await createRsbuild({
-    rsbuildConfig: {
-      ...content,
-      server: {
-        ...content.server,
-        middlewareMode: true,
-        https: httpsOptions,
-      },
-    },
+    rsbuildConfig: content,
   });
 
   const app = express();
@@ -35,6 +17,8 @@ export async function startDevServer() {
   // Apply Rsbuild’s built-in middlewares
   app.use(rsbuildServer.middlewares);
 
+  // Read the HTTPS options after plugin-basic-ssl has generated the certificate.
+  const { https: httpsOptions } = rsbuild.getNormalizedConfig().server;
   const httpsServer = https.createServer(httpsOptions, app);
 
   httpsServer.listen(rsbuildServer.port, async () => {

@@ -76,6 +76,9 @@ importers:
       '@rsbuild/core':
         specifier: 2.2.0
         version: 2.2.0(@module-federation/runtime-tools@2.9.0)(core-js@3.49.0)
+      '@rsbuild/plugin-basic-ssl':
+        specifier: ^2.0.0
+        version: 2.0.0(@rsbuild/core@2.2.0)
       '@types/express':
         specifier: ^5.0.6
         version: 5.0.6
@@ -85,9 +88,6 @@ importers:
       express:
         specifier: ^5.2.1
         version: 5.2.1
-      selfsigned:
-        specifier: ^5.5.0
-        version: 5.5.0
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
@@ -8153,6 +8153,14 @@ packages:
 
   '@rsbuild/plugin-babel@2.1.0':
     resolution: {integrity: sha512-62u4BRYrMxMZRsxCcc4UGr2KsXEem6Y2XFH7o8Zg0xnCiH6FW890NcsaorQpMwDaTlAeOH8F6iaha8qdE03aEA==}
+    peerDependencies:
+      '@rsbuild/core': ^2.0.0
+    peerDependenciesMeta:
+      '@rsbuild/core':
+        optional: true
+
+  '@rsbuild/plugin-basic-ssl@2.0.0':
+    resolution: {integrity: sha512-QpJFX5dsJks2zilixefmF85HLGL55K7yBbS16UtSFXBWmMIbhcnGh+wqNt6IatsJKTHtHZ/KVINUjaiUALGSGw==}
     peerDependencies:
       '@rsbuild/core': ^2.0.0
     peerDependenciesMeta:
@@ -21097,6 +21105,12 @@ snapshots:
       - '@rspack/core'
       - supports-color
       - webpack
+
+  '@rsbuild/plugin-basic-ssl@2.0.0(@rsbuild/core@2.2.0)':
+    dependencies:
+      selfsigned: 5.5.0
+    optionalDependencies:
+      '@rsbuild/core': 2.2.0(@module-federation/runtime-tools@2.9.0)(core-js@3.49.0)
 
   '@rsbuild/plugin-check-syntax@1.6.1(@rsbuild/core@2.2.0)':
     dependencies:
