@@ -7,7 +7,8 @@
     "test": "rstest"
   },
   "devDependencies": {
-    "@module-federation/rstest": "^2.9.0",
+    "@module-federation/rstest": "^2.9.2",
+    "@rspack/core": "2.2.8",
     "@rstest/core": "^0.12.3",
     "@types/node": "^24.12.4",
     "typescript": "^5.9.3"

@@ -1,5 +1,5 @@
 import rspack from '@rspack/core';
-import ReactRefreshPlugin from '@rspack/plugin-react-refresh';
+import { ReactRefreshRspackPlugin as ReactRefreshPlugin } from '@rspack/plugin-react-refresh';
 import path from 'path';
 
 // Target browsers, see: https://github.com/browserslist/browserslist

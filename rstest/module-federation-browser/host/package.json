@@ -13,8 +13,8 @@
     "react-dom": "^19.2.7"
   },
   "devDependencies": {
-    "@module-federation/rsbuild-plugin": "^2.9.0",
-    "@module-federation/rstest": "^2.9.0",
+    "@module-federation/rsbuild-plugin": "^2.9.2",
+    "@module-federation/rstest": "^2.9.2",
     "@rsbuild/core": "2.2.12",
     "@rsbuild/plugin-react": "^2.1.1",
     "@rstest/browser": "^0.12.3",

@@ -29,7 +29,7 @@ const config: StorybookConfig = {
       },
     },
     {
-      name: getAbsolutePath('@module-federation/storybook-addon/preset'),
+      name: fileURLToPath(import.meta.resolve('@module-federation/storybook-addon/preset')),
       options: {
         remotes: {
           'rslib-module': 'rslib-module@http://localhost:3001/mf/mf-manifest.json',

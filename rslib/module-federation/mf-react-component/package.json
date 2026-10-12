@@ -19,18 +19,18 @@
     "storybook": "storybook dev -p 6006"
   },
   "devDependencies": {
-    "@module-federation/enhanced": "^2.5.0",
-    "@module-federation/rsbuild-plugin": "^2.5.0",
-    "@module-federation/storybook-addon": "^6.0.12",
+    "@module-federation/enhanced": "^2.9.2",
+    "@module-federation/rsbuild-plugin": "^2.9.2",
+    "@module-federation/storybook-addon": "^6.0.21",
     "@rsbuild/plugin-react": "^2.1.1",
     "@rslib/core": "^1.0.3",
     "@types/react": "^19.2.15",
     "http-server": "^14.1.1",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
-    "storybook": "^10.4.1",
-    "storybook-addon-rslib": "^3.3.4",
-    "storybook-react-rsbuild": "^3.3.4",
+    "storybook": "^10.6.1",
+    "storybook-addon-rslib": "^3.6.1",
+    "storybook-react-rsbuild": "^3.6.1",
     "typescript": "^6.0.3"
   },
   "peerDependencies": {
