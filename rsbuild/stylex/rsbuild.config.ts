@@ -16,6 +16,8 @@ export default defineConfig({
         // webpack-compatible plugins. The rspack() entry only runs transform.
         stylex.webpack({
           useCSSLayers: true,
+          // Inject styles during development so they update with HMR.
+          runtimeInjection: process.env.NODE_ENV === 'development',
         }),
       ],
     },
