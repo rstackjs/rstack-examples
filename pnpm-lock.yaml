@@ -3140,7 +3140,7 @@ importers:
         specifier: 2.2.1
         version: 2.2.1(@rspack/core@2.2.8)(selfsigned@5.5.0)
 
-  rspack/react-compiler-babel:
+  rspack/react-compiler:
     dependencies:
       '@swc/helpers':
         specifier: ^0.5.23
@@ -3155,9 +3155,6 @@ importers:
         specifier: 0.19.0
         version: 0.19.0
     devDependencies:
-      '@babel/plugin-syntax-jsx':
-        specifier: ^7.29.7
-        version: 7.29.7(@babel/core@7.29.7)
       '@rspack/cli':
         specifier: 2.2.8
         version: 2.2.8(@rspack/core@2.2.8)(@rspack/dev-server@2.2.1)
@@ -3167,14 +3164,8 @@ importers:
       '@rspack/dev-server':
         specifier: 2.2.1
         version: 2.2.1(@rspack/core@2.2.8)(selfsigned@5.5.0)
-      babel-loader:
-        specifier: ^10.1.1
-        version: 10.1.1(@babel/core@7.29.7)(@rspack/core@2.2.8)(webpack@5.102.1)
-      babel-plugin-react-compiler:
-        specifier: ^1.0.0
-        version: 1.0.0
 
-  rspack/react-compiler-babel-ts:
+  rspack/react-compiler-ts:
     dependencies:
       '@swc/helpers':
         specifier: ^0.5.23
@@ -3189,12 +3180,6 @@ importers:
         specifier: 0.19.0
         version: 0.19.0
     devDependencies:
-      '@babel/plugin-syntax-jsx':
-        specifier: ^7.29.7
-        version: 7.29.7(@babel/core@7.29.7)
-      '@babel/plugin-syntax-typescript':
-        specifier: ^7.29.7
-        version: 7.29.7(@babel/core@7.29.7)
       '@rspack/cli':
         specifier: 2.2.8
         version: 2.2.8(@rspack/core@2.2.8)(@rspack/dev-server@2.2.1)
@@ -3213,12 +3198,6 @@ importers:
       '@types/react-dom':
         specifier: ^19.3.0
         version: 19.3.0(@types/react@19.3.0)
-      babel-loader:
-        specifier: ^10.1.1
-        version: 10.1.1(@babel/core@7.29.7)(@rspack/core@2.2.8)(webpack@5.102.1)
-      babel-plugin-react-compiler:
-        specifier: ^1.0.0
-        version: 1.0.0
       typescript:
         specifier: ^5.9.3
         version: 5.9.3

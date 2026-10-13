@@ -22,41 +22,23 @@ export default defineConfig({
         type: 'css',
       },
       {
-        test: /\.(?:js|mjs|cjs)$/,
+        test: /\.(?:js|mjs|jsx)$/,
         exclude: [/[\\/]node_modules[\\/]/],
-        use: [
-          {
-            loader: 'builtin:swc-loader',
-            options: {
-              detectSyntax: 'auto',
-              jsc: {
-                externalHelpers: true,
-              },
-            },
-          },
-        ],
-      },
-      {
-        test: /\.jsx$/,
-        use: [
-          {
-            loader: 'builtin:swc-loader',
-            options: {
-              detectSyntax: 'auto',
-              jsc: {
-                externalHelpers: true,
-                transform: {
-                  react: {
-                    runtime: 'automatic',
-                  },
+        use: {
+          loader: 'builtin:swc-loader',
+          options: {
+            detectSyntax: 'auto',
+            jsc: {
+              externalHelpers: true,
+              transform: {
+                react: {
+                  runtime: 'automatic',
                 },
+                reactCompiler: true,
               },
             },
           },
-          {
-            loader: 'babel-loader',
-          },
-        ],
+        },
       },
       {
         test: /\.(png|svg|jpg)$/,
