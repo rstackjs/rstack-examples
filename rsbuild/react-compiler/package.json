@@ -1,5 +1,5 @@
 {
-  "name": "@rsbuild-example/react-compiler-babel",
+  "name": "@rsbuild-example/react-compiler",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -14,12 +14,10 @@
   },
   "devDependencies": {
     "@rsbuild/core": "2.2.12",
-    "@rsbuild/plugin-babel": "^2.1.0",
     "@rsbuild/plugin-react": "^2.1.1",
     "@types/node": "^24.19.2",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
-    "babel-plugin-react-compiler": "^1.0.0",
     "typescript": "^5.9.3"
   }
 }

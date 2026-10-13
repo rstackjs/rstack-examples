@@ -1,4 +1,6 @@
-# Rsbuild Project
+# Rsbuild + React Compiler
+
+This example enables the Rust-based React Compiler with `pluginReact({ reactCompiler: true })`.
 
 ## Setup
 
