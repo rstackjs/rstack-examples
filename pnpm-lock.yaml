@@ -1715,7 +1715,7 @@ importers:
         version: 0.12.3(@rslib/core@1.0.3)(@rstest/core@0.12.3)(typescript@6.0.3)
       '@rstest/core':
         specifier: ^0.12.3
-        version: 0.12.3(@module-federation/runtime-tools@2.9.2)(core-js@3.50.0)(happy-dom@20.14.6)(jsdom@30.1.2)
+        version: 0.12.3(@module-federation/runtime-tools@2.9.2)(core-js@3.50.0)(happy-dom@21.0.4)(jsdom@30.1.2)
       '@types/node':
         specifier: ^24.19.2
         version: 24.19.2
@@ -1723,8 +1723,8 @@ importers:
         specifier: ^19.3.0
         version: 19.3.0
       happy-dom:
-        specifier: ^20.14.6
-        version: 20.14.6
+        specifier: ^21.0.0
+        version: 21.0.4
       typescript:
         specifier: ^6.0.3
         version: 6.0.3
@@ -1763,13 +1763,13 @@ importers:
         version: 0.12.3(@rslib/core@1.0.3)(@rstest/core@0.12.3)(typescript@5.9.3)
       '@rstest/core':
         specifier: ^0.12.3
-        version: 0.12.3(@module-federation/runtime-tools@2.9.2)(core-js@3.50.0)(happy-dom@20.14.6)(jsdom@30.1.2)
+        version: 0.12.3(@module-federation/runtime-tools@2.9.2)(core-js@3.50.0)(happy-dom@21.0.4)(jsdom@30.1.2)
       '@solidjs/testing-library':
         specifier: ^0.8.10
         version: 0.8.10(solid-js@1.9.17)
       happy-dom:
-        specifier: ^20.14.6
-        version: 20.14.6
+        specifier: ^21.0.0
+        version: 21.0.4
       solid-js:
         specifier: ^1.9.17
         version: 1.9.17
@@ -4450,13 +4450,13 @@ importers:
         version: 0.12.3(@rsbuild/core@2.2.12)(@rstest/core@0.12.3)
       '@rstest/core':
         specifier: ^0.12.3
-        version: 0.12.3(@module-federation/runtime-tools@2.9.2)(core-js@3.50.0)(happy-dom@20.14.6)(jsdom@30.1.2)
+        version: 0.12.3(@module-federation/runtime-tools@2.9.2)(core-js@3.50.0)(happy-dom@21.0.4)(jsdom@30.1.2)
       '@types/node':
         specifier: ^24.19.2
         version: 24.19.2
       happy-dom:
-        specifier: ^20.14.6
-        version: 20.14.6
+        specifier: ^21.0.0
+        version: 21.0.4
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
@@ -4474,13 +4474,13 @@ importers:
         version: 0.12.3(@rsbuild/core@2.2.12)(@rstest/core@0.12.3)
       '@rstest/core':
         specifier: ^0.12.3
-        version: 0.12.3(@module-federation/runtime-tools@2.9.2)(core-js@3.50.0)(happy-dom@20.14.6)(jsdom@30.1.2)
+        version: 0.12.3(@module-federation/runtime-tools@2.9.2)(core-js@3.50.0)(happy-dom@21.0.4)(jsdom@30.1.2)
       '@types/node':
         specifier: ^24.19.2
         version: 24.19.2
       happy-dom:
-        specifier: ^20.14.6
-        version: 20.14.6
+        specifier: ^21.0.0
+        version: 21.0.4
       preact:
         specifier: ^11.0.1
         version: 11.0.1
@@ -4541,13 +4541,13 @@ importers:
         version: 0.12.3(@rsbuild/core@2.2.12)(@rstest/core@0.12.3)
       '@rstest/core':
         specifier: ^0.12.3
-        version: 0.12.3(@module-federation/runtime-tools@2.9.2)(core-js@3.50.0)(happy-dom@20.14.6)(jsdom@30.1.2)
+        version: 0.12.3(@module-federation/runtime-tools@2.9.2)(core-js@3.50.0)(happy-dom@21.0.4)(jsdom@30.1.2)
       '@types/node':
         specifier: ^24.19.2
         version: 24.19.2
       happy-dom:
-        specifier: ^20.14.6
-        version: 20.14.6
+        specifier: ^21.0.0
+        version: 21.0.4
       solid-js:
         specifier: ^1.9.17
         version: 1.9.17
@@ -4568,13 +4568,13 @@ importers:
         version: 0.12.3(@rsbuild/core@2.2.12)(@rstest/core@0.12.3)
       '@rstest/core':
         specifier: ^0.12.3
-        version: 0.12.3(@module-federation/runtime-tools@2.9.2)(core-js@3.50.0)(happy-dom@20.14.6)(jsdom@30.1.2)
+        version: 0.12.3(@module-federation/runtime-tools@2.9.2)(core-js@3.50.0)(happy-dom@21.0.4)(jsdom@30.1.2)
       '@types/node':
         specifier: ^24.19.2
         version: 24.19.2
       happy-dom:
-        specifier: ^20.14.6
-        version: 20.14.6
+        specifier: ^21.0.0
+        version: 21.0.4
       svelte:
         specifier: ^5.57.2
         version: 5.57.2(@typescript-eslint/types@8.71.1)
@@ -4623,7 +4623,7 @@ importers:
         version: 0.12.3(@rspack/cli@2.2.8)(@rspack/core@2.2.8)(@rstest/core@0.12.3)
       '@rstest/core':
         specifier: ^0.12.3
-        version: 0.12.3(@module-federation/runtime-tools@2.9.2)(core-js@3.50.0)(happy-dom@20.14.6)(jsdom@30.1.2)
+        version: 0.12.3(@module-federation/runtime-tools@2.9.2)(core-js@3.50.0)(happy-dom@21.0.4)(jsdom@30.1.2)
       '@testing-library/dom':
         specifier: ^10.4.2
         version: 10.4.2
@@ -4643,8 +4643,8 @@ importers:
         specifier: ^19.3.0
         version: 19.3.0(@types/react@19.3.0)
       happy-dom:
-        specifier: ^20.14.6
-        version: 20.14.6
+        specifier: ^21.0.0
+        version: 21.0.4
       react-refresh:
         specifier: ^0.19.0
         version: 0.19.0
@@ -11199,10 +11199,6 @@ packages:
     resolution: {integrity: sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==}
     engines: {node: '>=0.12'}
 
-  entities@6.0.0:
-    resolution: {integrity: sha512-aKstq2TDOndCn4diEyp9Uq/Flu2i1GlLkc6XIDQSDMuaFE3OPW5OphLCyQ5SpSJZTb4reN+kTcYru5yIfXoRPw==}
-    engines: {node: '>=0.12'}
-
   entities@6.0.1:
     resolution: {integrity: sha512-aN97NXWF6AWBTahfVOIrB/NShkzi5H7F9r1s9mD3cDj4Ko5f2qhhVoYMibXF7GlLveb/D2ioWay8lxI97Ven3g==}
     engines: {node: '>=0.12'}
@@ -11830,6 +11826,10 @@ packages:
 
   happy-dom@20.14.6:
     resolution: {integrity: sha512-5DDsf4QmEIlRL6NkCv/fxSjYHHkZceL/IaYQdJc2h3G7DRTEai++VTjbfL0LB9geW2VrA3+vrjF3Efx+OTtX0Q==}
+    engines: {node: '>=20.0.0'}
+
+  happy-dom@21.0.4:
+    resolution: {integrity: sha512-tFm+GaLBgo6o0awHnvHaNoraVo27qJ+2tZEtZ+cIa08hXbeitrxAJajLI05hsUy/2/YTKcUjQYzHe5mCcraLBw==}
     engines: {node: '>=20.0.0'}
 
   has-ansi@2.0.0:
@@ -20636,7 +20636,7 @@ snapshots:
   '@rstest/adapter-rslib@0.12.3(@rslib/core@1.0.3)(@rstest/core@0.12.3)(typescript@6.0.3)':
     dependencies:
       '@rslib/core': 1.0.3(@module-federation/runtime-tools@2.9.2)(core-js@3.50.0)(typescript@6.0.3)
-      '@rstest/core': 0.12.3(@module-federation/runtime-tools@2.9.2)(core-js@3.50.0)(happy-dom@20.14.6)(jsdom@30.1.2)
+      '@rstest/core': 0.12.3(@module-federation/runtime-tools@2.9.2)(core-js@3.50.0)(happy-dom@21.0.4)(jsdom@30.1.2)
     optionalDependencies:
       typescript: 6.0.3
 
@@ -20644,7 +20644,7 @@ snapshots:
     dependencies:
       '@rspack/cli': 2.2.8(@rspack/core@2.2.8)(@rspack/dev-server@2.2.1)
       '@rspack/core': 2.2.8(@module-federation/runtime-tools@2.9.2)(@swc/helpers@0.5.23)
-      '@rstest/core': 0.12.3(@module-federation/runtime-tools@2.9.2)(core-js@3.50.0)(happy-dom@20.14.6)(jsdom@30.1.2)
+      '@rstest/core': 0.12.3(@module-federation/runtime-tools@2.9.2)(core-js@3.50.0)(happy-dom@21.0.4)(jsdom@30.1.2)
 
   '@rstest/browser-react@0.12.3(@rstest/core@0.12.3)(react-dom@19.3.0)(react@19.3.0)':
     dependencies:
@@ -20674,6 +20674,18 @@ snapshots:
       cjs-module-lexer: 2.3.0
     optionalDependencies:
       happy-dom: 20.14.6
+      jsdom: 30.1.2(@noble/hashes@1.8.0)
+    transitivePeerDependencies:
+      - '@module-federation/runtime-tools'
+      - core-js
+
+  '@rstest/core@0.12.3(@module-federation/runtime-tools@2.9.2)(core-js@3.50.0)(happy-dom@21.0.4)(jsdom@30.1.2)':
+    dependencies:
+      '@rsbuild/core': 2.2.12(@module-federation/runtime-tools@2.9.2)(core-js@3.50.0)
+      '@types/chai': 5.2.3
+      cjs-module-lexer: 2.3.0
+    optionalDependencies:
+      happy-dom: 21.0.4
       jsdom: 30.1.2(@noble/hashes@1.8.0)
     transitivePeerDependencies:
       - '@module-federation/runtime-tools'
@@ -23964,8 +23976,6 @@ snapshots:
 
   entities@4.5.0: {}
 
-  entities@6.0.0: {}
-
   entities@6.0.1: {}
 
   entities@7.0.1: {}
@@ -24861,6 +24871,20 @@ snapshots:
       crossws: 0.4.5(srvx@1.0.5)
 
   happy-dom@20.14.6:
+    dependencies:
+      '@types/node': 24.19.2
+      '@types/whatwg-mimetype': 3.0.2
+      '@types/ws': 8.18.2
+      buffer-image-size: 0.6.4
+      entities: 7.0.1
+      whatwg-mimetype: 3.0.0
+      ws: 8.22.0
+    transitivePeerDependencies:
+      - bufferutil
+      - utf-8-validate
+    optional: true
+
+  happy-dom@21.0.4:
     dependencies:
       '@types/node': 24.19.2
       '@types/whatwg-mimetype': 3.0.2
@@ -27507,7 +27531,7 @@ snapshots:
 
   parse5@7.3.0:
     dependencies:
-      entities: 6.0.0
+      entities: 6.0.1
 
   parse5@8.0.1:
     dependencies:
