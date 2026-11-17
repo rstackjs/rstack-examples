@@ -18,7 +18,7 @@
   "devDependencies": {
     "@module-federation/rsbuild-plugin": "^2.9.2",
     "@rslib/core": "^1.0.3",
-    "@rspack/core": "2.2.8",
+    "@rspack/core": "2.3.3",
     "typescript": "^5.9.3"
   }
 }

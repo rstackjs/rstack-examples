@@ -12,8 +12,8 @@
     "worker-rspack-loader": "^3.1.5"
   },
   "devDependencies": {
-    "@rspack/cli": "2.2.8",
-    "@rspack/core": "2.2.8",
+    "@rspack/cli": "2.3.3",
+    "@rspack/core": "2.3.3",
     "@rspack/dev-server": "2.2.1"
   }
 }
