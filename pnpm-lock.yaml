@@ -3541,16 +3541,22 @@ importers:
 
   rspack/solid:
     dependencies:
-      '@solidjs/web':
-        specifier: ^2.0.0
-        version: 2.0.0(solid-js@2.0.0)
+      '@babel/core':
+        specifier: 7.29.7
+        version: 7.29.7
+      babel-loader:
+        specifier: 10.1.1
+        version: 10.1.1(@babel/core@7.29.7)(@rspack/core@2.2.8)(webpack@5.102.1)
+      babel-preset-solid:
+        specifier: 1.9.16
+        version: 1.9.16(@babel/core@7.29.7)(solid-js@1.9.17)
       solid-js:
-        specifier: ^2.0.0
-        version: 2.0.0
+        specifier: 1.9.17
+        version: 1.9.17
+      solid-refresh:
+        specifier: 0.7.8
+        version: 0.7.8(solid-js@1.9.17)
     devDependencies:
-      '@jridgewell/remapping':
-        specifier: ^2.3.5
-        version: 2.3.5
       '@rspack/cli':
         specifier: 2.2.8
         version: 2.2.8(@rspack/core@2.2.8)(@rspack/dev-server@2.2.1)
@@ -3560,9 +3566,6 @@ importers:
       '@rspack/dev-server':
         specifier: 2.2.1
         version: 2.2.1(@rspack/core@2.2.8)(selfsigned@5.5.0)
-      '@solidjs/compiler':
-        specifier: 2.0.0
-        version: 2.0.0
 
   rspack/source-map-with-vscode-debugging:
     dependencies:
@@ -10149,6 +10152,11 @@ packages:
       webpack:
         optional: true
 
+  babel-plugin-jsx-dom-expressions@0.40.11:
+    resolution: {integrity: sha512-k7TkOv7uVYnrq/bYyVvG5cWOC9IObAGfmyW3aMkG8l2sq2qt/5THkUBja69PMLEGGi8G+fXB2Fh7eS4OwZRBoQ==}
+    peerDependencies:
+      '@babel/core': ^7.20.12
+
   babel-plugin-jsx-dom-expressions@0.40.6:
     resolution: {integrity: sha512-v3P1MW46Lm7VMpAkq0QfyzLWWkC8fh+0aE5Km4msIgDx5kjenHU0pF2s+4/NH8CQn/kla6+Hvws+2AF7bfV5qQ==}
     peerDependencies:
@@ -10181,6 +10189,15 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0
       solid-js: ^1.9.12
+    peerDependenciesMeta:
+      solid-js:
+        optional: true
+
+  babel-preset-solid@1.9.16:
+    resolution: {integrity: sha512-+0h40Qk2oBfkQ4OGDBHIDtvq/XQiOnCfzjNHmMxriAr8MmdsaIbyJgqYglDs4d70sF8O08sSpx61TKdpUt3oRw==}
+    peerDependencies:
+      '@babel/core': ^7.0.0
+      solid-js: ^1.9.16
     peerDependenciesMeta:
       solid-js:
         optional: true
@@ -15383,6 +15400,11 @@ packages:
 
   solid-refresh@0.6.3:
     resolution: {integrity: sha512-F3aPsX6hVw9ttm5LYlth8Q15x6MlI/J3Dn+o3EQyRTtTxidepSTwAYdozt01/YA+7ObcciagGEyXIopGZzQtbA==}
+    peerDependencies:
+      solid-js: ^1.3
+
+  solid-refresh@0.7.8:
+    resolution: {integrity: sha512-iG442T3HXJp5jEebCy8okETrWnmX7CnxNOKrJQVeufh6WXSn+xtLXaptUXXMHTWcRqTJOJwQ8UwzxrRtVFSIzA==}
     peerDependencies:
       solid-js: ^1.3
 
@@ -22890,6 +22912,15 @@ snapshots:
       '@rspack/core': 2.2.8(@module-federation/runtime-tools@2.9.2)(@swc/helpers@0.5.23)
       webpack: 5.102.1(postcss@8.5.29)
 
+  babel-plugin-jsx-dom-expressions@0.40.11(@babel/core@7.29.7):
+    dependencies:
+      '@babel/core': 7.29.7
+      '@babel/helper-module-imports': 7.18.6
+      '@babel/plugin-syntax-jsx': 7.29.7(@babel/core@7.29.7)
+      '@babel/types': 7.29.8
+      html-entities: 2.3.3
+      parse5: 7.3.0
+
   babel-plugin-jsx-dom-expressions@0.40.6(@babel/core@7.29.7):
     dependencies:
       '@babel/core': 7.29.7
@@ -22938,6 +22969,13 @@ snapshots:
     dependencies:
       '@babel/core': 7.29.7
       babel-plugin-jsx-dom-expressions: 0.40.6(@babel/core@7.29.7)
+    optionalDependencies:
+      solid-js: 1.9.17
+
+  babel-preset-solid@1.9.16(@babel/core@7.29.7)(solid-js@1.9.17):
+    dependencies:
+      '@babel/core': 7.29.7
+      babel-plugin-jsx-dom-expressions: 0.40.11(@babel/core@7.29.7)
     optionalDependencies:
       solid-js: 1.9.17
 
@@ -29433,6 +29471,12 @@ snapshots:
       solid-js: 1.9.17
     transitivePeerDependencies:
       - supports-color
+
+  solid-refresh@0.7.8(solid-js@1.9.17):
+    dependencies:
+      '@babel/generator': 7.29.7
+      '@babel/types': 7.29.7
+      solid-js: 1.9.17
 
   sonic-boom@4.2.1:
     dependencies:
