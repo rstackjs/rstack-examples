@@ -16,9 +16,9 @@
     "prepare": "pnpm run build"
   },
   "devDependencies": {
-    "@module-federation/rsbuild-plugin": "catalog:",
+    "@module-federation/rsbuild-plugin": "^2.9.2",
     "@rslib/core": "catalog:",
     "@rspack/core": "catalog:",
-    "typescript": "catalog:"
+    "typescript": "^5.9.3"
   }
 }

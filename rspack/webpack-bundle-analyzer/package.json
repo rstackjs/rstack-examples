@@ -10,6 +10,6 @@
     "@rspack/cli": "catalog:",
     "@rspack/core": "catalog:",
     "@rspack/dev-server": "catalog:",
-    "webpack-bundle-analyzer": "catalog:"
+    "webpack-bundle-analyzer": "^5.4.0"
   }
 }

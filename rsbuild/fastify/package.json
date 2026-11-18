@@ -9,10 +9,10 @@
     "preview": "rsbuild preview"
   },
   "devDependencies": {
-    "@fastify/middie": "catalog:",
+    "@fastify/middie": "^9.3.5",
     "@rsbuild/core": "catalog:",
-    "@types/node": "catalog:",
-    "fastify": "catalog:",
-    "typescript": "catalog:"
+    "@types/node": "^24.19.2",
+    "fastify": "^5.12.5",
+    "typescript": "^5.9.3"
   }
 }

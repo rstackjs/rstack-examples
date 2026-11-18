@@ -25,10 +25,10 @@
     "@rspress/core": "catalog:",
     "@rspress/plugin-api-docgen": "catalog:",
     "@rspress/plugin-preview": "catalog:",
-    "@types/node": "catalog:",
-    "@types/react": "catalog:",
-    "react": "catalog:",
-    "typescript": "catalog:typescript6"
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "react": "^19.3.0",
+    "typescript": "^6.0.3"
   },
   "peerDependencies": {
     "react": ">=19.0.0",

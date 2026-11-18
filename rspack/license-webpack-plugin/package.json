@@ -9,8 +9,8 @@
     "@rspack/cli": "catalog:",
     "@rspack/core": "catalog:",
     "@rspack/dev-server": "catalog:",
-    "license-webpack-plugin": "catalog:",
-    "react": "catalog:",
-    "react-dom": "catalog:"
+    "license-webpack-plugin": "^4.0.2",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
   }
 }

@@ -7,14 +7,14 @@
     "dev": "rspack dev"
   },
   "dependencies": {
-    "vue": "catalog:"
+    "vue": "^3.5.43"
   },
   "devDependencies": {
     "@rspack/cli": "catalog:",
     "@rspack/core": "catalog:",
     "@rspack/dev-server": "catalog:",
-    "html-webpack-plugin": "catalog:exact",
+    "html-webpack-plugin": "5.6.8",
     "rspack-vue-loader": "catalog:",
-    "unplugin-auto-import": "catalog:"
+    "unplugin-auto-import": "^21.1.0"
   }
 }

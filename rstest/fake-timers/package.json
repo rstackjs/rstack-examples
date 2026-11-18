@@ -8,6 +8,6 @@
   },
   "devDependencies": {
     "@rstest/core": "catalog:",
-    "typescript": "catalog:"
+    "typescript": "^5.9.3"
   }
 }

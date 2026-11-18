@@ -10,8 +10,8 @@
     "@rspack/cli": "catalog:",
     "@rspack/core": "catalog:",
     "@rspack/dev-server": "catalog:",
-    "@types/node": "catalog:",
+    "@types/node": "^24.19.2",
     "ts-checker-rspack-plugin": "catalog:",
-    "typescript": "catalog:"
+    "typescript": "^5.9.3"
   }
 }

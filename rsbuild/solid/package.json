@@ -9,14 +9,14 @@
     "preview": "rsbuild preview"
   },
   "dependencies": {
-    "@solidjs/web": "catalog:",
-    "solid-js": "catalog:solid-next"
+    "@solidjs/web": "^2.0.0-rc.13",
+    "solid-js": "^2.0.0-rc.13"
   },
   "devDependencies": {
     "@rsbuild/core": "catalog:",
     "@rsbuild/plugin-babel": "catalog:",
-    "@rsbuild/plugin-solid": "catalog:solid-next",
-    "@types/node": "catalog:",
-    "typescript": "catalog:"
+    "@rsbuild/plugin-solid": "catalog:alternate",
+    "@types/node": "^24.19.2",
+    "typescript": "^5.9.3"
   }
 }

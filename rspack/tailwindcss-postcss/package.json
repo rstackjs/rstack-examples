@@ -12,10 +12,10 @@
     "@rspack/cli": "catalog:",
     "@rspack/core": "catalog:",
     "@rspack/dev-server": "catalog:",
-    "@tailwindcss/postcss": "catalog:",
-    "autoprefixer": "catalog:",
-    "postcss": "catalog:",
-    "postcss-loader": "catalog:",
-    "tailwindcss": "catalog:"
+    "@tailwindcss/postcss": "^4.3.3",
+    "autoprefixer": "10.6.1",
+    "postcss": "8.5.29",
+    "postcss-loader": "8.2.1",
+    "tailwindcss": "^4.3.3"
   }
 }

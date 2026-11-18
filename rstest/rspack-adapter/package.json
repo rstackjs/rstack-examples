@@ -11,8 +11,8 @@
     "test:watch": "rstest --watch"
   },
   "dependencies": {
-    "react": "catalog:",
-    "react-dom": "catalog:"
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
   },
   "devDependencies": {
     "@rspack/cli": "catalog:",
@@ -21,14 +21,14 @@
     "@rspack/plugin-react-refresh": "catalog:",
     "@rstest/adapter-rspack": "catalog:",
     "@rstest/core": "catalog:",
-    "@testing-library/dom": "catalog:",
-    "@testing-library/jest-dom": "catalog:",
-    "@testing-library/react": "catalog:",
-    "@types/node": "catalog:",
-    "@types/react": "catalog:",
-    "@types/react-dom": "catalog:",
-    "happy-dom": "catalog:",
-    "react-refresh": "catalog:",
-    "typescript": "catalog:"
+    "@testing-library/dom": "^10.4.2",
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "happy-dom": "^21.0.0",
+    "react-refresh": "^0.19.0",
+    "typescript": "^5.9.3"
   }
 }

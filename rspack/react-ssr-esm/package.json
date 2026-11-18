@@ -9,22 +9,22 @@
     "start:dev": "node dev.js"
   },
   "dependencies": {
-    "ejs": "catalog:",
-    "express": "catalog:",
-    "react": "catalog:",
-    "react-dom": "catalog:"
+    "ejs": "^7.0.1",
+    "express": "^5.3.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
   },
   "devDependencies": {
     "@rspack/cli": "catalog:",
     "@rspack/core": "catalog:",
     "@rspack/dev-server": "catalog:",
-    "@types/cross-spawn": "catalog:",
-    "@types/express": "catalog:",
-    "@types/node": "catalog:",
-    "@types/react": "catalog:",
-    "@types/react-dom": "catalog:",
-    "cross-spawn": "catalog:",
-    "rspack-manifest-plugin": "catalog:caret",
-    "typescript": "catalog:"
+    "@types/cross-spawn": "^6.0.6",
+    "@types/express": "^5.0.6",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "cross-spawn": "^7.0.6",
+    "rspack-manifest-plugin": "catalog:alternate",
+    "typescript": "^5.9.3"
   }
 }

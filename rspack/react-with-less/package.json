@@ -9,16 +9,16 @@
     "dev": "rspack dev"
   },
   "dependencies": {
-    "@swc/helpers": "catalog:",
-    "less-loader": "catalog:",
-    "normalize.css": "catalog:",
-    "react": "catalog:",
-    "react-dom": "catalog:"
+    "@swc/helpers": "^0.5.23",
+    "less-loader": "13.0.0",
+    "normalize.css": "8.0.1",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
   },
   "devDependencies": {
     "@rspack/cli": "catalog:",
     "@rspack/core": "catalog:",
     "@rspack/dev-server": "catalog:",
-    "react-refresh": "catalog:"
+    "react-refresh": "^0.19.0"
   }
 }

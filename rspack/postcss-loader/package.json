@@ -13,8 +13,8 @@
     "@rspack/cli": "catalog:",
     "@rspack/core": "catalog:",
     "@rspack/dev-server": "catalog:",
-    "autoprefixer": "catalog:",
-    "postcss-loader": "catalog:",
-    "postcss-plugin-px2rem": "catalog:"
+    "autoprefixer": "10.6.1",
+    "postcss-loader": "8.2.1",
+    "postcss-plugin-px2rem": "0.8.1"
   }
 }

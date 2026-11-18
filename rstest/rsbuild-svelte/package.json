@@ -14,9 +14,9 @@
     "@rsbuild/plugin-svelte": "catalog:",
     "@rstest/adapter-rsbuild": "catalog:",
     "@rstest/core": "catalog:",
-    "@types/node": "catalog:",
-    "happy-dom": "catalog:",
-    "svelte": "catalog:",
-    "typescript": "catalog:"
+    "@types/node": "^24.19.2",
+    "happy-dom": "^21.0.0",
+    "svelte": "^5.57.2",
+    "typescript": "^5.9.3"
   }
 }

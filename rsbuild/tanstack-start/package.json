@@ -12,24 +12,24 @@
     "start": "srvx --prod -s ../client dist/server/index.js"
   },
   "dependencies": {
-    "@tanstack/react-devtools": "catalog:",
-    "@tanstack/react-router": "catalog:",
-    "@tanstack/react-router-devtools": "catalog:",
-    "@tanstack/react-start": "catalog:",
-    "react": "catalog:",
-    "react-dom": "catalog:",
-    "srvx": "catalog:",
-    "tailwindcss": "catalog:"
+    "@tanstack/react-devtools": "^0.10.13",
+    "@tanstack/react-router": "^1.170.42",
+    "@tanstack/react-router-devtools": "^1.167.2",
+    "@tanstack/react-start": "^1.168.61",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "srvx": "^1.0.5",
+    "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
-    "@rsbuild/core": "catalog:caret",
+    "@rsbuild/core": "catalog:alternate",
     "@rsbuild/plugin-react": "catalog:",
     "@rsbuild/plugin-tailwindcss": "catalog:",
-    "@tailwindcss/typography": "catalog:",
-    "@types/node": "catalog:",
-    "@types/react": "catalog:",
-    "@types/react-dom": "catalog:",
-    "solid-js": "catalog:",
-    "typescript": "catalog:typescript6"
+    "@tailwindcss/typography": "^0.5.20",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "solid-js": "^1.9.17",
+    "typescript": "^6.0.3"
   }
 }

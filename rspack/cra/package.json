@@ -20,16 +20,16 @@
     ]
   },
   "dependencies": {
-    "@swc/helpers": "catalog:",
-    "react": "catalog:",
-    "react-dom": "catalog:"
+    "@swc/helpers": "^0.5.23",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
   },
   "devDependencies": {
     "@rspack/cli": "catalog:",
     "@rspack/core": "catalog:",
     "@rspack/dev-server": "catalog:",
     "@rspack/plugin-react-refresh": "catalog:",
-    "react-refresh": "catalog:",
-    "web-vitals": "catalog:"
+    "react-refresh": "^0.19.0",
+    "web-vitals": "^6.2.3"
   }
 }

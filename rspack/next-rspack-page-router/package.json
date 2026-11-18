@@ -8,14 +8,14 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "catalog:",
-    "react": "catalog:",
-    "react-dom": "catalog:"
+    "next": "16.4.1",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
   },
   "devDependencies": {
-    "@types/node": "catalog:",
-    "@types/react": "catalog:",
-    "next-rspack": "catalog:",
-    "typescript": "catalog:"
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "next-rspack": "16.4.0",
+    "typescript": "^5.9.3"
   }
 }

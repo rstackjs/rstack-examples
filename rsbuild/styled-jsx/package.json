@@ -9,17 +9,17 @@
     "preview": "rsbuild preview"
   },
   "dependencies": {
-    "react": "catalog:",
-    "react-dom": "catalog:",
-    "styled-jsx": "catalog:"
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "styled-jsx": "^5.1.7"
   },
   "devDependencies": {
     "@rsbuild/core": "catalog:",
     "@rsbuild/plugin-react": "catalog:",
-    "@swc/plugin-styled-jsx": "catalog:",
-    "@types/node": "catalog:",
-    "@types/react": "catalog:",
-    "@types/react-dom": "catalog:",
-    "typescript": "catalog:"
+    "@swc/plugin-styled-jsx": "^19.0.0",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "^5.9.3"
   }
 }

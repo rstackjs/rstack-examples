@@ -9,8 +9,8 @@
     "dev": "rsbuild"
   },
   "dependencies": {
-    "react": "catalog:",
-    "react-dom": "catalog:",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
     "semver6": "npm:semver@6.3.1",
     "semver7": "npm:semver@7.8.1"
   },
@@ -18,11 +18,11 @@
     "@rsbuild/core": "catalog:",
     "@rsbuild/plugin-react": "catalog:",
     "@rsdoctor/rspack-plugin": "catalog:",
-    "@types/node": "catalog:",
-    "@types/react": "catalog:",
-    "@types/react-dom": "catalog:",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
     "@types/semver6": "npm:@types/semver@7.7.1",
     "@types/semver7": "npm:@types/semver@7.7.1",
-    "typescript": "catalog:"
+    "typescript": "^5.9.3"
   }
 }

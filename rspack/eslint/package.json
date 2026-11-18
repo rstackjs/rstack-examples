@@ -13,7 +13,7 @@
     "@rspack/cli": "catalog:",
     "@rspack/core": "catalog:",
     "@rspack/dev-server": "catalog:",
-    "eslint": "catalog:",
+    "eslint": "^9.39.5",
     "eslint-rspack-plugin": "catalog:"
   }
 }

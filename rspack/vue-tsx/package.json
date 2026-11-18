@@ -8,18 +8,18 @@
     "dev": "rspack dev"
   },
   "dependencies": {
-    "vue": "catalog:exact"
+    "vue": "3.5.43"
   },
   "devDependencies": {
-    "@babel/core": "catalog:",
-    "@babel/preset-typescript": "catalog:",
+    "@babel/core": "7.29.7",
+    "@babel/preset-typescript": "^7.29.7",
     "@rspack/cli": "catalog:",
     "@rspack/core": "catalog:",
     "@rspack/dev-server": "catalog:",
-    "@types/node": "catalog:",
-    "@vue/babel-plugin-jsx": "catalog:",
-    "babel-loader": "catalog:",
+    "@types/node": "^24.19.2",
+    "@vue/babel-plugin-jsx": "2.0.1",
+    "babel-loader": "10.1.1",
     "rspack-vue-loader": "catalog:",
-    "typescript": "catalog:"
+    "typescript": "^5.9.3"
   }
 }

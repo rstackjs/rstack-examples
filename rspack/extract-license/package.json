@@ -9,7 +9,7 @@
     "dev": "rspack dev"
   },
   "dependencies": {
-    "lodash": "catalog:"
+    "lodash": "4.18.1"
   },
   "devDependencies": {
     "@rspack/cli": "catalog:",

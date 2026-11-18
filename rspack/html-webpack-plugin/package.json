@@ -10,7 +10,7 @@
     "@rspack/cli": "catalog:",
     "@rspack/core": "catalog:",
     "@rspack/dev-server": "catalog:",
-    "html-webpack-plugin": "catalog:"
+    "html-webpack-plugin": "^5.6.8"
   },
   "rspack": {
     "version": ">=0.3.11"

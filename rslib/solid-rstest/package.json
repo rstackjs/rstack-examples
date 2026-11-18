@@ -24,10 +24,10 @@
     "@rslib/core": "catalog:",
     "@rstest/adapter-rslib": "catalog:",
     "@rstest/core": "catalog:",
-    "@solidjs/testing-library": "catalog:",
-    "happy-dom": "catalog:",
-    "solid-js": "catalog:",
-    "typescript": "catalog:"
+    "@solidjs/testing-library": "^0.8.10",
+    "happy-dom": "^21.0.0",
+    "solid-js": "^1.9.17",
+    "typescript": "^5.9.3"
   },
   "peerDependencies": {
     "solid-js": "^1.8.0"

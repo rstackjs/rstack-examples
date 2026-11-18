@@ -21,8 +21,8 @@
     "@rsbuild/plugin-babel": "catalog:",
     "@rsbuild/plugin-solid": "catalog:",
     "@rslib/core": "catalog:",
-    "solid-js": "catalog:",
-    "typescript": "catalog:"
+    "solid-js": "^1.9.17",
+    "typescript": "^5.9.3"
   },
   "peerDependencies": {
     "solid-js": "^1.8.0"

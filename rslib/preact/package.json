@@ -19,8 +19,8 @@
   "devDependencies": {
     "@rsbuild/plugin-preact": "catalog:",
     "@rslib/core": "catalog:",
-    "preact": "catalog:",
-    "typescript": "catalog:"
+    "preact": "^11.0.1",
+    "typescript": "^5.9.3"
   },
   "peerDependencies": {
     "preact": "^10"

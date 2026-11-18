@@ -29,7 +29,7 @@ npx giget gh:rstackjs/rstack-examples/rspack/basic my-app
 # Enter the my-app example directory
 cd my-app
 
-# Download the dependency catalogs used by the example
+# Download the Rstack dependency catalogs used by the example
 curl -fsSL https://raw.githubusercontent.com/rstackjs/rstack-examples/main/pnpm-workspace.yaml -o pnpm-workspace.yaml
 
 # Install the dependencies
@@ -83,15 +83,20 @@ pnpm run dev
 
 ### Manage dependency versions
 
-Dependency versions are defined in [`pnpm-workspace.yaml`](./pnpm-workspace.yaml).
-Most dependencies use `catalog:`. Named catalogs preserve existing differences:
-`caret`, `exact`, and `tilde` retain version range styles, while `solid-next`,
-`tailwind3`, `tailwind3-exact`, and `typescript6` retain alternate versions.
+Rstack product and official plugin versions are centralized in
+[`pnpm-workspace.yaml`](./pnpm-workspace.yaml) for shared upgrades. Catalogs cover
+`@rspack/*`, `@rsbuild/*`, `@rslib/*`, `@rspress/*`, `@rstest/*`, `@rsdoctor/*`,
+and these packages maintained by [rstackjs](https://github.com/rstackjs):
+`rstack`, `eslint-rspack-plugin`, `rspack-manifest-plugin`, `rspack-vue-loader`,
+`ts-checker-rspack-plugin`, `worker-rspack-loader`, `storybook-addon-rslib`,
+`storybook-react-rsbuild`, and `storybook-vue3-rsbuild`.
 
-Edit the relevant catalog entry and run `pnpm install` to update the lockfile.
-The existing `pnpm bump` command also updates catalogs through Taze. Peer dependency
-ranges remain in each library's `package.json`, as do local `workspace:` dependencies
-and the Rsdoctor npm aliases that demonstrate multiple versions of the same package.
-Module Federation shared dependencies also keep their ranges in `package.json`:
-the current plugins read those ranges for runtime version negotiation and do not
-resolve `catalog:` references.
+Most Rstack dependencies use `catalog:`. The `alternate` catalog preserves existing
+range or version differences, and `rsbuild-tilde` preserves the third `@rsbuild/core`
+range. Edit the relevant catalog entry and run `pnpm install` to update the lockfile.
+The existing `pnpm bump` command also understands catalogs through Taze and keeps
+its configured package filter.
+
+Other dependencies, including React, Vue, TypeScript, SWC, and Module Federation,
+keep their versions in each example's `package.json`. Peer dependency ranges,
+local `workspace:` links, and npm aliases also remain there.

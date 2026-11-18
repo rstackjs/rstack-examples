@@ -10,8 +10,8 @@
   },
   "devDependencies": {
     "@rsbuild/core": "catalog:",
-    "@types/node": "catalog:",
-    "lit": "catalog:",
-    "typescript": "catalog:"
+    "@types/node": "^24.19.2",
+    "lit": "^3.3.3",
+    "typescript": "^5.9.3"
   }
 }

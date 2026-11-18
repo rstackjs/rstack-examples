@@ -12,7 +12,7 @@
     "@rspack/cli": "catalog:",
     "@rspack/core": "catalog:",
     "@rspack/dev-server": "catalog:",
-    "@tailwindcss/webpack": "catalog:",
-    "tailwindcss": "catalog:"
+    "@tailwindcss/webpack": "^4.3.3",
+    "tailwindcss": "^4.3.3"
   }
 }

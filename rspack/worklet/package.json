@@ -12,6 +12,6 @@
     "@rspack/cli": "catalog:",
     "@rspack/core": "catalog:",
     "@rspack/dev-server": "catalog:",
-    "esbuild": "catalog:"
+    "esbuild": "0.28.2"
   }
 }

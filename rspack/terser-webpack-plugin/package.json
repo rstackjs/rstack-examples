@@ -9,7 +9,7 @@
     "@rspack/cli": "catalog:",
     "@rspack/core": "catalog:",
     "@rspack/dev-server": "catalog:",
-    "terser-webpack-plugin": "catalog:",
-    "webpack-stats-plugin": "catalog:"
+    "terser-webpack-plugin": "5.6.1",
+    "webpack-stats-plugin": "^1.1.3"
   }
 }

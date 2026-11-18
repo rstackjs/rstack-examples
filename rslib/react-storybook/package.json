@@ -19,19 +19,19 @@
     "storybook": "storybook dev"
   },
   "devDependencies": {
-    "@rsbuild/core": "catalog:tilde",
+    "@rsbuild/core": "catalog:rsbuild-tilde",
     "@rsbuild/plugin-react": "catalog:",
     "@rslib/core": "catalog:",
-    "@storybook/addon-docs": "catalog:",
-    "@storybook/addon-onboarding": "catalog:",
-    "@storybook/react": "catalog:",
-    "@types/react": "catalog:",
-    "react": "catalog:",
-    "react-dom": "catalog:",
-    "storybook": "catalog:",
+    "@storybook/addon-docs": "^10.6.1",
+    "@storybook/addon-onboarding": "^10.6.1",
+    "@storybook/react": "^10.6.1",
+    "@types/react": "^19.3.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "storybook": "^10.6.1",
     "storybook-addon-rslib": "catalog:",
     "storybook-react-rsbuild": "catalog:",
-    "typescript": "catalog:"
+    "typescript": "^5.9.3"
   },
   "peerDependencies": {
     "react": ">=16.9.0",

@@ -10,7 +10,7 @@
     "dev": "rspack dev"
   },
   "devDependencies": {
-    "@perfsee/webpack": "catalog:",
+    "@perfsee/webpack": "1.14.2",
     "@rspack/cli": "catalog:",
     "@rspack/core": "catalog:",
     "@rspack/dev-server": "catalog:"

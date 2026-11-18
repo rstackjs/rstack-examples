@@ -9,10 +9,10 @@
     "dev": "rspack dev"
   },
   "dependencies": {
-    "@swc/helpers": "catalog:",
-    "react": "catalog:",
-    "react-dom": "catalog:",
-    "react-refresh": "catalog:exact"
+    "@swc/helpers": "^0.5.23",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "react-refresh": "0.19.0"
   },
   "devDependencies": {
     "@rspack/cli": "catalog:",

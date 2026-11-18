@@ -9,6 +9,6 @@
     "@rspack/cli": "catalog:",
     "@rspack/core": "catalog:",
     "@rspack/dev-server": "catalog:",
-    "generate-package-json-webpack-plugin": "catalog:"
+    "generate-package-json-webpack-plugin": "^2.7.0"
   }
 }

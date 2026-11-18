@@ -21,12 +21,12 @@
   "devDependencies": {
     "@rsbuild/plugin-svelte": "catalog:",
     "@rslib/core": "catalog:",
-    "@tsconfig/svelte": "catalog:",
-    "@types/node": "catalog:",
-    "svelte": "catalog:",
-    "svelte-check": "catalog:",
-    "svelte2tsx": "catalog:",
-    "typescript": "catalog:"
+    "@tsconfig/svelte": "^5.0.8",
+    "@types/node": "^24.19.2",
+    "svelte": "^5.57.2",
+    "svelte-check": "^4.7.6",
+    "svelte2tsx": "^0.7.61",
+    "typescript": "^5.9.3"
   },
   "peerDependencies": {
     "svelte": "^5.0.0"

@@ -25,9 +25,9 @@
     "test:rstest": "pnpm --filter \"./rstest/**\" --stream test"
   },
   "devDependencies": {
-    "cross-env": "catalog:",
+    "cross-env": "10.1.0",
     "rstack": "catalog:",
-    "taze": "catalog:"
+    "taze": "^21.3.0"
   },
   "packageManager": "pnpm@10.34.1"
 }

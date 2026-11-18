@@ -15,9 +15,9 @@
     "@rsbuild/plugin-solid": "catalog:",
     "@rstest/adapter-rsbuild": "catalog:",
     "@rstest/core": "catalog:",
-    "@types/node": "catalog:",
-    "happy-dom": "catalog:",
-    "solid-js": "catalog:",
-    "typescript": "catalog:"
+    "@types/node": "^24.19.2",
+    "happy-dom": "^21.0.0",
+    "solid-js": "^1.9.17",
+    "typescript": "^5.9.3"
   }
 }

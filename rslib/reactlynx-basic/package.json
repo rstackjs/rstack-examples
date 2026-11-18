@@ -17,12 +17,12 @@
     "dev": "rslib --watch"
   },
   "devDependencies": {
-    "@lynx-js/react": "catalog:",
-    "@lynx-js/types": "catalog:",
+    "@lynx-js/react": "^0.127.0",
+    "@lynx-js/types": "^4.3.0",
     "@rsbuild/plugin-react": "catalog:",
     "@rslib/core": "catalog:",
-    "@types/react": "catalog:",
-    "typescript": "catalog:typescript6"
+    "@types/react": "^19.3.0",
+    "typescript": "^6.0.3"
   },
   "peerDependencies": {
     "@lynx-js/react": ">=0.100.0",

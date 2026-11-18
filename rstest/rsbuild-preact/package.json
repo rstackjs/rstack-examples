@@ -14,9 +14,9 @@
     "@rsbuild/plugin-preact": "catalog:",
     "@rstest/adapter-rsbuild": "catalog:",
     "@rstest/core": "catalog:",
-    "@types/node": "catalog:",
-    "happy-dom": "catalog:",
-    "preact": "catalog:",
-    "typescript": "catalog:"
+    "@types/node": "^24.19.2",
+    "happy-dom": "^21.0.0",
+    "preact": "^11.0.1",
+    "typescript": "^5.9.3"
   }
 }

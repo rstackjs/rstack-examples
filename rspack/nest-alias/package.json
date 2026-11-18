@@ -14,9 +14,9 @@
     "@rspack/dev-server": "catalog:",
     "lib1": "workspace:*",
     "lib2": "workspace:*",
-    "typescript": "catalog:"
+    "typescript": "^5.9.3"
   },
   "devDependencies": {
-    "@types/node": "catalog:"
+    "@types/node": "^24.19.2"
   }
 }

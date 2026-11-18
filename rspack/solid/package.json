@@ -9,11 +9,11 @@
     "dev": "rspack dev"
   },
   "dependencies": {
-    "@babel/core": "catalog:",
-    "babel-loader": "catalog:",
-    "babel-preset-solid": "catalog:",
-    "solid-js": "catalog:exact",
-    "solid-refresh": "catalog:"
+    "@babel/core": "7.29.7",
+    "babel-loader": "10.1.1",
+    "babel-preset-solid": "1.9.16",
+    "solid-js": "1.9.17",
+    "solid-refresh": "0.7.8"
   },
   "devDependencies": {
     "@rspack/cli": "catalog:",

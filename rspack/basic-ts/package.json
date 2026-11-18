@@ -9,12 +9,12 @@
     "dev": "rspack dev"
   },
   "dependencies": {
-    "typescript": "catalog:"
+    "typescript": "^5.9.3"
   },
   "devDependencies": {
     "@rspack/cli": "catalog:",
     "@rspack/core": "catalog:",
     "@rspack/dev-server": "catalog:",
-    "@types/node": "catalog:"
+    "@types/node": "^24.19.2"
   }
 }

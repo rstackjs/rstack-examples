@@ -23,7 +23,7 @@
     "@rslib/core": "catalog:",
     "@rstest/adapter-rslib": "catalog:",
     "@rstest/core": "catalog:",
-    "@types/node": "catalog:",
-    "typescript": "catalog:"
+    "@types/node": "^24.19.2",
+    "typescript": "^5.9.3"
   }
 }

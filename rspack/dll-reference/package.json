@@ -10,7 +10,7 @@
     "@rspack/cli": "catalog:",
     "@rspack/core": "catalog:",
     "@rspack/dev-server": "catalog:",
-    "lodash": "catalog:",
-    "typescript": "catalog:"
+    "lodash": "4.18.1",
+    "typescript": "^5.9.3"
   }
 }

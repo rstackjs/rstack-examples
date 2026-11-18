@@ -9,14 +9,14 @@
     "dev": "rspack dev"
   },
   "dependencies": {
-    "vue": "catalog:exact"
+    "vue": "3.5.43"
   },
   "devDependencies": {
     "@rspack/cli": "catalog:",
     "@rspack/core": "catalog:",
     "@rspack/dev-server": "catalog:",
-    "less": "catalog:",
-    "less-loader": "catalog:caret",
+    "less": "4.9.1",
+    "less-loader": "^13.0.0",
     "rspack-vue-loader": "catalog:"
   }
 }
