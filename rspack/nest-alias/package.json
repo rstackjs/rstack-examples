@@ -9,14 +9,14 @@
     "compile": "tsc -b"
   },
   "dependencies": {
-    "@rspack/cli": "2.2.8",
-    "@rspack/core": "2.2.8",
-    "@rspack/dev-server": "2.2.1",
+    "@rspack/cli": "catalog:",
+    "@rspack/core": "catalog:",
+    "@rspack/dev-server": "catalog:",
     "lib1": "workspace:*",
     "lib2": "workspace:*",
-    "typescript": "^5.9.3"
+    "typescript": "catalog:"
   },
   "devDependencies": {
-    "@types/node": "^24.19.2"
+    "@types/node": "catalog:"
   }
 }

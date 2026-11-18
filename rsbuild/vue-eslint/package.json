@@ -9,18 +9,18 @@
     "preview": "rsbuild preview"
   },
   "dependencies": {
-    "vue": "^3.5.43"
+    "vue": "catalog:"
   },
   "devDependencies": {
-    "@rsbuild/core": "2.2.12",
-    "@rsbuild/plugin-eslint": "^2.0.2",
-    "@rsbuild/plugin-vue": "^2.0.1",
-    "@types/node": "^24.19.2",
-    "@typescript-eslint/eslint-plugin": "^8.71.1",
-    "@typescript-eslint/parser": "^8.71.1",
-    "eslint": "^9.39.5",
-    "eslint-plugin-vue": "^9.33.0",
-    "typescript": "^5.9.3",
-    "vue-tsc": "^3.3.13"
+    "@rsbuild/core": "catalog:",
+    "@rsbuild/plugin-eslint": "catalog:",
+    "@rsbuild/plugin-vue": "catalog:",
+    "@types/node": "catalog:",
+    "@typescript-eslint/eslint-plugin": "catalog:",
+    "@typescript-eslint/parser": "catalog:",
+    "eslint": "catalog:",
+    "eslint-plugin-vue": "catalog:",
+    "typescript": "catalog:",
+    "vue-tsc": "catalog:"
   }
 }

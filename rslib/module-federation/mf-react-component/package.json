@@ -19,19 +19,19 @@
     "storybook": "storybook dev -p 6006"
   },
   "devDependencies": {
-    "@module-federation/enhanced": "^2.9.2",
-    "@module-federation/rsbuild-plugin": "^2.9.2",
-    "@module-federation/storybook-addon": "^6.0.21",
-    "@rsbuild/plugin-react": "^2.1.1",
-    "@rslib/core": "^1.0.3",
-    "@types/react": "^19.3.0",
-    "http-server": "^14.1.1",
+    "@module-federation/enhanced": "catalog:",
+    "@module-federation/rsbuild-plugin": "catalog:",
+    "@module-federation/storybook-addon": "catalog:",
+    "@rsbuild/plugin-react": "catalog:",
+    "@rslib/core": "catalog:",
+    "@types/react": "catalog:",
+    "http-server": "catalog:",
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
-    "storybook": "^10.6.1",
-    "storybook-addon-rslib": "^3.6.1",
-    "storybook-react-rsbuild": "^3.6.1",
-    "typescript": "^6.0.3"
+    "storybook": "catalog:",
+    "storybook-addon-rslib": "catalog:",
+    "storybook-react-rsbuild": "catalog:",
+    "typescript": "catalog:typescript6"
   },
   "peerDependencies": {
     "react": "*"

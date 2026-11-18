@@ -7,9 +7,9 @@
     "dev": "rspack dev"
   },
   "devDependencies": {
-    "@rspack/cli": "2.2.8",
-    "@rspack/core": "2.2.8",
-    "@rspack/dev-server": "2.2.1",
-    "case-sensitive-paths-webpack-plugin": "2.4.0"
+    "@rspack/cli": "catalog:",
+    "@rspack/core": "catalog:",
+    "@rspack/dev-server": "catalog:",
+    "case-sensitive-paths-webpack-plugin": "catalog:"
   }
 }

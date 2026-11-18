@@ -10,21 +10,21 @@
   },
   "dependencies": {
     "lib3": "workspace:*",
-    "react": "^19.3.0",
-    "react-dom": "^19.3.0"
+    "react": "catalog:",
+    "react-dom": "catalog:"
   },
   "devDependencies": {
-    "@rspack/cli": "2.2.8",
-    "@rspack/core": "2.2.8",
-    "@rspack/dev-server": "2.2.1",
-    "@swc/helpers": "^0.5.23",
-    "@swc/plugin-emotion": "^19.0.0",
-    "@swc/plugin-loadable-components": "^16.0.0",
-    "@swc/plugin-prefresh": "^17.0.0",
-    "@swc/plugin-relay": "^17.0.0",
-    "@swc/plugin-remove-console": "^17.0.0",
-    "@swc/plugin-styled-components": "^17.0.0",
-    "@swc/plugin-styled-jsx": "^19.0.0",
-    "@swc/plugin-transform-imports": "^17.0.0"
+    "@rspack/cli": "catalog:",
+    "@rspack/core": "catalog:",
+    "@rspack/dev-server": "catalog:",
+    "@swc/helpers": "catalog:",
+    "@swc/plugin-emotion": "catalog:",
+    "@swc/plugin-loadable-components": "catalog:",
+    "@swc/plugin-prefresh": "catalog:",
+    "@swc/plugin-relay": "catalog:",
+    "@swc/plugin-remove-console": "catalog:",
+    "@swc/plugin-styled-components": "catalog:",
+    "@swc/plugin-styled-jsx": "catalog:",
+    "@swc/plugin-transform-imports": "catalog:"
   }
 }

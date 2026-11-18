@@ -9,15 +9,15 @@
     "dev": "rspack dev"
   },
   "dependencies": {
-    "@swc/helpers": "^0.5.23",
-    "preact": "11.0.1"
+    "@swc/helpers": "catalog:",
+    "preact": "catalog:exact"
   },
   "devDependencies": {
-    "@prefresh/babel-plugin": "0.5.4",
-    "@prefresh/webpack": "4.0.7",
-    "@rspack/cli": "2.2.8",
-    "@rspack/core": "2.2.8",
-    "@rspack/dev-server": "2.2.1"
+    "@prefresh/babel-plugin": "catalog:",
+    "@prefresh/webpack": "catalog:",
+    "@rspack/cli": "catalog:",
+    "@rspack/core": "catalog:",
+    "@rspack/dev-server": "catalog:"
   },
   "resolve": {
     "alias": {

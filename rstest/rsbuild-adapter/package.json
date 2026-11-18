@@ -9,11 +9,11 @@
     "test": "rstest"
   },
   "devDependencies": {
-    "@rsbuild/core": "2.2.12",
-    "@rstest/adapter-rsbuild": "^0.12.3",
-    "@rstest/core": "^0.12.3",
-    "@types/node": "^24.19.2",
-    "happy-dom": "^21.0.0",
-    "typescript": "^5.9.3"
+    "@rsbuild/core": "catalog:",
+    "@rstest/adapter-rsbuild": "catalog:",
+    "@rstest/core": "catalog:",
+    "@types/node": "catalog:",
+    "happy-dom": "catalog:",
+    "typescript": "catalog:"
   }
 }

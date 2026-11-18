@@ -9,13 +9,13 @@
     "dev": "rspack dev"
   },
   "dependencies": {
-    "express": "5.3.0"
+    "express": "catalog:exact"
   },
   "devDependencies": {
-    "@rspack/cli": "2.2.8",
-    "@rspack/core": "2.2.8",
-    "@rspack/dev-server": "2.2.1",
-    "@types/express": "^5.0.6",
-    "run-script-webpack-plugin": "0.2.3"
+    "@rspack/cli": "catalog:",
+    "@rspack/core": "catalog:",
+    "@rspack/dev-server": "catalog:",
+    "@types/express": "catalog:",
+    "run-script-webpack-plugin": "catalog:"
   }
 }

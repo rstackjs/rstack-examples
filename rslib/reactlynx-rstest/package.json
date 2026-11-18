@@ -19,17 +19,17 @@
     "test:watch": "rstest --watch"
   },
   "devDependencies": {
-    "@lynx-js/react": "^0.127.0",
-    "@lynx-js/react-rsbuild-plugin": "^0.20.4",
-    "@lynx-js/types": "^4.3.0",
-    "@rsbuild/plugin-react": "^2.1.1",
-    "@rslib/core": "^1.0.3",
-    "@rstest/adapter-rslib": "^0.12.3",
-    "@rstest/core": "^0.12.3",
-    "@types/node": "^24.19.2",
-    "@types/react": "^19.3.0",
-    "happy-dom": "^21.0.0",
-    "typescript": "^6.0.3"
+    "@lynx-js/react": "catalog:",
+    "@lynx-js/react-rsbuild-plugin": "catalog:",
+    "@lynx-js/types": "catalog:",
+    "@rsbuild/plugin-react": "catalog:",
+    "@rslib/core": "catalog:",
+    "@rstest/adapter-rslib": "catalog:",
+    "@rstest/core": "catalog:",
+    "@types/node": "catalog:",
+    "@types/react": "catalog:",
+    "happy-dom": "catalog:",
+    "typescript": "catalog:typescript6"
   },
   "peerDependencies": {
     "@lynx-js/react": ">=0.100.0",

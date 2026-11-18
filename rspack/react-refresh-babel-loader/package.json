@@ -9,20 +9,20 @@
     "dev": "rspack serve "
   },
   "dependencies": {
-    "react": "^19.3.0",
-    "react-dom": "^19.3.0"
+    "react": "catalog:",
+    "react-dom": "catalog:"
   },
   "devDependencies": {
-    "@babel/core": "^7.29.7",
-    "@babel/preset-react": "^7.29.7",
-    "@babel/preset-typescript": "^7.29.7",
-    "@rspack/cli": "2.2.8",
-    "@rspack/core": "2.2.8",
-    "@rspack/dev-server": "2.2.1",
-    "@rspack/plugin-react-refresh": "^2.0.2",
-    "@types/react": "^19.3.0",
-    "@types/react-dom": "^19.3.0",
-    "babel-loader": "^10.1.1",
-    "react-refresh": "0.19.0"
+    "@babel/core": "catalog:caret",
+    "@babel/preset-react": "catalog:",
+    "@babel/preset-typescript": "catalog:",
+    "@rspack/cli": "catalog:",
+    "@rspack/core": "catalog:",
+    "@rspack/dev-server": "catalog:",
+    "@rspack/plugin-react-refresh": "catalog:",
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
+    "babel-loader": "catalog:caret",
+    "react-refresh": "catalog:exact"
   }
 }

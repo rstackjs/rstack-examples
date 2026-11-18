@@ -9,12 +9,12 @@
     "preview": "rsbuild preview"
   },
   "dependencies": {
-    "svelte": "^5.57.2"
+    "svelte": "catalog:"
   },
   "devDependencies": {
-    "@rsbuild/core": "2.2.12",
-    "@rsbuild/plugin-svelte": "^2.0.1",
-    "@types/node": "^24.19.2",
-    "typescript": "^5.9.3"
+    "@rsbuild/core": "catalog:",
+    "@rsbuild/plugin-svelte": "catalog:",
+    "@types/node": "catalog:",
+    "typescript": "catalog:"
   }
 }

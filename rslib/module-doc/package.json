@@ -20,15 +20,15 @@
     "doc:preview": "rspress preview"
   },
   "devDependencies": {
-    "@rsbuild/plugin-react": "^2.1.1",
-    "@rslib/core": "^1.0.3",
-    "@rspress/core": "^2.0.23",
-    "@rspress/plugin-api-docgen": "^2.0.23",
-    "@rspress/plugin-preview": "^2.0.23",
-    "@types/node": "^24.19.2",
-    "@types/react": "^19.3.0",
-    "react": "^19.3.0",
-    "typescript": "^6.0.3"
+    "@rsbuild/plugin-react": "catalog:",
+    "@rslib/core": "catalog:",
+    "@rspress/core": "catalog:",
+    "@rspress/plugin-api-docgen": "catalog:",
+    "@rspress/plugin-preview": "catalog:",
+    "@types/node": "catalog:",
+    "@types/react": "catalog:",
+    "react": "catalog:",
+    "typescript": "catalog:typescript6"
   },
   "peerDependencies": {
     "react": ">=19.0.0",

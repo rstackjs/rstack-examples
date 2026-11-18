@@ -9,14 +9,14 @@
     "preview": "rsbuild preview"
   },
   "dependencies": {
-    "vue": "^3.5.43"
+    "vue": "catalog:"
   },
   "devDependencies": {
-    "@rsbuild/core": "2.2.12",
-    "@rsbuild/plugin-vue": "^2.0.1",
-    "@types/node": "^24.19.2",
-    "typescript": "^5.9.3",
-    "unplugin-auto-import": "^21.1.0",
-    "vue-tsc": "^3.3.13"
+    "@rsbuild/core": "catalog:",
+    "@rsbuild/plugin-vue": "catalog:",
+    "@types/node": "catalog:",
+    "typescript": "catalog:",
+    "unplugin-auto-import": "catalog:",
+    "vue-tsc": "catalog:"
   }
 }

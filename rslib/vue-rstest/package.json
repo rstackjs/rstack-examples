@@ -18,16 +18,16 @@
     "test": "rstest"
   },
   "devDependencies": {
-    "@rsbuild/plugin-vue": "^2.0.1",
-    "@rslib/core": "^1.0.3",
-    "@rstest/adapter-rslib": "^0.12.3",
-    "@rstest/core": "^0.12.3",
-    "@testing-library/jest-dom": "^7.0.1",
-    "@testing-library/vue": "^8.1.0",
-    "jsdom": "^30.1.2",
-    "typescript": "^5.9.3",
-    "vue": "^3.5.43",
-    "vue-tsc": "^3.3.13"
+    "@rsbuild/plugin-vue": "catalog:",
+    "@rslib/core": "catalog:",
+    "@rstest/adapter-rslib": "catalog:",
+    "@rstest/core": "catalog:",
+    "@testing-library/jest-dom": "catalog:",
+    "@testing-library/vue": "catalog:",
+    "jsdom": "catalog:",
+    "typescript": "catalog:",
+    "vue": "catalog:",
+    "vue-tsc": "catalog:"
   },
   "peerDependencies": {
     "vue": "^3.2.0"

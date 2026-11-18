@@ -7,10 +7,10 @@
     "test": "rstest"
   },
   "devDependencies": {
-    "@module-federation/rstest": "^2.9.2",
-    "@rspack/core": "2.2.8",
-    "@rstest/core": "^0.12.3",
-    "@types/node": "^24.19.2",
-    "typescript": "^5.9.3"
+    "@module-federation/rstest": "catalog:",
+    "@rspack/core": "catalog:",
+    "@rstest/core": "catalog:",
+    "@types/node": "catalog:",
+    "typescript": "catalog:"
   }
 }

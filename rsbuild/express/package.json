@@ -9,10 +9,10 @@
     "preview": "rsbuild preview"
   },
   "devDependencies": {
-    "@rsbuild/core": "2.2.12",
-    "@types/express": "^5.0.6",
-    "@types/node": "^24.19.2",
-    "express": "^5.3.0",
-    "typescript": "^5.9.3"
+    "@rsbuild/core": "catalog:",
+    "@types/express": "catalog:",
+    "@types/node": "catalog:",
+    "express": "catalog:",
+    "typescript": "catalog:"
   }
 }

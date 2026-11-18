@@ -13,17 +13,17 @@
     "react-dom": "^19.3.0"
   },
   "devDependencies": {
-    "@module-federation/rsbuild-plugin": "^2.9.2",
-    "@module-federation/rstest": "^2.9.2",
-    "@rsbuild/core": "2.2.12",
-    "@rsbuild/plugin-react": "^2.1.1",
-    "@rstest/browser": "^0.12.3",
-    "@rstest/browser-react": "^0.12.3",
-    "@rstest/core": "^0.12.3",
-    "@types/node": "^24.19.2",
-    "@types/react": "^19.3.0",
-    "@types/react-dom": "^19.3.0",
-    "playwright": "^1.64.0",
-    "typescript": "^5.9.3"
+    "@module-federation/rsbuild-plugin": "catalog:",
+    "@module-federation/rstest": "catalog:",
+    "@rsbuild/core": "catalog:",
+    "@rsbuild/plugin-react": "catalog:",
+    "@rstest/browser": "catalog:",
+    "@rstest/browser-react": "catalog:",
+    "@rstest/core": "catalog:",
+    "@types/node": "catalog:",
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
+    "playwright": "catalog:",
+    "typescript": "catalog:"
   }
 }

@@ -19,15 +19,15 @@
     "test": "rstest"
   },
   "devDependencies": {
-    "@rsbuild/plugin-babel": "^2.1.0",
-    "@rsbuild/plugin-solid": "^1.2.2",
-    "@rslib/core": "^1.0.3",
-    "@rstest/adapter-rslib": "^0.12.3",
-    "@rstest/core": "^0.12.3",
-    "@solidjs/testing-library": "^0.8.10",
-    "happy-dom": "^21.0.0",
-    "solid-js": "^1.9.17",
-    "typescript": "^5.9.3"
+    "@rsbuild/plugin-babel": "catalog:",
+    "@rsbuild/plugin-solid": "catalog:",
+    "@rslib/core": "catalog:",
+    "@rstest/adapter-rslib": "catalog:",
+    "@rstest/core": "catalog:",
+    "@solidjs/testing-library": "catalog:",
+    "happy-dom": "catalog:",
+    "solid-js": "catalog:",
+    "typescript": "catalog:"
   },
   "peerDependencies": {
     "solid-js": "^1.8.0"

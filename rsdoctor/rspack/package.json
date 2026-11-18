@@ -9,24 +9,24 @@
     "dev": "NODE_ENV=development rspack serve"
   },
   "dependencies": {
-    "@swc/helpers": "^0.5.23",
-    "react": "^19.3.0",
-    "react-dom": "^19.3.0",
+    "@swc/helpers": "catalog:",
+    "react": "catalog:",
+    "react-dom": "catalog:",
     "semver6": "npm:semver@6.3.1",
     "semver7": "npm:semver@7.8.1"
   },
   "devDependencies": {
-    "@rsdoctor/rspack-plugin": "^1.6.5",
-    "@rspack/cli": "2.2.8",
-    "@rspack/core": "2.2.8",
-    "@rspack/dev-server": "2.2.1",
-    "@rspack/plugin-react-refresh": "^2.0.2",
-    "@types/node": "^24.19.2",
-    "@types/react": "^19.3.0",
-    "@types/react-dom": "^19.3.0",
+    "@rsdoctor/rspack-plugin": "catalog:",
+    "@rspack/cli": "catalog:",
+    "@rspack/core": "catalog:",
+    "@rspack/dev-server": "catalog:",
+    "@rspack/plugin-react-refresh": "catalog:",
+    "@types/node": "catalog:",
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
     "@types/semver6": "npm:@types/semver@7.7.1",
     "@types/semver7": "npm:@types/semver@7.7.1",
-    "react-refresh": "^0.19.0",
-    "typescript": "^5.9.3"
+    "react-refresh": "catalog:",
+    "typescript": "catalog:"
   }
 }

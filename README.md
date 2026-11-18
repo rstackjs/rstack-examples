@@ -29,12 +29,20 @@ npx giget gh:rstackjs/rstack-examples/rspack/basic my-app
 # Enter the my-app example directory
 cd my-app
 
+# Download the dependency catalogs used by the example
+curl -fsSL https://raw.githubusercontent.com/rstackjs/rstack-examples/main/pnpm-workspace.yaml -o pnpm-workspace.yaml
+
 # Install the dependencies
 pnpm i
 ```
 
 The second argument is the output directory. Pass it explicitly so the example is
 created with a clear local folder name.
+
+Examples use pnpm catalogs, so keep the downloaded `pnpm-workspace.yaml` next to
+`package.json` when using an example outside this repository. Download both from
+the same branch or revision. Use the Node.js version in [`.nvmrc`](./.nvmrc) and
+the pnpm version in [`package.json`](./package.json).
 
 You can clone any other example by replacing the path and output directory:
 
@@ -62,7 +70,7 @@ git clone git@github.com:rstackjs/rstack-examples.git
 cd rsbuild/react
 ```
 
-3. Install the dependencies using `pnpm` or other package manager, then start the project:
+3. Install the dependencies using `pnpm`, then start the project:
 
 ```bash
 # Use corepack to enable pnpm
@@ -72,3 +80,18 @@ pnpm run dev
 ```
 
 4. You can fork the current project or copy the code from the current project to use it.
+
+### Manage dependency versions
+
+Dependency versions are defined in [`pnpm-workspace.yaml`](./pnpm-workspace.yaml).
+Most dependencies use `catalog:`. Named catalogs preserve existing differences:
+`caret`, `exact`, and `tilde` retain version range styles, while `solid-next`,
+`tailwind3`, `tailwind3-exact`, and `typescript6` retain alternate versions.
+
+Edit the relevant catalog entry and run `pnpm install` to update the lockfile.
+The existing `pnpm bump` command also updates catalogs through Taze. Peer dependency
+ranges remain in each library's `package.json`, as do local `workspace:` dependencies
+and the Rsdoctor npm aliases that demonstrate multiple versions of the same package.
+Module Federation shared dependencies also keep their ranges in `package.json`:
+the current plugins read those ranges for runtime version negotiation and do not
+resolve `catalog:` references.

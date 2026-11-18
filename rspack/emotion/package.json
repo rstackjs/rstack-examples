@@ -9,14 +9,14 @@
     "dev": "rspack dev"
   },
   "dependencies": {
-    "@emotion/react": "11.14.0",
-    "react": "^19.3.0",
-    "react-dom": "^19.3.0"
+    "@emotion/react": "catalog:",
+    "react": "catalog:",
+    "react-dom": "catalog:"
   },
   "devDependencies": {
-    "@rspack/cli": "2.2.8",
-    "@rspack/core": "2.2.8",
-    "@rspack/dev-server": "2.2.1",
-    "@swc/plugin-emotion": "^19.0.0"
+    "@rspack/cli": "catalog:",
+    "@rspack/core": "catalog:",
+    "@rspack/dev-server": "catalog:",
+    "@swc/plugin-emotion": "catalog:"
   }
 }

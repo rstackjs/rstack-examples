@@ -17,13 +17,13 @@
     "prepare": "pnpm run build"
   },
   "devDependencies": {
-    "@module-federation/rsbuild-plugin": "^2.9.2",
-    "@rsbuild/plugin-react": "^2.1.1",
-    "@rslib/core": "^1.0.3",
-    "@types/react": "^19.3.0",
+    "@module-federation/rsbuild-plugin": "catalog:",
+    "@rsbuild/plugin-react": "catalog:",
+    "@rslib/core": "catalog:",
+    "@types/react": "catalog:",
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
-    "typescript": "^5.9.3"
+    "typescript": "catalog:"
   },
   "peerDependencies": {
     "react": "*"
