@@ -7,7 +7,7 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "jsx": "preserve",
-    "jsxImportSource": "solid-js",
+    "jsxImportSource": "@solidjs/web",
     "types": ["@rsbuild/core/types", "node", "@rstest/core"],
     "paths": {
       "@/*": ["./src/*"],

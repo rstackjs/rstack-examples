@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig } from '@rspack/cli';
 import { rspack } from '@rspack/core';
+import { fileURLToPath } from 'node:url';
 
 export default defineConfig({
   context: import.meta.dirname,
@@ -8,10 +9,16 @@ export default defineConfig({
     main: './src/index.jsx',
   },
   resolve: {
+    conditionNames: ['solid', '...'],
     extensions: ['...', '.ts', '.tsx', '.jsx'],
   },
   module: {
     rules: [
+      {
+        // Solid loads hydration modules from runtime URLs.
+        descriptionData: { name: /^@solidjs\/web$/ },
+        parser: { importDynamic: false },
+      },
       {
         test: /\.[cm]?[jt]sx?$/,
         resolve: {
@@ -34,14 +41,14 @@ export default defineConfig({
         type: 'asset/resource',
       },
       {
-        test: /\.jsx$/,
+        test: /\.[jt]sx$/,
         use: [
           {
-            loader: 'babel-loader',
-            options: {
-              presets: [['solid']],
-              plugins: ['solid-refresh/babel'],
-            },
+            loader: 'builtin:swc-loader',
+            options: { detectSyntax: 'auto' },
+          },
+          {
+            loader: fileURLToPath(new URL('./solid-loader.js', import.meta.url)),
           },
         ],
       },

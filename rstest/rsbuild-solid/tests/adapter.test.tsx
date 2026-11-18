@@ -1,6 +1,6 @@
 import { Counter } from '@components/Counter';
 import { afterEach, beforeEach, describe, expect, it } from '@rstest/core';
-import { render } from 'solid-js/web';
+import { render } from '@solidjs/web';
 
 declare const __APP_VERSION__: string;
 

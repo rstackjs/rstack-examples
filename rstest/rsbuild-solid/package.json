@@ -11,13 +11,13 @@
   },
   "devDependencies": {
     "@rsbuild/core": "2.2.12",
-    "@rsbuild/plugin-babel": "^2.1.0",
-    "@rsbuild/plugin-solid": "^1.2.2",
+    "@rsbuild/plugin-solid": "^2.0.0",
     "@rstest/adapter-rsbuild": "^0.12.3",
     "@rstest/core": "^0.12.3",
+    "@solidjs/web": "^2.0.0",
     "@types/node": "^24.19.2",
-    "happy-dom": "^21.0.0",
-    "solid-js": "^1.9.17",
+    "jsdom": "^30.1.2",
+    "solid-js": "^2.0.0",
     "typescript": "^5.9.3"
   }
 }

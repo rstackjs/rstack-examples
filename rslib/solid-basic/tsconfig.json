@@ -3,7 +3,7 @@
     "lib": ["DOM", "ES2022"],
     "module": "ESNext",
     "jsx": "preserve",
-    "jsxImportSource": "solid-js",
+    "jsxImportSource": "@solidjs/web",
     "strict": true,
     "skipLibCheck": true,
     "types": ["@rslib/core/types"],
