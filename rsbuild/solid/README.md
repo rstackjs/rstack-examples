@@ -1,8 +1,4 @@
-# Rsbuild with Solid 2
-
-Use `@rsbuild/plugin-solid` v2 with `solid-js` and `@solidjs/web` v2. The default native compiler handles JSX and Solid Refresh without a Babel plugin.
-
-Import DOM APIs such as `render` from `@solidjs/web`, and set TypeScript's `jsx` to `preserve` and `jsxImportSource` to `@solidjs/web`.
+# Rsbuild Project
 
 ## Setup
 
