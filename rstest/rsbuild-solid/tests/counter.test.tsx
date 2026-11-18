@@ -1,5 +1,6 @@
 import { afterEach, beforeEach, describe, expect, it } from '@rstest/core';
-import { render } from 'solid-js/web';
+import { render } from '@solidjs/web';
+import { flush } from 'solid-js';
 import { Counter } from '../src/components/Counter';
 
 describe('pluginSolid - component rendering', () => {
@@ -30,6 +31,8 @@ describe('pluginSolid - component rendering', () => {
       '[data-testid="increment-btn"]',
     ) as HTMLButtonElement;
     incrementButton.click();
+    // Solid 2 batches reactive updates. Flush before asserting DOM changes.
+    flush();
 
     expect(container.querySelector('[data-testid="counter-value"]')?.textContent).toBe('1');
   });

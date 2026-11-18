@@ -9,13 +9,12 @@
     "preview": "rsbuild preview"
   },
   "dependencies": {
-    "@solidjs/web": "^2.0.0-rc.13",
-    "solid-js": "^2.0.0-rc.13"
+    "@solidjs/web": "^2.0.0",
+    "solid-js": "^2.0.0"
   },
   "devDependencies": {
     "@rsbuild/core": "2.2.12",
-    "@rsbuild/plugin-babel": "^2.1.0",
-    "@rsbuild/plugin-solid": "^2.0.0-rc.1",
+    "@rsbuild/plugin-solid": "^2.0.0",
     "@types/node": "^24.19.2",
     "typescript": "^5.9.3"
   }
