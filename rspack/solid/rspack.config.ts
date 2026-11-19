@@ -1,4 +1,3 @@
-// @ts-check
 import { defineConfig } from '@rspack/cli';
 import { rspack } from '@rspack/core';
 
@@ -8,15 +7,18 @@ export default defineConfig({
     main: './src/index.jsx',
   },
   resolve: {
-    extensions: ['...', '.ts', '.tsx', '.jsx'],
+    conditionNames: ['solid', '...'],
   },
   module: {
     rules: [
       {
-        test: /\.[cm]?[jt]sx?$/,
-        resolve: {
-          fullySpecified: false,
-        },
+        test: /\.jsx$/,
+        loader: 'solid-loader',
+      },
+      {
+        // Solid loads hydration modules from URLs at runtime.
+        descriptionData: { name: /^@solidjs\/web$/ },
+        parser: { importDynamic: false },
       },
       {
         test: /\.css$/,
@@ -32,18 +34,6 @@ export default defineConfig({
       {
         test: /\.svg$/,
         type: 'asset/resource',
-      },
-      {
-        test: /\.jsx$/,
-        use: [
-          {
-            loader: 'babel-loader',
-            options: {
-              presets: [['solid']],
-              plugins: ['solid-refresh/babel'],
-            },
-          },
-        ],
       },
     ],
   },
