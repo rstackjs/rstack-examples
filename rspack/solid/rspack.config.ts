@@ -19,8 +19,19 @@ export default defineConfig({
         },
       },
       {
-        test: /\.jsx$/,
-        loader: 'solid-loader',
+        test: /\.[cm]?[jt]sx?$/,
+        exclude: /node_modules/,
+        use: [
+          {
+            loader: 'builtin:swc-loader',
+            options: { detectSyntax: 'auto' },
+          },
+          {
+            loader: 'solid-loader',
+            // Leave plain TypeScript to SWC.
+            options: { scriptRegex: /\.[cm]?(?:jsx?|tsx)$/ },
+          },
+        ],
       },
       {
         // Solid loads hydration modules from URLs at runtime.
