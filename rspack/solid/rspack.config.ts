@@ -7,10 +7,17 @@ export default defineConfig({
     main: './src/index.jsx',
   },
   resolve: {
+    extensions: ['...', '.ts', '.tsx', '.jsx'],
     conditionNames: ['solid', '...'],
   },
   module: {
     rules: [
+      {
+        test: /\.[cm]?[jt]sx?$/,
+        resolve: {
+          fullySpecified: false,
+        },
+      },
       {
         test: /\.jsx$/,
         loader: 'solid-loader',
