@@ -17,20 +17,12 @@ export default defineConfig({
         resolve: {
           fullySpecified: false,
         },
-      },
-      {
-        test: /\.[cm]?[jt]sx?$/,
-        exclude: /node_modules/,
         use: [
           {
             loader: 'builtin:swc-loader',
             options: { detectSyntax: 'auto' },
           },
-          {
-            loader: 'solid-loader',
-            // Leave plain TypeScript to SWC.
-            options: { scriptRegex: /\.[cm]?(?:jsx?|tsx)$/ },
-          },
+          'solid-loader',
         ],
       },
       {
