@@ -8,3 +8,34 @@ packages:
   - '!**/dist'
 
 dedupePeers: true
+
+minimumReleaseAgeExclude:
+  - '@rslib/core@1.1.0'
+  - '@rstackjs/cli-darwin-arm64@0.9.5'
+  - '@rstackjs/cli-darwin-x64@0.9.5'
+  - '@rstackjs/cli-linux-arm64-gnu@0.9.5'
+  - '@rstackjs/cli-linux-arm64-musl@0.9.5'
+  - '@rstackjs/cli-linux-ppc64-gnu@0.9.5'
+  - '@rstackjs/cli-linux-riscv64-gnu@0.9.5'
+  - '@rstackjs/cli-linux-riscv64-musl@0.9.5'
+  - '@rstackjs/cli-linux-s390x-gnu@0.9.5'
+  - '@rstackjs/cli-linux-x64-gnu@0.9.5'
+  - '@rstackjs/cli-linux-x64-musl@0.9.5'
+  - '@rstackjs/cli-win32-arm64-msvc@0.9.5'
+  - '@rstackjs/cli-win32-ia32-msvc@0.9.5'
+  - '@rstackjs/cli-win32-x64-msvc@0.9.5'
+  - rsbuild-plugin-dts@1.1.0
+  - rstack@0.9.5
+
+permissions:
+  rstack:
+    skills:
+      - rstack-cli-docs
+
+allowBuilds:
+  '@parcel/watcher': false
+  '@sentry/cli': false
+  'core-js': false
+  'esbuild': false
+  'isolated-vm': false
+  'svelte-preprocess': false
