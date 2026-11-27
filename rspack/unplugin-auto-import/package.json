@@ -14,7 +14,7 @@
     "@rspack/core": "2.2.8",
     "@rspack/dev-server": "2.2.1",
     "html-webpack-plugin": "5.6.8",
-    "rspack-vue-loader": "^17.7.0",
+    "rspack-vue-loader": "^17.7.2",
     "unplugin-auto-import": "^21.1.0"
   }
 }

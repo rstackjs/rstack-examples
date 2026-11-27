@@ -17,6 +17,6 @@
     "@rspack/dev-server": "2.2.1",
     "less": "4.9.1",
     "less-loader": "^13.0.0",
-    "rspack-vue-loader": "^17.7.0"
+    "rspack-vue-loader": "^17.7.2"
   }
 }
