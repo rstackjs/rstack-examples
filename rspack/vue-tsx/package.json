@@ -19,7 +19,7 @@
     "@types/node": "^24.19.2",
     "@vue/babel-plugin-jsx": "2.0.1",
     "babel-loader": "10.1.1",
-    "rspack-vue-loader": "^17.7.0",
+    "rspack-vue-loader": "^17.7.2",
     "typescript": "^5.9.3"
   }
 }

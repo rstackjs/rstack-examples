@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@rsbuild/plugin-react": "^2.1.1",
-    "@rslib/core": "^1.0.3",
+    "@rslib/core": "^1.1.0",
     "@rstest/adapter-rslib": "^0.12.3",
     "@rstest/core": "^0.12.3",
     "@testing-library/jest-dom": "^7.0.1",
