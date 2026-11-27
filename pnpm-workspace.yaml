@@ -8,3 +8,22 @@ packages:
   - '!**/dist'
 
 dedupePeers: true
+
+minimumReleaseAgeExclude:
+  - '@rslib/*'
+  - '@rstackjs/*'
+  - 'rsbuild-plugin-*'
+  - rstack
+
+permissions:
+  rstack:
+    skills:
+      - rstack-cli-docs
+
+allowBuilds:
+  '@parcel/watcher': false
+  '@sentry/cli': false
+  'core-js': false
+  'esbuild': false
+  'isolated-vm': false
+  'svelte-preprocess': false
